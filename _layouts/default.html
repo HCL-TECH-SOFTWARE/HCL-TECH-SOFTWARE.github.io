@@ -8,10 +8,10 @@
   {%- include header.html -%}
 
   <ul>
-    {% for topics in site.data.repoTopics %}
-    {% assign topic = topics[1] %}
+    {% for products in site.products %}
+    {% assign product = products[0] %}
       <li>
-        {{topic.name}}
+        {{product.name}}
       </li>
     {% endfor %}
   </ul>
@@ -25,7 +25,7 @@
         <div class="col-md-3 col-xs-12" id="navigation">
           {% for topics in site.data.repoTopics %}
           {% assign topic = topics[1] %}
-            <a href="/{{topic.name}}">
+            <a href="{{site.baseurl}}{{topic.name}}">
               {{topic.name}}
             </a>
             <br/>

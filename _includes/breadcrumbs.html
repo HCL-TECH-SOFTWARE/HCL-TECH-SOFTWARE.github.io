@@ -1,8 +1,8 @@
 <div class="breadcrumbs">
     <div class="grid" style="margin: 5px 0">
-        <a {% unless parent_slug or page.slug %}class="active" {% endunless %} href="{{site.baseurl}}/{{top_url}}">{{top_slug}}</a>
-        {% if parent_slug %} &raquo; <a {% unless page.slug %}class="active" {% endunless %} href="{{site.baseurl}}/{{parent_url}}">{{parent_slug}}</a>{% endif %}
-        {% for slug in page.slug %}&raquo; <a {% if forloop.last %}class="active" {% else %} {% if slug.url %}href="{{site.baseurl}}/{{slug.url}}{% endif %}"{% endif %}>{% if slug.label %}{{slug.label}}{% else %}{{slug}}{% endif %}</a>{% endfor %}
+        <a {% unless parent_slug or page.slug %}class="active" {% endunless %} href="{{site.baseurl}}{{top_url}}">{{top_slug}}</a>
+        {% if parent_slug %} &raquo; <a {% unless page.slug %}class="active" {% endunless %} href="{{site.baseurl}}{{parent_url}}">{{parent_slug}}</a>{% endif %}
+        {% for slug in page.slug %}&raquo; <a {% if forloop.last %}class="active" {% else %} {% if slug.url %}href="{{site.baseurl}}{{slug.url}}{% endif %}"{% endif %}>{% if slug.label %}{{slug.label}}{% else %}{{slug}}{% endif %}</a>{% endfor %}
 
     </div>
 </div>
