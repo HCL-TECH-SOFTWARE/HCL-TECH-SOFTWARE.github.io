@@ -1,0 +1,223 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "variables";
+@import "bootstrap-local/bootstrap";
+@import "syntax-highlighting";
+@import "bootstrap-4-jekyll/bootstrap-4-jekyll";
+@import "bootstrap_customization";
+
+@media screen and (max-width: 600px) {
+    #navigation {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
+
+.btn-disabled {
+    cursor: none;
+    background-color:#f8f9fa;
+    border: #f8f9fa;
+}
+
+a.active {
+    cursor: default;
+    color: #000000;
+}
+
+h3, h4 {
+    margin-top: 0.5rem;
+    color: #2780E3;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.footer {
+    font-size: 0.8rem;
+}
+
+.footer p {
+    margin-bottom: 0px;
+}
+
+.contents-header {
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+.contents-child {
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.fixed-contents {
+    position: fixed;
+    top: 5px;
+}
+
+#page-contents {
+    display: block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#page-contents li {
+    overflow: hidden;
+    line-height: 1.5rem;
+    padding-left: 5px;
+    border-left: 6px solid transparent;
+}
+
+#page-contents li.active {
+    border-left: 6px solid #2780E3;
+}
+
+.page-content img{
+    margin: 5px 0;
+}
+
+.indented {
+    margin: 0 40px;
+}
+
+.info-table td, .info-table th {
+    border: 2px solid #31708f;
+    padding: 0.2rem 0.5rem;
+}
+
+.info-table th {
+    color: #31708f;
+}
+
+.panel {
+    margin-bottom: 27px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-bottom: 0.25rem;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.panel-body p {
+    margin-bottom: 0.25rem;
+}
+
+.panel-body:before, .panel-body:after {
+    content: " ";
+    display: table;
+}
+
+.panel-body:after {
+    clear: both;
+}
+
+.panel-info {
+    border-color: #bce8f1;
+}
+
+.panel-info>.panel-heading {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.panel-warning {
+    border-color: #faebcc;
+}
+
+.panel-warning>.panel-heading {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.panel-danger {
+    border-color: #ebccd1;
+}
+
+.panel-danger>.panel-heading {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.panel-success {
+    border-color: #d6e9c6;
+}
+
+.panel-success>.panel-heading {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert {
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-info {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+}
+
+.alert-warning {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+}
+
+div.troubleshoot, p.troubleshoot {
+    border: 1px solid #d39e00;
+    border-radius: .25rem;
+    padding: 5px;
+    background-color: #fff9e6;
+}
+
+div.why, p.why {
+    border: 1px solid #17a2b8;
+    border-radius: .25rem;
+    padding: 5px;
+    background-color: #e8fafc;
+}
+
+div.advanced, p.advanced {
+    border: 1px solid #3c763d;
+    border-radius: .25rem;
+    padding: 5px;
+    background-color: #eef6ee;
+}
+

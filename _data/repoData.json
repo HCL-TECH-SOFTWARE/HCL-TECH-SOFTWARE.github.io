@@ -1,0 +1,103 @@
+{
+	"node-domino-db": {
+		"name": "node-domino-db",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/node-domino-db",
+		"private": true,
+		"fork": false,
+		"license": "",
+		"topics": []
+	},
+	"java-domino-db": {
+		"name": "java-domino-db",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/java-domino-db",
+		"private": true,
+		"fork": false,
+		"license": "",
+		"topics": []
+	},
+	"appdev-pack-docs": {
+		"name": "appdev-pack-docs",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-docs",
+		"private": true,
+		"fork": false,
+		"license": "",
+		"topics": []
+	},
+	"appdev-pack-samples": {
+		"name": "appdev-pack-samples",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-samples",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"topics": [
+			"domino",
+			"developers",
+			"sample"
+		]
+	},
+	"emscripten": {
+		"name": "emscripten",
+		"description": "Emscripten: An LLVM-to-WebAssembly Compiler",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/emscripten",
+		"private": false,
+		"fork": true,
+		"license": "Other",
+		"topics": []
+	},
+	"ambassador": {
+		"name": "ambassador",
+		"description": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/ambassador",
+		"private": false,
+		"fork": true,
+		"license": "Apache License 2.0",
+		"topics": []
+	},
+	"node-red-contrib-hcl-iterate-loop": {
+		"name": "node-red-contrib-hcl-iterate-loop",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/node-red-contrib-hcl-iterate-loop",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"topics": []
+	},
+	"volt-mx-ls-toolkit": {
+		"name": "volt-mx-ls-toolkit",
+		"description": "Toolkit to enable better integration between HCL Software products HCL Volt MX and HCL Domino. This is LotusScript toolkit for running HCL Domino agents as REST services, with specific helpers for JSON in-out and a specific payload recommended for HCL Volt MX",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-ls-toolkit",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"topics": [
+			"volt-mx",
+			"domino",
+			"developers"
+		]
+	},
+	"connections-automation": {
+		"name": "connections-automation",
+		"description": "Deployment and upgrade automation scripts for HCL Connections 7.0 based on Ansible",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-automation",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"topics": [
+			"connections",
+			"automation"
+		]
+	},
+	"connections-samples": {
+		"name": "connections-samples",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-samples",
+		"private": true,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"topics": []
+	}
+}

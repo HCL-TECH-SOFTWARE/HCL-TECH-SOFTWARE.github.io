@@ -1,0 +1,105 @@
+<div class="py-3 border-top">
+  <div class="container">
+
+    <div class="row footer">
+
+      <div class="col-sm">
+        <ul class="list-unstyled">
+          <li>
+            {%- if site.author -%}
+            {{ site.author | escape }}
+            {%- else -%}
+            {{ site.title | escape }}
+            {%- endif -%}
+            &nbsp;&bull; <a href="{{ '/sitemap' || relative_url}}">Sitemap</a>
+          </li>
+          {%- if site.email -%}
+          <li>
+            <a href="mailto:{{ site.email }}">
+              {{ site.email }}
+            </a>
+          </li>
+          {%- endif -%}
+          <li>
+            &copy; HCL Labs 2020 - Raise any issues with the documentation on <a href="{{site.github.repository_url}}/issues">GitHub</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="col-sm text-right">
+        <p>{{- site.description | escape -}}</p>
+
+        <p>
+          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+  $(function () {
+    $(".code").hide();
+    $('<button class="btn btn-success btn-sm" type="button" style="float:right">Copy</button>').prependTo(".code").click(function (e) {
+      var ta = document.createElement('textarea');
+      ta.value = $(this).next()[0].innerText;
+      ta.style.position = 'absolute';
+      ta.style.left = '-3000px';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      $(this).text("Copied!");
+      var self = $(this);
+      setTimeout(function () {
+        self.text("Copy");
+      }, 3000)
+    })
+
+    $('<button class="btn btn-primary btn-sm" type="button">Show Code</button>').insertBefore(".code").click(function (e) {
+      if ($(this).next().is(":visible")) {
+        $(this).next().slideUp();
+        $(this).text("Show Code");
+      } else {
+        $(this).next().slideDown();
+        $(this).text("Hide Code");
+      }
+    })
+
+    $(".why").hide();
+    $('<button class="btn btn-info btn-sm" type="button">Why?</button>').insertBefore(".why").click(function (e) {
+      if ($(this).next().is(":visible")) {
+        $(this).next().slideUp();
+        $(this).text("Show why");
+      } else {
+        $(this).next().slideDown();
+        $(this).text("Hide why");
+      }
+    })
+
+    $(".troubleshoot").hide();
+    $('<button class="btn btn-warning btn-sm" type="button">Troubleshoot?</button>').insertBefore(".troubleshoot").click(function (e) {
+      if ($(this).next().is(":visible")) {
+        $(this).next().slideUp();
+        $(this).text("Show troubleshooting");
+      } else {
+        $(this).next().slideDown();
+        $(this).text("Hide troubleshooting");
+      }
+    })
+
+    $(".advanced").hide();
+    $('<button class="btn btn-success btn-sm" type="button">Challenge Yourself</button>').insertBefore(".advanced").click(function (e) {
+      if ($(this).next().is(":visible")) {
+        $(this).next().slideUp();
+        $(this).text("Show challenge");
+      } else {
+        $(this).next().slideDown();
+        $(this).text("Hide challenge");
+      }
+    })
+  });
+</script>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body>
+
+  {%- include header.html -%}
+
+  <ul>
+    {% for topics in site.data.repoTopics %}
+    {% assign topic = topics[1] %}
+      <li>
+        {{topic.name}}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="py-3">
+    <div class="container">
+      {% assign top_url = 'index.html' %}
+      {% assign top_slug = 'Home' %}
+      {% include breadcrumbs.html %}
+      <div class="row">
+        <div class="col-md-3 col-xs-12" id="navigation">
+          {% for topics in site.data.repoTopics %}
+          {% assign topic = topics[1] %}
+            <a href="/{{topic.name}}">
+              {{topic.name}}
+            </a>
+            <br/>
+          {% endfor %}
+        </div>
+        <div class="page-content col-md-9 col-xs-12">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {%- include footer.html -%}
+
+</body>
+
+</html>
