@@ -25,12 +25,7 @@ copyright_info: "&copy; Copyright HCL Software 2021"
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-tactile
-github: 
-  is_project_page: true
-  repository_url: https://github01.hclpnp.com/hcl-labs-ospo/hcl-labs-ospo.github.io
-  repository_name:  Tutorial Starter
-  owner_url:  https://github01.hclpnp.com/hcl-labs-ospo
-  owner_name: HCL Software Open Source Project Office
+github: [metadata]
 plugins:
   - jekyll-feed
 
