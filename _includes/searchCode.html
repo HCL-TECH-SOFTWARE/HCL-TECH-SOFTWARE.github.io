@@ -1,0 +1,55 @@
+
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js"
+  integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+<script>
+  // Search extrapolated from https://isotope.metafizzy.co/extras.html
+  // quick search regex
+  var qsRegex;
+  var buttonFilter;
+
+  // init Isotope
+  var $grid = $(".grid").isotope(
+    { filter: function() {
+      var $this = $(this);
+      var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+      var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+  return searchResult && buttonResult;
+}
+  });
+  // filter items on button click
+  $(".filter-btn-group").on("click", "a", function () {
+    var arr = [];
+    $(".btn-group").find("a.active").map(function () {
+      arr.push($(this).attr('data-filter'));
+    })
+    buttonFilter = (arr.length > 0) ? arr.join("") : "*";
+    //var filterValue = $(this).attr("data-filter");
+    $grid.isotope();
+  });
+  // use value of search field to filter
+  var $quicksearch = $('#quicksearch').keyup( debounce( function() {
+    qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+    $grid.isotope();
+  }) );
+  $(".btn-group a.btn").on("click", function () {
+    $(this).toggleClass("active");
+    //$(".btn-group a.btn").removeClass("active");
+    //$(this).addClass("active");
+  });
+  // debounce so filtering doesn't happen every millisecond
+function debounce( fn, threshold ) {
+var timeout;
+threshold = threshold || 100;
+return function debounced() {
+  clearTimeout( timeout );
+  var args = arguments;
+  var _this = this;
+  function delayed() {
+    fn.apply( _this, args );
+  }
+  timeout = setTimeout( delayed, threshold );
+};
+}
+
+</script>

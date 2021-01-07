@@ -11,7 +11,6 @@
             {%- else -%}
             {{ site.title | escape }}
             {%- endif -%}
-            &nbsp;&bull; <a href="{{ '/sitemap' || relative_url}}">Sitemap</a>
           </li>
           {%- if site.email -%}
           <li>
@@ -21,7 +20,7 @@
           </li>
           {%- endif -%}
           <li>
-            &copy; HCL Labs 2020 - Raise any issues with the documentation on <a href="https://{{site.repository}}/issues">GitHub</a>
+            {{site.copyright_info}} - Raise any issues with the documentation on <a href="https://{{site.repository}}/issues">GitHub</a>
           </li>
         </ul>
       </div>
@@ -29,10 +28,6 @@
 
       <div class="col-sm text-right">
         <p>{{- site.description | escape -}}</p>
-
-        <p>
-          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
-        </p>
       </div>
 
     </div>

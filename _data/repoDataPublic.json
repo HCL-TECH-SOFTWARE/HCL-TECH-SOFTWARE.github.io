@@ -1,5 +1,5 @@
-{
-	"node-domino-db": {
+[
+	{
 		"name": "node-domino-db",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/node-domino-db",
@@ -8,7 +8,7 @@
 		"license": "",
 		"topics": []
 	},
-	"java-domino-db": {
+	{
 		"name": "java-domino-db",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/java-domino-db",
@@ -17,7 +17,7 @@
 		"license": "",
 		"topics": []
 	},
-	"appdev-pack-docs": {
+	{
 		"name": "appdev-pack-docs",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-docs",
@@ -26,7 +26,7 @@
 		"license": "",
 		"topics": []
 	},
-	"appdev-pack-samples": {
+	{
 		"name": "appdev-pack-samples",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-samples",
@@ -39,7 +39,7 @@
 			"sample"
 		]
 	},
-	"emscripten": {
+	{
 		"name": "emscripten",
 		"description": "Emscripten: An LLVM-to-WebAssembly Compiler",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/emscripten",
@@ -48,7 +48,7 @@
 		"license": "Other",
 		"topics": []
 	},
-	"ambassador": {
+	{
 		"name": "ambassador",
 		"description": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/ambassador",
@@ -57,7 +57,7 @@
 		"license": "Apache License 2.0",
 		"topics": []
 	},
-	"node-red-contrib-hcl-iterate-loop": {
+	{
 		"name": "node-red-contrib-hcl-iterate-loop",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/node-red-contrib-hcl-iterate-loop",
@@ -66,7 +66,7 @@
 		"license": "Apache License 2.0",
 		"topics": []
 	},
-	"volt-mx-ls-toolkit": {
+	{
 		"name": "volt-mx-ls-toolkit",
 		"description": "Toolkit to enable better integration between HCL Software products HCL Volt MX and HCL Domino. This is LotusScript toolkit for running HCL Domino agents as REST services, with specific helpers for JSON in-out and a specific payload recommended for HCL Volt MX",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-ls-toolkit",
@@ -79,7 +79,7 @@
 			"developers"
 		]
 	},
-	"connections-automation": {
+	{
 		"name": "connections-automation",
 		"description": "Deployment and upgrade automation scripts for HCL Connections 7.0 based on Ansible",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-automation",
@@ -91,7 +91,7 @@
 			"automation"
 		]
 	},
-	"connections-samples": {
+	{
 		"name": "connections-samples",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-samples",
@@ -100,4 +100,4 @@
 		"license": "Apache License 2.0",
 		"topics": []
 	}
-}
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body>
+
+  {%- include header.html -%}
+
+  <div class="py-3">
+    <div class="container">
+      <div class="row breadcrumbs">
+        <a  class="btn btn-info" href="{{site.baseurl}}/{{top_url}}">&laquo;Back</a>
+      </div>
+
+      <div class="row" class="product_link">
+        <h2>Our Repositories</h2>
+      </div>
+      {%- include searchUI.html -%}
+
+      {% assign topic = site.data.repoTopics[page.slug] %}
+      <div class="row" id="{{page.slug}}">
+        <h3>{{page.title}}</h3>
+      </div>
+      <div class="grid row">
+        {% for repos in topic.repositories %}
+        {% assign repo = repos[1] %}
+        {% if repo.fork == true %}
+          {% assign fork = " fork" %}
+        {% else %}
+          {% assign fork = "" %}
+        {% endif %}
+        <div class='col col-md-4sm repo{{fork}} {{repo.topics | join: " "}}' id="{{repo.name}}">
+          <h4><a href="{{repo.url}}">{{repo.name}}</a></h4>
+          {{repo.description}}<br />
+          <b>License: </b>{{repo.license}}
+          <b>Topics: </b>{{repo.topics | array_to_sentence_string}}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  {%- include footer.html -%}
+
+  {%- include searchCode.html -%}
+
+</body>
+
+</html>

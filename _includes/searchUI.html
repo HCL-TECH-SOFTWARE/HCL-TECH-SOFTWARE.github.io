@@ -1,0 +1,14 @@
+
+  <div class="row">
+    <input type="text" id="quicksearch" placeholder="Search" />
+  </div>
+  <div class="row" style="margin-bottom: 10px">
+    <h4>Topics</h4>
+    <div class="btn-group filter-btn-group">
+      <a class="btn btn-secondary" data-filter=".fork">forks</a>
+      {% for topics in site.data.repoTopics %}
+      {% assign topic = topics[1] %}
+      <a class="btn btn-secondary" data-filter=".{{topic.name}}">{{topic.name}}</a>
+      {% endfor %}
+    </div>
+  </div>

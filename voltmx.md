@@ -1,8 +1,8 @@
 ---
 layout: product
-slug: domino
-name: Domino
-title: Domino
+slug: volt-mx
+name: Volt MX
+title: Volt MX
 ---
 
 {::options parse_block_html="true" /}

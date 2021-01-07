@@ -7,38 +7,45 @@
 
   {%- include header.html -%}
 
-  <ul>
-    {% for products in site.products %}
-    {% assign product = products[0] %}
-      <li>
-        {{product.name}}
-      </li>
-    {% endfor %}
-  </ul>
-
   <div class="py-3">
     <div class="container">
-      {% assign top_url = 'index.html' %}
-      {% assign top_slug = 'Home' %}
-      {% include breadcrumbs.html %}
+      <div class="row" id="navigation" class="product_link">
+        <h2>Our Products</h2>
+      </div>
       <div class="row">
-        <div class="col-md-3 col-xs-12" id="navigation">
-          {% for topics in site.data.repoTopics %}
-          {% assign topic = topics[1] %}
-            <a href="{{site.baseurl}}/{{topic.name}}">
-              {{topic.name}}
-            </a>
-            <br/>
-          {% endfor %}
-        </div>
-        <div class="page-content col-md-9 col-xs-12">
-          {{ content }}
-        </div>
+        <a href="{{site.baseurl}}/domino" class="btn btn-info">Domino</a>
+        <a href="{{site.baseurl}}/connections" class="btn btn-info">Connections</a>
+        <a href="{{site.baseurl}}/voltmx" class="btn btn-info">Volt MX</a>
+      </div>
+      <br/>
+
+      <div class="row" class="product_link">
+        <h2>Our Repositories</h2>
+      </div>
+      {%- include searchUI.html -%}
+
+      <div class="grid row">
+        {% assign repos = site.data.repoDataPublic | where:"private", false %}
+        {% for repo in repos %}
+          {% if repo.fork == true %}
+            {% assign fork = " fork" %}
+          {% else %}
+            {% assign fork = "" %}
+          {% endif %}
+          <div class='col col-md-4sm repo{{fork}} {{repo.topics | join: " "}}' id="{{repo.name}}">
+            <h4><a href="{{repo.url}}">{{repo.name}}</a></h4>
+            {{repo.description}}<br />
+            <b>License: </b>{{repo.license}}<br />
+            <b>Topics: </b>{{repo.topics | array_to_sentence_string}}
+          </div>
+        {% endfor %}
       </div>
     </div>
   </div>
 
   {%- include footer.html -%}
+
+  {%- include searchCode.html -%}
 
 </body>
 

@@ -1,8 +1,8 @@
 ---
 layout: product
-slug: domino
-name: Domino
-title: Domino
+slug: connections
+name: Connections
+title: Connections
 ---
 
 {::options parse_block_html="true" /}

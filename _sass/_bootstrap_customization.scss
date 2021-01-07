@@ -17,6 +17,8 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400
 
 .btn {
   border-radius: .25rem;
+  margin: 5px;
+  cursor: pointer;
 }
 
 .btn-info {
@@ -83,4 +85,31 @@ body {
 // Containers ==================================================================
 .container {
   max-width: 1020px;
+}
+
+.repo {
+  margin: 5px;
+  border-radius: 1em;
+  padding-bottom: 15px;
+  background-color: #d0d7db;
+}
+
+#quicksearch {
+  width: 100%;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+a.btn.active {
+  background: #F76B48;
+  border: 1px solid #F76B48;
+  color: #fff;
+}
+.col-md-4sm {
+  flex: 0 0 24%;
+  max-width: 24%;
+}
+
+.breadcrumbs {
+  font-size: 1.2em;
 }
