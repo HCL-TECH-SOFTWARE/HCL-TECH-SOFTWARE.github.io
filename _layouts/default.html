@@ -25,7 +25,7 @@
       {%- include searchUI.html -%}
 
       <div class="grid row">
-        {% assign repos = site.data.repoDataPublic | where:"private", false %}
+        {% assign repos = site.data.repoData | where:"private", false %}
         {% for repo in repos %}
           {% if repo.fork == true %}
             {% assign fork = " fork" %}

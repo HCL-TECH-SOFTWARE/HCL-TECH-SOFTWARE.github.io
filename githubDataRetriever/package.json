@@ -1,0 +1,20 @@
+{
+  "name": "github-searches",
+  "version": "1.0.0",
+  "description": "Searches and manipulation of HCL-TECH-SOFTWARE GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github01.hclpnp.com:hcl-labs-ospo/github-repo-searches.git"
+  },
+  "author": "Paul Withers, HCL Labs",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fs-extra": "^9.0.1",
+    "js-yaml": "^4.0.0"
+  }
+}
