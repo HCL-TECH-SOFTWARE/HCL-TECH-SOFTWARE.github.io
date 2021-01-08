@@ -28,6 +28,7 @@ const processQuery = async(count, startCursor) => {
       obj.private = repo.isPrivate;
       obj.fork = repo.isFork;
       obj.license = (repo.licenseInfo) ? repo.licenseInfo.name : '';
+      obj.language = (repo.primaryLanguage) ? repo.primaryLanguage.name : '';
       var topics = [];
       for (var j = 0; j < repo.repositoryTopics.nodes.length; j++) {
         var topic = repo.repositoryTopics.nodes[j].topic.name;
@@ -107,6 +108,9 @@ async function doQuery(count, startCursor) {
             isFork
             url
             licenseInfo {
+              name
+            }
+            primaryLanguage {
               name
             }
             repositoryTopics(first: 10) {

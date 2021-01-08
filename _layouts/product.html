@@ -34,6 +34,7 @@
           <h4><a href="{{repo.url}}">{{repo.name}}</a></h4>
           {{repo.description}}<br />
           <b>License: </b>{{repo.license}}
+          <b>Language: </b>{{repo.language}}<br />
           <b>Topics: </b>{{repo.topics | array_to_sentence_string}}
         </div>
         {% endfor %}

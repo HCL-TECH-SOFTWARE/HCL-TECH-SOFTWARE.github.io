@@ -6,6 +6,7 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
+		"language": "JavaScript",
 		"topics": [
 			"domino",
 			"developers",
@@ -19,6 +20,7 @@
 		"private": false,
 		"fork": true,
 		"license": "Other",
+		"language": "C++",
 		"topics": []
 	},
 	{
@@ -28,6 +30,7 @@
 		"private": false,
 		"fork": true,
 		"license": "Apache License 2.0",
+		"language": "Python",
 		"topics": []
 	},
 	{
@@ -37,6 +40,7 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
+		"language": "HTML",
 		"topics": []
 	},
 	{
@@ -46,6 +50,7 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
+		"language": "",
 		"topics": [
 			"volt-mx",
 			"domino",
@@ -59,6 +64,7 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
+		"language": "HTML",
 		"topics": [
 			"connections",
 			"automation"

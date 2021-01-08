@@ -9,6 +9,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
+				"language": "JavaScript",
 				"topics": [
 					"domino",
 					"developers",
@@ -22,6 +23,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
+				"language": "",
 				"topics": [
 					"volt-mx",
 					"domino",
@@ -40,6 +42,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
+				"language": "JavaScript",
 				"topics": [
 					"domino",
 					"developers",
@@ -53,6 +56,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
+				"language": "",
 				"topics": [
 					"volt-mx",
 					"domino",
@@ -71,6 +75,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
+				"language": "JavaScript",
 				"topics": [
 					"domino",
 					"developers",
@@ -89,6 +94,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
+				"language": "",
 				"topics": [
 					"volt-mx",
 					"domino",
@@ -107,6 +113,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
+				"language": "HTML",
 				"topics": [
 					"connections",
 					"automation"
@@ -124,6 +131,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
+				"language": "HTML",
 				"topics": [
 					"connections",
 					"automation"
