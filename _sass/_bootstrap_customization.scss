@@ -32,16 +32,28 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400
   border-color: #117a8b;
 }
 .btn-info:focus {
+  color: #fff;
+  background-color: #138496;
+  border-color: #117a8b;
+}
+.btn-info:focus, .btn-info.focus {
   box-shadow: 0 0 0 0;
+}
+.btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active, .show > .btn-info.dropdown-toggle { 
+  color: #fff; 
+  background-color: #138496;
+  border-color: #117a8b;
 }
 
 .btn-secondary {
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: #ffffff;
+  background-color: #9ba0a5;
+  border-color: #9ba0a5;
 }
 .btn-secondary:hover {
-  background-color: #5a6268;
-  border-color: #545b62;
+  color: #ffffff;
+  background-color: #9ba0a5;
+  border-color: #9ba0a5;
 }
 
 .btn-warning {
@@ -95,7 +107,7 @@ body {
 }
 
 #quicksearch {
-  width: 100%;
+  width: 80%;
   border-radius: 5px;
   margin: 5px;
   padding-left: 5px;

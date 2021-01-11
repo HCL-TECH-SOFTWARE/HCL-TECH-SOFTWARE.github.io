@@ -24,7 +24,7 @@
       </div>
       {%- include searchUI.html -%}
 
-      <div class="grid row">
+      <div class="card-container row">
         {% assign repos = site.data.repoData | where:"private", false %}
         {% for repo in repos %}
           {% if repo.fork == true %}

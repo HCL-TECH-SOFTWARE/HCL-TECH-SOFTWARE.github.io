@@ -1,12 +1,14 @@
 <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
 <script>
-    // Search extrapolated from https://isotope.metafizzy.co/extras.html
+    // Search extrapolated from Search and Filter buttons sample on https://isotope.metafizzy.co/extras.html,
+    // https://codepen.io/desandro/pen/ELyQMx
+    // CodePen codes are MIT Licensed, see https://blog.codepen.io/documentation/licensing/
     // quick search regex
     var qsRegex;
     var buttonFilter;
 
     // init Isotope
-    var $grid = $(".grid").isotope(
+    var $container = $(".card-container").isotope(
         {
             filter: function () {
                 var $this = $(this);
@@ -15,6 +17,7 @@
                 return searchResult && buttonResult;
             }
         });
+    $(".btn-clear-topics").hide();
     // filter items on button click
     $(".filter-btn-group").on("click", "a", function () {
         var arr = [];
@@ -22,16 +25,29 @@
             arr.push($(this).attr('data-filter'));
         })
         buttonFilter = (arr.length > 0) ? arr.join("") : "*";
-        $grid.isotope();
+        if (arr.length > 0) {
+            $(".btn-clear-topics").show();
+        } else {
+            $(".btn-clear-topics").hide();
+        }
+        $container.isotope();
     });
     // use value of search field to filter
-    var $quicksearch = $('#quicksearch').keyup(debounce(function () {
+    var $quicksearch = $("#quicksearch").keyup(debounce(function () {
         qsRegex = new RegExp($quicksearch.val(), 'gi');
-        $grid.isotope();
+        $container.isotope();
     }));
     // Toggle active or inactive
     $(".btn-group a.btn").on("click", function () {
         $(this).toggleClass("active");
+    });
+    $(".btn-clear-topics").on("click", function () {
+        $(".btn-group a.btn").removeClass("active");
+    });
+    $(".btn-clear-search").on("click", function() {
+        $("#quicksearch").val("");
+        qsRegex = new RegExp($("#quicksearch").val(), 'gi');
+        $container.isotope();
     });
     // debounce so filtering doesn't happen every millisecond
     function debounce(fn, threshold) {

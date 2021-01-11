@@ -1,6 +1,7 @@
 
   <div class="row">
     <input type="text" id="quicksearch" placeholder="Search" />
+    <a class="btn btn-secondary btn-clear-search" style="float:right;">Clear Search</a>
   </div>
   <div class="row" style="margin-bottom: 10px">
     <h4>Topics</h4>
@@ -10,5 +11,6 @@
       {% assign topic = topics[1] %}
       <a class="btn btn-secondary" data-filter=".{{topic.name}}">{{topic.name}}</a>
       {% endfor %}
+      <a class="btn btn-secondary btn-clear-topics" style="margin-left:10px">Clear All</a>
     </div>
   </div>

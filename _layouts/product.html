@@ -22,7 +22,7 @@
       <div class="row" id="{{page.slug}}">
         <h3>{{page.title}}</h3>
       </div>
-      <div class="grid row">
+      <div class="card-container row">
         {% for repos in topic.repositories %}
         {% assign repo = repos[1] %}
         {% if repo.fork == true %}
