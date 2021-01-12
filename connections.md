@@ -1,8 +1,6 @@
 ---
 layout: product
 slug: connections
-name: Connections
-title: Connections
+name: HCL Connections
+title: HCL Connections
 ---
-
-{::options parse_block_html="true" /}

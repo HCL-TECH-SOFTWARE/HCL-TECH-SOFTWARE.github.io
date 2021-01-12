@@ -83,3 +83,19 @@ The cards are placed in a `div` with a class `grid`. This is the specific area t
 If the repo is a fork, a Liquid variable `fork` is assigned with a value of " fork". This is then added to the CSS class of the card. The variable is scoped to the whole forall, not an individual loop, so it's important we reset the `fork` variable if the repo is not a fork.
 
 The topics for a repo are also added as CSS classes.
+
+## Maintenance of This Site
+
+### When New GitHub Repos Are Published
+
+1. Follow the instructions in [Running The Code](#running-the-code) to download the latest repo information and generate the relevant JSON files in _data.
+2. Push the updates to GitHub.
+
+### When a GitHub Repo is Created for a New HCL Product
+
+1. Add a .md file as a sibling to index.md for the product alias, e.g. "domino.md". This should match the topic format.
+2. Populate the metadata with the details
+   - The `layout` should be `product`.
+   - The `slug` needs to match the topic on the GitHub repo.
+   - The `title` is displayed on the page.
+3. Update "default.html" from line 15 to add a link to the new product.

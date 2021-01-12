@@ -1,8 +1,6 @@
 ---
 layout: product
 slug: domino
-name: Domino
-title: Domino
+name: HCL Domino
+title: HCL Domino
 ---
-
-{::options parse_block_html="true" /}
