@@ -1,0 +1,18 @@
+<div class='col col-md-4sm repo{{fork}} {{repo.topics | join: " "}}' id="{{repo.name}}">
+    <div class="container">
+        <div class="row">
+            <div><a href="{{repo.url}}" class="repo-name" data-sort-value="name">{{repo.name}}</a></div>
+        </div>
+        <div class="row">
+            <div class="repo-desc">{{repo.description}}</div>
+        </div>
+        <div class="row">
+            <div class="repo-topic">{{repo.topics | sort | join: ", "}}</div>
+        </div>
+    </div>
+    <div class="container row-lic">
+        <span class="repo-lang-color" style="background-color: {{repo.languageColor}}"></span>&nbsp;<span
+            class="repo-language">{{repo.language}}</span>
+        <span class="repo-license" style="float:right">{{repo.license}}</span>
+    </div>
+</div>

@@ -1,3 +1,4 @@
+
 // This is the place to place Bootstrap-related CSS customizations.
 // As example you can start by importing the _bootswatch.scss file from one of the
 // theme provided by https://bootswatch.com .
@@ -96,28 +97,155 @@ body {
 
 // Containers ==================================================================
 .container {
-  max-width: 1020px;
+  max-width: 1260px;
 }
 
 .repo {
-  margin: 5px;
-  border-radius: 1em;
-  padding-bottom: 15px;
-  background-color: #d0d7db;
+  background-color: #F2F2F2;
+  margin: 0 8px 8px 0;
+  padding: 16px 12px;
+  height: 250px;
+  --lh: 1.4rem;
+  line-height: var(--lh);
+}
+
+.repo-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #01539B;
+  --max-lines: 3;
+  position: relative;
+  max-height: calc(var(--lh) * var(--max-lines));
+  min-height: calc(var(--lh) * var(--max-lines));
+  overflow: hidden;
+  padding-right: 1rem; /* space for ellipsis */
+}
+.repo-name::before {
+  position: absolute;
+  content: "...";
+  inset-block-end: 0; /* "bottom" */
+  inset-inline-end: 0; /* "right" */
+}
+.repo-name::after {
+  content: "";
+  position: absolute;
+  inset-inline-end: 0; /* "right" */
+  width: 1rem;
+  height: 1rem;
+  background-color: #F2F2F2;
+}
+
+.repo-lang-color {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--color-repo-language-color-border);
+  border-radius: 50%;
+}
+
+.repo-desc {
+  font-size: 14px;
+  color: #5C5C5C;
+  --max-lines: 5;
+  position: relative;
+  max-height: calc(var(--lh) * var(--max-lines));
+  overflow: hidden;
+  padding-right: 1rem; /* space for ellipsis */
+}
+.repo-desc::before {
+  position: absolute;
+  content: "...";
+  inset-block-end: 0; /* "bottom" */
+  inset-inline-end: 0; /* "right" */
+}
+.repo-desc::after {
+  content: "";
+  position: absolute;
+  inset-inline-end: 0; /* "right" */
+  width: 1rem;
+  height: 1rem;
+  background-color: #F2F2F2;
+}
+
+.repo-topic {
+  font-size: 12px;
+  color: #01539B;
+}
+
+.row-lic {
+  position: absolute;
+  left: 0;
+  bottom: calc(var(--lh));
+  font-size: 12px;
+  color: #5C5C5C;
 }
 
 #quicksearch {
-  width: 80%;
-  border-radius: 5px;
-  margin: 5px;
+  font-style: italic;
+  font-size: 14px;
+  color: #5C5C5C;
+  height: 36px;
+  border-radius: 2px;
+  margin: 24px 0;
+  background: #F2F2F2;
   padding-left: 5px;
+  border: #ADADAD 1px solid;
+  width: 100%;
+}
+
+.topicFilterTitle {
+  font-weight: 500;
+  font-size: 14px;
+  color: #5C5C5C;
+  padding-left: 0;
+}
+
+.topicFilterReset {
+  font-weight: 500;
+  font-size: 14px;
+  color: #12191F;
+  opacity: 10%;
+  padding-right: 0;
+}
+
+.repoCounter {
+  font-size: 16pt;
+  color: #000000;
+  padding-left: 0;
+  margin-bottom: 24px;
+}
+
+.repoSorter {
+  border: 0;
+  color: #5C5C5C;
+}
+
+.btn-filter {
+  font-size: 13px;
+  margin-right: 8px;
+  color: #5C5C5C;
+  border: #ADADAD 1px solid;
+  border-radius: 25px;
+}
+
+.filter-btn-group {
+  margin-bottom: 24px;
+}
+
+.btn-clear {
+  cursor: pointer;
 }
 
 a.btn.active {
-  background: #F76B48;
-  border: 1px solid #F76B48;
-  color: #fff;
+  background: #F2F2F2;
 }
+
+a.btn:hover {
+  background: #F2F2F2;
+}
+
 .col-md-4sm {
   flex: 0 0 24%;
   max-width: 24%;
@@ -130,4 +258,17 @@ a.btn.active {
 .corpImg {
   height: 20px;
   float: right;
+}
+
+.header-container {
+  max-width: none;
+}
+
+.header-container:before {
+  display:table;
+  content: " ";
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }

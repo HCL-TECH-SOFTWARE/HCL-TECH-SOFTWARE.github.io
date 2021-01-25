@@ -44,7 +44,8 @@ const processQuery = async(count, startCursor) => {
       obj.private = repo.isPrivate;
       obj.fork = repo.isFork;
       obj.license = (repo.licenseInfo) ? repo.licenseInfo.name : '';
-      obj.language = (repo.primaryLanguage) ? repo.primaryLanguage.name : '';
+      obj.language = (repo.primaryLanguage) ? repo.primaryLanguage.name : 'Not Identified';
+      obj.languageColor = getLangColor(obj.language);
       var topics = [];
       for (var j = 0; j < repo.repositoryTopics.nodes.length; j++) {
         var topic = repo.repositoryTopics.nodes[j].topic.name;
@@ -72,6 +73,59 @@ const processQuery = async(count, startCursor) => {
     return json;
   } catch (error) {
     console.error(error);
+  }
+}
+
+function getLangColor(lang) {
+  switch (lang) {
+    case "C++":
+      return "#f34b7d";
+    case "JavaScript":
+      return "#f1e05a";
+    case "TypeScript":
+      return "#2b7489";
+    case "HTML":
+      return "#e34c26";
+    case "CSS":
+      return "#563d7c";
+    case "Python":
+      return "#3572A5";
+    case "Xtend":
+      return "#ccc";
+    case "Java":
+      return "#b07219";
+    case "C":
+      return "#555555";
+    case "C#":
+      return "#178600";
+    case "Jupyter Notebook":
+      return "#DA5B0B";
+    case "Go":
+      return "#00ADD8";
+    case "Shell":
+      return "#89e051";
+    case "PHP":
+      return "#4F5D95";
+    case "Ruby":
+      return "#701516";
+    case "Go":
+      return "#375eab";
+    case "Perl":
+      return "#0298c3";
+    case "Swift":
+      return "#ffac45";
+    case "Objective-C":
+      return "#438eff";
+    case "Groovy":
+      return "#e69f56";
+    case "Scala":
+      return "#c22d40";
+    case "WebAssembly":
+      return "#04133b";
+    case "Rust":
+      return "#dea584";
+    default:
+      return "#fff";
   }
 }
 

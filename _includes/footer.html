@@ -5,13 +5,6 @@
 
       <div class="col-sm">
         <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-            {{ site.author | escape }}
-            {%- else -%}
-            {{ site.title | escape }}
-            {%- endif -%}
-          </li>
           {%- if site.email -%}
           <li>
             <a href="mailto:{{ site.email }}">
@@ -27,7 +20,7 @@
 
 
       <div class="col-sm text-right">
-        <p>{{- site.description | escape -}}</p>
+        <p>{{- site.title | escape -}}</p>
       </div>
 
     </div>

@@ -5,40 +5,38 @@
 
 <body>
 
-  {%- include header.html -%}
+  {%- include hcl_header.html -%}
 
-  <div class="py-3">
+  <section class="banner-section pnp-ui-banner">
     <div class="container">
-      <div class="row breadcrumbs">
-        <a  class="btn btn-info" href="{{site.baseurl}}/{{top_url}}">&laquo;Back</a>
-      </div>
-
-      <div class="row" class="product_link">
-        <h2>Our Repositories</h2>
-      </div>
-      {%- include searchUI.html -%}
-
-      {% assign topic = site.data.repoTopics[page.slug] %}
-      <div class="row" id="{{page.slug}}">
-        <h3>{{page.title}}</h3>
-      </div>
-      <div class="card-container row">
-        {% for repos in topic.repositories %}
-        {% assign repo = repos[1] %}
-        {% if repo.fork == true %}
-          {% assign fork = " fork" %}
-        {% else %}
-          {% assign fork = "" %}
-        {% endif %}
-        <div class='col col-md-4sm repo{{fork}} {{repo.topics | join: " "}}' id="{{repo.name}}">
-          <h4><a href="{{repo.url}}">{{repo.name}}</a></h4>
-          {{repo.description}}<br />
-          <b>License: </b>{{repo.license}}
-          <b>Language: </b>{{repo.language}}<br />
-          <b>Topics: </b>{{repo.topics | array_to_sentence_string}}
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="open-intro">
+            Open source @&nbsp;<img src="https://www.hcltechsw.com/hclf/img/hcl-symbol.png" class="img-responsive"
+              style="height: 10px;" />
+          </div>
+          <div class="open-title">{{page.title}}</div>
+          <div class="open-body">
+            {{page.desc}}
+          </div>
         </div>
-        {% endfor %}
       </div>
+    </div>
+  </section>
+
+  <div class="container">
+    {%- include searchUI.html -%}
+    {% assign topic = site.data.repoTopics[page.slug] %}
+    <div class="card-container row">
+      {% for repos in topic.repositories %}
+      {% assign repo = repos[1] %}
+      {% if repo.fork == true %}
+      {% assign fork = " fork" %}
+      {% else %}
+      {% assign fork = "" %}
+      {% endif %}
+      {%- include repo-contents.html -%}
+      {% endfor %}
     </div>
   </div>
 

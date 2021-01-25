@@ -1,0 +1,314 @@
+<style>
+    .banner-section.pnp-ui-banner {
+      background: #fff;
+      padding-top: 180px;
+      padding-bottom: 120px;
+      background-image: url('../images/200119_Illustration_circuit-board_1920x500.jpg');
+      background-size: cover;
+    }
+  
+    .open-intro {
+      font-size: 12pt;
+      color: #fff;
+    }
+  
+    .open-title {
+      font-weight: 500;
+      font-size: 48px;
+      color: #47DECF;
+    }
+  
+    .open-body {
+      font-size: 14pt;
+      color: #fff;
+    }
+  </style>
+  
+<div class="container">
+    <div class="row">
+        <style>
+            .header-topbar {
+                border-bottom: 1px solid #4b4b4b;
+                height: 32px;
+                transition-duration: 0.4s;
+            }
+
+            .master-header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 99;
+            }
+
+            .master-header .container {
+                width: auto;
+                padding: 0 32px;
+            }
+
+            .dark-master {
+                background: #000000;
+            }
+
+            .logo-brand {
+                float: left;
+                padding-right: 35px;
+                margin-right: 35px;
+                position: relative;
+                overflow: hidden;
+                height: 48px;
+            }
+
+            .logo-brand:before {
+                content: '';
+                width: 1px;
+                height: 18px;
+                background: #4b4b4b;
+                position: absolute;
+                top: 15px;
+                right: 0;
+            }
+
+            .logo-brand a img {
+                max-width: 150px;
+                margin-top: -5px;
+            }
+
+            .navbar-menu {
+                float: left;
+            }
+
+            .list-unstyled {
+                padding-left: 0;
+                list-style: none;
+            }
+
+            .navbar-menu .panel {
+                display: inline-block;
+                background: none;
+                margin: 0;
+                border: none;
+            }
+
+            .collapse-link.collapsed,
+            .menu-link:hover,
+            .menu-link:focus {
+                color: #fff;
+            }
+
+            .collapse-link,
+            .menu-link.collapse-link:focus {
+                color: #f5821e;
+            }
+
+            .menu-link {
+                color: #fff;
+                padding: 0 14px;
+                line-height: 48px;
+                display: block;
+                font-size: 14px;
+            }
+
+            .menu-link-home {
+                color: #f5821e;
+            }
+
+            .navbar-menu .panel+.panel,
+            .navbar-menu .panel-group {
+                margin: 0;
+            }
+
+            .menu-link .arrow-nav {
+                position: relative;
+                top: 2px;
+                border: solid #f5821e;
+                border-width: 1px 0 0 1px;
+            }
+
+            .menu-link.collapsed .arrow-nav {
+                top: -2px;
+                border: solid #fff;
+                border-width: 0 1px 1px 0;
+            }
+
+            .arrow-nav {
+                display: inline-block;
+                vertical-align: middle;
+                padding: 4px;
+            }
+
+            .nav-down {
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+            }
+
+            .megamenu {
+                top: 110px;
+            }
+
+            .megamenu {
+                right: 0;
+                min-width: 100%;
+                left: 0;
+                width: 100%;
+                border-radius: 0;
+                top: 80px;
+                position: fixed;
+                border: none;
+                margin: 0;
+                background: #fff;
+                box-shadow: 0 3px 8px 0px rgba(0, 0, 0, 0.1);
+            }
+
+            .sticky .megamenu {
+                top: 78px
+            }
+
+            .head-title-full {
+                border-bottom: solid 1px #E2E2E2;
+                padding-bottom: 20px;
+                margin-bottom: 20px;
+            }
+
+            .head-title-full .header-title {
+                font-size: 18px;
+                font-weight: 500;
+                color: #000000;
+                float: left;
+                margin: 0;
+            }
+
+            .product-mega-menu .nav {
+                -moz-column-count: 4;
+                -webkit-column-count: 4;
+                -ms-column-count: 4;
+                column-count: 4;
+                display: block;
+            }
+
+            .megamenu-body {
+                padding: 30px 30px 50px;
+            }
+
+            .megamenu-body .nav li {
+                padding-right: 15px;
+            }
+
+            .nav>li {
+                position: relative;
+                display: block;
+            }
+
+            .megamenu-body .nav li a {
+                display: block;
+                font-size: 14px;
+                color: #4b4b4b;
+                padding: 4px 0;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+            @media (max-width: 1200px) {
+                .master-header {
+                    top: 30px !important;
+                }
+            }
+
+            @media (max-width: 991px) {
+                #navbar {
+                    top: 110px;
+                    height: calc(100% - 110px);
+                }
+
+                .sticky #navbar {
+                    top: 78px;
+                    height: calc(100% - 78px);
+                }
+            }
+        </style>
+        <header id="masterHeader" class="dark master-header dark-master">
+            <div id="header-topbar" class="header-topbar">
+                <div id="drawer-overlay" class="sidedrawer-wrapper"></div>
+                <div class="container header-container">
+                    <div class="row">
+                        <div class="col col-xs-6 text-left">
+                            <a href="https://www.hcltech.com/" target="_blank" class="logo-hcl">
+                                <img src="https://www.hcltechsw.com/hclf/img/hcl-symbol.png" class="img-responsive" />
+                            </a>
+                        </div>
+                        <div class="col col-xs-6 text-right">
+                            <a href="https://www.hcltech.com/" target="_blank" class="logo-hcl-tech">HCL
+                                TECHNOLOGIES</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container header-container">
+                <div class="logo-brand">
+                    <a href="https://www.hcltechsw.com/">
+                        <img src="https://www.hcltechsw.com//hclf/img/hcl-m.png" alt="HCL Logo" border="" title=""
+                            class="img-responsive" />
+                    </a>
+                </div>
+                <div class="navbar-menu" id="navbar">
+                    <ul class="panel-group list-unstyled clearfix" id="NavMenu" role="tablist">
+                        <li class="panel">
+                            <a href="/index.html" data-parent="#NavMenu" class="menu-link menu-link-home">Open Source
+                                Repositories</a>
+                        </li>
+                        <li class="panel">
+                            <a href="#ProductMenu" data-toggle="collapse" class="menu-link collapse-link collapsed"
+                                data-parent="#NavMenu">
+                                Products &nbsp;
+                                <i class="arrow-nav nav-down"></i>
+                            </a>
+                            <div class="megamenu product-mega-menu collapse" role="tabpanel" id="ProductMenu">
+                                <div class="megamenu-body">
+
+                                    <div class="container header-container">
+                                        <div class="head-title-full clearfix">
+                                            <h4 class="header-title">Products</h4>
+                                        </div>
+                                        <ul class="nav">
+
+                                            <li>
+                                                <a href="{{site.baseurl}}/appscan">AppScan</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{site.baseurl}}/commerce">Commerce</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{site.baseurl}}/connections">Connections</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{site.baseurl}}/domino">Domino</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{site.baseurl}}/dx">DX</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{site.baseurl}}/volt-mx">Volt MX</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="arrow-dropdown">
+                                        <a href="#ProductMenu" data-toggle="collapse" class="collapsed"
+                                            aria-expanded="true">
+                                            <i class="arrow-nav nav-down"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>

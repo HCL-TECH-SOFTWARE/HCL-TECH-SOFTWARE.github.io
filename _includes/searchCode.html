@@ -6,6 +6,8 @@
     // quick search regex
     var qsRegex;
     var buttonFilter;
+    var searchVal;
+    var sortVal = '';
 
     // init Isotope
     var $container = $(".card-container").isotope(
@@ -15,6 +17,12 @@
                 var searchResult = qsRegex ? $this.text().match(qsRegex) : true;
                 var buttonResult = buttonFilter ? $this.is(buttonFilter) : true;
                 return searchResult && buttonResult;
+            },
+            getSortData: {
+                name: '.repo-name',
+                topic: '.repo-topic',
+                language: '.repo-language',
+                license: '.repo-license'
             }
         });
     $(".btn-clear-topics").hide();
@@ -25,29 +33,44 @@
             arr.push($(this).attr('data-filter'));
         })
         buttonFilter = (arr.length > 0) ? arr.join("") : "*";
-        if (arr.length > 0) {
-            $(".btn-clear-topics").show();
-        } else {
-            $(".btn-clear-topics").hide();
-        }
         $container.isotope();
+        $(".topicFilterReset").css("opacity", "50%");
+        var elems = $container.isotope('getFilteredItemElements').length;
+        $(".repoCounter").text(elems + " Repositories found");
+    });
+    var $repoSort = $(".repoSorter").on("change", function() {
+        sortVal = $repoSort.val();
+        $container.isotope({sortBy: sortVal});
     });
     // use value of search field to filter
     var $quicksearch = $("#quicksearch").keyup(debounce(function () {
+        if ($quicksearch.val() == searchVal) {
+            return;
+        }
         qsRegex = new RegExp($quicksearch.val(), 'gi');
         $container.isotope();
+        $(".topicFilterReset").css("opacity", "50%");
+        searchVal = $quicksearch.val();
+        var elems = $container.isotope('getFilteredItemElements').length;
+        $(".repoCounter").text(elems + " Repositories found");
     }));
     // Toggle active or inactive
     $(".btn-group a.btn").on("click", function () {
         $(this).toggleClass("active");
     });
-    $(".btn-clear-topics").on("click", function () {
+    $(".btn-clear").on("click", function() {
         $(".btn-group a.btn").removeClass("active");
-    });
-    $(".btn-clear-search").on("click", function() {
         $("#quicksearch").val("");
         qsRegex = new RegExp($("#quicksearch").val(), 'gi');
+        buttonFilter = "*";
         $container.isotope();
+        $(".topicFilterReset").css("opacity", "10%");
+        var elems = $container.isotope('getFilteredItemElements').length;
+        $(".repoCounter").text(elems + " Repositories found");
+    });
+    $(document).ready(function() {
+        var elems = $container.isotope('getFilteredItemElements').length;
+        $(".repoCounter").text(elems + " Repositories found");
     });
     // debounce so filtering doesn't happen every millisecond
     function debounce(fn, threshold) {

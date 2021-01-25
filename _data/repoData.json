@@ -1,35 +1,5 @@
 [
 	{
-		"name": "node-domino-db",
-		"description": "",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/node-domino-db",
-		"private": true,
-		"fork": false,
-		"license": "",
-		"language": "",
-		"topics": []
-	},
-	{
-		"name": "java-domino-db",
-		"description": "",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/java-domino-db",
-		"private": true,
-		"fork": false,
-		"license": "",
-		"language": "",
-		"topics": []
-	},
-	{
-		"name": "appdev-pack-docs",
-		"description": "",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-docs",
-		"private": true,
-		"fork": false,
-		"license": "",
-		"language": "",
-		"topics": []
-	},
-	{
 		"name": "appdev-pack-samples",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-samples",
@@ -37,6 +7,8 @@
 		"fork": false,
 		"license": "Apache License 2.0",
 		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"updated": "2020-12-16T15:32:51Z",
 		"topics": [
 			"domino",
 			"developers",
@@ -51,6 +23,8 @@
 		"fork": true,
 		"license": "Other",
 		"language": "C++",
+		"languageColor": "#f34b7d",
+		"updated": "2020-09-24T16:35:05Z",
 		"topics": []
 	},
 	{
@@ -61,6 +35,8 @@
 		"fork": true,
 		"license": "Apache License 2.0",
 		"language": "Python",
+		"languageColor": "#3572A5",
+		"updated": "2020-09-18T13:06:42Z",
 		"topics": []
 	},
 	{
@@ -71,6 +47,8 @@
 		"fork": false,
 		"license": "Apache License 2.0",
 		"language": "HTML",
+		"languageColor": "#e34c26",
+		"updated": "2020-11-30T17:42:47Z",
 		"topics": []
 	},
 	{
@@ -80,7 +58,9 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"updated": "2021-01-20T09:44:50Z",
 		"topics": [
 			"volt-mx",
 			"domino",
@@ -95,19 +75,11 @@
 		"fork": false,
 		"license": "Apache License 2.0",
 		"language": "HTML",
+		"languageColor": "#e34c26",
+		"updated": "2021-01-22T18:13:02Z",
 		"topics": [
 			"connections",
 			"automation"
 		]
-	},
-	{
-		"name": "connections-samples",
-		"description": "",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-samples",
-		"private": true,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "CSS",
-		"topics": []
 	}
 ]
