@@ -16,12 +16,11 @@
     {% assign topic = topics[1] %}
     <a class="btn btn-filter" data-filter=".{{topic.name}}">{{topic.name}}</a>
     {% endfor %}
-    <a class="btn btn-secondary btn-clear-topics" style="margin-left:10px">Clear All</a>
   </div>
 </div>
 <div class="row">
   <div class="col col-xs-s text-left repoCounter"></div>
-  <div class="col col-xs-s text-right">
+  <div class="col col-xs-s text-right repoSelector">
     <select class="repoSorter">
       <option value="">Recently Updated</option>
       <option value="name">Name</option>
