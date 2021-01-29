@@ -1,38 +1,5 @@
 [
 	{
-		"name": "node-domino-db",
-		"description": "",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/node-domino-db",
-		"private": true,
-		"fork": false,
-		"license": "",
-		"language": "Not Identified",
-		"languageColor": "#fff",
-		"topics": []
-	},
-	{
-		"name": "java-domino-db",
-		"description": "",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/java-domino-db",
-		"private": true,
-		"fork": false,
-		"license": "",
-		"language": "Not Identified",
-		"languageColor": "#fff",
-		"topics": []
-	},
-	{
-		"name": "appdev-pack-docs",
-		"description": "",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-docs",
-		"private": true,
-		"fork": false,
-		"license": "",
-		"language": "Not Identified",
-		"languageColor": "#fff",
-		"topics": []
-	},
-	{
 		"name": "appdev-pack-samples",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-samples",
@@ -115,39 +82,27 @@
 		]
 	},
 	{
-		"name": "connections-samples",
-		"description": "",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-samples",
-		"private": true,
+		"name": "HCL-TECH-SOFTWARE.github.io",
+		"description": "Landing page for searching HCL Software GitHub repositories, viewable at https://hcl-tech-software.github.io/index.html",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-TECH-SOFTWARE.github.io",
+		"private": false,
 		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "CSS",
-		"languageColor": "#563d7c",
+		"license": "MIT License",
+		"language": "HTML",
+		"languageColor": "#e34c26",
 		"topics": [
-			"connections",
-			"developers"
+			"corporate"
 		]
 	},
 	{
-		"name": "volt-mx-docs",
-		"description": "Documentation for HCL Volt MX",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-docs",
-		"private": true,
-		"fork": false,
-		"license": "",
-		"language": "Not Identified",
-		"languageColor": "#fff",
-		"topics": []
-	},
-	{
-		"name": "domino-keep-docs",
-		"description": "",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
-		"private": true,
-		"fork": false,
-		"license": "",
-		"language": "Not Identified",
-		"languageColor": "#fff",
+		"name": "Examples",
+		"description": "Ready-to-use examples that showcase features of IBM's Rational Integration Tester (RIT) and Rational Test Control Panel (RTCP).",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Examples",
+		"private": false,
+		"fork": true,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
 		"topics": []
 	}
 ]

@@ -31,44 +31,46 @@ const processQuery = async (count, startCursor) => {
     var nodes = resp.data.data.organization.repositories.nodes;
     for (var i = 0; i < nodes.length; i++) {
       var repo = nodes[i];
-      var obj = {};
-      obj.name = repo.name;
-      obj.description = (repo.description) ? repo.description : '';
-      obj.url = repo.url;
-      obj.private = repo.isPrivate;
-      obj.fork = repo.isFork;
-      obj.license = (repo.licenseInfo) ? repo.licenseInfo.name : '';
-      obj.language = (repo.primaryLanguage) ? repo.primaryLanguage.name : 'Not Identified';
-      obj.languageColor = getLangColor(obj.language);
-      var topics = [];
-      for (var j = 0; j < repo.repositoryTopics.nodes.length; j++) {
-        var topic = repo.repositoryTopics.nodes[j].topic.name;
-        topics.push(topic);
-        if (topicJson[topic]) {
-          topicJson[topic].repositories[obj.name] = obj;
-        } else {
-          topicJson[topic] = {};
-          topicJson[topic].name = topic;
-          topicJson[topic].repositories = {};
-          topicJson[topic].repositories[obj.name] = obj;
-          topicJson[topic].availableTopics = {};
-        }
-        if (repo.isFork) {
-          topicJson[topic].availableTopics["fork"] = {};
-          topicJson[topic].availableTopics["fork"].name = subTopic;
-        }
-        for (var k = 0; k < repo.repositoryTopics.nodes.length; k++) {
-          var subTopic = repo.repositoryTopics.nodes[k].topic.name;
-          if (topic != subTopic && !topicJson[topic].availableTopics[subTopic]) {
-            topicJson[topic].availableTopics[subTopic] = {};
-            topicJson[topic].availableTopics[subTopic].name = subTopic;
+      if (!repo.isPrivate) {
+        var obj = {};
+        obj.name = repo.name;
+        obj.description = (repo.description) ? repo.description : '';
+        obj.url = repo.url;
+        obj.private = repo.isPrivate;
+        obj.fork = repo.isFork;
+        obj.license = (repo.licenseInfo) ? repo.licenseInfo.name : '';
+        obj.language = (repo.primaryLanguage) ? repo.primaryLanguage.name : 'Not Identified';
+        obj.languageColor = getLangColor(obj.language);
+        var topics = [];
+        for (var j = 0; j < repo.repositoryTopics.nodes.length; j++) {
+          var topic = repo.repositoryTopics.nodes[j].topic.name;
+          topics.push(topic);
+          if (topicJson[topic]) {
+            topicJson[topic].repositories[obj.name] = obj;
+          } else {
+            topicJson[topic] = {};
+            topicJson[topic].name = topic;
+            topicJson[topic].repositories = {};
+            topicJson[topic].repositories[obj.name] = obj;
+            topicJson[topic].availableTopics = {};
+          }
+          if (repo.isFork) {
+            topicJson[topic].availableTopics["fork"] = {};
+            topicJson[topic].availableTopics["fork"].name = subTopic;
+          }
+          for (var k = 0; k < repo.repositoryTopics.nodes.length; k++) {
+            var subTopic = repo.repositoryTopics.nodes[k].topic.name;
+            if (topic != subTopic && !topicJson[topic].availableTopics[subTopic]) {
+              topicJson[topic].availableTopics[subTopic] = {};
+              topicJson[topic].availableTopics[subTopic].name = subTopic;
+            }
           }
         }
-      }
-      obj.topics = topics;
-      json.push(obj);
-      if (!obj.private) {
-        jsonPublic.push(obj);
+        obj.topics = topics;
+        json.push(obj);
+        if (!obj.private) {
+          jsonPublic.push(obj);
+        }
       }
     }
     var nextPage = resp.data.data.organization.repositories.pageInfo.hasNextPage;

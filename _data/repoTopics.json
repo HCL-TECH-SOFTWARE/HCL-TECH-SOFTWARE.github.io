@@ -77,20 +77,6 @@
 					"domino",
 					"developers"
 				]
-			},
-			"connections-samples": {
-				"name": "connections-samples",
-				"description": "",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-samples",
-				"private": true,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "CSS",
-				"languageColor": "#563d7c",
-				"topics": [
-					"connections",
-					"developers"
-				]
 			}
 		},
 		"availableTopics": {
@@ -102,9 +88,6 @@
 			},
 			"volt-mx": {
 				"name": "volt-mx"
-			},
-			"connections": {
-				"name": "connections"
 			}
 		}
 	},
@@ -308,28 +291,11 @@
 					"connections",
 					"automation"
 				]
-			},
-			"connections-samples": {
-				"name": "connections-samples",
-				"description": "",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-samples",
-				"private": true,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "CSS",
-				"languageColor": "#563d7c",
-				"topics": [
-					"connections",
-					"developers"
-				]
 			}
 		},
 		"availableTopics": {
 			"automation": {
 				"name": "automation"
-			},
-			"developers": {
-				"name": "developers"
 			}
 		}
 	},
@@ -356,5 +322,24 @@
 				"name": "connections"
 			}
 		}
+	},
+	"corporate": {
+		"name": "corporate",
+		"repositories": {
+			"HCL-TECH-SOFTWARE.github.io": {
+				"name": "HCL-TECH-SOFTWARE.github.io",
+				"description": "Landing page for searching HCL Software GitHub repositories, viewable at https://hcl-tech-software.github.io/index.html",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-TECH-SOFTWARE.github.io",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"corporate"
+				]
+			}
+		},
+		"availableTopics": {}
 	}
 }
