@@ -1,4 +1,4 @@
-Copyright (c) Paul Withers 2019
+Copyright (c) Paul Withers, HCL Software 2021
 
 This project includes the following software:
 
@@ -6,6 +6,5 @@ This project includes the following software:
     Copyright (c) 2018 Nicolas Vanhoren
     Licensed under MIT License
 
-[Bootswatch Cosmo theme](https://bootswatch.com/cosmo/)
-    Copyright
-    Licensed under MIT License
+[Isotope](https://isotope.metafizzy.co) is used for filtering.
+    Licensed GNU GPLv3
