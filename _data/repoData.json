@@ -1,5 +1,38 @@
 [
 	{
+		"name": "node-domino-db",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/node-domino-db",
+		"private": true,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "java-domino-db",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/java-domino-db",
+		"private": true,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "appdev-pack-docs",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-docs",
+		"private": true,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
 		"name": "appdev-pack-samples",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-samples",
@@ -38,7 +71,7 @@
 	},
 	{
 		"name": "node-red-contrib-hcl-iterate-loop",
-		"description": "",
+		"description": "This Node-RED node allows you to build loops, just like a for loop in any programming language do, iterating over the selected parts in the flow. Playing with the starting point, increment/decrement values and condition to be evaluated in each iteration.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/node-red-contrib-hcl-iterate-loop",
 		"private": false,
 		"fork": false,
@@ -47,7 +80,9 @@
 		"languageColor": "#e34c26",
 		"topics": [
 			"rtist",
-			"node-red-contrib"
+			"node-red-contrib",
+			"node-red",
+			"loops"
 		]
 	},
 	{
@@ -78,5 +113,41 @@
 			"connections",
 			"automation"
 		]
+	},
+	{
+		"name": "connections-samples",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-samples",
+		"private": true,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "CSS",
+		"languageColor": "#563d7c",
+		"topics": [
+			"connections",
+			"developers"
+		]
+	},
+	{
+		"name": "volt-mx-docs",
+		"description": "Documentation for HCL Volt MX",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-docs",
+		"private": true,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "domino-keep-docs",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
+		"private": true,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
 	}
 ]

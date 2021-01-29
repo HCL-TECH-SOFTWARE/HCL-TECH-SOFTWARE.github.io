@@ -57,6 +57,18 @@ const processQuery = async(count, startCursor) => {
           topicJson[topic].name = topic;
           topicJson[topic].repositories = {};
           topicJson[topic].repositories[obj.name] = obj;
+          topicJson[topic].availableTopics = {};
+        }
+        if (repo.isFork) {
+          topicJson[topic].availableTopics["fork"] = {};
+          topicJson[topic].availableTopics["fork"].name = subTopic;
+        }
+        for (var k = 0; k < repo.repositoryTopics.nodes.length; k++) {
+          var subTopic = repo.repositoryTopics.nodes[k].topic.name;
+          if (topic != subTopic && !topicJson[topic].availableTopics[subTopic]) {
+            topicJson[topic].availableTopics[subTopic] = {};
+            topicJson[topic].availableTopics[subTopic].name = subTopic;
+          }
         }
       }
       obj.topics = topics;

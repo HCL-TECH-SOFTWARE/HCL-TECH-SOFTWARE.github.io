@@ -32,6 +32,17 @@
 					"developers"
 				]
 			}
+		},
+		"availableTopics": {
+			"developers": {
+				"name": "developers"
+			},
+			"sample": {
+				"name": "sample"
+			},
+			"volt-mx": {
+				"name": "volt-mx"
+			}
 		}
 	},
 	"developers": {
@@ -66,6 +77,34 @@
 					"domino",
 					"developers"
 				]
+			},
+			"connections-samples": {
+				"name": "connections-samples",
+				"description": "",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-samples",
+				"private": true,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"connections",
+					"developers"
+				]
+			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			},
+			"sample": {
+				"name": "sample"
+			},
+			"volt-mx": {
+				"name": "volt-mx"
+			},
+			"connections": {
+				"name": "connections"
 			}
 		}
 	},
@@ -87,6 +126,14 @@
 					"sample"
 				]
 			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			},
+			"developers": {
+				"name": "developers"
+			}
 		}
 	},
 	"rtist": {
@@ -94,7 +141,7 @@
 		"repositories": {
 			"node-red-contrib-hcl-iterate-loop": {
 				"name": "node-red-contrib-hcl-iterate-loop",
-				"description": "",
+				"description": "This Node-RED node allows you to build loops, just like a for loop in any programming language do, iterating over the selected parts in the flow. Playing with the starting point, increment/decrement values and condition to be evaluated in each iteration.",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/node-red-contrib-hcl-iterate-loop",
 				"private": false,
 				"fork": false,
@@ -103,8 +150,21 @@
 				"languageColor": "#e34c26",
 				"topics": [
 					"rtist",
-					"node-red-contrib"
+					"node-red-contrib",
+					"node-red",
+					"loops"
 				]
+			}
+		},
+		"availableTopics": {
+			"node-red-contrib": {
+				"name": "node-red-contrib"
+			},
+			"node-red": {
+				"name": "node-red"
+			},
+			"loops": {
+				"name": "loops"
 			}
 		}
 	},
@@ -113,7 +173,7 @@
 		"repositories": {
 			"node-red-contrib-hcl-iterate-loop": {
 				"name": "node-red-contrib-hcl-iterate-loop",
-				"description": "",
+				"description": "This Node-RED node allows you to build loops, just like a for loop in any programming language do, iterating over the selected parts in the flow. Playing with the starting point, increment/decrement values and condition to be evaluated in each iteration.",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/node-red-contrib-hcl-iterate-loop",
 				"private": false,
 				"fork": false,
@@ -122,8 +182,85 @@
 				"languageColor": "#e34c26",
 				"topics": [
 					"rtist",
-					"node-red-contrib"
+					"node-red-contrib",
+					"node-red",
+					"loops"
 				]
+			}
+		},
+		"availableTopics": {
+			"rtist": {
+				"name": "rtist"
+			},
+			"node-red": {
+				"name": "node-red"
+			},
+			"loops": {
+				"name": "loops"
+			}
+		}
+	},
+	"node-red": {
+		"name": "node-red",
+		"repositories": {
+			"node-red-contrib-hcl-iterate-loop": {
+				"name": "node-red-contrib-hcl-iterate-loop",
+				"description": "This Node-RED node allows you to build loops, just like a for loop in any programming language do, iterating over the selected parts in the flow. Playing with the starting point, increment/decrement values and condition to be evaluated in each iteration.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/node-red-contrib-hcl-iterate-loop",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"rtist",
+					"node-red-contrib",
+					"node-red",
+					"loops"
+				]
+			}
+		},
+		"availableTopics": {
+			"rtist": {
+				"name": "rtist"
+			},
+			"node-red-contrib": {
+				"name": "node-red-contrib"
+			},
+			"loops": {
+				"name": "loops"
+			}
+		}
+	},
+	"loops": {
+		"name": "loops",
+		"repositories": {
+			"node-red-contrib-hcl-iterate-loop": {
+				"name": "node-red-contrib-hcl-iterate-loop",
+				"description": "This Node-RED node allows you to build loops, just like a for loop in any programming language do, iterating over the selected parts in the flow. Playing with the starting point, increment/decrement values and condition to be evaluated in each iteration.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/node-red-contrib-hcl-iterate-loop",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"rtist",
+					"node-red-contrib",
+					"node-red",
+					"loops"
+				]
+			}
+		},
+		"availableTopics": {
+			"rtist": {
+				"name": "rtist"
+			},
+			"node-red-contrib": {
+				"name": "node-red-contrib"
+			},
+			"node-red": {
+				"name": "node-red"
 			}
 		}
 	},
@@ -145,6 +282,14 @@
 					"developers"
 				]
 			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			},
+			"developers": {
+				"name": "developers"
+			}
 		}
 	},
 	"connections": {
@@ -163,6 +308,28 @@
 					"connections",
 					"automation"
 				]
+			},
+			"connections-samples": {
+				"name": "connections-samples",
+				"description": "",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-samples",
+				"private": true,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"connections",
+					"developers"
+				]
+			}
+		},
+		"availableTopics": {
+			"automation": {
+				"name": "automation"
+			},
+			"developers": {
+				"name": "developers"
 			}
 		}
 	},
@@ -182,6 +349,11 @@
 					"connections",
 					"automation"
 				]
+			}
+		},
+		"availableTopics": {
+			"connections": {
+				"name": "connections"
 			}
 		}
 	}

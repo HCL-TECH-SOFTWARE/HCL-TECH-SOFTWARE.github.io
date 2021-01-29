@@ -38,7 +38,7 @@
 	},
 	{
 		"name": "node-red-contrib-hcl-iterate-loop",
-		"description": "",
+		"description": "This Node-RED node allows you to build loops, just like a for loop in any programming language do, iterating over the selected parts in the flow. Playing with the starting point, increment/decrement values and condition to be evaluated in each iteration.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/node-red-contrib-hcl-iterate-loop",
 		"private": false,
 		"fork": false,
@@ -47,7 +47,9 @@
 		"languageColor": "#e34c26",
 		"topics": [
 			"rtist",
-			"node-red-contrib"
+			"node-red-contrib",
+			"node-red",
+			"loops"
 		]
 	},
 	{

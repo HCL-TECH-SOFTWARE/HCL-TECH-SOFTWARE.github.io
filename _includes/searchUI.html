@@ -11,10 +11,12 @@
 </div>
 <div class="row">
   <div class="btn-group filter-btn-group">
-    <a class="btn btn-filter" data-filter=".fork">forks</a>
-    {% for topics in site.data.repoTopics %}
+    {% if includeForkTopicLabel == true %}
+      <a class="btn btn-filter" data-filter=".fork">forks</a>
+    {% endif %}
+    {% for topics in filterTopics %}
     {% assign topic = topics[1] %}
-    <a class="btn btn-filter" data-filter=".{{topic.name}}">{{topic.name}}</a>
+      <a class="btn btn-filter" data-filter=".{{topic.name}}">{{topic.name}}</a>
     {% endfor %}
   </div>
 </div>

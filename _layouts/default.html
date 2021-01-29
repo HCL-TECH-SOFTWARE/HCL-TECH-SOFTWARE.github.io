@@ -26,6 +26,8 @@
   </section>
 
   <div class="container">
+    {% assign filterTopics = site.data.repoTopics %}
+    {% assign includeForkTopicLabel = true %}
     {%- include searchUI.html -%}
 
     <div class="card-container row">
