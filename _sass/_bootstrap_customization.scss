@@ -18,6 +18,7 @@ body {
   height: 250px;
   --lh: 1.4rem;
   line-height: var(--lh);
+  cursor: pointer;
 }
 
 .repo:hover {
