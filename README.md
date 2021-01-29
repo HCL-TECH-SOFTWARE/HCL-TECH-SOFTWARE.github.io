@@ -1,11 +1,12 @@
-# hcl-labs-ospo.github.io
+# hcl-tech-software.github.io
 
-This is a sample GitHub Pages landing page that:
-- provides a GitHub Data Retriever Node.js app to generate JSON files with content from a GitHub organisation
-- provides a landing page that:
+This is a GitHub Pages site with landing pages for this organisation and HCL products, as defined in tags. The repo contains:
+- a GitHub Data Retriever Node.js app to generate JSON files with content from a GitHub organisation
+- index.html and product pages that:
   - displays the public repos in that organisation
   - allows filtering on tags
   - allows searching of returned content
+  - allow sorting on various properties
 
 ## GitHub Data Retriever
 
