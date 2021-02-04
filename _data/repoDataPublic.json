@@ -1,7 +1,7 @@
 [
 	{
 		"name": "appdev-pack-samples",
-		"description": "",
+		"description": "A collection of sample code for interacting with Domino AppDev Pack components.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-samples",
 		"private": false,
 		"fork": false,
@@ -79,6 +79,20 @@
 		"topics": [
 			"connections",
 			"automation"
+		]
+	},
+	{
+		"name": "connections-samples",
+		"description": "This repository contains customizer samples and community templates for HCL Connections.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-samples",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "CSS",
+		"languageColor": "#563d7c",
+		"topics": [
+			"connections",
+			"developers"
 		]
 	},
 	{
