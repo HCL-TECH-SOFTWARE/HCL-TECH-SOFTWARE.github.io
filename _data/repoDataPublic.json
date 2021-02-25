@@ -118,5 +118,16 @@
 		"language": "Java",
 		"languageColor": "#b07219",
 		"topics": []
+	},
+	{
+		"name": "lttrs-android",
+		"description": "No-frills, easy to use, easy to maintain Email client for Android based on the JSON Meta Application Protocol  (JMAP).",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/lttrs-android",
+		"private": false,
+		"fork": true,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": []
 	}
 ]
