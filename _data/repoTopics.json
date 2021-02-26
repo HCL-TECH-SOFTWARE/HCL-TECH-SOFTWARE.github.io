@@ -1,4 +1,489 @@
 {
+	"appscan": {
+		"name": "appscan",
+		"repositories": {
+			"appscan-source-gradle-plugin": {
+				"name": "appscan-source-gradle-plugin",
+				"description": "Gradle plugin for integrating with HCL AppScan Source",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-source-gradle-plugin",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Groovy",
+				"languageColor": "#e69f56",
+				"topics": [
+					"appscan",
+					"appscan-source"
+				]
+			},
+			"SecurityAnnotationsDemoApp": {
+				"name": "SecurityAnnotationsDemoApp",
+				"description": "A sample application that can used to demonstrate the method-level annotation support in HCL AppScan static analysis",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/SecurityAnnotationsDemoApp",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan"
+				]
+			},
+			"AltoroJ": {
+				"name": "AltoroJ",
+				"description": "WARNING: This app contains security vulnerabilities. AltoroJ is a sample banking J2EE web application. It shows what happens when web applications are written with consideration of app functionality but not app security. It's a simple and uncluttered platform for demonstrating and learning more about real-life application security issues.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/AltoroJ",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan"
+				]
+			},
+			"ounce-maven-plugin": {
+				"name": "ounce-maven-plugin",
+				"description": "Maven plugin for integrating with HCL AppScan Source",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/ounce-maven-plugin",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"appscan",
+					"appscan-source"
+				]
+			},
+			"appscan-gocd-plugin": {
+				"name": "appscan-gocd-plugin",
+				"description": "Plugin for integrating HCL AppScan on Cloud (ASoC) scanning into GoCD pipelines",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-gocd-plugin",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan",
+					"security"
+				]
+			},
+			"asoc-automation-snippets": {
+				"name": "asoc-automation-snippets",
+				"description": "Example code snippets that demonstrate interacting with the HCL AppScan on Cloud REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/asoc-automation-snippets",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Python",
+				"languageColor": "#3572A5",
+				"topics": [
+					"appscan",
+					"security"
+				]
+			},
+			"appscan-sdk": {
+				"name": "appscan-sdk",
+				"description": "Java SDK for interacting with HCL AppScan",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sdk",
+				"private": false,
+				"fork": true,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan",
+					"security"
+				]
+			},
+			"appscan-bamboo-plugin": {
+				"name": "appscan-bamboo-plugin",
+				"description": "Bamboo plugin for integrating with HCL AppScan",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-bamboo-plugin",
+				"private": false,
+				"fork": true,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan",
+					"security"
+				]
+			},
+			"appscan-issue-gateway": {
+				"name": "appscan-issue-gateway",
+				"description": "A service to help synchronize issues between HCL AppScan and other Issue Management systems",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-issue-gateway",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan"
+				]
+			},
+			"ifa-client": {
+				"name": "ifa-client",
+				"description": "HCL AppScan IFA Server Java client tool",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/ifa-client",
+				"private": false,
+				"fork": false,
+				"license": "Other",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan"
+				]
+			},
+			"appscan-maven-plugin": {
+				"name": "appscan-maven-plugin",
+				"description": "Maven plugin for integrating with HCL AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-maven-plugin",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan",
+					"hcl-appscan"
+				]
+			},
+			"appscan-gradle-plugin": {
+				"name": "appscan-gradle-plugin",
+				"description": "Gradle plugin for integrating with HCL AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-gradle-plugin",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Groovy",
+				"languageColor": "#e69f56",
+				"topics": [
+					"hcl-appscan",
+					"appscan",
+					"cloud"
+				]
+			},
+			"appscan-automation-framework": {
+				"name": "appscan-automation-framework",
+				"description": "A framework for interacting with HCL AppScan on Cloud and HCL AppScan Enterprise",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-automation-framework",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"appscan",
+					"appscan-enterprise",
+					"hcl-appscan",
+					"cloud"
+				]
+			},
+			"asoc_automation_iast": {
+				"name": "asoc_automation_iast",
+				"description": "",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/asoc_automation_iast",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Python",
+				"languageColor": "#3572A5",
+				"topics": [
+					"appscan"
+				]
+			}
+		},
+		"availableTopics": {
+			"appscan-source": {
+				"name": "appscan-source"
+			},
+			"security": {
+				"name": "security"
+			},
+			"fork": {
+				"name": "security"
+			},
+			"hcl-appscan": {
+				"name": "hcl-appscan"
+			},
+			"cloud": {
+				"name": "cloud"
+			},
+			"appscan-enterprise": {
+				"name": "appscan-enterprise"
+			}
+		}
+	},
+	"appscan-source": {
+		"name": "appscan-source",
+		"repositories": {
+			"appscan-source-gradle-plugin": {
+				"name": "appscan-source-gradle-plugin",
+				"description": "Gradle plugin for integrating with HCL AppScan Source",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-source-gradle-plugin",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Groovy",
+				"languageColor": "#e69f56",
+				"topics": [
+					"appscan",
+					"appscan-source"
+				]
+			},
+			"ounce-maven-plugin": {
+				"name": "ounce-maven-plugin",
+				"description": "Maven plugin for integrating with HCL AppScan Source",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/ounce-maven-plugin",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"appscan",
+					"appscan-source"
+				]
+			}
+		},
+		"availableTopics": {
+			"appscan": {
+				"name": "appscan"
+			}
+		}
+	},
+	"security": {
+		"name": "security",
+		"repositories": {
+			"appscan-gocd-plugin": {
+				"name": "appscan-gocd-plugin",
+				"description": "Plugin for integrating HCL AppScan on Cloud (ASoC) scanning into GoCD pipelines",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-gocd-plugin",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan",
+					"security"
+				]
+			},
+			"asoc-automation-snippets": {
+				"name": "asoc-automation-snippets",
+				"description": "Example code snippets that demonstrate interacting with the HCL AppScan on Cloud REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/asoc-automation-snippets",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Python",
+				"languageColor": "#3572A5",
+				"topics": [
+					"appscan",
+					"security"
+				]
+			},
+			"appscan-sdk": {
+				"name": "appscan-sdk",
+				"description": "Java SDK for interacting with HCL AppScan",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sdk",
+				"private": false,
+				"fork": true,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan",
+					"security"
+				]
+			},
+			"appscan-bamboo-plugin": {
+				"name": "appscan-bamboo-plugin",
+				"description": "Bamboo plugin for integrating with HCL AppScan",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-bamboo-plugin",
+				"private": false,
+				"fork": true,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan",
+					"security"
+				]
+			}
+		},
+		"availableTopics": {
+			"appscan": {
+				"name": "appscan"
+			},
+			"fork": {
+				"name": "security"
+			}
+		}
+	},
+	"hcl-appscan": {
+		"name": "hcl-appscan",
+		"repositories": {
+			"appscan-maven-plugin": {
+				"name": "appscan-maven-plugin",
+				"description": "Maven plugin for integrating with HCL AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-maven-plugin",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"appscan",
+					"hcl-appscan"
+				]
+			},
+			"appscan-gradle-plugin": {
+				"name": "appscan-gradle-plugin",
+				"description": "Gradle plugin for integrating with HCL AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-gradle-plugin",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Groovy",
+				"languageColor": "#e69f56",
+				"topics": [
+					"hcl-appscan",
+					"appscan",
+					"cloud"
+				]
+			},
+			"appscan-automation-framework": {
+				"name": "appscan-automation-framework",
+				"description": "A framework for interacting with HCL AppScan on Cloud and HCL AppScan Enterprise",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-automation-framework",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"appscan",
+					"appscan-enterprise",
+					"hcl-appscan",
+					"cloud"
+				]
+			}
+		},
+		"availableTopics": {
+			"appscan": {
+				"name": "appscan"
+			},
+			"cloud": {
+				"name": "cloud"
+			},
+			"appscan-enterprise": {
+				"name": "appscan-enterprise"
+			}
+		}
+	},
+	"cloud": {
+		"name": "cloud",
+		"repositories": {
+			"appscan-gradle-plugin": {
+				"name": "appscan-gradle-plugin",
+				"description": "Gradle plugin for integrating with HCL AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-gradle-plugin",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Groovy",
+				"languageColor": "#e69f56",
+				"topics": [
+					"hcl-appscan",
+					"appscan",
+					"cloud"
+				]
+			},
+			"appscan-automation-framework": {
+				"name": "appscan-automation-framework",
+				"description": "A framework for interacting with HCL AppScan on Cloud and HCL AppScan Enterprise",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-automation-framework",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"appscan",
+					"appscan-enterprise",
+					"hcl-appscan",
+					"cloud"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-appscan": {
+				"name": "hcl-appscan"
+			},
+			"appscan": {
+				"name": "appscan"
+			},
+			"appscan-enterprise": {
+				"name": "appscan-enterprise"
+			}
+		}
+	},
+	"onetest": {
+		"name": "onetest",
+		"repositories": {
+			"HCLOneTestUI-Cucumber-Integration-Blog-References": {
+				"name": "HCLOneTestUI-Cucumber-Integration-Blog-References",
+				"description": "HCLOneTestUI-Cucumber-Integration-Blog-References",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCLOneTestUI-Cucumber-Integration-Blog-References",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"onetest"
+				]
+			}
+		},
+		"availableTopics": {}
+	},
+	"appscan-enterprise": {
+		"name": "appscan-enterprise",
+		"repositories": {
+			"appscan-automation-framework": {
+				"name": "appscan-automation-framework",
+				"description": "A framework for interacting with HCL AppScan on Cloud and HCL AppScan Enterprise",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-automation-framework",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"appscan",
+					"appscan-enterprise",
+					"hcl-appscan",
+					"cloud"
+				]
+			}
+		},
+		"availableTopics": {
+			"appscan": {
+				"name": "appscan"
+			},
+			"hcl-appscan": {
+				"name": "hcl-appscan"
+			},
+			"cloud": {
+				"name": "cloud"
+			}
+		}
+	},
 	"domino": {
 		"name": "domino",
 		"repositories": {
