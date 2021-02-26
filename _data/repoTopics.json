@@ -205,7 +205,7 @@
 				"name": "security"
 			},
 			"fork": {
-				"name": "security"
+				"name": "fork"
 			},
 			"hcl-appscan": {
 				"name": "hcl-appscan"
@@ -321,7 +321,7 @@
 				"name": "appscan"
 			},
 			"fork": {
-				"name": "security"
+				"name": "fork"
 			}
 		}
 	},

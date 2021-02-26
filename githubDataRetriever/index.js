@@ -56,7 +56,7 @@ const processQuery = async (count, startCursor) => {
           }
           if (repo.isFork) {
             topicJson[topic].availableTopics["fork"] = {};
-            topicJson[topic].availableTopics["fork"].name = subTopic;
+            topicJson[topic].availableTopics["fork"].name = "fork";
           }
           for (var k = 0; k < repo.repositoryTopics.nodes.length; k++) {
             var subTopic = repo.repositoryTopics.nodes[k].topic.name;
