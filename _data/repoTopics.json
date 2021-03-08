@@ -875,18 +875,18 @@
 				"languageColor": "#2b7489",
 				"topics": [
 					"google-analytics",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			}
 		},
 		"availableTopics": {
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
-	"hcl-commerce-v9": {
-		"name": "hcl-commerce-v9",
+	"hcl-commerce": {
+		"name": "hcl-commerce",
 		"repositories": {
 			"commerce-google-analytics-integration": {
 				"name": "commerce-google-analytics-integration",
@@ -899,7 +899,22 @@
 				"languageColor": "#2b7489",
 				"topics": [
 					"google-analytics",
-					"hcl-commerce-v9"
+					"hcl-commerce"
+				]
+			},
+			"commerce-image-search-poc": {
+				"name": "commerce-image-search-poc",
+				"description": "Provides the capability to search the HCL Commerce Catalog using image search on React Stores",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-image-search-poc",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"google-image",
+					"hcl-commerce",
+					"v9"
 				]
 			},
 			"commerce-social-login-poc": {
@@ -914,7 +929,7 @@
 				"topics": [
 					"google",
 					"facebook",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-push-notification-poc": {
@@ -929,7 +944,7 @@
 				"topics": [
 					"firebase-cloud-messaging",
 					"google",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-push-notification-v2.0-poc": {
@@ -943,7 +958,7 @@
 				"languageColor": "#e34c26",
 				"topics": [
 					"firebase-cloud-messaging",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-google-analytics-dashboard": {
@@ -958,7 +973,7 @@
 				"topics": [
 					"google-analytics-api",
 					"google",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-voice-search-poc": {
@@ -973,7 +988,7 @@
 				"topics": [
 					"google-voice-api",
 					"google",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-google-image-indexing-search-poc": {
@@ -988,7 +1003,7 @@
 				"topics": [
 					"google-vision",
 					"google-image-indexing",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-paypal-poc": {
@@ -1002,7 +1017,7 @@
 				"languageColor": "#f1e05a",
 				"topics": [
 					"paypal",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-dx-integration": {
@@ -1015,10 +1030,9 @@
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
-					"hcl-commerce-v9",
-					"hcl-digital-experience",
 					"react-storefronts",
-					"hcl-dx"
+					"hcl-dx",
+					"hcl-commerce"
 				]
 			},
 			"commerce-external-event-trigger-poc": {
@@ -1031,9 +1045,9 @@
 				"language": "Java",
 				"languageColor": "#b07219",
 				"topics": [
-					"hcl-commerce-v9",
-					"marketing-activitries",
-					"external-event-trigger"
+					"external-event-trigger",
+					"hcl-commerce",
+					"marketing-activities"
 				]
 			},
 			"commerce-react-barcode-scanner-poc": {
@@ -1047,14 +1061,20 @@
 				"languageColor": "#2b7489",
 				"topics": [
 					"barcode-scanner",
-					"hcl-commerce-v9",
-					"react-storefront"
+					"react-storefront",
+					"hcl-commerce"
 				]
 			}
 		},
 		"availableTopics": {
 			"google-analytics": {
 				"name": "google-analytics"
+			},
+			"google-image": {
+				"name": "google-image"
+			},
+			"v9": {
+				"name": "v9"
 			},
 			"google": {
 				"name": "google"
@@ -1080,20 +1100,17 @@
 			"paypal": {
 				"name": "paypal"
 			},
-			"hcl-digital-experience": {
-				"name": "hcl-digital-experience"
-			},
 			"react-storefronts": {
 				"name": "react-storefronts"
 			},
 			"hcl-dx": {
 				"name": "hcl-dx"
 			},
-			"marketing-activitries": {
-				"name": "marketing-activitries"
-			},
 			"external-event-trigger": {
 				"name": "external-event-trigger"
+			},
+			"marketing-activities": {
+				"name": "marketing-activities"
 			},
 			"barcode-scanner": {
 				"name": "barcode-scanner"
@@ -1125,34 +1142,6 @@
 		"availableTopics": {
 			"hcl-commerce": {
 				"name": "hcl-commerce"
-			},
-			"v9": {
-				"name": "v9"
-			}
-		}
-	},
-	"hcl-commerce": {
-		"name": "hcl-commerce",
-		"repositories": {
-			"commerce-image-search-poc": {
-				"name": "commerce-image-search-poc",
-				"description": "Provides the capability to search the HCL Commerce Catalog using image search on React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-image-search-poc",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "TypeScript",
-				"languageColor": "#2b7489",
-				"topics": [
-					"google-image",
-					"hcl-commerce",
-					"v9"
-				]
-			}
-		},
-		"availableTopics": {
-			"google-image": {
-				"name": "google-image"
 			},
 			"v9": {
 				"name": "v9"
@@ -1202,7 +1191,7 @@
 				"topics": [
 					"google",
 					"facebook",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-push-notification-poc": {
@@ -1217,7 +1206,7 @@
 				"topics": [
 					"firebase-cloud-messaging",
 					"google",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-google-analytics-dashboard": {
@@ -1232,7 +1221,7 @@
 				"topics": [
 					"google-analytics-api",
 					"google",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-voice-search-poc": {
@@ -1247,7 +1236,7 @@
 				"topics": [
 					"google-voice-api",
 					"google",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			}
 		},
@@ -1255,8 +1244,8 @@
 			"facebook": {
 				"name": "facebook"
 			},
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			},
 			"firebase-cloud-messaging": {
 				"name": "firebase-cloud-messaging"
@@ -1284,7 +1273,7 @@
 				"topics": [
 					"google",
 					"facebook",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			}
 		},
@@ -1292,8 +1281,8 @@
 			"google": {
 				"name": "google"
 			},
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -1312,7 +1301,7 @@
 				"topics": [
 					"firebase-cloud-messaging",
 					"google",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-push-notification-v2.0-poc": {
@@ -1326,7 +1315,7 @@
 				"languageColor": "#e34c26",
 				"topics": [
 					"firebase-cloud-messaging",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			}
 		},
@@ -1334,8 +1323,8 @@
 			"google": {
 				"name": "google"
 			},
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -1354,7 +1343,7 @@
 				"topics": [
 					"google-analytics-api",
 					"google",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			}
 		},
@@ -1362,8 +1351,8 @@
 			"google": {
 				"name": "google"
 			},
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -1382,7 +1371,7 @@
 				"topics": [
 					"google-voice-api",
 					"google",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			}
 		},
@@ -1390,8 +1379,8 @@
 			"google": {
 				"name": "google"
 			},
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -1410,7 +1399,7 @@
 				"topics": [
 					"google-vision",
 					"google-image-indexing",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			}
 		},
@@ -1418,8 +1407,8 @@
 			"google-image-indexing": {
 				"name": "google-image-indexing"
 			},
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -1438,7 +1427,7 @@
 				"topics": [
 					"google-vision",
 					"google-image-indexing",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			}
 		},
@@ -1446,8 +1435,8 @@
 			"google-vision": {
 				"name": "google-vision"
 			},
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -1465,45 +1454,13 @@
 				"languageColor": "#f1e05a",
 				"topics": [
 					"paypal",
-					"hcl-commerce-v9"
+					"hcl-commerce"
 				]
 			}
 		},
 		"availableTopics": {
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
-			}
-		}
-	},
-	"hcl-digital-experience": {
-		"name": "hcl-digital-experience",
-		"repositories": {
-			"commerce-dx-integration": {
-				"name": "commerce-dx-integration",
-				"description": "With this integration of HCL Commerce with HCL Digital Experience (HCL DX),  HCL Commerce provides commerce functionality via a headless React storefront and HCL DX provides a back-end framework to manage the content to be displayed on the storefront. ",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-dx-integration",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Not Identified",
-				"languageColor": "#fff",
-				"topics": [
-					"hcl-commerce-v9",
-					"hcl-digital-experience",
-					"react-storefronts",
-					"hcl-dx"
-				]
-			}
-		},
-		"availableTopics": {
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
-			},
-			"react-storefronts": {
-				"name": "react-storefronts"
-			},
-			"hcl-dx": {
-				"name": "hcl-dx"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -1520,22 +1477,18 @@
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
-					"hcl-commerce-v9",
-					"hcl-digital-experience",
 					"react-storefronts",
-					"hcl-dx"
+					"hcl-dx",
+					"hcl-commerce"
 				]
 			}
 		},
 		"availableTopics": {
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
-			},
-			"hcl-digital-experience": {
-				"name": "hcl-digital-experience"
-			},
 			"hcl-dx": {
 				"name": "hcl-dx"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -1552,50 +1505,18 @@
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
-					"hcl-commerce-v9",
-					"hcl-digital-experience",
 					"react-storefronts",
-					"hcl-dx"
+					"hcl-dx",
+					"hcl-commerce"
 				]
 			}
 		},
 		"availableTopics": {
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
-			},
-			"hcl-digital-experience": {
-				"name": "hcl-digital-experience"
-			},
 			"react-storefronts": {
 				"name": "react-storefronts"
-			}
-		}
-	},
-	"marketing-activitries": {
-		"name": "marketing-activitries",
-		"repositories": {
-			"commerce-external-event-trigger-poc": {
-				"name": "commerce-external-event-trigger-poc",
-				"description": "Marketing activities require the customer's personalization ID. If the event occurs on an external system that cannot pass the customer personalization ID, you need to map information that is known by the external system to the customer personalization ID in HCL Commerce.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-external-event-trigger-poc",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Java",
-				"languageColor": "#b07219",
-				"topics": [
-					"hcl-commerce-v9",
-					"marketing-activitries",
-					"external-event-trigger"
-				]
-			}
-		},
-		"availableTopics": {
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
 			},
-			"external-event-trigger": {
-				"name": "external-event-trigger"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -1612,18 +1533,46 @@
 				"language": "Java",
 				"languageColor": "#b07219",
 				"topics": [
-					"hcl-commerce-v9",
-					"marketing-activitries",
-					"external-event-trigger"
+					"external-event-trigger",
+					"hcl-commerce",
+					"marketing-activities"
 				]
 			}
 		},
 		"availableTopics": {
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			},
-			"marketing-activitries": {
-				"name": "marketing-activitries"
+			"marketing-activities": {
+				"name": "marketing-activities"
+			}
+		}
+	},
+	"marketing-activities": {
+		"name": "marketing-activities",
+		"repositories": {
+			"commerce-external-event-trigger-poc": {
+				"name": "commerce-external-event-trigger-poc",
+				"description": "Marketing activities require the customer's personalization ID. If the event occurs on an external system that cannot pass the customer personalization ID, you need to map information that is known by the external system to the customer personalization ID in HCL Commerce.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-external-event-trigger-poc",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"external-event-trigger",
+					"hcl-commerce",
+					"marketing-activities"
+				]
+			}
+		},
+		"availableTopics": {
+			"external-event-trigger": {
+				"name": "external-event-trigger"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -1641,17 +1590,17 @@
 				"languageColor": "#2b7489",
 				"topics": [
 					"barcode-scanner",
-					"hcl-commerce-v9",
-					"react-storefront"
+					"react-storefront",
+					"hcl-commerce"
 				]
 			}
 		},
 		"availableTopics": {
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
-			},
 			"react-storefront": {
 				"name": "react-storefront"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -1669,8 +1618,8 @@
 				"languageColor": "#2b7489",
 				"topics": [
 					"barcode-scanner",
-					"hcl-commerce-v9",
-					"react-storefront"
+					"react-storefront",
+					"hcl-commerce"
 				]
 			}
 		},
@@ -1678,8 +1627,8 @@
 			"barcode-scanner": {
 				"name": "barcode-scanner"
 			},
-			"hcl-commerce-v9": {
-				"name": "hcl-commerce-v9"
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	}
