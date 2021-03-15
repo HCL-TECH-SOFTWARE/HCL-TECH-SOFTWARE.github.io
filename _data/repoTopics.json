@@ -131,7 +131,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/ifa-client",
 				"private": false,
 				"fork": false,
-				"license": "Other",
+				"license": "Apache License 2.0",
 				"language": "Java",
 				"languageColor": "#b07219",
 				"topics": [
@@ -877,11 +877,29 @@
 					"google-analytics",
 					"hcl-commerce"
 				]
+			},
+			"commerce-google-analytics-dashboard": {
+				"name": "commerce-google-analytics-dashboard",
+				"description": "This project is created to create the Google analytics dashboard using google Embed API.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-dashboard",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"google",
+					"hcl-commerce",
+					"google-analytics"
+				]
 			}
 		},
 		"availableTopics": {
 			"hcl-commerce": {
 				"name": "hcl-commerce"
+			},
+			"google": {
+				"name": "google"
 			}
 		}
 	},
@@ -913,8 +931,7 @@
 				"languageColor": "#2b7489",
 				"topics": [
 					"google-image",
-					"hcl-commerce",
-					"v9"
+					"hcl-commerce"
 				]
 			},
 			"commerce-social-login-poc": {
@@ -971,9 +988,9 @@
 				"language": "JavaScript",
 				"languageColor": "#f1e05a",
 				"topics": [
-					"google-analytics-api",
 					"google",
-					"hcl-commerce"
+					"hcl-commerce",
+					"google-analytics"
 				]
 			},
 			"commerce-voice-search-poc": {
@@ -1030,9 +1047,9 @@
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
-					"react-storefronts",
 					"hcl-dx",
-					"hcl-commerce"
+					"hcl-commerce",
+					"react-storefront"
 				]
 			},
 			"commerce-external-event-trigger-poc": {
@@ -1073,9 +1090,6 @@
 			"google-image": {
 				"name": "google-image"
 			},
-			"v9": {
-				"name": "v9"
-			},
 			"google": {
 				"name": "google"
 			},
@@ -1084,9 +1098,6 @@
 			},
 			"firebase-cloud-messaging": {
 				"name": "firebase-cloud-messaging"
-			},
-			"google-analytics-api": {
-				"name": "google-analytics-api"
 			},
 			"google-voice-api": {
 				"name": "google-voice-api"
@@ -1100,11 +1111,11 @@
 			"paypal": {
 				"name": "paypal"
 			},
-			"react-storefronts": {
-				"name": "react-storefronts"
-			},
 			"hcl-dx": {
 				"name": "hcl-dx"
+			},
+			"react-storefront": {
+				"name": "react-storefront"
 			},
 			"external-event-trigger": {
 				"name": "external-event-trigger"
@@ -1114,9 +1125,6 @@
 			},
 			"barcode-scanner": {
 				"name": "barcode-scanner"
-			},
-			"react-storefront": {
-				"name": "react-storefront"
 			}
 		}
 	},
@@ -1134,43 +1142,11 @@
 				"languageColor": "#2b7489",
 				"topics": [
 					"google-image",
-					"hcl-commerce",
-					"v9"
+					"hcl-commerce"
 				]
 			}
 		},
 		"availableTopics": {
-			"hcl-commerce": {
-				"name": "hcl-commerce"
-			},
-			"v9": {
-				"name": "v9"
-			}
-		}
-	},
-	"v9": {
-		"name": "v9",
-		"repositories": {
-			"commerce-image-search-poc": {
-				"name": "commerce-image-search-poc",
-				"description": "Provides the capability to search the HCL Commerce Catalog using image search on React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-image-search-poc",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "TypeScript",
-				"languageColor": "#2b7489",
-				"topics": [
-					"google-image",
-					"hcl-commerce",
-					"v9"
-				]
-			}
-		},
-		"availableTopics": {
-			"google-image": {
-				"name": "google-image"
-			},
 			"hcl-commerce": {
 				"name": "hcl-commerce"
 			}
@@ -1219,9 +1195,9 @@
 				"language": "JavaScript",
 				"languageColor": "#f1e05a",
 				"topics": [
-					"google-analytics-api",
 					"google",
-					"hcl-commerce"
+					"hcl-commerce",
+					"google-analytics"
 				]
 			},
 			"commerce-voice-search-poc": {
@@ -1250,8 +1226,8 @@
 			"firebase-cloud-messaging": {
 				"name": "firebase-cloud-messaging"
 			},
-			"google-analytics-api": {
-				"name": "google-analytics-api"
+			"google-analytics": {
+				"name": "google-analytics"
 			},
 			"google-voice-api": {
 				"name": "google-voice-api"
@@ -1315,34 +1291,6 @@
 				"languageColor": "#e34c26",
 				"topics": [
 					"firebase-cloud-messaging",
-					"hcl-commerce"
-				]
-			}
-		},
-		"availableTopics": {
-			"google": {
-				"name": "google"
-			},
-			"hcl-commerce": {
-				"name": "hcl-commerce"
-			}
-		}
-	},
-	"google-analytics-api": {
-		"name": "google-analytics-api",
-		"repositories": {
-			"commerce-google-analytics-dashboard": {
-				"name": "commerce-google-analytics-dashboard",
-				"description": "This project is created to create the Google analytics dashboard using google Embed API.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-dashboard",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
-				"topics": [
-					"google-analytics-api",
-					"google",
 					"hcl-commerce"
 				]
 			}
@@ -1464,34 +1412,6 @@
 			}
 		}
 	},
-	"react-storefronts": {
-		"name": "react-storefronts",
-		"repositories": {
-			"commerce-dx-integration": {
-				"name": "commerce-dx-integration",
-				"description": "With this integration of HCL Commerce with HCL Digital Experience (HCL DX),  HCL Commerce provides commerce functionality via a headless React storefront and HCL DX provides a back-end framework to manage the content to be displayed on the storefront. ",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-dx-integration",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Not Identified",
-				"languageColor": "#fff",
-				"topics": [
-					"react-storefronts",
-					"hcl-dx",
-					"hcl-commerce"
-				]
-			}
-		},
-		"availableTopics": {
-			"hcl-dx": {
-				"name": "hcl-dx"
-			},
-			"hcl-commerce": {
-				"name": "hcl-commerce"
-			}
-		}
-	},
 	"hcl-dx": {
 		"name": "hcl-dx",
 		"repositories": {
@@ -1505,18 +1425,64 @@
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
-					"react-storefronts",
 					"hcl-dx",
+					"hcl-commerce",
+					"react-storefront"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"react-storefront": {
+				"name": "react-storefront"
+			}
+		}
+	},
+	"react-storefront": {
+		"name": "react-storefront",
+		"repositories": {
+			"commerce-dx-integration": {
+				"name": "commerce-dx-integration",
+				"description": "With this integration of HCL Commerce with HCL Digital Experience (HCL DX),  HCL Commerce provides commerce functionality via a headless React storefront and HCL DX provides a back-end framework to manage the content to be displayed on the storefront. ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-dx-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-dx",
+					"hcl-commerce",
+					"react-storefront"
+				]
+			},
+			"commerce-react-barcode-scanner-poc": {
+				"name": "commerce-react-barcode-scanner-poc",
+				"description": "Provide the capability to search the HCL Commerce Catalog using barcode recognition in HCL Commerce React Stores",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-react-barcode-scanner-poc",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"barcode-scanner",
+					"react-storefront",
 					"hcl-commerce"
 				]
 			}
 		},
 		"availableTopics": {
-			"react-storefronts": {
-				"name": "react-storefronts"
+			"hcl-dx": {
+				"name": "hcl-dx"
 			},
 			"hcl-commerce": {
 				"name": "hcl-commerce"
+			},
+			"barcode-scanner": {
+				"name": "barcode-scanner"
 			}
 		}
 	},
@@ -1598,34 +1564,6 @@
 		"availableTopics": {
 			"react-storefront": {
 				"name": "react-storefront"
-			},
-			"hcl-commerce": {
-				"name": "hcl-commerce"
-			}
-		}
-	},
-	"react-storefront": {
-		"name": "react-storefront",
-		"repositories": {
-			"commerce-react-barcode-scanner-poc": {
-				"name": "commerce-react-barcode-scanner-poc",
-				"description": "Provide the capability to search the HCL Commerce Catalog using barcode recognition in HCL Commerce React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-react-barcode-scanner-poc",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "TypeScript",
-				"languageColor": "#2b7489",
-				"topics": [
-					"barcode-scanner",
-					"react-storefront",
-					"hcl-commerce"
-				]
-			}
-		},
-		"availableTopics": {
-			"barcode-scanner": {
-				"name": "barcode-scanner"
 			},
 			"hcl-commerce": {
 				"name": "hcl-commerce"

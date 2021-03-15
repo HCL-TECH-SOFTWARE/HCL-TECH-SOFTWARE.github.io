@@ -128,7 +128,7 @@
 		"url": "https://github.com/HCL-TECH-SOFTWARE/ifa-client",
 		"private": false,
 		"fork": false,
-		"license": "Other",
+		"license": "Apache License 2.0",
 		"language": "Java",
 		"languageColor": "#b07219",
 		"topics": [
@@ -325,6 +325,17 @@
 		]
 	},
 	{
+		"name": "volt-mx-docs",
+		"description": "Documentation for HCL Volt MX",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-docs",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "CSS",
+		"languageColor": "#563d7c",
+		"topics": []
+	},
+	{
 		"name": "HCL-TECH-SOFTWARE.github.io",
 		"description": "Landing page for searching HCL Software GitHub repositories, viewable at https://hcl-tech-software.github.io/index.html",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-TECH-SOFTWARE.github.io",
@@ -339,7 +350,7 @@
 	},
 	{
 		"name": "Examples",
-		"description": "Ready-to-use examples that showcase features of IBM's Rational Integration Tester (RIT) and Rational Test Control Panel (RTCP).",
+		"description": "Fork of the IBM examples project to allow contributions back upstream where needed.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/Examples",
 		"private": false,
 		"fork": true,
@@ -373,8 +384,7 @@
 		"languageColor": "#2b7489",
 		"topics": [
 			"google-image",
-			"hcl-commerce",
-			"v9"
+			"hcl-commerce"
 		]
 	},
 	{
@@ -431,9 +441,9 @@
 		"language": "JavaScript",
 		"languageColor": "#f1e05a",
 		"topics": [
-			"google-analytics-api",
 			"google",
-			"hcl-commerce"
+			"hcl-commerce",
+			"google-analytics"
 		]
 	},
 	{
@@ -490,9 +500,9 @@
 		"language": "Not Identified",
 		"languageColor": "#fff",
 		"topics": [
-			"react-storefronts",
 			"hcl-dx",
-			"hcl-commerce"
+			"hcl-commerce",
+			"react-storefront"
 		]
 	},
 	{
