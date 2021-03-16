@@ -205,6 +205,32 @@
 		"topics": []
 	},
 	{
+		"name": "dxsync",
+		"description": "WebDAV based file synchronization for HCL Digital Experience Themes",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/dxsync",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"hcl-dx"
+		]
+	},
+	{
+		"name": "sample-angular-script-application",
+		"description": "This sample illustrates building an Angular CLI application and deploying it as a script application. It includes all the configuration and build steps needed to get the application running smoothly in HCL Digital Experience.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/sample-angular-script-application",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"hcl-dx"
+		]
+	},
+	{
 		"name": "asoc_automation_iast",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/asoc_automation_iast",
@@ -227,6 +253,35 @@
 		"language": "Not Identified",
 		"languageColor": "#fff",
 		"topics": []
+	},
+	{
+		"name": "WebDevToolkitForDx",
+		"description": "The Web Developer toolkit provides the ability to sync themes, content and script portlets (also known as script applications).",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/WebDevToolkitForDx",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"hcl-dx"
+		]
+	},
+	{
+		"name": "experience-api-documentation",
+		"description": "HCL Experience API Documentation for HCL Ring API, HCL Digital Asset Management API, HCL Image Processor",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/experience-api-documentation",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"hcl-dx",
+			"ringapi",
+			"dam",
+			"image-processor"
+		]
 	},
 	{
 		"name": "appdev-pack-samples",
@@ -477,9 +532,9 @@
 		]
 	},
 	{
-		"name": "commerce-paypal-poc",
+		"name": "commerce-Paypal",
 		"description": "HCL Commerce V9 includes two new storefronts.  “Emerald” and “Aurora” are included in v9.1 to support either a B2B or a B2C model.  The PayPal (BrainTree) payment gateway is implemented using Headless REST API's which can be integrated to the React storefront by following these instructions",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-paypal-poc",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-Paypal",
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
@@ -488,21 +543,6 @@
 		"topics": [
 			"paypal",
 			"hcl-commerce"
-		]
-	},
-	{
-		"name": "commerce-dx-integration",
-		"description": "With this integration of HCL Commerce with HCL Digital Experience (HCL DX),  HCL Commerce provides commerce functionality via a headless React storefront and HCL DX provides a back-end framework to manage the content to be displayed on the storefront. ",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-dx-integration",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Not Identified",
-		"languageColor": "#fff",
-		"topics": [
-			"hcl-dx",
-			"hcl-commerce",
-			"react-storefront"
 		]
 	},
 	{
