@@ -1028,69 +1028,37 @@
 		},
 		"availableTopics": {}
 	},
-	"google-analytics": {
-		"name": "google-analytics",
+	"google-image": {
+		"name": "google-image",
 		"repositories": {
-			"commerce-google-analytics-integration": {
-				"name": "commerce-google-analytics-integration",
-				"description": "Add Google Analytics to HCL Commerce React Store, using Google Tag Manager",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-integration",
+			"commerce-image-search-asset": {
+				"name": "commerce-image-search-asset",
+				"description": "Provides the capability to search the HCL Commerce Catalog using image search on React Stores",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-image-search-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
 				"language": "TypeScript",
 				"languageColor": "#2b7489",
 				"topics": [
-					"google-analytics",
+					"google-image",
 					"hcl-commerce"
-				]
-			},
-			"commerce-google-analytics-dashboard": {
-				"name": "commerce-google-analytics-dashboard",
-				"description": "This project is created to create the Google analytics dashboard using google Embed API.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-dashboard",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
-				"topics": [
-					"google",
-					"hcl-commerce",
-					"google-analytics"
 				]
 			}
 		},
 		"availableTopics": {
 			"hcl-commerce": {
 				"name": "hcl-commerce"
-			},
-			"google": {
-				"name": "google"
 			}
 		}
 	},
 	"hcl-commerce": {
 		"name": "hcl-commerce",
 		"repositories": {
-			"commerce-google-analytics-integration": {
-				"name": "commerce-google-analytics-integration",
-				"description": "Add Google Analytics to HCL Commerce React Store, using Google Tag Manager",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-integration",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "TypeScript",
-				"languageColor": "#2b7489",
-				"topics": [
-					"google-analytics",
-					"hcl-commerce"
-				]
-			},
-			"commerce-image-search-poc": {
-				"name": "commerce-image-search-poc",
+			"commerce-image-search-asset": {
+				"name": "commerce-image-search-asset",
 				"description": "Provides the capability to search the HCL Commerce Catalog using image search on React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-image-search-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-image-search-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1101,10 +1069,10 @@
 					"hcl-commerce"
 				]
 			},
-			"commerce-social-login-poc": {
-				"name": "commerce-social-login-poc",
+			"commerce-social-login-asset": {
+				"name": "commerce-social-login-asset",
 				"description": "Social login enables users to log in to React store by using a social networking account, rather than using credentials dedicated to HCL Commerce which will make the sign up and login process quicker",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-social-login-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-social-login-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1116,25 +1084,10 @@
 					"hcl-commerce"
 				]
 			},
-			"commerce-push-notification-poc": {
-				"name": "commerce-push-notification-poc",
-				"description": "Push Notifications help user to receive notifications on the web application.  User will be able to see notifications for latest offers also regarding the order status.  This POC will take the user engagement to the next level.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-poc",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
-				"topics": [
-					"firebase-cloud-messaging",
-					"google",
-					"hcl-commerce"
-				]
-			},
-			"commerce-push-notification-v2.0-poc": {
-				"name": "commerce-push-notification-v2.0-poc",
-				"description": "The Proof of concept to provide the capability of showing push notification on the React store using Firebase cloud messaging.   This is version .v2",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-v2.0-poc",
+			"commerce-push-notification-v2.0-asset": {
+				"name": "commerce-push-notification-v2.0-asset",
+				"description": "This asset provides the capability of showing push notification on the React store using Firebase cloud messaging.   This is version .v2",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-v2.0-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1145,25 +1098,10 @@
 					"hcl-commerce"
 				]
 			},
-			"commerce-google-analytics-dashboard": {
-				"name": "commerce-google-analytics-dashboard",
-				"description": "This project is created to create the Google analytics dashboard using google Embed API.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-dashboard",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
-				"topics": [
-					"google",
-					"hcl-commerce",
-					"google-analytics"
-				]
-			},
-			"commerce-voice-search-poc": {
-				"name": "commerce-voice-search-poc",
+			"commerce-voice-search-asset": {
+				"name": "commerce-voice-search-asset",
 				"description": "Provides the capability to search HCL Commerce Catalog using voice search on React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-voice-search-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-voice-search-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1175,10 +1113,10 @@
 					"hcl-commerce"
 				]
 			},
-			"commerce-google-image-indexing-search-poc": {
-				"name": "commerce-google-image-indexing-search-poc",
+			"commerce-google-image-indexing-search-asset": {
+				"name": "commerce-google-image-indexing-search-asset",
 				"description": "Provide the capability to index the Google Vision results as part of a searchable context for the catalog images.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-image-indexing-search-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-image-indexing-search-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1190,10 +1128,10 @@
 					"hcl-commerce"
 				]
 			},
-			"commerce-Paypal": {
-				"name": "commerce-Paypal",
+			"commerce-PayPal": {
+				"name": "commerce-PayPal",
 				"description": "HCL Commerce V9 includes two new storefronts.  “Emerald” and “Aurora” are included in v9.1 to support either a B2B or a B2C model.  The PayPal (BrainTree) payment gateway is implemented using Headless REST API's which can be integrated to the React storefront by following these instructions",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-Paypal",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-PayPal",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1204,10 +1142,10 @@
 					"hcl-commerce"
 				]
 			},
-			"commerce-external-event-trigger-poc": {
-				"name": "commerce-external-event-trigger-poc",
+			"commerce-external-event-trigger-asset": {
+				"name": "commerce-external-event-trigger-asset",
 				"description": "Marketing activities require the customer's personalization ID. If the event occurs on an external system that cannot pass the customer personalization ID, you need to map information that is known by the external system to the customer personalization ID in HCL Commerce.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-external-event-trigger-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-external-event-trigger-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1219,10 +1157,10 @@
 					"marketing-activities"
 				]
 			},
-			"commerce-react-barcode-scanner-poc": {
-				"name": "commerce-react-barcode-scanner-poc",
+			"commerce-react-barcode-scanner-asset": {
+				"name": "commerce-react-barcode-scanner-asset",
 				"description": "Provide the capability to search the HCL Commerce Catalog using barcode recognition in HCL Commerce React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-react-barcode-scanner-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-react-barcode-scanner-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1236,9 +1174,6 @@
 			}
 		},
 		"availableTopics": {
-			"google-analytics": {
-				"name": "google-analytics"
-			},
 			"google-image": {
 				"name": "google-image"
 			},
@@ -1277,37 +1212,13 @@
 			}
 		}
 	},
-	"google-image": {
-		"name": "google-image",
-		"repositories": {
-			"commerce-image-search-poc": {
-				"name": "commerce-image-search-poc",
-				"description": "Provides the capability to search the HCL Commerce Catalog using image search on React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-image-search-poc",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "TypeScript",
-				"languageColor": "#2b7489",
-				"topics": [
-					"google-image",
-					"hcl-commerce"
-				]
-			}
-		},
-		"availableTopics": {
-			"hcl-commerce": {
-				"name": "hcl-commerce"
-			}
-		}
-	},
 	"google": {
 		"name": "google",
 		"repositories": {
-			"commerce-social-login-poc": {
-				"name": "commerce-social-login-poc",
+			"commerce-social-login-asset": {
+				"name": "commerce-social-login-asset",
 				"description": "Social login enables users to log in to React store by using a social networking account, rather than using credentials dedicated to HCL Commerce which will make the sign up and login process quicker",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-social-login-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-social-login-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1319,40 +1230,10 @@
 					"hcl-commerce"
 				]
 			},
-			"commerce-push-notification-poc": {
-				"name": "commerce-push-notification-poc",
-				"description": "Push Notifications help user to receive notifications on the web application.  User will be able to see notifications for latest offers also regarding the order status.  This POC will take the user engagement to the next level.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-poc",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
-				"topics": [
-					"firebase-cloud-messaging",
-					"google",
-					"hcl-commerce"
-				]
-			},
-			"commerce-google-analytics-dashboard": {
-				"name": "commerce-google-analytics-dashboard",
-				"description": "This project is created to create the Google analytics dashboard using google Embed API.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-dashboard",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
-				"topics": [
-					"google",
-					"hcl-commerce",
-					"google-analytics"
-				]
-			},
-			"commerce-voice-search-poc": {
-				"name": "commerce-voice-search-poc",
+			"commerce-voice-search-asset": {
+				"name": "commerce-voice-search-asset",
 				"description": "Provides the capability to search HCL Commerce Catalog using voice search on React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-voice-search-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-voice-search-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1372,12 +1253,6 @@
 			"hcl-commerce": {
 				"name": "hcl-commerce"
 			},
-			"firebase-cloud-messaging": {
-				"name": "firebase-cloud-messaging"
-			},
-			"google-analytics": {
-				"name": "google-analytics"
-			},
 			"google-voice-api": {
 				"name": "google-voice-api"
 			}
@@ -1386,10 +1261,10 @@
 	"facebook": {
 		"name": "facebook",
 		"repositories": {
-			"commerce-social-login-poc": {
-				"name": "commerce-social-login-poc",
+			"commerce-social-login-asset": {
+				"name": "commerce-social-login-asset",
 				"description": "Social login enables users to log in to React store by using a social networking account, rather than using credentials dedicated to HCL Commerce which will make the sign up and login process quicker",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-social-login-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-social-login-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1414,25 +1289,10 @@
 	"firebase-cloud-messaging": {
 		"name": "firebase-cloud-messaging",
 		"repositories": {
-			"commerce-push-notification-poc": {
-				"name": "commerce-push-notification-poc",
-				"description": "Push Notifications help user to receive notifications on the web application.  User will be able to see notifications for latest offers also regarding the order status.  This POC will take the user engagement to the next level.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-poc",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
-				"topics": [
-					"firebase-cloud-messaging",
-					"google",
-					"hcl-commerce"
-				]
-			},
-			"commerce-push-notification-v2.0-poc": {
-				"name": "commerce-push-notification-v2.0-poc",
-				"description": "The Proof of concept to provide the capability of showing push notification on the React store using Firebase cloud messaging.   This is version .v2",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-v2.0-poc",
+			"commerce-push-notification-v2.0-asset": {
+				"name": "commerce-push-notification-v2.0-asset",
+				"description": "This asset provides the capability of showing push notification on the React store using Firebase cloud messaging.   This is version .v2",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-v2.0-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1445,9 +1305,6 @@
 			}
 		},
 		"availableTopics": {
-			"google": {
-				"name": "google"
-			},
 			"hcl-commerce": {
 				"name": "hcl-commerce"
 			}
@@ -1456,10 +1313,10 @@
 	"google-voice-api": {
 		"name": "google-voice-api",
 		"repositories": {
-			"commerce-voice-search-poc": {
-				"name": "commerce-voice-search-poc",
+			"commerce-voice-search-asset": {
+				"name": "commerce-voice-search-asset",
 				"description": "Provides the capability to search HCL Commerce Catalog using voice search on React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-voice-search-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-voice-search-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1484,10 +1341,10 @@
 	"google-vision": {
 		"name": "google-vision",
 		"repositories": {
-			"commerce-google-image-indexing-search-poc": {
-				"name": "commerce-google-image-indexing-search-poc",
+			"commerce-google-image-indexing-search-asset": {
+				"name": "commerce-google-image-indexing-search-asset",
 				"description": "Provide the capability to index the Google Vision results as part of a searchable context for the catalog images.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-image-indexing-search-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-image-indexing-search-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1512,10 +1369,10 @@
 	"google-image-indexing": {
 		"name": "google-image-indexing",
 		"repositories": {
-			"commerce-google-image-indexing-search-poc": {
-				"name": "commerce-google-image-indexing-search-poc",
+			"commerce-google-image-indexing-search-asset": {
+				"name": "commerce-google-image-indexing-search-asset",
 				"description": "Provide the capability to index the Google Vision results as part of a searchable context for the catalog images.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-image-indexing-search-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-image-indexing-search-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1540,10 +1397,10 @@
 	"paypal": {
 		"name": "paypal",
 		"repositories": {
-			"commerce-Paypal": {
-				"name": "commerce-Paypal",
+			"commerce-PayPal": {
+				"name": "commerce-PayPal",
 				"description": "HCL Commerce V9 includes two new storefronts.  “Emerald” and “Aurora” are included in v9.1 to support either a B2B or a B2C model.  The PayPal (BrainTree) payment gateway is implemented using Headless REST API's which can be integrated to the React storefront by following these instructions",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-Paypal",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-PayPal",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1564,10 +1421,10 @@
 	"external-event-trigger": {
 		"name": "external-event-trigger",
 		"repositories": {
-			"commerce-external-event-trigger-poc": {
-				"name": "commerce-external-event-trigger-poc",
+			"commerce-external-event-trigger-asset": {
+				"name": "commerce-external-event-trigger-asset",
 				"description": "Marketing activities require the customer's personalization ID. If the event occurs on an external system that cannot pass the customer personalization ID, you need to map information that is known by the external system to the customer personalization ID in HCL Commerce.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-external-event-trigger-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-external-event-trigger-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1592,10 +1449,10 @@
 	"marketing-activities": {
 		"name": "marketing-activities",
 		"repositories": {
-			"commerce-external-event-trigger-poc": {
-				"name": "commerce-external-event-trigger-poc",
+			"commerce-external-event-trigger-asset": {
+				"name": "commerce-external-event-trigger-asset",
 				"description": "Marketing activities require the customer's personalization ID. If the event occurs on an external system that cannot pass the customer personalization ID, you need to map information that is known by the external system to the customer personalization ID in HCL Commerce.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-external-event-trigger-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-external-event-trigger-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1620,10 +1477,10 @@
 	"barcode-scanner": {
 		"name": "barcode-scanner",
 		"repositories": {
-			"commerce-react-barcode-scanner-poc": {
-				"name": "commerce-react-barcode-scanner-poc",
+			"commerce-react-barcode-scanner-asset": {
+				"name": "commerce-react-barcode-scanner-asset",
 				"description": "Provide the capability to search the HCL Commerce Catalog using barcode recognition in HCL Commerce React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-react-barcode-scanner-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-react-barcode-scanner-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1648,10 +1505,10 @@
 	"react-storefront": {
 		"name": "react-storefront",
 		"repositories": {
-			"commerce-react-barcode-scanner-poc": {
-				"name": "commerce-react-barcode-scanner-poc",
+			"commerce-react-barcode-scanner-asset": {
+				"name": "commerce-react-barcode-scanner-asset",
 				"description": "Provide the capability to search the HCL Commerce Catalog using barcode recognition in HCL Commerce React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-react-barcode-scanner-poc",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-react-barcode-scanner-asset",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
