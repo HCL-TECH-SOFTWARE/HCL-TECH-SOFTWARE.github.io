@@ -103,4 +103,6 @@ dist
 # TernJS port file
 .tern-port
 
+Gemfile.lock
+
 _site/
