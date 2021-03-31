@@ -381,14 +381,17 @@
 	},
 	{
 		"name": "volt-mx-docs",
-		"description": "Documentation for HCL Volt MX",
+		"description": "Official documentation for HCL Volt MX (https://www.hcltechsw.com/volt-mx). The site is accessible at http://opensource.hcltechsw.com/volt-mx-docs/",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-docs",
 		"private": false,
 		"fork": false,
-		"license": "",
-		"language": "CSS",
-		"languageColor": "#563d7c",
-		"topics": []
+		"license": "Apache License 2.0",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"volt-mx",
+			"documentation"
+		]
 	},
 	{
 		"name": "HCL-TECH-SOFTWARE.github.io",

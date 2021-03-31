@@ -933,6 +933,20 @@
 					"domino",
 					"developers"
 				]
+			},
+			"volt-mx-docs": {
+				"name": "volt-mx-docs",
+				"description": "Official documentation for HCL Volt MX (https://www.hcltechsw.com/volt-mx). The site is accessible at http://opensource.hcltechsw.com/volt-mx-docs/",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-docs",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"volt-mx",
+					"documentation"
+				]
 			}
 		},
 		"availableTopics": {
@@ -941,6 +955,9 @@
 			},
 			"developers": {
 				"name": "developers"
+			},
+			"documentation": {
+				"name": "documentation"
 			}
 		}
 	},
@@ -1006,6 +1023,30 @@
 		"availableTopics": {
 			"connections": {
 				"name": "connections"
+			}
+		}
+	},
+	"documentation": {
+		"name": "documentation",
+		"repositories": {
+			"volt-mx-docs": {
+				"name": "volt-mx-docs",
+				"description": "Official documentation for HCL Volt MX (https://www.hcltechsw.com/volt-mx). The site is accessible at http://opensource.hcltechsw.com/volt-mx-docs/",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-docs",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"volt-mx",
+					"documentation"
+				]
+			}
+		},
+		"availableTopics": {
+			"volt-mx": {
+				"name": "volt-mx"
 			}
 		}
 	},
