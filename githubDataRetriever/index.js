@@ -132,6 +132,8 @@ function getLangColor(lang) {
       return "#04133b";
     case "Rust":
       return "#dea584";
+    case "Jinja":
+      return "#a52a22";
     default:
       return "#fff";
   }

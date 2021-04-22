@@ -358,8 +358,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "HTML",
-		"languageColor": "#e34c26",
+		"language": "Jinja",
+		"languageColor": "#a52a22",
 		"topics": [
 			"connections",
 			"automation"
@@ -391,19 +391,6 @@
 		"topics": [
 			"volt-mx",
 			"documentation"
-		]
-	},
-	{
-		"name": "HCL-TECH-SOFTWARE.github.io",
-		"description": "Landing page for searching HCL Software GitHub repositories, viewable at https://hcl-tech-software.github.io/index.html",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-TECH-SOFTWARE.github.io",
-		"private": false,
-		"fork": false,
-		"license": "MIT License",
-		"language": "HTML",
-		"languageColor": "#e34c26",
-		"topics": [
-			"corporate"
 		]
 	},
 	{
@@ -543,6 +530,65 @@
 		"license": "Apache License 2.0",
 		"language": "Java",
 		"languageColor": "#b07219",
+		"topics": []
+	},
+	{
+		"name": "launch-cloud-docs",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/launch-cloud-docs",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "appscan-codesweep-action",
+		"description": "Integrate static security testing with HCL AppScan CodeSweep with Github.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"appscan",
+			"codesweep",
+			"github"
+		]
+	},
+	{
+		"name": "grapesjs",
+		"description": "Free and Open source Web Builder Framework. Next generation tool for building templates without coding",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/grapesjs",
+		"private": false,
+		"fork": true,
+		"license": "BSD 3-Clause \"New\" or \"Revised\" License",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": []
+	},
+	{
+		"name": "simple-flexbox",
+		"description": "A simple way to make responsive layouts using Flexbox in React",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/simple-flexbox",
+		"private": false,
+		"fork": true,
+		"license": "MIT License",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": []
+	},
+	{
+		"name": "react-data-grid",
+		"description": "Excel-like grid component built with React, with editors, keyboard navigation, copy & paste, and the like",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/react-data-grid",
+		"private": false,
+		"fork": true,
+		"license": "Other",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
 		"topics": []
 	}
 ]
