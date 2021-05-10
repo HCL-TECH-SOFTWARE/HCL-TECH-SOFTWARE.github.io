@@ -562,6 +562,22 @@
 					"dam",
 					"image-processor"
 				]
+			},
+			"sample-react-script-application": {
+				"name": "sample-react-script-application",
+				"description": "This HCL DX example app shows how React can be used in Script App portlets. It uses DX modular themes aggregator capability to provide React and ReactDOM.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/sample-react-script-application",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"hcl",
+					"react",
+					"script-portlet",
+					"hcl-dx"
+				]
 			}
 		},
 		"availableTopics": {
@@ -573,6 +589,15 @@
 			},
 			"image-processor": {
 				"name": "image-processor"
+			},
+			"hcl": {
+				"name": "hcl"
+			},
+			"react": {
+				"name": "react"
+			},
+			"script-portlet": {
+				"name": "script-portlet"
 			}
 		}
 	},
@@ -1034,7 +1059,7 @@
 				"fork": false,
 				"license": "Apache License 2.0",
 				"language": "Jinja",
-				"languageColor": "#fff",
+				"languageColor": "#a52a22",
 				"topics": [
 					"connections",
 					"automation"
@@ -1070,6 +1095,25 @@
 				"name": "volt-mx"
 			}
 		}
+	},
+	"corporate": {
+		"name": "corporate",
+		"repositories": {
+			"HCL-TECH-SOFTWARE.github.io": {
+				"name": "HCL-TECH-SOFTWARE.github.io",
+				"description": "Landing page for searching HCL Software GitHub repositories, viewable at https://hcl-tech-software.github.io/index.html",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-TECH-SOFTWARE.github.io",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"corporate"
+				]
+			}
+		},
+		"availableTopics": {}
 	},
 	"google-image": {
 		"name": "google-image",
@@ -1570,6 +1614,102 @@
 			},
 			"hcl-commerce": {
 				"name": "hcl-commerce"
+			}
+		}
+	},
+	"hcl": {
+		"name": "hcl",
+		"repositories": {
+			"sample-react-script-application": {
+				"name": "sample-react-script-application",
+				"description": "This HCL DX example app shows how React can be used in Script App portlets. It uses DX modular themes aggregator capability to provide React and ReactDOM.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/sample-react-script-application",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"hcl",
+					"react",
+					"script-portlet",
+					"hcl-dx"
+				]
+			}
+		},
+		"availableTopics": {
+			"react": {
+				"name": "react"
+			},
+			"script-portlet": {
+				"name": "script-portlet"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
+			}
+		}
+	},
+	"react": {
+		"name": "react",
+		"repositories": {
+			"sample-react-script-application": {
+				"name": "sample-react-script-application",
+				"description": "This HCL DX example app shows how React can be used in Script App portlets. It uses DX modular themes aggregator capability to provide React and ReactDOM.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/sample-react-script-application",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"hcl",
+					"react",
+					"script-portlet",
+					"hcl-dx"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl": {
+				"name": "hcl"
+			},
+			"script-portlet": {
+				"name": "script-portlet"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
+			}
+		}
+	},
+	"script-portlet": {
+		"name": "script-portlet",
+		"repositories": {
+			"sample-react-script-application": {
+				"name": "sample-react-script-application",
+				"description": "This HCL DX example app shows how React can be used in Script App portlets. It uses DX modular themes aggregator capability to provide React and ReactDOM.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/sample-react-script-application",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"hcl",
+					"react",
+					"script-portlet",
+					"hcl-dx"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl": {
+				"name": "hcl"
+			},
+			"react": {
+				"name": "react"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
 			}
 		}
 	},

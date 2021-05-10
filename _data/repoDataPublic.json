@@ -305,8 +305,8 @@
 		"private": false,
 		"fork": true,
 		"license": "Other",
-		"language": "C++",
-		"languageColor": "#f34b7d",
+		"language": "C",
+		"languageColor": "#555555",
 		"topics": []
 	},
 	{
@@ -391,6 +391,19 @@
 		"topics": [
 			"volt-mx",
 			"documentation"
+		]
+	},
+	{
+		"name": "HCL-TECH-SOFTWARE.github.io",
+		"description": "Landing page for searching HCL Software GitHub repositories, viewable at https://hcl-tech-software.github.io/index.html",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-TECH-SOFTWARE.github.io",
+		"private": false,
+		"fork": false,
+		"license": "MIT License",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"corporate"
 		]
 	},
 	{
@@ -531,6 +544,22 @@
 		"language": "Java",
 		"languageColor": "#b07219",
 		"topics": []
+	},
+	{
+		"name": "sample-react-script-application",
+		"description": "This HCL DX example app shows how React can be used in Script App portlets. It uses DX modular themes aggregator capability to provide React and ReactDOM.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/sample-react-script-application",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"hcl",
+			"react",
+			"script-portlet",
+			"hcl-dx"
+		]
 	},
 	{
 		"name": "launch-cloud-docs",
