@@ -1037,6 +1037,20 @@
 					"connections",
 					"developers"
 				]
+			},
+			"connections-doc": {
+				"name": "connections-doc",
+				"description": "Official documentation for HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-doc",
+				"private": false,
+				"fork": false,
+				"license": "Other",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"connections",
+					"documentation"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1045,6 +1059,9 @@
 			},
 			"developers": {
 				"name": "developers"
+			},
+			"documentation": {
+				"name": "documentation"
 			}
 		}
 	},
@@ -1088,11 +1105,28 @@
 					"volt-mx",
 					"documentation"
 				]
+			},
+			"connections-doc": {
+				"name": "connections-doc",
+				"description": "Official documentation for HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-doc",
+				"private": false,
+				"fork": false,
+				"license": "Other",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"connections",
+					"documentation"
+				]
 			}
 		},
 		"availableTopics": {
 			"volt-mx": {
 				"name": "volt-mx"
+			},
+			"connections": {
+				"name": "connections"
 			}
 		}
 	},
