@@ -633,5 +633,77 @@
 			"connections",
 			"documentation"
 		]
+	},
+	{
+		"name": "commerce-Push-Notification-V2",
+		"description": "Push Notifications help user to receive notifications on the web application. User will be able to see notifications for latest offers also regarding the order status.  This POC will take the user engagement to the next level.  It will reduce the users application journey.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-Push-Notification-V2",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"hcl-commerce"
+		]
+	},
+	{
+		"name": "commerce-PunchOut2Go-Integration",
+		"description": "The integration of HCL Commerce with PunchOut2Go where HCL Commerce provides commerce functionality and PunchOut2Go provides two-way integration between an HCL Commerce store and hundreds of e-procurement and ERP platforms.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-PunchOut2Go-Integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"hcl-commerce"
+		]
+	},
+	{
+		"name": "commerce-Visual-Merchandising-Widget",
+		"description": "Proof of concept to provide a merchandiser the ability to re-sequence products on a category page using a drag and drop based UI.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-Visual-Merchandising-Widget",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"hcl-commerce"
+		]
+	},
+	{
+		"name": "FreeType",
+		"description": "Forked from emscripten-ports/FreeType",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/FreeType",
+		"private": false,
+		"fork": true,
+		"license": "",
+		"language": "C",
+		"languageColor": "#555555",
+		"topics": []
+	},
+	{
+		"name": "libpng",
+		"description": "Forked from emscripten-ports/libpng",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/libpng",
+		"private": false,
+		"fork": true,
+		"license": "Other",
+		"language": "C",
+		"languageColor": "#555555",
+		"topics": []
+	},
+	{
+		"name": "zlib",
+		"description": "Forked from emscripten-ports/zlib",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/zlib",
+		"private": false,
+		"fork": true,
+		"license": "",
+		"language": "C",
+		"languageColor": "#555555",
+		"topics": []
 	}
 ]
