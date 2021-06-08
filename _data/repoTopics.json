@@ -729,6 +729,49 @@
 					"domino",
 					"developers"
 				]
+			},
+			"Verse-H.A.-Example-Configs": {
+				"name": "Verse-H.A.-Example-Configs",
+				"description": "A sample proxy config that can be used with Verse running on Domino.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Verse-H.A.-Example-Configs",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Tcl",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"verse"
+				]
+			},
+			"domino-keep-docs": {
+				"name": "domino-keep-docs",
+				"description": "Documentation for HCL Domino REST API (Project KEEP)",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"java",
+					"domino",
+					"rest-api",
+					"documentation"
+				]
+			},
+			"domino-keep-tutorials": {
+				"name": "domino-keep-tutorials",
+				"description": "Tutorials for Domino REST API a.k.a. Domino KEEP",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-tutorials",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"domino"
+				]
 			}
 		},
 		"availableTopics": {
@@ -740,6 +783,18 @@
 			},
 			"volt-mx": {
 				"name": "volt-mx"
+			},
+			"verse": {
+				"name": "verse"
+			},
+			"java": {
+				"name": "java"
+			},
+			"rest-api": {
+				"name": "rest-api"
+			},
+			"documentation": {
+				"name": "documentation"
 			}
 		}
 	},
@@ -1119,6 +1174,22 @@
 					"connections",
 					"documentation"
 				]
+			},
+			"domino-keep-docs": {
+				"name": "domino-keep-docs",
+				"description": "Documentation for HCL Domino REST API (Project KEEP)",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"java",
+					"domino",
+					"rest-api",
+					"documentation"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1127,6 +1198,15 @@
 			},
 			"connections": {
 				"name": "connections"
+			},
+			"java": {
+				"name": "java"
+			},
+			"domino": {
+				"name": "domino"
+			},
+			"rest-api": {
+				"name": "rest-api"
 			}
 		}
 	},
@@ -1135,7 +1215,7 @@
 		"repositories": {
 			"HCL-TECH-SOFTWARE.github.io": {
 				"name": "HCL-TECH-SOFTWARE.github.io",
-				"description": "Landing page for searching HCL Software GitHub repositories, viewable at https://hcl-tech-software.github.io/index.html",
+				"description": "Landing page for searching HCL Software GitHub repositories, viewable at https://opensource.hcltechsw.com/",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-TECH-SOFTWARE.github.io",
 				"private": false,
 				"fork": false,
@@ -1202,20 +1282,6 @@
 				"topics": [
 					"google",
 					"facebook",
-					"hcl-commerce"
-				]
-			},
-			"commerce-push-notification-v2.0-asset": {
-				"name": "commerce-push-notification-v2.0-asset",
-				"description": "This asset provides the capability of showing push notification on the React store using Firebase cloud messaging.   This is version .v2",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-v2.0-asset",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "HTML",
-				"languageColor": "#e34c26",
-				"topics": [
-					"firebase-cloud-messaging",
 					"hcl-commerce"
 				]
 			},
@@ -1293,10 +1359,10 @@
 					"hcl-commerce"
 				]
 			},
-			"commerce-Push-Notification-V2": {
-				"name": "commerce-Push-Notification-V2",
+			"commerce-Push-Notification": {
+				"name": "commerce-Push-Notification",
 				"description": "Push Notifications help user to receive notifications on the web application. User will be able to see notifications for latest offers also regarding the order status.  This POC will take the user engagement to the next level.  It will reduce the users application journey.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-Push-Notification-V2",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-Push-Notification",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -1342,9 +1408,6 @@
 			},
 			"facebook": {
 				"name": "facebook"
-			},
-			"firebase-cloud-messaging": {
-				"name": "firebase-cloud-messaging"
 			},
 			"google-voice-api": {
 				"name": "google-voice-api"
@@ -1441,30 +1504,6 @@
 			"google": {
 				"name": "google"
 			},
-			"hcl-commerce": {
-				"name": "hcl-commerce"
-			}
-		}
-	},
-	"firebase-cloud-messaging": {
-		"name": "firebase-cloud-messaging",
-		"repositories": {
-			"commerce-push-notification-v2.0-asset": {
-				"name": "commerce-push-notification-v2.0-asset",
-				"description": "This asset provides the capability of showing push notification on the React store using Firebase cloud messaging.   This is version .v2",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-v2.0-asset",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "HTML",
-				"languageColor": "#e34c26",
-				"topics": [
-					"firebase-cloud-messaging",
-					"hcl-commerce"
-				]
-			}
-		},
-		"availableTopics": {
 			"hcl-commerce": {
 				"name": "hcl-commerce"
 			}
@@ -1839,6 +1878,94 @@
 			},
 			"codesweep": {
 				"name": "codesweep"
+			}
+		}
+	},
+	"verse": {
+		"name": "verse",
+		"repositories": {
+			"Verse-H.A.-Example-Configs": {
+				"name": "Verse-H.A.-Example-Configs",
+				"description": "A sample proxy config that can be used with Verse running on Domino.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Verse-H.A.-Example-Configs",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Tcl",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"verse"
+				]
+			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			}
+		}
+	},
+	"java": {
+		"name": "java",
+		"repositories": {
+			"domino-keep-docs": {
+				"name": "domino-keep-docs",
+				"description": "Documentation for HCL Domino REST API (Project KEEP)",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"java",
+					"domino",
+					"rest-api",
+					"documentation"
+				]
+			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			},
+			"rest-api": {
+				"name": "rest-api"
+			},
+			"documentation": {
+				"name": "documentation"
+			}
+		}
+	},
+	"rest-api": {
+		"name": "rest-api",
+		"repositories": {
+			"domino-keep-docs": {
+				"name": "domino-keep-docs",
+				"description": "Documentation for HCL Domino REST API (Project KEEP)",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"java",
+					"domino",
+					"rest-api",
+					"documentation"
+				]
+			}
+		},
+		"availableTopics": {
+			"java": {
+				"name": "java"
+			},
+			"domino": {
+				"name": "domino"
+			},
+			"documentation": {
+				"name": "documentation"
 			}
 		}
 	}

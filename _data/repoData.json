@@ -395,7 +395,7 @@
 	},
 	{
 		"name": "HCL-TECH-SOFTWARE.github.io",
-		"description": "Landing page for searching HCL Software GitHub repositories, viewable at https://hcl-tech-software.github.io/index.html",
+		"description": "Landing page for searching HCL Software GitHub repositories, viewable at https://opensource.hcltechsw.com/",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-TECH-SOFTWARE.github.io",
 		"private": false,
 		"fork": false,
@@ -443,20 +443,6 @@
 		"topics": [
 			"google",
 			"facebook",
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "commerce-push-notification-v2.0-asset",
-		"description": "This asset provides the capability of showing push notification on the React store using Firebase cloud messaging.   This is version .v2",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-v2.0-asset",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "HTML",
-		"languageColor": "#e34c26",
-		"topics": [
-			"firebase-cloud-messaging",
 			"hcl-commerce"
 		]
 	},
@@ -635,9 +621,9 @@
 		]
 	},
 	{
-		"name": "commerce-Push-Notification-V2",
+		"name": "commerce-Push-Notification",
 		"description": "Push Notifications help user to receive notifications on the web application. User will be able to see notifications for latest offers also regarding the order status.  This POC will take the user engagement to the next level.  It will reduce the users application journey.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-Push-Notification-V2",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-Push-Notification",
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
@@ -674,6 +660,20 @@
 		]
 	},
 	{
+		"name": "Verse-H.A.-Example-Configs",
+		"description": "A sample proxy config that can be used with Verse running on Domino.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Verse-H.A.-Example-Configs",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Tcl",
+		"languageColor": "#fff",
+		"topics": [
+			"domino",
+			"verse"
+		]
+	},
+	{
 		"name": "FreeType",
 		"description": "Forked from emscripten-ports/FreeType",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/FreeType",
@@ -705,5 +705,34 @@
 		"language": "C",
 		"languageColor": "#555555",
 		"topics": []
+	},
+	{
+		"name": "domino-keep-docs",
+		"description": "Documentation for HCL Domino REST API (Project KEEP)",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"java",
+			"domino",
+			"rest-api",
+			"documentation"
+		]
+	},
+	{
+		"name": "domino-keep-tutorials",
+		"description": "Tutorials for Domino REST API a.k.a. Domino KEEP",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-tutorials",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"domino"
+		]
 	}
 ]
