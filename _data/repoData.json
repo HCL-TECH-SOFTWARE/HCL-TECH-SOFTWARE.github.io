@@ -548,6 +548,32 @@
 		]
 	},
 	{
+		"name": "dx-docker-compose",
+		"description": "Docker Compose Scripts for HCL DX",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-docker-compose",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Batchfile",
+		"languageColor": "#fff",
+		"topics": [
+			"hcl-dx"
+		]
+	},
+	{
+		"name": "domino-online-meeting-integration",
+		"description": "Integration for HCL Notes with online meeting provider services",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-online-meeting-integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": [
+			"domino"
+		]
+	},
+	{
 		"name": "launch-cloud-docs",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/launch-cloud-docs",
@@ -605,6 +631,20 @@
 		"language": "TypeScript",
 		"languageColor": "#2b7489",
 		"topics": []
+	},
+	{
+		"name": "Sametime-Automation",
+		"description": "Automation scripts for HCL Sametime Meetings 11.5 deployment on on-prem Kubernetes",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Sametime-Automation",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Jinja",
+		"languageColor": "#a52a22",
+		"topics": [
+			"automation",
+			"sametime"
+		]
 	},
 	{
 		"name": "connections-doc",
@@ -712,7 +752,7 @@
 		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
 		"private": false,
 		"fork": false,
-		"license": "",
+		"license": "Apache License 2.0",
 		"language": "Not Identified",
 		"languageColor": "#fff",
 		"topics": [

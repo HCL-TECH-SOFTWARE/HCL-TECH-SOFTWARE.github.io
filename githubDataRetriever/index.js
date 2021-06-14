@@ -155,15 +155,9 @@ async function writeToFile() {
   fs.writeJSON('../_data/repoData.json', json, { spaces: '\t' }, err => {
     if (err) return console.error(err)
   });
-  //fs.writeFile('../_data/repoData.yaml', yaml.dump(json));
   fs.writeJSON('../_data/repoTopics.json', topicJson, { spaces: '\t' }, err => {
     if (err) return console.error(err)
   });
-  //fs.writeFile('../_data/repoTopics.yaml', yaml.dump(topicJson));
-  fs.writeJSON('../_data/repoDataPublic.json', jsonPublic, { spaces: '\t' }, err => {
-    if (err) return console.error(err)
-  });
-  //fs.writeFile('../_data/repoDataPublic.yaml', yaml.dump(jsonPublic));
 }
 
 /**

@@ -578,6 +578,19 @@
 					"script-portlet",
 					"hcl-dx"
 				]
+			},
+			"dx-docker-compose": {
+				"name": "dx-docker-compose",
+				"description": "Docker Compose Scripts for HCL DX",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-docker-compose",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Batchfile",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-dx"
+				]
 			}
 		},
 		"availableTopics": {
@@ -730,6 +743,19 @@
 					"developers"
 				]
 			},
+			"domino-online-meeting-integration": {
+				"name": "domino-online-meeting-integration",
+				"description": "Integration for HCL Notes with online meeting provider services",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-online-meeting-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"domino"
+				]
+			},
 			"Verse-H.A.-Example-Configs": {
 				"name": "Verse-H.A.-Example-Configs",
 				"description": "A sample proxy config that can be used with Verse running on Domino.",
@@ -750,7 +776,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
 				"private": false,
 				"fork": false,
-				"license": "",
+				"license": "Apache License 2.0",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -1136,11 +1162,28 @@
 					"connections",
 					"automation"
 				]
+			},
+			"Sametime-Automation": {
+				"name": "Sametime-Automation",
+				"description": "Automation scripts for HCL Sametime Meetings 11.5 deployment on on-prem Kubernetes",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Sametime-Automation",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Jinja",
+				"languageColor": "#a52a22",
+				"topics": [
+					"automation",
+					"sametime"
+				]
 			}
 		},
 		"availableTopics": {
 			"connections": {
 				"name": "connections"
+			},
+			"sametime": {
+				"name": "sametime"
 			}
 		}
 	},
@@ -1181,7 +1224,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
 				"private": false,
 				"fork": false,
-				"license": "",
+				"license": "Apache License 2.0",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -1881,6 +1924,30 @@
 			}
 		}
 	},
+	"sametime": {
+		"name": "sametime",
+		"repositories": {
+			"Sametime-Automation": {
+				"name": "Sametime-Automation",
+				"description": "Automation scripts for HCL Sametime Meetings 11.5 deployment on on-prem Kubernetes",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Sametime-Automation",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Jinja",
+				"languageColor": "#a52a22",
+				"topics": [
+					"automation",
+					"sametime"
+				]
+			}
+		},
+		"availableTopics": {
+			"automation": {
+				"name": "automation"
+			}
+		}
+	},
 	"verse": {
 		"name": "verse",
 		"repositories": {
@@ -1914,7 +1981,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
 				"private": false,
 				"fork": false,
-				"license": "",
+				"license": "Apache License 2.0",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -1946,7 +2013,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
 				"private": false,
 				"fork": false,
-				"license": "",
+				"license": "Apache License 2.0",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
