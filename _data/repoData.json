@@ -461,6 +461,20 @@
 		]
 	},
 	{
+		"name": "commerce-push-notification-v2.0-asset",
+		"description": "This asset provides the capability of showing push notification on the React store using Firebase cloud messaging.   This is version .v2",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-v2.0-asset",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"firebase-cloud-messaging",
+			"hcl-commerce"
+		]
+	},
+	{
 		"name": "commerce-google-analytics-dashboard",
 		"description": "This project is created to create the Google analytics dashboard using google Embed API.  This functionality has been included in the product from release 9.1.4.0 and beyond.  This asset applies to 9.1.1.0 - 9.1.3.0 only.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-dashboard",
@@ -841,7 +855,10 @@
 		"license": "Apache License 2.0",
 		"language": "Not Identified",
 		"languageColor": "#fff",
-		"topics": []
+		"topics": [
+			"hcl-commerce",
+			"google"
+		]
 	},
 	{
 		"name": "Commerce-Google_Cloud_CDN",
@@ -852,7 +869,10 @@
 		"license": "Apache License 2.0",
 		"language": "Not Identified",
 		"languageColor": "#fff",
-		"topics": []
+		"topics": [
+			"hcl-commerce",
+			"google"
+		]
 	},
 	{
 		"name": "Commerce-Looker-Dashboard-Integration",
@@ -863,7 +883,23 @@
 		"license": "",
 		"language": "LookML",
 		"languageColor": "#fff",
-		"topics": []
+		"topics": [
+			"hcl-commerce"
+		]
+	},
+	{
+		"name": "Commerce-Google-Analytics-Integration-Aurora",
+		"description": "The Proof of concept to provide the capability tracking the Aurora Application using Google Analytics .",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Google-Analytics-Integration-Aurora",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": [
+			"hcl-commerce",
+			"google"
+		]
 	},
 	{
 		"name": "Commerce-Password-Policy-Enhancement",
@@ -874,6 +910,9 @@
 		"license": "Apache License 2.0",
 		"language": "Java",
 		"languageColor": "#b07219",
-		"topics": []
+		"topics": [
+			"hcl-commerce",
+			"google"
+		]
 	}
 ]

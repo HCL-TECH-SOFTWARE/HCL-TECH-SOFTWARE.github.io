@@ -1394,6 +1394,20 @@
 					"hcl-commerce"
 				]
 			},
+			"commerce-push-notification-v2.0-asset": {
+				"name": "commerce-push-notification-v2.0-asset",
+				"description": "This asset provides the capability of showing push notification on the React store using Firebase cloud messaging.   This is version .v2",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-v2.0-asset",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"firebase-cloud-messaging",
+					"hcl-commerce"
+				]
+			},
 			"commerce-google-analytics-dashboard": {
 				"name": "commerce-google-analytics-dashboard",
 				"description": "This project is created to create the Google analytics dashboard using google Embed API.  This functionality has been included in the product from release 9.1.4.0 and beyond.  This asset applies to 9.1.1.0 - 9.1.3.0 only.",
@@ -1521,6 +1535,75 @@
 				"topics": [
 					"hcl-commerce"
 				]
+			},
+			"Commerce-Kafka-StageProp": {
+				"name": "Commerce-Kafka-StageProp",
+				"description": "The KafkaProp PoC was developed to prove out that we could leverage Kafka/Zookeeper to handle messaging of data from an AUTH environment to multiple LIVE environments concurrently/simultaneously.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Kafka-StageProp",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"google"
+				]
+			},
+			"Commerce-Google_Cloud_CDN": {
+				"name": "Commerce-Google_Cloud_CDN",
+				"description": "Proof Of Concept to enable Google Cloud CDN (Content Delivery Network) for Commerce Application to serve content closer to users, which will accelerate commerce applications",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Google_Cloud_CDN",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"google"
+				]
+			},
+			"Commerce-Looker-Dashboard-Integration": {
+				"name": "Commerce-Looker-Dashboard-Integration",
+				"description": "Proof of concept to connect HCL Commerce with Looker to create the different reports and dashboard for data analysis.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Looker-Dashboard-Integration",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "LookML",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce"
+				]
+			},
+			"Commerce-Google-Analytics-Integration-Aurora": {
+				"name": "Commerce-Google-Analytics-Integration-Aurora",
+				"description": "The Proof of concept to provide the capability tracking the Aurora Application using Google Analytics .",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Google-Analytics-Integration-Aurora",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"hcl-commerce",
+					"google"
+				]
+			},
+			"Commerce-Password-Policy-Enhancement": {
+				"name": "Commerce-Password-Policy-Enhancement",
+				"description": "Provide a feature to configure the new rules for password policy and same will be applicable for Administrators / Shoppers at the time registration / profile update.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Password-Policy-Enhancement",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"hcl-commerce",
+					"google"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1535,6 +1618,9 @@
 			},
 			"facebook": {
 				"name": "facebook"
+			},
+			"firebase-cloud-messaging": {
+				"name": "firebase-cloud-messaging"
 			},
 			"google-voice-api": {
 				"name": "google-voice-api"
@@ -1633,6 +1719,62 @@
 					"google",
 					"hcl-commerce"
 				]
+			},
+			"Commerce-Kafka-StageProp": {
+				"name": "Commerce-Kafka-StageProp",
+				"description": "The KafkaProp PoC was developed to prove out that we could leverage Kafka/Zookeeper to handle messaging of data from an AUTH environment to multiple LIVE environments concurrently/simultaneously.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Kafka-StageProp",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"google"
+				]
+			},
+			"Commerce-Google_Cloud_CDN": {
+				"name": "Commerce-Google_Cloud_CDN",
+				"description": "Proof Of Concept to enable Google Cloud CDN (Content Delivery Network) for Commerce Application to serve content closer to users, which will accelerate commerce applications",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Google_Cloud_CDN",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"google"
+				]
+			},
+			"Commerce-Google-Analytics-Integration-Aurora": {
+				"name": "Commerce-Google-Analytics-Integration-Aurora",
+				"description": "The Proof of concept to provide the capability tracking the Aurora Application using Google Analytics .",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Google-Analytics-Integration-Aurora",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"hcl-commerce",
+					"google"
+				]
+			},
+			"Commerce-Password-Policy-Enhancement": {
+				"name": "Commerce-Password-Policy-Enhancement",
+				"description": "Provide a feature to configure the new rules for password policy and same will be applicable for Administrators / Shoppers at the time registration / profile update.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Password-Policy-Enhancement",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"hcl-commerce",
+					"google"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1673,6 +1815,30 @@
 			"google": {
 				"name": "google"
 			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			}
+		}
+	},
+	"firebase-cloud-messaging": {
+		"name": "firebase-cloud-messaging",
+		"repositories": {
+			"commerce-push-notification-v2.0-asset": {
+				"name": "commerce-push-notification-v2.0-asset",
+				"description": "This asset provides the capability of showing push notification on the React store using Firebase cloud messaging.   This is version .v2",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-v2.0-asset",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"firebase-cloud-messaging",
+					"hcl-commerce"
+				]
+			}
+		},
+		"availableTopics": {
 			"hcl-commerce": {
 				"name": "hcl-commerce"
 			}
