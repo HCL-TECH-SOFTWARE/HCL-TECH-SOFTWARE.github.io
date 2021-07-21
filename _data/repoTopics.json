@@ -553,7 +553,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/experience-api-documentation",
 				"private": false,
 				"fork": false,
-				"license": "",
+				"license": "Apache License 2.0",
 				"language": "HTML",
 				"languageColor": "#e34c26",
 				"topics": [
@@ -623,7 +623,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/experience-api-documentation",
 				"private": false,
 				"fork": false,
-				"license": "",
+				"license": "Apache License 2.0",
 				"language": "HTML",
 				"languageColor": "#e34c26",
 				"topics": [
@@ -655,7 +655,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/experience-api-documentation",
 				"private": false,
 				"fork": false,
-				"license": "",
+				"license": "Apache License 2.0",
 				"language": "HTML",
 				"languageColor": "#e34c26",
 				"topics": [
@@ -687,7 +687,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/experience-api-documentation",
 				"private": false,
 				"fork": false,
-				"license": "",
+				"license": "Apache License 2.0",
 				"language": "HTML",
 				"languageColor": "#e34c26",
 				"topics": [
@@ -786,6 +786,21 @@
 					"documentation"
 				]
 			},
+			"domino-cert-manager": {
+				"name": "domino-cert-manager",
+				"description": "Official HCL Domino V12 Certificate Manager DNS TXT API repository ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"acme-v2",
+					"dns-01"
+				]
+			},
 			"domino-keep-tutorials": {
 				"name": "domino-keep-tutorials",
 				"description": "Tutorials for Domino REST API a.k.a. Domino KEEP",
@@ -821,6 +836,12 @@
 			},
 			"documentation": {
 				"name": "documentation"
+			},
+			"acme-v2": {
+				"name": "acme-v2"
+			},
+			"dns-01": {
+				"name": "dns-01"
 			}
 		}
 	},
@@ -1074,6 +1095,19 @@
 					"volt-mx",
 					"documentation"
 				]
+			},
+			"volt-mx-tutorials": {
+				"name": "volt-mx-tutorials",
+				"description": "HCL Volt MX Tutorials",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"volt-mx"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1165,7 +1199,7 @@
 			},
 			"Sametime-Automation": {
 				"name": "Sametime-Automation",
-				"description": "Automation scripts for HCL Sametime Meetings 11.5 deployment on on-prem Kubernetes",
+				"description": "Automation scripts for HCL Sametime Meetings 11.6 deployment on on-prem Kubernetes",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/Sametime-Automation",
 				"private": false,
 				"fork": false,
@@ -1272,33 +1306,65 @@
 		},
 		"availableTopics": {}
 	},
-	"google-image": {
-		"name": "google-image",
+	"google-analytics": {
+		"name": "google-analytics",
 		"repositories": {
-			"commerce-image-search-asset": {
-				"name": "commerce-image-search-asset",
-				"description": "Provides the capability to search the HCL Commerce Catalog using image search on React Stores",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-image-search-asset",
+			"commerce-google-analytics-integration": {
+				"name": "commerce-google-analytics-integration",
+				"description": "Add Google Analytics to HCL Commerce React Store, using Google Tag Manager.  This functionality has been included in the product from release 9.1.4.0 and beyond.  This asset applies to 9.1.1.0 - 9.1.3.0 only.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-integration",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
 				"language": "TypeScript",
 				"languageColor": "#2b7489",
 				"topics": [
-					"google-image",
+					"google-analytics",
 					"hcl-commerce"
+				]
+			},
+			"commerce-google-analytics-dashboard": {
+				"name": "commerce-google-analytics-dashboard",
+				"description": "This project is created to create the Google analytics dashboard using google Embed API.  This functionality has been included in the product from release 9.1.4.0 and beyond.  This asset applies to 9.1.1.0 - 9.1.3.0 only.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-dashboard",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"google",
+					"hcl-commerce",
+					"google-analytics"
 				]
 			}
 		},
 		"availableTopics": {
 			"hcl-commerce": {
 				"name": "hcl-commerce"
+			},
+			"google": {
+				"name": "google"
 			}
 		}
 	},
 	"hcl-commerce": {
 		"name": "hcl-commerce",
 		"repositories": {
+			"commerce-google-analytics-integration": {
+				"name": "commerce-google-analytics-integration",
+				"description": "Add Google Analytics to HCL Commerce React Store, using Google Tag Manager.  This functionality has been included in the product from release 9.1.4.0 and beyond.  This asset applies to 9.1.1.0 - 9.1.3.0 only.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"google-analytics",
+					"hcl-commerce"
+				]
+			},
 			"commerce-image-search-asset": {
 				"name": "commerce-image-search-asset",
 				"description": "Provides the capability to search the HCL Commerce Catalog using image search on React Stores",
@@ -1326,6 +1392,21 @@
 					"google",
 					"facebook",
 					"hcl-commerce"
+				]
+			},
+			"commerce-google-analytics-dashboard": {
+				"name": "commerce-google-analytics-dashboard",
+				"description": "This project is created to create the Google analytics dashboard using google Embed API.  This functionality has been included in the product from release 9.1.4.0 and beyond.  This asset applies to 9.1.1.0 - 9.1.3.0 only.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-dashboard",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"google",
+					"hcl-commerce",
+					"google-analytics"
 				]
 			},
 			"commerce-voice-search-asset": {
@@ -1443,6 +1524,9 @@
 			}
 		},
 		"availableTopics": {
+			"google-analytics": {
+				"name": "google-analytics"
+			},
 			"google-image": {
 				"name": "google-image"
 			},
@@ -1478,6 +1562,30 @@
 			}
 		}
 	},
+	"google-image": {
+		"name": "google-image",
+		"repositories": {
+			"commerce-image-search-asset": {
+				"name": "commerce-image-search-asset",
+				"description": "Provides the capability to search the HCL Commerce Catalog using image search on React Stores",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-image-search-asset",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"google-image",
+					"hcl-commerce"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			}
+		}
+	},
 	"google": {
 		"name": "google",
 		"repositories": {
@@ -1494,6 +1602,21 @@
 					"google",
 					"facebook",
 					"hcl-commerce"
+				]
+			},
+			"commerce-google-analytics-dashboard": {
+				"name": "commerce-google-analytics-dashboard",
+				"description": "This project is created to create the Google analytics dashboard using google Embed API.  This functionality has been included in the product from release 9.1.4.0 and beyond.  This asset applies to 9.1.1.0 - 9.1.3.0 only.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-dashboard",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"google",
+					"hcl-commerce",
+					"google-analytics"
 				]
 			},
 			"commerce-voice-search-asset": {
@@ -1518,6 +1641,9 @@
 			},
 			"hcl-commerce": {
 				"name": "hcl-commerce"
+			},
+			"google-analytics": {
+				"name": "google-analytics"
 			},
 			"google-voice-api": {
 				"name": "google-voice-api"
@@ -1929,7 +2055,7 @@
 		"repositories": {
 			"Sametime-Automation": {
 				"name": "Sametime-Automation",
-				"description": "Automation scripts for HCL Sametime Meetings 11.5 deployment on on-prem Kubernetes",
+				"description": "Automation scripts for HCL Sametime Meetings 11.6 deployment on on-prem Kubernetes",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/Sametime-Automation",
 				"private": false,
 				"fork": false,
@@ -2033,6 +2159,62 @@
 			},
 			"documentation": {
 				"name": "documentation"
+			}
+		}
+	},
+	"acme-v2": {
+		"name": "acme-v2",
+		"repositories": {
+			"domino-cert-manager": {
+				"name": "domino-cert-manager",
+				"description": "Official HCL Domino V12 Certificate Manager DNS TXT API repository ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"acme-v2",
+					"dns-01"
+				]
+			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			},
+			"dns-01": {
+				"name": "dns-01"
+			}
+		}
+	},
+	"dns-01": {
+		"name": "dns-01",
+		"repositories": {
+			"domino-cert-manager": {
+				"name": "domino-cert-manager",
+				"description": "Official HCL Domino V12 Certificate Manager DNS TXT API repository ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"acme-v2",
+					"dns-01"
+				]
+			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			},
+			"acme-v2": {
+				"name": "acme-v2"
 			}
 		}
 	}

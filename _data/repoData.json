@@ -273,7 +273,7 @@
 		"url": "https://github.com/HCL-TECH-SOFTWARE/experience-api-documentation",
 		"private": false,
 		"fork": false,
-		"license": "",
+		"license": "Apache License 2.0",
 		"language": "HTML",
 		"languageColor": "#e34c26",
 		"topics": [
@@ -418,6 +418,20 @@
 		"topics": []
 	},
 	{
+		"name": "commerce-google-analytics-integration",
+		"description": "Add Google Analytics to HCL Commerce React Store, using Google Tag Manager.  This functionality has been included in the product from release 9.1.4.0 and beyond.  This asset applies to 9.1.1.0 - 9.1.3.0 only.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"google-analytics",
+			"hcl-commerce"
+		]
+	},
+	{
 		"name": "commerce-image-search-asset",
 		"description": "Provides the capability to search the HCL Commerce Catalog using image search on React Stores",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-image-search-asset",
@@ -444,6 +458,21 @@
 			"google",
 			"facebook",
 			"hcl-commerce"
+		]
+	},
+	{
+		"name": "commerce-google-analytics-dashboard",
+		"description": "This project is created to create the Google analytics dashboard using google Embed API.  This functionality has been included in the product from release 9.1.4.0 and beyond.  This asset applies to 9.1.1.0 - 9.1.3.0 only.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-dashboard",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"google",
+			"hcl-commerce",
+			"google-analytics"
 		]
 	},
 	{
@@ -574,6 +603,19 @@
 		]
 	},
 	{
+		"name": "volt-mx-tutorials",
+		"description": "HCL Volt MX Tutorials",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"volt-mx"
+		]
+	},
+	{
 		"name": "launch-cloud-docs",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/launch-cloud-docs",
@@ -634,7 +676,7 @@
 	},
 	{
 		"name": "Sametime-Automation",
-		"description": "Automation scripts for HCL Sametime Meetings 11.5 deployment on on-prem Kubernetes",
+		"description": "Automation scripts for HCL Sametime Meetings 11.6 deployment on on-prem Kubernetes",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/Sametime-Automation",
 		"private": false,
 		"fork": false,
@@ -763,6 +805,21 @@
 		]
 	},
 	{
+		"name": "domino-cert-manager",
+		"description": "Official HCL Domino V12 Certificate Manager DNS TXT API repository ",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"domino",
+			"acme-v2",
+			"dns-01"
+		]
+	},
+	{
 		"name": "domino-keep-tutorials",
 		"description": "Tutorials for Domino REST API a.k.a. Domino KEEP",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-tutorials",
@@ -774,5 +831,49 @@
 		"topics": [
 			"domino"
 		]
+	},
+	{
+		"name": "Commerce-Kafka-StageProp",
+		"description": "The KafkaProp PoC was developed to prove out that we could leverage Kafka/Zookeeper to handle messaging of data from an AUTH environment to multiple LIVE environments concurrently/simultaneously.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Kafka-StageProp",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "Commerce-Google_Cloud_CDN",
+		"description": "Proof Of Concept to enable Google Cloud CDN (Content Delivery Network) for Commerce Application to serve content closer to users, which will accelerate commerce applications",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Google_Cloud_CDN",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "Commerce-Looker-Dashboard-Integration",
+		"description": "Proof of concept to connect HCL Commerce with Looker to create the different reports and dashboard for data analysis.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Looker-Dashboard-Integration",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "LookML",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "Commerce-Password-Policy-Enhancement",
+		"description": "Provide a feature to configure the new rules for password policy and same will be applicable for Administrators / Shoppers at the time registration / profile update.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Password-Policy-Enhancement",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": []
 	}
 ]
