@@ -813,6 +813,20 @@
 				"topics": [
 					"domino"
 				]
+			},
+			"domino-jnx": {
+				"name": "domino-jnx",
+				"description": "Modern Domino Java API based on JNA access to Domino's C API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-jnx",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"domino",
+					"java"
+				]
 			}
 		},
 		"availableTopics": {
@@ -2281,6 +2295,20 @@
 					"domino",
 					"rest-api",
 					"documentation"
+				]
+			},
+			"domino-jnx": {
+				"name": "domino-jnx",
+				"description": "Modern Domino Java API based on JNA access to Domino's C API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-jnx",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"domino",
+					"java"
 				]
 			}
 		},
