@@ -210,6 +210,19 @@
 					"codesweep",
 					"github"
 				]
+			},
+			"bitbucket-asoc-sast": {
+				"name": "bitbucket-asoc-sast",
+				"description": "This is a linux docker image that uses python to download the SAClientUtil from  HCL AppScan on Cloud and run static analysis against a build application in Bitbucket pipelines.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/bitbucket-asoc-sast",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "Python",
+				"languageColor": "#3572A5",
+				"topics": [
+					"appscan"
+				]
 			}
 		},
 		"availableTopics": {
@@ -531,7 +544,8 @@
 				"language": "TypeScript",
 				"languageColor": "#2b7489",
 				"topics": [
-					"hcl-dx"
+					"hcl-dx",
+					"angular"
 				]
 			},
 			"WebDevToolkitForDx": {
@@ -594,6 +608,9 @@
 			}
 		},
 		"availableTopics": {
+			"angular": {
+				"name": "angular"
+			},
 			"ringapi": {
 				"name": "ringapi"
 			},
@@ -611,6 +628,30 @@
 			},
 			"script-portlet": {
 				"name": "script-portlet"
+			}
+		}
+	},
+	"angular": {
+		"name": "angular",
+		"repositories": {
+			"sample-angular-script-application": {
+				"name": "sample-angular-script-application",
+				"description": "This sample illustrates building an Angular CLI application and deploying it as a script application. It includes all the configuration and build steps needed to get the application running smoothly in HCL Digital Experience.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/sample-angular-script-application",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-dx",
+					"angular"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-dx": {
+				"name": "hcl-dx"
 			}
 		}
 	},
@@ -745,7 +786,7 @@
 			},
 			"domino-online-meeting-integration": {
 				"name": "domino-online-meeting-integration",
-				"description": "Integration for HCL Notes with online meeting provider services",
+				"description": "Integration for HCL Notes with online meeting provider services. Documentation available at https://opensource.hcltechsw.com/domino-online-meeting-integration/",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-online-meeting-integration",
 				"private": false,
 				"fork": false,

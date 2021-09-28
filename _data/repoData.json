@@ -227,7 +227,8 @@
 		"language": "TypeScript",
 		"languageColor": "#2b7489",
 		"topics": [
-			"hcl-dx"
+			"hcl-dx",
+			"angular"
 		]
 	},
 	{
@@ -605,7 +606,7 @@
 	},
 	{
 		"name": "domino-online-meeting-integration",
-		"description": "Integration for HCL Notes with online meeting provider services",
+		"description": "Integration for HCL Notes with online meeting provider services. Documentation available at https://opensource.hcltechsw.com/domino-online-meeting-integration/",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-online-meeting-integration",
 		"private": false,
 		"fork": false,
@@ -641,6 +642,17 @@
 		"topics": []
 	},
 	{
+		"name": "Verse-Extension-Documentation",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Verse-Extension-Documentation",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": []
+	},
+	{
 		"name": "appscan-codesweep-action",
 		"description": "Integrate static security testing with HCL AppScan CodeSweep with Github.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
@@ -662,17 +674,6 @@
 		"private": false,
 		"fork": true,
 		"license": "BSD 3-Clause \"New\" or \"Revised\" License",
-		"language": "JavaScript",
-		"languageColor": "#f1e05a",
-		"topics": []
-	},
-	{
-		"name": "simple-flexbox",
-		"description": "A simple way to make responsive layouts using Flexbox in React",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/simple-flexbox",
-		"private": false,
-		"fork": true,
-		"license": "MIT License",
 		"language": "JavaScript",
 		"languageColor": "#f1e05a",
 		"topics": []
@@ -914,5 +915,62 @@
 			"hcl-commerce",
 			"google"
 		]
+	},
+	{
+		"name": "volt-mx-native-function-docs",
+		"description": "Native function libraries for Volt MX Documentation",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-native-function-docs",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "ereviewboard",
+		"description": "A mylyn-based Eclipse integration for Review Board",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/ereviewboard",
+		"private": false,
+		"fork": true,
+		"license": "",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": []
+	},
+	{
+		"name": "volt-mx-native-ios-function-docs",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-native-ios-function-docs",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "bitbucket-asoc-sast",
+		"description": "This is a linux docker image that uses python to download the SAClientUtil from  HCL AppScan on Cloud and run static analysis against a build application in Bitbucket pipelines.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/bitbucket-asoc-sast",
+		"private": false,
+		"fork": false,
+		"license": "MIT License",
+		"language": "Python",
+		"languageColor": "#3572A5",
+		"topics": [
+			"appscan"
+		]
+	},
+	{
+		"name": "domino-docker",
+		"description": "This repository provides Dockerfiles for building an IBM Domino server image for Docker with latest fixes",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-docker",
+		"private": false,
+		"fork": true,
+		"license": "Apache License 2.0",
+		"language": "Shell",
+		"languageColor": "#89e051",
+		"topics": []
 	}
 ]
