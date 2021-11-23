@@ -270,7 +270,7 @@
 	},
 	{
 		"name": "experience-api-documentation",
-		"description": "HCL Experience API Documentation for HCL Ring API, HCL Digital Asset Management API, HCL Image Processor",
+		"description": "HCL DX Experience API Documentation for HCL Ring API, HCL Digital Asset Management API, HCL Image Processor",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/experience-api-documentation",
 		"private": false,
 		"fork": false,
@@ -618,6 +618,20 @@
 		]
 	},
 	{
+		"name": "volt-mx-samples",
+		"description": "Official sample applications for use in Volt MX",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-samples",
+		"private": false,
+		"fork": false,
+		"license": "Other",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"volt-mx",
+			"sample"
+		]
+	},
+	{
 		"name": "volt-mx-tutorials",
 		"description": "HCL Volt MX Tutorials",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-tutorials",
@@ -702,6 +716,17 @@
 			"automation",
 			"sametime"
 		]
+	},
+	{
+		"name": "sofy-docs",
+		"description": "Soon to be the documentation hub for HCL SoFy.  This site will be accessible at https://docs.hclsofy.com",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/sofy-docs",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": []
 	},
 	{
 		"name": "connections-doc",
@@ -835,6 +860,20 @@
 		]
 	},
 	{
+		"name": "domino-backup",
+		"description": "Configuration files for HCL Domino Backup integration with other backup solutions.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-backup",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Shell",
+		"languageColor": "#89e051",
+		"topics": [
+			"domino",
+			"backup"
+		]
+	},
+	{
 		"name": "domino-keep-tutorials",
 		"description": "Tutorials for Domino REST API a.k.a. Domino KEEP",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-tutorials",
@@ -928,6 +967,21 @@
 		"topics": []
 	},
 	{
+		"name": "hcl-commerce-performance",
+		"description": "Performance and monitoring assets for HCL Commerce 9.1",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-performance",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"hcl-commerce",
+			"grafana",
+			"onetest"
+		]
+	},
+	{
 		"name": "ereviewboard",
 		"description": "A mylyn-based Eclipse integration for Review Board",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/ereviewboard",
@@ -972,5 +1026,30 @@
 		"language": "Shell",
 		"languageColor": "#89e051",
 		"topics": []
+	},
+	{
+		"name": "monaco-yaml",
+		"description": "YAML plugin for the Monaco Editor",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/monaco-yaml",
+		"private": false,
+		"fork": true,
+		"license": "MIT License",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": []
+	},
+	{
+		"name": "AppScan-Activity-Recorder",
+		"description": "Chrome Extension for HCL AppScan Activity Recorder, without auto-update enabled",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/AppScan-Activity-Recorder",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"appscan",
+			"chrome-extensions"
+		]
 	}
 ]

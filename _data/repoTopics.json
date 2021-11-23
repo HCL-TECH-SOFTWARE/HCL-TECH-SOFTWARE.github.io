@@ -223,6 +223,20 @@
 				"topics": [
 					"appscan"
 				]
+			},
+			"AppScan-Activity-Recorder": {
+				"name": "AppScan-Activity-Recorder",
+				"description": "Chrome Extension for HCL AppScan Activity Recorder, without auto-update enabled",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/AppScan-Activity-Recorder",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"appscan",
+					"chrome-extensions"
+				]
 			}
 		},
 		"availableTopics": {
@@ -249,6 +263,9 @@
 			},
 			"github": {
 				"name": "github"
+			},
+			"chrome-extensions": {
+				"name": "chrome-extensions"
 			}
 		}
 	},
@@ -482,9 +499,31 @@
 				"topics": [
 					"onetest"
 				]
+			},
+			"hcl-commerce-performance": {
+				"name": "hcl-commerce-performance",
+				"description": "Performance and monitoring assets for HCL Commerce 9.1",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-performance",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"grafana",
+					"onetest"
+				]
 			}
 		},
-		"availableTopics": {}
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"grafana": {
+				"name": "grafana"
+			}
+		}
 	},
 	"appscan-enterprise": {
 		"name": "appscan-enterprise",
@@ -563,7 +602,7 @@
 			},
 			"experience-api-documentation": {
 				"name": "experience-api-documentation",
-				"description": "HCL Experience API Documentation for HCL Ring API, HCL Digital Asset Management API, HCL Image Processor",
+				"description": "HCL DX Experience API Documentation for HCL Ring API, HCL Digital Asset Management API, HCL Image Processor",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/experience-api-documentation",
 				"private": false,
 				"fork": false,
@@ -660,7 +699,7 @@
 		"repositories": {
 			"experience-api-documentation": {
 				"name": "experience-api-documentation",
-				"description": "HCL Experience API Documentation for HCL Ring API, HCL Digital Asset Management API, HCL Image Processor",
+				"description": "HCL DX Experience API Documentation for HCL Ring API, HCL Digital Asset Management API, HCL Image Processor",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/experience-api-documentation",
 				"private": false,
 				"fork": false,
@@ -692,7 +731,7 @@
 		"repositories": {
 			"experience-api-documentation": {
 				"name": "experience-api-documentation",
-				"description": "HCL Experience API Documentation for HCL Ring API, HCL Digital Asset Management API, HCL Image Processor",
+				"description": "HCL DX Experience API Documentation for HCL Ring API, HCL Digital Asset Management API, HCL Image Processor",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/experience-api-documentation",
 				"private": false,
 				"fork": false,
@@ -724,7 +763,7 @@
 		"repositories": {
 			"experience-api-documentation": {
 				"name": "experience-api-documentation",
-				"description": "HCL Experience API Documentation for HCL Ring API, HCL Digital Asset Management API, HCL Image Processor",
+				"description": "HCL DX Experience API Documentation for HCL Ring API, HCL Digital Asset Management API, HCL Image Processor",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/experience-api-documentation",
 				"private": false,
 				"fork": false,
@@ -842,6 +881,20 @@
 					"dns-01"
 				]
 			},
+			"domino-backup": {
+				"name": "domino-backup",
+				"description": "Configuration files for HCL Domino Backup integration with other backup solutions.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-backup",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Shell",
+				"languageColor": "#89e051",
+				"topics": [
+					"domino",
+					"backup"
+				]
+			},
 			"domino-keep-tutorials": {
 				"name": "domino-keep-tutorials",
 				"description": "Tutorials for Domino REST API a.k.a. Domino KEEP",
@@ -883,6 +936,9 @@
 			},
 			"dns-01": {
 				"name": "dns-01"
+			},
+			"backup": {
+				"name": "backup"
 			}
 		}
 	},
@@ -966,6 +1022,20 @@
 					"developers",
 					"sample"
 				]
+			},
+			"volt-mx-samples": {
+				"name": "volt-mx-samples",
+				"description": "Official sample applications for use in Volt MX",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-samples",
+				"private": false,
+				"fork": false,
+				"license": "Other",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"volt-mx",
+					"sample"
+				]
 			}
 		},
 		"availableTopics": {
@@ -974,6 +1044,9 @@
 			},
 			"developers": {
 				"name": "developers"
+			},
+			"volt-mx": {
+				"name": "volt-mx"
 			}
 		}
 	},
@@ -1137,6 +1210,20 @@
 					"documentation"
 				]
 			},
+			"volt-mx-samples": {
+				"name": "volt-mx-samples",
+				"description": "Official sample applications for use in Volt MX",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-samples",
+				"private": false,
+				"fork": false,
+				"license": "Other",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"volt-mx",
+					"sample"
+				]
+			},
 			"volt-mx-tutorials": {
 				"name": "volt-mx-tutorials",
 				"description": "HCL Volt MX Tutorials",
@@ -1160,6 +1247,9 @@
 			},
 			"documentation": {
 				"name": "documentation"
+			},
+			"sample": {
+				"name": "sample"
 			}
 		}
 	},
@@ -1645,6 +1735,21 @@
 					"hcl-commerce",
 					"google"
 				]
+			},
+			"hcl-commerce-performance": {
+				"name": "hcl-commerce-performance",
+				"description": "Performance and monitoring assets for HCL Commerce 9.1",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-performance",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"grafana",
+					"onetest"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1686,6 +1791,12 @@
 			},
 			"react-storefront": {
 				"name": "react-storefront"
+			},
+			"grafana": {
+				"name": "grafana"
+			},
+			"onetest": {
+				"name": "onetest"
 			}
 		}
 	},
@@ -2422,6 +2533,82 @@
 			},
 			"acme-v2": {
 				"name": "acme-v2"
+			}
+		}
+	},
+	"backup": {
+		"name": "backup",
+		"repositories": {
+			"domino-backup": {
+				"name": "domino-backup",
+				"description": "Configuration files for HCL Domino Backup integration with other backup solutions.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-backup",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Shell",
+				"languageColor": "#89e051",
+				"topics": [
+					"domino",
+					"backup"
+				]
+			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			}
+		}
+	},
+	"grafana": {
+		"name": "grafana",
+		"repositories": {
+			"hcl-commerce-performance": {
+				"name": "hcl-commerce-performance",
+				"description": "Performance and monitoring assets for HCL Commerce 9.1",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-performance",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"grafana",
+					"onetest"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"onetest": {
+				"name": "onetest"
+			}
+		}
+	},
+	"chrome-extensions": {
+		"name": "chrome-extensions",
+		"repositories": {
+			"AppScan-Activity-Recorder": {
+				"name": "AppScan-Activity-Recorder",
+				"description": "Chrome Extension for HCL AppScan Activity Recorder, without auto-update enabled",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/AppScan-Activity-Recorder",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"appscan",
+					"chrome-extensions"
+				]
+			}
+		},
+		"availableTopics": {
+			"appscan": {
+				"name": "appscan"
 			}
 		}
 	}
