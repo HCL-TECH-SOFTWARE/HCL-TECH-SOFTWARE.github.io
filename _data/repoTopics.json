@@ -484,6 +484,362 @@
 			}
 		}
 	},
+	"rtist": {
+		"name": "rtist",
+		"repositories": {
+			"traffic-light-web": {
+				"name": "traffic-light-web",
+				"description": "A traffic light controller implemented in HCL RTist. Communicates with a web server for visualizing application behavior in a web application.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/traffic-light-web",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"rtist"
+				]
+			},
+			"iot-fire-detector": {
+				"name": "iot-fire-detector",
+				"description": "Sample IoT application implementing a fire detector. Intended to be deployed on a Raspberry Pi which has at least two temperature sensors connected.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/iot-fire-detector",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"rtist",
+					"raspberry-pi"
+				]
+			},
+			"lib-http-server": {
+				"name": "lib-http-server",
+				"description": "A library for HCL RTist which allows an application to communicate with an HTTP server (both sending and receiving messages)",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/lib-http-server",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"library",
+					"rtist"
+				]
+			},
+			"lib-tcp-server": {
+				"name": "lib-tcp-server",
+				"description": "A library for HCL RTist which allows an RTist application to communicate over TCP with other applications",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/lib-tcp-server",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"library",
+					"rtist"
+				]
+			},
+			"pingpong-distributed": {
+				"name": "pingpong-distributed",
+				"description": "An example showing how to build a distributed real-time application using the lib-tcp-server library. Two applications send the events ping and pong back and forth between each other.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/pingpong-distributed",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"rtist",
+					"distributed"
+				]
+			},
+			"become-an-rtist": {
+				"name": "become-an-rtist",
+				"description": "Sketch drawing game for the Raspberry Pi with camera and push button. Uses image recognition to recognize a sketch drawn by the player.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/become-an-rtist",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"raspberry-pi",
+					"raspberry-pi-camera",
+					"tensorflow",
+					"image-recognition",
+					"rtist"
+				]
+			},
+			"node-red-contrib-hcl-iterate-loop": {
+				"name": "node-red-contrib-hcl-iterate-loop",
+				"description": "This Node-RED node allows you to build loops, just like a for loop in any programming language do, iterating over the selected parts in the flow. Playing with the starting point, increment/decrement values and condition to be evaluated in each iteration.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/node-red-contrib-hcl-iterate-loop",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"rtist",
+					"node-red-contrib",
+					"node-red",
+					"loops"
+				]
+			}
+		},
+		"availableTopics": {
+			"raspberry-pi": {
+				"name": "raspberry-pi"
+			},
+			"library": {
+				"name": "library"
+			},
+			"distributed": {
+				"name": "distributed"
+			},
+			"raspberry-pi-camera": {
+				"name": "raspberry-pi-camera"
+			},
+			"tensorflow": {
+				"name": "tensorflow"
+			},
+			"image-recognition": {
+				"name": "image-recognition"
+			},
+			"node-red-contrib": {
+				"name": "node-red-contrib"
+			},
+			"node-red": {
+				"name": "node-red"
+			},
+			"loops": {
+				"name": "loops"
+			}
+		}
+	},
+	"raspberry-pi": {
+		"name": "raspberry-pi",
+		"repositories": {
+			"iot-fire-detector": {
+				"name": "iot-fire-detector",
+				"description": "Sample IoT application implementing a fire detector. Intended to be deployed on a Raspberry Pi which has at least two temperature sensors connected.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/iot-fire-detector",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"rtist",
+					"raspberry-pi"
+				]
+			},
+			"become-an-rtist": {
+				"name": "become-an-rtist",
+				"description": "Sketch drawing game for the Raspberry Pi with camera and push button. Uses image recognition to recognize a sketch drawn by the player.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/become-an-rtist",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"raspberry-pi",
+					"raspberry-pi-camera",
+					"tensorflow",
+					"image-recognition",
+					"rtist"
+				]
+			}
+		},
+		"availableTopics": {
+			"rtist": {
+				"name": "rtist"
+			},
+			"raspberry-pi-camera": {
+				"name": "raspberry-pi-camera"
+			},
+			"tensorflow": {
+				"name": "tensorflow"
+			},
+			"image-recognition": {
+				"name": "image-recognition"
+			}
+		}
+	},
+	"library": {
+		"name": "library",
+		"repositories": {
+			"lib-http-server": {
+				"name": "lib-http-server",
+				"description": "A library for HCL RTist which allows an application to communicate with an HTTP server (both sending and receiving messages)",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/lib-http-server",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"library",
+					"rtist"
+				]
+			},
+			"lib-tcp-server": {
+				"name": "lib-tcp-server",
+				"description": "A library for HCL RTist which allows an RTist application to communicate over TCP with other applications",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/lib-tcp-server",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"library",
+					"rtist"
+				]
+			}
+		},
+		"availableTopics": {
+			"rtist": {
+				"name": "rtist"
+			}
+		}
+	},
+	"distributed": {
+		"name": "distributed",
+		"repositories": {
+			"pingpong-distributed": {
+				"name": "pingpong-distributed",
+				"description": "An example showing how to build a distributed real-time application using the lib-tcp-server library. Two applications send the events ping and pong back and forth between each other.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/pingpong-distributed",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"rtist",
+					"distributed"
+				]
+			}
+		},
+		"availableTopics": {
+			"rtist": {
+				"name": "rtist"
+			}
+		}
+	},
+	"raspberry-pi-camera": {
+		"name": "raspberry-pi-camera",
+		"repositories": {
+			"become-an-rtist": {
+				"name": "become-an-rtist",
+				"description": "Sketch drawing game for the Raspberry Pi with camera and push button. Uses image recognition to recognize a sketch drawn by the player.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/become-an-rtist",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"raspberry-pi",
+					"raspberry-pi-camera",
+					"tensorflow",
+					"image-recognition",
+					"rtist"
+				]
+			}
+		},
+		"availableTopics": {
+			"raspberry-pi": {
+				"name": "raspberry-pi"
+			},
+			"tensorflow": {
+				"name": "tensorflow"
+			},
+			"image-recognition": {
+				"name": "image-recognition"
+			},
+			"rtist": {
+				"name": "rtist"
+			}
+		}
+	},
+	"tensorflow": {
+		"name": "tensorflow",
+		"repositories": {
+			"become-an-rtist": {
+				"name": "become-an-rtist",
+				"description": "Sketch drawing game for the Raspberry Pi with camera and push button. Uses image recognition to recognize a sketch drawn by the player.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/become-an-rtist",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"raspberry-pi",
+					"raspberry-pi-camera",
+					"tensorflow",
+					"image-recognition",
+					"rtist"
+				]
+			}
+		},
+		"availableTopics": {
+			"raspberry-pi": {
+				"name": "raspberry-pi"
+			},
+			"raspberry-pi-camera": {
+				"name": "raspberry-pi-camera"
+			},
+			"image-recognition": {
+				"name": "image-recognition"
+			},
+			"rtist": {
+				"name": "rtist"
+			}
+		}
+	},
+	"image-recognition": {
+		"name": "image-recognition",
+		"repositories": {
+			"become-an-rtist": {
+				"name": "become-an-rtist",
+				"description": "Sketch drawing game for the Raspberry Pi with camera and push button. Uses image recognition to recognize a sketch drawn by the player.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/become-an-rtist",
+				"private": false,
+				"fork": false,
+				"license": "MIT License",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"raspberry-pi",
+					"raspberry-pi-camera",
+					"tensorflow",
+					"image-recognition",
+					"rtist"
+				]
+			}
+		},
+		"availableTopics": {
+			"raspberry-pi": {
+				"name": "raspberry-pi"
+			},
+			"raspberry-pi-camera": {
+				"name": "raspberry-pi-camera"
+			},
+			"tensorflow": {
+				"name": "tensorflow"
+			},
+			"rtist": {
+				"name": "rtist"
+			}
+		}
+	},
 	"onetest": {
 		"name": "onetest",
 		"repositories": {
@@ -1047,38 +1403,6 @@
 			},
 			"volt-mx": {
 				"name": "volt-mx"
-			}
-		}
-	},
-	"rtist": {
-		"name": "rtist",
-		"repositories": {
-			"node-red-contrib-hcl-iterate-loop": {
-				"name": "node-red-contrib-hcl-iterate-loop",
-				"description": "This Node-RED node allows you to build loops, just like a for loop in any programming language do, iterating over the selected parts in the flow. Playing with the starting point, increment/decrement values and condition to be evaluated in each iteration.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/node-red-contrib-hcl-iterate-loop",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "HTML",
-				"languageColor": "#e34c26",
-				"topics": [
-					"rtist",
-					"node-red-contrib",
-					"node-red",
-					"loops"
-				]
-			}
-		},
-		"availableTopics": {
-			"node-red-contrib": {
-				"name": "node-red-contrib"
-			},
-			"node-red": {
-				"name": "node-red"
-			},
-			"loops": {
-				"name": "loops"
 			}
 		}
 	},
@@ -1734,6 +2058,19 @@
 				"topics": [
 					"hcl-commerce",
 					"google"
+				]
+			},
+			"hcl-commerce-helmchart": {
+				"name": "hcl-commerce-helmchart",
+				"description": "HCL Commerce Helm Charts contains helm charts files to deploy HCL Commerce",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-helmchart",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Smarty",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce"
 				]
 			},
 			"hcl-commerce-performance": {
