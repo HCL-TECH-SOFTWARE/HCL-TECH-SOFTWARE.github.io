@@ -940,7 +940,8 @@
 				"languageColor": "#2b7489",
 				"topics": [
 					"hcl-dx",
-					"angular"
+					"angular",
+					"dx"
 				]
 			},
 			"WebDevToolkitForDx": {
@@ -1000,11 +1001,28 @@
 				"topics": [
 					"hcl-dx"
 				]
+			},
+			"dx-metrics-grafana-dashboards": {
+				"name": "dx-metrics-grafana-dashboards",
+				"description": "This repository contains Grafana Dashboards in json format that can be imported directly into Grafana. The dashboards are created or customized to be compatible with the metrics exposed by HCL Digital Experience.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-metrics-grafana-dashboards",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-dx",
+					"grafana"
+				]
 			}
 		},
 		"availableTopics": {
 			"angular": {
 				"name": "angular"
+			},
+			"dx": {
+				"name": "dx"
 			},
 			"ringapi": {
 				"name": "ringapi"
@@ -1023,6 +1041,9 @@
 			},
 			"script-portlet": {
 				"name": "script-portlet"
+			},
+			"grafana": {
+				"name": "grafana"
 			}
 		}
 	},
@@ -1040,13 +1061,45 @@
 				"languageColor": "#2b7489",
 				"topics": [
 					"hcl-dx",
-					"angular"
+					"angular",
+					"dx"
 				]
 			}
 		},
 		"availableTopics": {
 			"hcl-dx": {
 				"name": "hcl-dx"
+			},
+			"dx": {
+				"name": "dx"
+			}
+		}
+	},
+	"dx": {
+		"name": "dx",
+		"repositories": {
+			"sample-angular-script-application": {
+				"name": "sample-angular-script-application",
+				"description": "This sample illustrates building an Angular CLI application and deploying it as a script application. It includes all the configuration and build steps needed to get the application running smoothly in HCL Digital Experience.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/sample-angular-script-application",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-dx",
+					"angular",
+					"dx"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-dx": {
+				"name": "hcl-dx"
+			},
+			"angular": {
+				"name": "angular"
 			}
 		}
 	},
@@ -2087,6 +2140,21 @@
 					"grafana",
 					"onetest"
 				]
+			},
+			"Commerce-Avalara-Integration": {
+				"name": "Commerce-Avalara-Integration",
+				"description": "Avalara Tax has been implemented using Headless REST API's and has been integrated to the React storefront by following the instructions.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Avalara-Integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"avalara",
+					"tax",
+					"hcl-commerce"
+				]
 			}
 		},
 		"availableTopics": {
@@ -2134,6 +2202,12 @@
 			},
 			"onetest": {
 				"name": "onetest"
+			},
+			"avalara": {
+				"name": "avalara"
+			},
+			"tax": {
+				"name": "tax"
 			}
 		}
 	},
@@ -2914,6 +2988,20 @@
 					"grafana",
 					"onetest"
 				]
+			},
+			"dx-metrics-grafana-dashboards": {
+				"name": "dx-metrics-grafana-dashboards",
+				"description": "This repository contains Grafana Dashboards in json format that can be imported directly into Grafana. The dashboards are created or customized to be compatible with the metrics exposed by HCL Digital Experience.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-metrics-grafana-dashboards",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-dx",
+					"grafana"
+				]
 			}
 		},
 		"availableTopics": {
@@ -2922,6 +3010,9 @@
 			},
 			"onetest": {
 				"name": "onetest"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
 			}
 		}
 	},
@@ -2946,6 +3037,62 @@
 		"availableTopics": {
 			"appscan": {
 				"name": "appscan"
+			}
+		}
+	},
+	"avalara": {
+		"name": "avalara",
+		"repositories": {
+			"Commerce-Avalara-Integration": {
+				"name": "Commerce-Avalara-Integration",
+				"description": "Avalara Tax has been implemented using Headless REST API's and has been integrated to the React storefront by following the instructions.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Avalara-Integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"avalara",
+					"tax",
+					"hcl-commerce"
+				]
+			}
+		},
+		"availableTopics": {
+			"tax": {
+				"name": "tax"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			}
+		}
+	},
+	"tax": {
+		"name": "tax",
+		"repositories": {
+			"Commerce-Avalara-Integration": {
+				"name": "Commerce-Avalara-Integration",
+				"description": "Avalara Tax has been implemented using Headless REST API's and has been integrated to the React storefront by following the instructions.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Avalara-Integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"avalara",
+					"tax",
+					"hcl-commerce"
+				]
+			}
+		},
+		"availableTopics": {
+			"avalara": {
+				"name": "avalara"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	}

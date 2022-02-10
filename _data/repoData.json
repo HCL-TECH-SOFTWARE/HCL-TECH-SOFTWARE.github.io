@@ -314,7 +314,8 @@
 		"languageColor": "#2b7489",
 		"topics": [
 			"hcl-dx",
-			"angular"
+			"angular",
+			"dx"
 		]
 	},
 	{
@@ -1207,15 +1208,33 @@
 		"topics": []
 	},
 	{
+		"name": "Commerce-Avalara-Integration",
+		"description": "Avalara Tax has been implemented using Headless REST API's and has been integrated to the React storefront by following the instructions.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Avalara-Integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"avalara",
+			"tax",
+			"hcl-commerce"
+		]
+	},
+	{
 		"name": "dx-metrics-grafana-dashboards",
-		"description": "",
+		"description": "This repository contains Grafana Dashboards in json format that can be imported directly into Grafana. The dashboards are created or customized to be compatible with the metrics exposed by HCL Digital Experience.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-metrics-grafana-dashboards",
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
 		"language": "Not Identified",
 		"languageColor": "#fff",
-		"topics": []
+		"topics": [
+			"hcl-dx",
+			"grafana"
+		]
 	},
 	{
 		"name": "litmus-go",
@@ -1248,6 +1267,28 @@
 		"license": "Apache License 2.0",
 		"language": "JavaScript",
 		"languageColor": "#f1e05a",
+		"topics": []
+	},
+	{
+		"name": "vertx-web",
+		"description": "HTTP web applications for Vert.x",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/vertx-web",
+		"private": false,
+		"fork": true,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": []
+	},
+	{
+		"name": "vert.x",
+		"description": "Vert.x is a tool-kit for building reactive applications on the JVM",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/vert.x",
+		"private": false,
+		"fork": true,
+		"license": "Other",
+		"language": "Java",
+		"languageColor": "#b07219",
 		"topics": []
 	}
 ]
