@@ -521,8 +521,8 @@
 		"private": false,
 		"fork": false,
 		"license": "MIT License",
-		"language": "HTML",
-		"languageColor": "#e34c26",
+		"language": "SCSS",
+		"languageColor": "#fff",
 		"topics": [
 			"corporate"
 		]
@@ -849,17 +849,6 @@
 		]
 	},
 	{
-		"name": "sofy-docs",
-		"description": "Soon to be the documentation hub for HCL SoFy.  This site will be accessible at https://docs.hclsofy.com",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/sofy-docs",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "HTML",
-		"languageColor": "#e34c26",
-		"topics": []
-	},
-	{
 		"name": "connections-doc",
 		"description": "Official documentation for HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-doc",
@@ -1161,9 +1150,9 @@
 		]
 	},
 	{
-		"name": "domino-docker",
+		"name": "domino-container",
 		"description": "This repository provides Dockerfiles for building an IBM Domino server image for Docker with latest fixes",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-docker",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-container",
 		"private": false,
 		"fork": true,
 		"license": "Apache License 2.0",
@@ -1197,9 +1186,9 @@
 		]
 	},
 	{
-		"name": "netbeans",
+		"name": "versionvault-netbeans-integration",
 		"description": "Apache NetBeans",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/netbeans",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/versionvault-netbeans-integration",
 		"private": false,
 		"fork": true,
 		"license": "Apache License 2.0",
@@ -1290,5 +1279,50 @@
 		"language": "Java",
 		"languageColor": "#b07219",
 		"topics": []
+	},
+	{
+		"name": "Commerce-CyberSource-Payment-Integration",
+		"description": "The HCL Commerce provide assets to integrate the CyberSource Payment. Merchants can integrate CyberSource to their commerce website and empower customers with new payment system. We have followed the CyberSource PCI compliance.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-CyberSource-Payment-Integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"commerce",
+			"commerce-payments",
+			"cybersource"
+		]
+	},
+	{
+		"name": "Commerce-Stripe-Payment-Integration",
+		"description": "The integration of HCL Commerce with Stripe Payment where HCL Commerce provides commerce functionality and Stripe provides a back-end framework to manage the payments.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Stripe-Payment-Integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"commerce",
+			"commercepayments",
+			"stripe"
+		]
+	},
+	{
+		"name": "Commerce-Lunu-Payment-Integration",
+		"description": "The asset allows HCL Commerce to integrate with Lunu Payments. Merchants can integrate Lunu to their commerce website. Now users can place an order using Cryptocurrencies.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Lunu-Payment-Integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"commerce",
+			"lunu",
+			"commercecrypto"
+		]
 	}
 ]
