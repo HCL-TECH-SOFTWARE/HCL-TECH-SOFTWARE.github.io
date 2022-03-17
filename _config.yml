@@ -20,7 +20,7 @@ url:  # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
 repository: hcl-labs-ospo/hcl-labs-ospo.github.io # GitHub repo
-copyright_info: "&copy; Copyright HCL Software 2021"
+copyright_info: "&copy; Copyright HCL Software 2021 - 2022"
 
 # Build settings
 markdown: kramdown
