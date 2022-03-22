@@ -206,6 +206,19 @@
 		]
 	},
 	{
+		"name": "domino-container",
+		"description": "HCL Domino Docker Container image build scripts",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-container",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Shell",
+		"languageColor": "#89e051",
+		"topics": [
+			"domino"
+		]
+	},
+	{
 		"name": "lib-tcp-server",
 		"description": "A library for HCL RTist which allows an RTist application to communicate over TCP with other applications",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/lib-tcp-server",
@@ -1150,17 +1163,6 @@
 		]
 	},
 	{
-		"name": "domino-container",
-		"description": "This repository provides Dockerfiles for building an IBM Domino server image for Docker with latest fixes",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-container",
-		"private": false,
-		"fork": true,
-		"license": "Apache License 2.0",
-		"language": "Shell",
-		"languageColor": "#89e051",
-		"topics": []
-	},
-	{
 		"name": "monaco-yaml",
 		"description": "YAML plugin for the Monaco Editor",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/monaco-yaml",
@@ -1292,7 +1294,8 @@
 		"topics": [
 			"commerce",
 			"commerce-payments",
-			"cybersource"
+			"cybersource",
+			"hcl-commerce"
 		]
 	},
 	{
@@ -1307,7 +1310,8 @@
 		"topics": [
 			"commerce",
 			"commercepayments",
-			"stripe"
+			"stripe",
+			"hcl-commerce"
 		]
 	},
 	{
@@ -1322,7 +1326,8 @@
 		"topics": [
 			"commerce",
 			"lunu",
-			"commercecrypto"
+			"commercecrypto",
+			"hcl-commerce"
 		]
 	}
 ]

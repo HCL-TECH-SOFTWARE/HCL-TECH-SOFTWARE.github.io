@@ -708,6 +708,171 @@
 			}
 		}
 	},
+	"domino": {
+		"name": "domino",
+		"repositories": {
+			"domino-container": {
+				"name": "domino-container",
+				"description": "HCL Domino Docker Container image build scripts",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-container",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Shell",
+				"languageColor": "#89e051",
+				"topics": [
+					"domino"
+				]
+			},
+			"appdev-pack-samples": {
+				"name": "appdev-pack-samples",
+				"description": "A collection of sample code for interacting with Domino AppDev Pack components.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-samples",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"domino",
+					"developers",
+					"sample"
+				]
+			},
+			"volt-mx-ls-toolkit": {
+				"name": "volt-mx-ls-toolkit",
+				"description": "Toolkit to enable better integration between HCL Software products HCL Volt MX and HCL Domino. This is LotusScript toolkit for running HCL Domino agents as REST services, with specific helpers for JSON in-out and a specific payload recommended for HCL Volt MX",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-ls-toolkit",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"volt-mx",
+					"domino",
+					"developers"
+				]
+			},
+			"domino-online-meeting-integration": {
+				"name": "domino-online-meeting-integration",
+				"description": "Integration for HCL Notes with online meeting provider services. Documentation available at https://opensource.hcltechsw.com/domino-online-meeting-integration/",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-online-meeting-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"domino"
+				]
+			},
+			"Verse-H.A.-Example-Configs": {
+				"name": "Verse-H.A.-Example-Configs",
+				"description": "A sample proxy config that can be used with Verse running on Domino.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Verse-H.A.-Example-Configs",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Tcl",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"verse"
+				]
+			},
+			"domino-keep-docs": {
+				"name": "domino-keep-docs",
+				"description": "Documentation for HCL Domino REST API (Project KEEP)",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"java",
+					"domino",
+					"rest-api",
+					"documentation"
+				]
+			},
+			"domino-cert-manager": {
+				"name": "domino-cert-manager",
+				"description": "Official HCL Domino V12 Certificate Manager DNS TXT API repository ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"acme-v2",
+					"dns-01"
+				]
+			},
+			"domino-backup": {
+				"name": "domino-backup",
+				"description": "Configuration files for HCL Domino Backup integration with other backup solutions.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-backup",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Shell",
+				"languageColor": "#89e051",
+				"topics": [
+					"domino",
+					"backup"
+				]
+			},
+			"domino-keep-tutorials": {
+				"name": "domino-keep-tutorials",
+				"description": "Tutorials for Domino REST API a.k.a. Domino KEEP",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-tutorials",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"domino"
+				]
+			}
+		},
+		"availableTopics": {
+			"developers": {
+				"name": "developers"
+			},
+			"sample": {
+				"name": "sample"
+			},
+			"volt-mx": {
+				"name": "volt-mx"
+			},
+			"verse": {
+				"name": "verse"
+			},
+			"java": {
+				"name": "java"
+			},
+			"rest-api": {
+				"name": "rest-api"
+			},
+			"documentation": {
+				"name": "documentation"
+			},
+			"acme-v2": {
+				"name": "acme-v2"
+			},
+			"dns-01": {
+				"name": "dns-01"
+			},
+			"backup": {
+				"name": "backup"
+			}
+		}
+	},
 	"distributed": {
 		"name": "distributed",
 		"repositories": {
@@ -1196,158 +1361,6 @@
 			},
 			"dam": {
 				"name": "dam"
-			}
-		}
-	},
-	"domino": {
-		"name": "domino",
-		"repositories": {
-			"appdev-pack-samples": {
-				"name": "appdev-pack-samples",
-				"description": "A collection of sample code for interacting with Domino AppDev Pack components.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/appdev-pack-samples",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
-				"topics": [
-					"domino",
-					"developers",
-					"sample"
-				]
-			},
-			"volt-mx-ls-toolkit": {
-				"name": "volt-mx-ls-toolkit",
-				"description": "Toolkit to enable better integration between HCL Software products HCL Volt MX and HCL Domino. This is LotusScript toolkit for running HCL Domino agents as REST services, with specific helpers for JSON in-out and a specific payload recommended for HCL Volt MX",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-ls-toolkit",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Not Identified",
-				"languageColor": "#fff",
-				"topics": [
-					"volt-mx",
-					"domino",
-					"developers"
-				]
-			},
-			"domino-online-meeting-integration": {
-				"name": "domino-online-meeting-integration",
-				"description": "Integration for HCL Notes with online meeting provider services. Documentation available at https://opensource.hcltechsw.com/domino-online-meeting-integration/",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-online-meeting-integration",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Java",
-				"languageColor": "#b07219",
-				"topics": [
-					"domino"
-				]
-			},
-			"Verse-H.A.-Example-Configs": {
-				"name": "Verse-H.A.-Example-Configs",
-				"description": "A sample proxy config that can be used with Verse running on Domino.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/Verse-H.A.-Example-Configs",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Tcl",
-				"languageColor": "#fff",
-				"topics": [
-					"domino",
-					"verse"
-				]
-			},
-			"domino-keep-docs": {
-				"name": "domino-keep-docs",
-				"description": "Documentation for HCL Domino REST API (Project KEEP)",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-docs",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Not Identified",
-				"languageColor": "#fff",
-				"topics": [
-					"java",
-					"domino",
-					"rest-api",
-					"documentation"
-				]
-			},
-			"domino-cert-manager": {
-				"name": "domino-cert-manager",
-				"description": "Official HCL Domino V12 Certificate Manager DNS TXT API repository ",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Not Identified",
-				"languageColor": "#fff",
-				"topics": [
-					"domino",
-					"acme-v2",
-					"dns-01"
-				]
-			},
-			"domino-backup": {
-				"name": "domino-backup",
-				"description": "Configuration files for HCL Domino Backup integration with other backup solutions.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-backup",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Shell",
-				"languageColor": "#89e051",
-				"topics": [
-					"domino",
-					"backup"
-				]
-			},
-			"domino-keep-tutorials": {
-				"name": "domino-keep-tutorials",
-				"description": "Tutorials for Domino REST API a.k.a. Domino KEEP",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-keep-tutorials",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "HTML",
-				"languageColor": "#e34c26",
-				"topics": [
-					"domino"
-				]
-			}
-		},
-		"availableTopics": {
-			"developers": {
-				"name": "developers"
-			},
-			"sample": {
-				"name": "sample"
-			},
-			"volt-mx": {
-				"name": "volt-mx"
-			},
-			"verse": {
-				"name": "verse"
-			},
-			"java": {
-				"name": "java"
-			},
-			"rest-api": {
-				"name": "rest-api"
-			},
-			"documentation": {
-				"name": "documentation"
-			},
-			"acme-v2": {
-				"name": "acme-v2"
-			},
-			"dns-01": {
-				"name": "dns-01"
-			},
-			"backup": {
-				"name": "backup"
 			}
 		}
 	},
@@ -2155,6 +2168,54 @@
 					"tax",
 					"hcl-commerce"
 				]
+			},
+			"Commerce-CyberSource-Payment-Integration": {
+				"name": "Commerce-CyberSource-Payment-Integration",
+				"description": "The HCL Commerce provide assets to integrate the CyberSource Payment. Merchants can integrate CyberSource to their commerce website and empower customers with new payment system. We have followed the CyberSource PCI compliance.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-CyberSource-Payment-Integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"commerce",
+					"commerce-payments",
+					"cybersource",
+					"hcl-commerce"
+				]
+			},
+			"Commerce-Stripe-Payment-Integration": {
+				"name": "Commerce-Stripe-Payment-Integration",
+				"description": "The integration of HCL Commerce with Stripe Payment where HCL Commerce provides commerce functionality and Stripe provides a back-end framework to manage the payments.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Stripe-Payment-Integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"commerce",
+					"commercepayments",
+					"stripe",
+					"hcl-commerce"
+				]
+			},
+			"Commerce-Lunu-Payment-Integration": {
+				"name": "Commerce-Lunu-Payment-Integration",
+				"description": "The asset allows HCL Commerce to integrate with Lunu Payments. Merchants can integrate Lunu to their commerce website. Now users can place an order using Cryptocurrencies.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Lunu-Payment-Integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"commerce",
+					"lunu",
+					"commercecrypto",
+					"hcl-commerce"
+				]
 			}
 		},
 		"availableTopics": {
@@ -2208,6 +2269,27 @@
 			},
 			"tax": {
 				"name": "tax"
+			},
+			"commerce": {
+				"name": "commerce"
+			},
+			"commerce-payments": {
+				"name": "commerce-payments"
+			},
+			"cybersource": {
+				"name": "cybersource"
+			},
+			"commercepayments": {
+				"name": "commercepayments"
+			},
+			"stripe": {
+				"name": "stripe"
+			},
+			"lunu": {
+				"name": "lunu"
+			},
+			"commercecrypto": {
+				"name": "commercecrypto"
 			}
 		}
 	},
@@ -3111,7 +3193,8 @@
 				"topics": [
 					"commerce",
 					"commerce-payments",
-					"cybersource"
+					"cybersource",
+					"hcl-commerce"
 				]
 			},
 			"Commerce-Stripe-Payment-Integration": {
@@ -3126,7 +3209,8 @@
 				"topics": [
 					"commerce",
 					"commercepayments",
-					"stripe"
+					"stripe",
+					"hcl-commerce"
 				]
 			},
 			"Commerce-Lunu-Payment-Integration": {
@@ -3141,7 +3225,8 @@
 				"topics": [
 					"commerce",
 					"lunu",
-					"commercecrypto"
+					"commercecrypto",
+					"hcl-commerce"
 				]
 			}
 		},
@@ -3151,6 +3236,9 @@
 			},
 			"cybersource": {
 				"name": "cybersource"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			},
 			"commercepayments": {
 				"name": "commercepayments"
@@ -3181,7 +3269,8 @@
 				"topics": [
 					"commerce",
 					"commerce-payments",
-					"cybersource"
+					"cybersource",
+					"hcl-commerce"
 				]
 			}
 		},
@@ -3191,6 +3280,9 @@
 			},
 			"cybersource": {
 				"name": "cybersource"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -3209,7 +3301,8 @@
 				"topics": [
 					"commerce",
 					"commerce-payments",
-					"cybersource"
+					"cybersource",
+					"hcl-commerce"
 				]
 			}
 		},
@@ -3219,6 +3312,9 @@
 			},
 			"commerce-payments": {
 				"name": "commerce-payments"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -3237,7 +3333,8 @@
 				"topics": [
 					"commerce",
 					"commercepayments",
-					"stripe"
+					"stripe",
+					"hcl-commerce"
 				]
 			}
 		},
@@ -3247,6 +3344,9 @@
 			},
 			"stripe": {
 				"name": "stripe"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -3265,7 +3365,8 @@
 				"topics": [
 					"commerce",
 					"commercepayments",
-					"stripe"
+					"stripe",
+					"hcl-commerce"
 				]
 			}
 		},
@@ -3275,6 +3376,9 @@
 			},
 			"commercepayments": {
 				"name": "commercepayments"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -3293,7 +3397,8 @@
 				"topics": [
 					"commerce",
 					"lunu",
-					"commercecrypto"
+					"commercecrypto",
+					"hcl-commerce"
 				]
 			}
 		},
@@ -3303,6 +3408,9 @@
 			},
 			"commercecrypto": {
 				"name": "commercecrypto"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -3321,7 +3429,8 @@
 				"topics": [
 					"commerce",
 					"lunu",
-					"commercecrypto"
+					"commercecrypto",
+					"hcl-commerce"
 				]
 			}
 		},
@@ -3331,6 +3440,9 @@
 			},
 			"lunu": {
 				"name": "lunu"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	}
