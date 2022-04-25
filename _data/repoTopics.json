@@ -1180,6 +1180,19 @@
 					"hcl-dx",
 					"grafana"
 				]
+			},
+			"digital-experience": {
+				"name": "digital-experience",
+				"description": "Next-generation documentation site for HCL Digital Experience.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/digital-experience",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"hcl-dx"
+				]
 			}
 		},
 		"availableTopics": {
@@ -2041,7 +2054,9 @@
 				"language": "TypeScript",
 				"languageColor": "#2b7489",
 				"topics": [
-					"hcl-commerce"
+					"hcl-commerce",
+					"commerce",
+					"punchout2go"
 				]
 			},
 			"commerce-Visual-Merchandising-Widget": {
@@ -2258,6 +2273,12 @@
 			"react-storefront": {
 				"name": "react-storefront"
 			},
+			"commerce": {
+				"name": "commerce"
+			},
+			"punchout2go": {
+				"name": "punchout2go"
+			},
 			"grafana": {
 				"name": "grafana"
 			},
@@ -2269,9 +2290,6 @@
 			},
 			"tax": {
 				"name": "tax"
-			},
-			"commerce": {
-				"name": "commerce"
 			},
 			"commerce-payments": {
 				"name": "commerce-payments"
@@ -2885,6 +2903,128 @@
 			}
 		}
 	},
+	"commerce": {
+		"name": "commerce",
+		"repositories": {
+			"commerce-PunchOut2Go-Integration": {
+				"name": "commerce-PunchOut2Go-Integration",
+				"description": "The integration of HCL Commerce with PunchOut2Go where HCL Commerce provides commerce functionality and PunchOut2Go provides two-way integration between an HCL Commerce store and hundreds of e-procurement and ERP platforms.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-PunchOut2Go-Integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"commerce",
+					"punchout2go"
+				]
+			},
+			"Commerce-CyberSource-Payment-Integration": {
+				"name": "Commerce-CyberSource-Payment-Integration",
+				"description": "The HCL Commerce provide assets to integrate the CyberSource Payment. Merchants can integrate CyberSource to their commerce website and empower customers with new payment system. We have followed the CyberSource PCI compliance.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-CyberSource-Payment-Integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"commerce",
+					"commerce-payments",
+					"cybersource",
+					"hcl-commerce"
+				]
+			},
+			"Commerce-Stripe-Payment-Integration": {
+				"name": "Commerce-Stripe-Payment-Integration",
+				"description": "The integration of HCL Commerce with Stripe Payment where HCL Commerce provides commerce functionality and Stripe provides a back-end framework to manage the payments.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Stripe-Payment-Integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"commerce",
+					"commercepayments",
+					"stripe",
+					"hcl-commerce"
+				]
+			},
+			"Commerce-Lunu-Payment-Integration": {
+				"name": "Commerce-Lunu-Payment-Integration",
+				"description": "The asset allows HCL Commerce to integrate with Lunu Payments. Merchants can integrate Lunu to their commerce website. Now users can place an order using Cryptocurrencies.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Lunu-Payment-Integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"commerce",
+					"lunu",
+					"commercecrypto",
+					"hcl-commerce"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"punchout2go": {
+				"name": "punchout2go"
+			},
+			"commerce-payments": {
+				"name": "commerce-payments"
+			},
+			"cybersource": {
+				"name": "cybersource"
+			},
+			"commercepayments": {
+				"name": "commercepayments"
+			},
+			"stripe": {
+				"name": "stripe"
+			},
+			"lunu": {
+				"name": "lunu"
+			},
+			"commercecrypto": {
+				"name": "commercecrypto"
+			}
+		}
+	},
+	"punchout2go": {
+		"name": "punchout2go",
+		"repositories": {
+			"commerce-PunchOut2Go-Integration": {
+				"name": "commerce-PunchOut2Go-Integration",
+				"description": "The integration of HCL Commerce with PunchOut2Go where HCL Commerce provides commerce functionality and PunchOut2Go provides two-way integration between an HCL Commerce store and hundreds of e-procurement and ERP platforms.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-PunchOut2Go-Integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"commerce",
+					"punchout2go"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"commerce": {
+				"name": "commerce"
+			}
+		}
+	},
 	"verse": {
 		"name": "verse",
 		"repositories": {
@@ -3175,82 +3315,6 @@
 			},
 			"hcl-commerce": {
 				"name": "hcl-commerce"
-			}
-		}
-	},
-	"commerce": {
-		"name": "commerce",
-		"repositories": {
-			"Commerce-CyberSource-Payment-Integration": {
-				"name": "Commerce-CyberSource-Payment-Integration",
-				"description": "The HCL Commerce provide assets to integrate the CyberSource Payment. Merchants can integrate CyberSource to their commerce website and empower customers with new payment system. We have followed the CyberSource PCI compliance.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-CyberSource-Payment-Integration",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
-				"topics": [
-					"commerce",
-					"commerce-payments",
-					"cybersource",
-					"hcl-commerce"
-				]
-			},
-			"Commerce-Stripe-Payment-Integration": {
-				"name": "Commerce-Stripe-Payment-Integration",
-				"description": "The integration of HCL Commerce with Stripe Payment where HCL Commerce provides commerce functionality and Stripe provides a back-end framework to manage the payments.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Stripe-Payment-Integration",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "TypeScript",
-				"languageColor": "#2b7489",
-				"topics": [
-					"commerce",
-					"commercepayments",
-					"stripe",
-					"hcl-commerce"
-				]
-			},
-			"Commerce-Lunu-Payment-Integration": {
-				"name": "Commerce-Lunu-Payment-Integration",
-				"description": "The asset allows HCL Commerce to integrate with Lunu Payments. Merchants can integrate Lunu to their commerce website. Now users can place an order using Cryptocurrencies.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Lunu-Payment-Integration",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "TypeScript",
-				"languageColor": "#2b7489",
-				"topics": [
-					"commerce",
-					"lunu",
-					"commercecrypto",
-					"hcl-commerce"
-				]
-			}
-		},
-		"availableTopics": {
-			"commerce-payments": {
-				"name": "commerce-payments"
-			},
-			"cybersource": {
-				"name": "cybersource"
-			},
-			"hcl-commerce": {
-				"name": "hcl-commerce"
-			},
-			"commercepayments": {
-				"name": "commercepayments"
-			},
-			"stripe": {
-				"name": "stripe"
-			},
-			"lunu": {
-				"name": "lunu"
-			},
-			"commercecrypto": {
-				"name": "commercecrypto"
 			}
 		}
 	},

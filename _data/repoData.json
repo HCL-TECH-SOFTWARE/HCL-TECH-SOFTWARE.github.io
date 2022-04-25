@@ -898,7 +898,9 @@
 		"language": "TypeScript",
 		"languageColor": "#2b7489",
 		"topics": [
-			"hcl-commerce"
+			"hcl-commerce",
+			"commerce",
+			"punchout2go"
 		]
 	},
 	{
@@ -1281,6 +1283,19 @@
 		"language": "Java",
 		"languageColor": "#b07219",
 		"topics": []
+	},
+	{
+		"name": "digital-experience",
+		"description": "Next-generation documentation site for HCL Digital Experience.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/digital-experience",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"hcl-dx"
+		]
 	},
 	{
 		"name": "Commerce-CyberSource-Payment-Integration",
