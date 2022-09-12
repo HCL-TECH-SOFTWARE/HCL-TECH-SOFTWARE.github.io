@@ -757,8 +757,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Other",
-		"language": "Not Identified",
-		"languageColor": "#fff",
+		"language": "Java",
+		"languageColor": "#b07219",
 		"topics": [
 			"volt-mx",
 			"sample"
@@ -970,7 +970,7 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Not Identified",
+		"language": "Batchfile",
 		"languageColor": "#fff",
 		"topics": [
 			"java",
@@ -1015,8 +1015,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "HTML",
-		"languageColor": "#e34c26",
+		"language": "SCSS",
+		"languageColor": "#fff",
 		"topics": [
 			"domino"
 		]
@@ -1165,6 +1165,20 @@
 		]
 	},
 	{
+		"name": "Commerce-ReactStore-Automation",
+		"description": "Commerce-ReactStore-Automation is an e2e testing framework includes the main flows from the sample store. This framework can be used to design and run their own set of regression test cases according to the instruction given in the readme.md file.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-ReactStore-Automation",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"hcl-commerce",
+			"commerce-reactstore-automation"
+		]
+	},
+	{
 		"name": "monaco-yaml",
 		"description": "YAML plugin for the Monaco Editor",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/monaco-yaml",
@@ -1247,8 +1261,8 @@
 		"private": false,
 		"fork": true,
 		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
+		"language": "HTML",
+		"languageColor": "#e34c26",
 		"topics": []
 	},
 	{
@@ -1343,6 +1357,69 @@
 			"lunu",
 			"commercecrypto",
 			"hcl-commerce"
+		]
+	},
+	{
+		"name": "presidio",
+		"description": "Context aware, pluggable and customizable data protection and anonymization SDK for text and images",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/presidio",
+		"private": false,
+		"fork": true,
+		"license": "MIT License",
+		"language": "Python",
+		"languageColor": "#3572A5",
+		"topics": []
+	},
+	{
+		"name": "hcl-workload-automation-instana-dashboard",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-workload-automation-instana-dashboard",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"automation",
+			"hwa",
+			"workload",
+			"workload-automation"
+		]
+	},
+	{
+		"name": "Volt-MX-Documentation-Archive",
+		"description": "Archived documentation for HCL Volt MX (https://www.hcltechsw.com/volt-mx). The site is accessible at http://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Volt-MX-Documentation-Archive",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"documentation",
+			"volt-mx"
+		]
+	},
+	{
+		"name": "DX-Modules-and-ScriptApps",
+		"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"dx",
+			"webpack",
+			"code-splitting",
+			"gradle",
+			"dx-modules",
+			"dx-scriptapps",
+			"javascript",
+			"optimizations",
+			"reactjs",
+			"optimal-page-loads"
 		]
 	}
 ]

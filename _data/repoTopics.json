@@ -788,7 +788,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Not Identified",
+				"language": "Batchfile",
 				"languageColor": "#fff",
 				"topics": [
 					"java",
@@ -833,8 +833,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "HTML",
-				"languageColor": "#e34c26",
+				"language": "SCSS",
+				"languageColor": "#fff",
 				"topics": [
 					"domino"
 				]
@@ -1270,6 +1270,28 @@
 					"angular",
 					"dx"
 				]
+			},
+			"DX-Modules-and-ScriptApps": {
+				"name": "DX-Modules-and-ScriptApps",
+				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"dx",
+					"webpack",
+					"code-splitting",
+					"gradle",
+					"dx-modules",
+					"dx-scriptapps",
+					"javascript",
+					"optimizations",
+					"reactjs",
+					"optimal-page-loads"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1278,6 +1300,33 @@
 			},
 			"angular": {
 				"name": "angular"
+			},
+			"webpack": {
+				"name": "webpack"
+			},
+			"code-splitting": {
+				"name": "code-splitting"
+			},
+			"gradle": {
+				"name": "gradle"
+			},
+			"dx-modules": {
+				"name": "dx-modules"
+			},
+			"dx-scriptapps": {
+				"name": "dx-scriptapps"
+			},
+			"javascript": {
+				"name": "javascript"
+			},
+			"optimizations": {
+				"name": "optimizations"
+			},
+			"reactjs": {
+				"name": "reactjs"
+			},
+			"optimal-page-loads": {
+				"name": "optimal-page-loads"
 			}
 		}
 	},
@@ -1465,8 +1514,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Other",
-				"language": "Not Identified",
-				"languageColor": "#fff",
+				"language": "Java",
+				"languageColor": "#b07219",
 				"topics": [
 					"volt-mx",
 					"sample"
@@ -1620,8 +1669,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Other",
-				"language": "Not Identified",
-				"languageColor": "#fff",
+				"language": "Java",
+				"languageColor": "#b07219",
 				"topics": [
 					"volt-mx",
 					"sample"
@@ -1637,6 +1686,20 @@
 				"language": "JavaScript",
 				"languageColor": "#f1e05a",
 				"topics": [
+					"volt-mx"
+				]
+			},
+			"Volt-MX-Documentation-Archive": {
+				"name": "Volt-MX-Documentation-Archive",
+				"description": "Archived documentation for HCL Volt MX (https://www.hcltechsw.com/volt-mx). The site is accessible at http://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Volt-MX-Documentation-Archive",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"documentation",
 					"volt-mx"
 				]
 			}
@@ -1744,6 +1807,22 @@
 					"automation",
 					"sametime"
 				]
+			},
+			"hcl-workload-automation-instana-dashboard": {
+				"name": "hcl-workload-automation-instana-dashboard",
+				"description": "",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-workload-automation-instana-dashboard",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"automation",
+					"hwa",
+					"workload",
+					"workload-automation"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1752,6 +1831,15 @@
 			},
 			"sametime": {
 				"name": "sametime"
+			},
+			"hwa": {
+				"name": "hwa"
+			},
+			"workload": {
+				"name": "workload"
+			},
+			"workload-automation": {
+				"name": "workload-automation"
 			}
 		}
 	},
@@ -1793,13 +1881,27 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Not Identified",
+				"language": "Batchfile",
 				"languageColor": "#fff",
 				"topics": [
 					"java",
 					"domino",
 					"rest-api",
 					"documentation"
+				]
+			},
+			"Volt-MX-Documentation-Archive": {
+				"name": "Volt-MX-Documentation-Archive",
+				"description": "Archived documentation for HCL Volt MX (https://www.hcltechsw.com/volt-mx). The site is accessible at http://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Volt-MX-Documentation-Archive",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"documentation",
+					"volt-mx"
 				]
 			}
 		},
@@ -2169,6 +2271,20 @@
 					"onetest"
 				]
 			},
+			"Commerce-ReactStore-Automation": {
+				"name": "Commerce-ReactStore-Automation",
+				"description": "Commerce-ReactStore-Automation is an e2e testing framework includes the main flows from the sample store. This framework can be used to design and run their own set of regression test cases according to the instruction given in the readme.md file.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-ReactStore-Automation",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"commerce-reactstore-automation"
+				]
+			},
 			"Commerce-Avalara-Integration": {
 				"name": "Commerce-Avalara-Integration",
 				"description": "Avalara Tax has been implemented using Headless REST API's and has been integrated to the React storefront by following the instructions.",
@@ -2284,6 +2400,9 @@
 			},
 			"onetest": {
 				"name": "onetest"
+			},
+			"commerce-reactstore-automation": {
+				"name": "commerce-reactstore-automation"
 			},
 			"avalara": {
 				"name": "avalara"
@@ -3059,7 +3178,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Not Identified",
+				"language": "Batchfile",
 				"languageColor": "#fff",
 				"topics": [
 					"java",
@@ -3091,7 +3210,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Not Identified",
+				"language": "Batchfile",
 				"languageColor": "#fff",
 				"topics": [
 					"java",
@@ -3235,6 +3354,30 @@
 			},
 			"hcl-dx": {
 				"name": "hcl-dx"
+			}
+		}
+	},
+	"commerce-reactstore-automation": {
+		"name": "commerce-reactstore-automation",
+		"repositories": {
+			"Commerce-ReactStore-Automation": {
+				"name": "Commerce-ReactStore-Automation",
+				"description": "Commerce-ReactStore-Automation is an e2e testing framework includes the main flows from the sample store. This framework can be used to design and run their own set of regression test cases according to the instruction given in the readme.md file.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-ReactStore-Automation",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"commerce-reactstore-automation"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
 			}
 		}
 	},
@@ -3507,6 +3650,606 @@
 			},
 			"hcl-commerce": {
 				"name": "hcl-commerce"
+			}
+		}
+	},
+	"hwa": {
+		"name": "hwa",
+		"repositories": {
+			"hcl-workload-automation-instana-dashboard": {
+				"name": "hcl-workload-automation-instana-dashboard",
+				"description": "",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-workload-automation-instana-dashboard",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"automation",
+					"hwa",
+					"workload",
+					"workload-automation"
+				]
+			}
+		},
+		"availableTopics": {
+			"automation": {
+				"name": "automation"
+			},
+			"workload": {
+				"name": "workload"
+			},
+			"workload-automation": {
+				"name": "workload-automation"
+			}
+		}
+	},
+	"workload": {
+		"name": "workload",
+		"repositories": {
+			"hcl-workload-automation-instana-dashboard": {
+				"name": "hcl-workload-automation-instana-dashboard",
+				"description": "",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-workload-automation-instana-dashboard",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"automation",
+					"hwa",
+					"workload",
+					"workload-automation"
+				]
+			}
+		},
+		"availableTopics": {
+			"automation": {
+				"name": "automation"
+			},
+			"hwa": {
+				"name": "hwa"
+			},
+			"workload-automation": {
+				"name": "workload-automation"
+			}
+		}
+	},
+	"workload-automation": {
+		"name": "workload-automation",
+		"repositories": {
+			"hcl-workload-automation-instana-dashboard": {
+				"name": "hcl-workload-automation-instana-dashboard",
+				"description": "",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-workload-automation-instana-dashboard",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"automation",
+					"hwa",
+					"workload",
+					"workload-automation"
+				]
+			}
+		},
+		"availableTopics": {
+			"automation": {
+				"name": "automation"
+			},
+			"hwa": {
+				"name": "hwa"
+			},
+			"workload": {
+				"name": "workload"
+			}
+		}
+	},
+	"webpack": {
+		"name": "webpack",
+		"repositories": {
+			"DX-Modules-and-ScriptApps": {
+				"name": "DX-Modules-and-ScriptApps",
+				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"dx",
+					"webpack",
+					"code-splitting",
+					"gradle",
+					"dx-modules",
+					"dx-scriptapps",
+					"javascript",
+					"optimizations",
+					"reactjs",
+					"optimal-page-loads"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"code-splitting": {
+				"name": "code-splitting"
+			},
+			"gradle": {
+				"name": "gradle"
+			},
+			"dx-modules": {
+				"name": "dx-modules"
+			},
+			"dx-scriptapps": {
+				"name": "dx-scriptapps"
+			},
+			"javascript": {
+				"name": "javascript"
+			},
+			"optimizations": {
+				"name": "optimizations"
+			},
+			"reactjs": {
+				"name": "reactjs"
+			},
+			"optimal-page-loads": {
+				"name": "optimal-page-loads"
+			}
+		}
+	},
+	"code-splitting": {
+		"name": "code-splitting",
+		"repositories": {
+			"DX-Modules-and-ScriptApps": {
+				"name": "DX-Modules-and-ScriptApps",
+				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"dx",
+					"webpack",
+					"code-splitting",
+					"gradle",
+					"dx-modules",
+					"dx-scriptapps",
+					"javascript",
+					"optimizations",
+					"reactjs",
+					"optimal-page-loads"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"webpack": {
+				"name": "webpack"
+			},
+			"gradle": {
+				"name": "gradle"
+			},
+			"dx-modules": {
+				"name": "dx-modules"
+			},
+			"dx-scriptapps": {
+				"name": "dx-scriptapps"
+			},
+			"javascript": {
+				"name": "javascript"
+			},
+			"optimizations": {
+				"name": "optimizations"
+			},
+			"reactjs": {
+				"name": "reactjs"
+			},
+			"optimal-page-loads": {
+				"name": "optimal-page-loads"
+			}
+		}
+	},
+	"gradle": {
+		"name": "gradle",
+		"repositories": {
+			"DX-Modules-and-ScriptApps": {
+				"name": "DX-Modules-and-ScriptApps",
+				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"dx",
+					"webpack",
+					"code-splitting",
+					"gradle",
+					"dx-modules",
+					"dx-scriptapps",
+					"javascript",
+					"optimizations",
+					"reactjs",
+					"optimal-page-loads"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"webpack": {
+				"name": "webpack"
+			},
+			"code-splitting": {
+				"name": "code-splitting"
+			},
+			"dx-modules": {
+				"name": "dx-modules"
+			},
+			"dx-scriptapps": {
+				"name": "dx-scriptapps"
+			},
+			"javascript": {
+				"name": "javascript"
+			},
+			"optimizations": {
+				"name": "optimizations"
+			},
+			"reactjs": {
+				"name": "reactjs"
+			},
+			"optimal-page-loads": {
+				"name": "optimal-page-loads"
+			}
+		}
+	},
+	"dx-modules": {
+		"name": "dx-modules",
+		"repositories": {
+			"DX-Modules-and-ScriptApps": {
+				"name": "DX-Modules-and-ScriptApps",
+				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"dx",
+					"webpack",
+					"code-splitting",
+					"gradle",
+					"dx-modules",
+					"dx-scriptapps",
+					"javascript",
+					"optimizations",
+					"reactjs",
+					"optimal-page-loads"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"webpack": {
+				"name": "webpack"
+			},
+			"code-splitting": {
+				"name": "code-splitting"
+			},
+			"gradle": {
+				"name": "gradle"
+			},
+			"dx-scriptapps": {
+				"name": "dx-scriptapps"
+			},
+			"javascript": {
+				"name": "javascript"
+			},
+			"optimizations": {
+				"name": "optimizations"
+			},
+			"reactjs": {
+				"name": "reactjs"
+			},
+			"optimal-page-loads": {
+				"name": "optimal-page-loads"
+			}
+		}
+	},
+	"dx-scriptapps": {
+		"name": "dx-scriptapps",
+		"repositories": {
+			"DX-Modules-and-ScriptApps": {
+				"name": "DX-Modules-and-ScriptApps",
+				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"dx",
+					"webpack",
+					"code-splitting",
+					"gradle",
+					"dx-modules",
+					"dx-scriptapps",
+					"javascript",
+					"optimizations",
+					"reactjs",
+					"optimal-page-loads"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"webpack": {
+				"name": "webpack"
+			},
+			"code-splitting": {
+				"name": "code-splitting"
+			},
+			"gradle": {
+				"name": "gradle"
+			},
+			"dx-modules": {
+				"name": "dx-modules"
+			},
+			"javascript": {
+				"name": "javascript"
+			},
+			"optimizations": {
+				"name": "optimizations"
+			},
+			"reactjs": {
+				"name": "reactjs"
+			},
+			"optimal-page-loads": {
+				"name": "optimal-page-loads"
+			}
+		}
+	},
+	"javascript": {
+		"name": "javascript",
+		"repositories": {
+			"DX-Modules-and-ScriptApps": {
+				"name": "DX-Modules-and-ScriptApps",
+				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"dx",
+					"webpack",
+					"code-splitting",
+					"gradle",
+					"dx-modules",
+					"dx-scriptapps",
+					"javascript",
+					"optimizations",
+					"reactjs",
+					"optimal-page-loads"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"webpack": {
+				"name": "webpack"
+			},
+			"code-splitting": {
+				"name": "code-splitting"
+			},
+			"gradle": {
+				"name": "gradle"
+			},
+			"dx-modules": {
+				"name": "dx-modules"
+			},
+			"dx-scriptapps": {
+				"name": "dx-scriptapps"
+			},
+			"optimizations": {
+				"name": "optimizations"
+			},
+			"reactjs": {
+				"name": "reactjs"
+			},
+			"optimal-page-loads": {
+				"name": "optimal-page-loads"
+			}
+		}
+	},
+	"optimizations": {
+		"name": "optimizations",
+		"repositories": {
+			"DX-Modules-and-ScriptApps": {
+				"name": "DX-Modules-and-ScriptApps",
+				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"dx",
+					"webpack",
+					"code-splitting",
+					"gradle",
+					"dx-modules",
+					"dx-scriptapps",
+					"javascript",
+					"optimizations",
+					"reactjs",
+					"optimal-page-loads"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"webpack": {
+				"name": "webpack"
+			},
+			"code-splitting": {
+				"name": "code-splitting"
+			},
+			"gradle": {
+				"name": "gradle"
+			},
+			"dx-modules": {
+				"name": "dx-modules"
+			},
+			"dx-scriptapps": {
+				"name": "dx-scriptapps"
+			},
+			"javascript": {
+				"name": "javascript"
+			},
+			"reactjs": {
+				"name": "reactjs"
+			},
+			"optimal-page-loads": {
+				"name": "optimal-page-loads"
+			}
+		}
+	},
+	"reactjs": {
+		"name": "reactjs",
+		"repositories": {
+			"DX-Modules-and-ScriptApps": {
+				"name": "DX-Modules-and-ScriptApps",
+				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"dx",
+					"webpack",
+					"code-splitting",
+					"gradle",
+					"dx-modules",
+					"dx-scriptapps",
+					"javascript",
+					"optimizations",
+					"reactjs",
+					"optimal-page-loads"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"webpack": {
+				"name": "webpack"
+			},
+			"code-splitting": {
+				"name": "code-splitting"
+			},
+			"gradle": {
+				"name": "gradle"
+			},
+			"dx-modules": {
+				"name": "dx-modules"
+			},
+			"dx-scriptapps": {
+				"name": "dx-scriptapps"
+			},
+			"javascript": {
+				"name": "javascript"
+			},
+			"optimizations": {
+				"name": "optimizations"
+			},
+			"optimal-page-loads": {
+				"name": "optimal-page-loads"
+			}
+		}
+	},
+	"optimal-page-loads": {
+		"name": "optimal-page-loads",
+		"repositories": {
+			"DX-Modules-and-ScriptApps": {
+				"name": "DX-Modules-and-ScriptApps",
+				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"dx",
+					"webpack",
+					"code-splitting",
+					"gradle",
+					"dx-modules",
+					"dx-scriptapps",
+					"javascript",
+					"optimizations",
+					"reactjs",
+					"optimal-page-loads"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"webpack": {
+				"name": "webpack"
+			},
+			"code-splitting": {
+				"name": "code-splitting"
+			},
+			"gradle": {
+				"name": "gradle"
+			},
+			"dx-modules": {
+				"name": "dx-modules"
+			},
+			"dx-scriptapps": {
+				"name": "dx-scriptapps"
+			},
+			"javascript": {
+				"name": "javascript"
+			},
+			"optimizations": {
+				"name": "optimizations"
+			},
+			"reactjs": {
+				"name": "reactjs"
 			}
 		}
 	}
