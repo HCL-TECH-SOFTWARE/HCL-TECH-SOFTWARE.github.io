@@ -273,7 +273,7 @@
 		"language": "Not Identified",
 		"languageColor": "#fff",
 		"topics": [
-			"onetest"
+			"hcl-onetest"
 		]
 	},
 	{
@@ -377,6 +377,37 @@
 		"languageColor": "#f1e05a",
 		"topics": [
 			"hcl-dx"
+		]
+	},
+	{
+		"name": "hcl-workload-automation-chart",
+		"description": "Helm chart for HCL Workload Automation",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-workload-automation-chart",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Smarty",
+		"languageColor": "#fff",
+		"topics": [
+			"hcl-workload-automation",
+			"helm-chart",
+			"amazon-kubernetes-service",
+			"kubernetes",
+			"eks"
+		]
+	},
+	{
+		"name": "hcl-workload-automation-docker-compose",
+		"description": "docker-compose file for HCL Workload Automation",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-workload-automation-docker-compose",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Shell",
+		"languageColor": "#89e051",
+		"topics": [
+			"hcl-workload-automation",
+			"docker-compose"
 		]
 	},
 	{
@@ -822,7 +853,14 @@
 		"topics": [
 			"appscan",
 			"codesweep",
-			"github"
+			"github",
+			"action",
+			"github-actions",
+			"sast",
+			"scanning",
+			"security",
+			"security-automation",
+			"security-scanner"
 		]
 	},
 	{
@@ -1126,7 +1164,7 @@
 		"topics": [
 			"hcl-commerce",
 			"grafana",
-			"onetest"
+			"hcl-onetest"
 		]
 	},
 	{
@@ -1360,6 +1398,23 @@
 		]
 	},
 	{
+		"name": "Notesiniplaybook",
+		"description": "An app which helps administrators and end users (who use HCL Notes) to enable and disable INI parameters on the user’s Notes client for troubleshooting purpose",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Notesiniplaybook",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"domino",
+			"debug",
+			"ini",
+			"notes",
+			"troubleshooting"
+		]
+	},
+	{
 		"name": "presidio",
 		"description": "Context aware, pluggable and customizable data protection and anonymization SDK for text and images",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/presidio",
@@ -1383,7 +1438,78 @@
 			"automation",
 			"hwa",
 			"workload",
+			"hcl-workload-automation",
 			"workload-automation"
+		]
+	},
+	{
+		"name": "onetest-api-action",
+		"description": "Integrate API testing with HCL OneTest in GitHub.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/onetest-api-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"github-actions",
+			"hcl-onetest"
+		]
+	},
+	{
+		"name": "onetest-ui-action",
+		"description": "Integrate traditional UI testing with HCL OneTest in GitHub.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/onetest-ui-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"github-actions",
+			"hcl-onetest"
+		]
+	},
+	{
+		"name": "onetest-web-action",
+		"description": "Integrate Web UI testing with HCL OneTest in GitHub.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/onetest-web-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"hcl-onetest",
+			"github-actions"
+		]
+	},
+	{
+		"name": "onetest-perf-action",
+		"description": "Integrate Performance testing with HCL OneTest in GitHub.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/onetest-perf-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"github-actions",
+			"hcl-onetest"
+		]
+	},
+	{
+		"name": "onetest-server-action",
+		"description": "Integrate Server hosted tests from HCL OneTest in GitHub.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/onetest-server-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"github-actions",
+			"hcl-onetest"
 		]
 	},
 	{
@@ -1421,5 +1547,16 @@
 			"reactjs",
 			"optimal-page-loads"
 		]
+	},
+	{
+		"name": "appscan-issue-gateway-2",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-issue-gateway-2",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": []
 	}
 ]
