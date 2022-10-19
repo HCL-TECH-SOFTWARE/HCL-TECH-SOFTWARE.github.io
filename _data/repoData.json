@@ -534,6 +534,19 @@
 		]
 	},
 	{
+		"name": "file-transfer-dashboards",
+		"description": "An example of file transfer dashboard.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/file-transfer-dashboards",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"hcl-workload-automation"
+		]
+	},
+	{
 		"name": "rt-test-probe",
 		"description": "JavaScript implementation of a test probe for testing real-time applications created with HCL RTist",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/rt-test-probe",
@@ -901,7 +914,7 @@
 	},
 	{
 		"name": "connections-doc",
-		"description": "Official documentation for HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
+		"description": "Official documentation for HCL Connections On-premises and HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-doc",
 		"private": false,
 		"fork": false,
@@ -1337,6 +1350,19 @@
 		"topics": []
 	},
 	{
+		"name": "rtist-in-code",
+		"description": "RTist in Code official documentation and samples repository",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/rtist-in-code",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"rtist"
+		]
+	},
+	{
 		"name": "digital-experience",
 		"description": "Next-generation documentation site for HCL Digital Experience.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/digital-experience",
@@ -1395,6 +1421,19 @@
 			"lunu",
 			"commercecrypto",
 			"hcl-commerce"
+		]
+	},
+	{
+		"name": "HCL-AI-Data-Advisor-For-HCL-Workload-Automation",
+		"description": "Readme and docker-compose files for HCL AI Data Advisor (AIDA) for HCL Workload Automation",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-AI-Data-Advisor-For-HCL-Workload-Automation",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "CSS",
+		"languageColor": "#563d7c",
+		"topics": [
+			"hcl-workload-automation"
 		]
 	},
 	{

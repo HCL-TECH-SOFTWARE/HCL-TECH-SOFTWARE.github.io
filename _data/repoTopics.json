@@ -659,6 +659,19 @@
 					"node-red",
 					"loops"
 				]
+			},
+			"rtist-in-code": {
+				"name": "rtist-in-code",
+				"description": "RTist in Code official documentation and samples repository",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/rtist-in-code",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"rtist"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1537,6 +1550,32 @@
 					"docker-compose"
 				]
 			},
+			"file-transfer-dashboards": {
+				"name": "file-transfer-dashboards",
+				"description": "An example of file transfer dashboard.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/file-transfer-dashboards",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-workload-automation"
+				]
+			},
+			"HCL-AI-Data-Advisor-For-HCL-Workload-Automation": {
+				"name": "HCL-AI-Data-Advisor-For-HCL-Workload-Automation",
+				"description": "Readme and docker-compose files for HCL AI Data Advisor (AIDA) for HCL Workload Automation",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-AI-Data-Advisor-For-HCL-Workload-Automation",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"hcl-workload-automation"
+				]
+			},
 			"hcl-workload-automation-instana-dashboard": {
 				"name": "hcl-workload-automation-instana-dashboard",
 				"description": "",
@@ -2175,7 +2214,7 @@
 			},
 			"connections-doc": {
 				"name": "connections-doc",
-				"description": "Official documentation for HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
+				"description": "Official documentation for HCL Connections On-premises and HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-doc",
 				"private": false,
 				"fork": false,
@@ -2289,7 +2328,7 @@
 			},
 			"connections-doc": {
 				"name": "connections-doc",
-				"description": "Official documentation for HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
+				"description": "Official documentation for HCL Connections On-premises and HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-doc",
 				"private": false,
 				"fork": false,
