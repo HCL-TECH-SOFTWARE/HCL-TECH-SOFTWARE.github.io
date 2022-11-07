@@ -244,6 +244,28 @@
 					"appscan",
 					"chrome-extensions"
 				]
+			},
+			"appscan-sast-action": {
+				"name": "appscan-sast-action",
+				"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"action",
+					"appscan",
+					"github",
+					"github-actions",
+					"security",
+					"security-automation",
+					"security-scanner",
+					"security-tools",
+					"sast",
+					"scanning"
+				]
 			}
 		},
 		"availableTopics": {
@@ -291,6 +313,9 @@
 			},
 			"chrome-extensions": {
 				"name": "chrome-extensions"
+			},
+			"security-tools": {
+				"name": "security-tools"
 			}
 		}
 	},
@@ -412,6 +437,28 @@
 					"security-automation",
 					"security-scanner"
 				]
+			},
+			"appscan-sast-action": {
+				"name": "appscan-sast-action",
+				"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"action",
+					"appscan",
+					"github",
+					"github-actions",
+					"security",
+					"security-automation",
+					"security-scanner",
+					"security-tools",
+					"sast",
+					"scanning"
+				]
 			}
 		},
 		"availableTopics": {
@@ -444,6 +491,9 @@
 			},
 			"security-scanner": {
 				"name": "security-scanner"
+			},
+			"security-tools": {
+				"name": "security-tools"
 			}
 		}
 	},
@@ -667,8 +717,8 @@
 				"private": false,
 				"fork": false,
 				"license": "",
-				"language": "HTML",
-				"languageColor": "#e34c26",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
 				"topics": [
 					"rtist"
 				]
@@ -1573,7 +1623,10 @@
 				"language": "CSS",
 				"languageColor": "#563d7c",
 				"topics": [
-					"hcl-workload-automation"
+					"hcl-workload-automation",
+					"docker-compose",
+					"ai-data-advisor",
+					"readme"
 				]
 			},
 			"hcl-workload-automation-instana-dashboard": {
@@ -1609,6 +1662,12 @@
 			},
 			"docker-compose": {
 				"name": "docker-compose"
+			},
+			"ai-data-advisor": {
+				"name": "ai-data-advisor"
+			},
+			"readme": {
+				"name": "readme"
 			},
 			"automation": {
 				"name": "automation"
@@ -1784,11 +1843,33 @@
 					"hcl-workload-automation",
 					"docker-compose"
 				]
+			},
+			"HCL-AI-Data-Advisor-For-HCL-Workload-Automation": {
+				"name": "HCL-AI-Data-Advisor-For-HCL-Workload-Automation",
+				"description": "Readme and docker-compose files for HCL AI Data Advisor (AIDA) for HCL Workload Automation",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-AI-Data-Advisor-For-HCL-Workload-Automation",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"hcl-workload-automation",
+					"docker-compose",
+					"ai-data-advisor",
+					"readme"
+				]
 			}
 		},
 		"availableTopics": {
 			"hcl-workload-automation": {
 				"name": "hcl-workload-automation"
+			},
+			"ai-data-advisor": {
+				"name": "ai-data-advisor"
+			},
+			"readme": {
+				"name": "readme"
 			}
 		}
 	},
@@ -2813,6 +2894,88 @@
 					"commercecrypto",
 					"hcl-commerce"
 				]
+			},
+			"commerce-bazaarvoice": {
+				"name": "commerce-bazaarvoice",
+				"description": "This asset provides an integration between HCL Commerce and Bazaarvoice platform, to implement feature of displaying Product Review and Rating, Question and Answers using  BV.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-bazaarvoice",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"bazaarvoice",
+					"hcl-commerce",
+					"integration",
+					"rating-reviews"
+				]
+			},
+			"commerce-zineone-integration-POC": {
+				"name": "commerce-zineone-integration-POC",
+				"description": "POC-Asset for Integrating ZineOne-Tagging with hcl-commerce",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-zineone-integration-POC",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"zineone-tagging",
+					"analytics",
+					"recommendations",
+					"zineone"
+				]
+			},
+			"commerce-search": {
+				"name": "commerce-search",
+				"description": "This assets provides catalog-search hcl-commerce reference storefronts, by image-search, barcode-search and voice-search.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"barcode-scanner",
+					"hcl-commerce",
+					"image-search",
+					"voice-search",
+					"barcode-search"
+				]
+			},
+			"commerce-inventoryManagementTool": {
+				"name": "commerce-inventoryManagementTool",
+				"description": "This asset provides capability to manage inventory via CMC tool of HCL Commerce.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-inventoryManagementTool",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"inventory",
+					"inventory-management",
+					"management-center"
+				]
+			},
+			"commerce-storeThemeTool": {
+				"name": "commerce-storeThemeTool",
+				"description": "This asset provides capability to manage store-theme via CMC tool of HCL Commerce.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-storeThemeTool",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"store-theme",
+					"management-center",
+					"store-theme-management"
+				]
 			}
 		},
 		"availableTopics": {
@@ -2893,6 +3056,51 @@
 			},
 			"commercecrypto": {
 				"name": "commercecrypto"
+			},
+			"bazaarvoice": {
+				"name": "bazaarvoice"
+			},
+			"integration": {
+				"name": "integration"
+			},
+			"rating-reviews": {
+				"name": "rating-reviews"
+			},
+			"zineone-tagging": {
+				"name": "zineone-tagging"
+			},
+			"analytics": {
+				"name": "analytics"
+			},
+			"recommendations": {
+				"name": "recommendations"
+			},
+			"zineone": {
+				"name": "zineone"
+			},
+			"image-search": {
+				"name": "image-search"
+			},
+			"voice-search": {
+				"name": "voice-search"
+			},
+			"barcode-search": {
+				"name": "barcode-search"
+			},
+			"inventory": {
+				"name": "inventory"
+			},
+			"inventory-management": {
+				"name": "inventory-management"
+			},
+			"management-center": {
+				"name": "management-center"
+			},
+			"store-theme": {
+				"name": "store-theme"
+			},
+			"store-theme-management": {
+				"name": "store-theme-management"
 			}
 		}
 	},
@@ -3273,6 +3481,23 @@
 					"react-storefront",
 					"hcl-commerce"
 				]
+			},
+			"commerce-search": {
+				"name": "commerce-search",
+				"description": "This assets provides catalog-search hcl-commerce reference storefronts, by image-search, barcode-search and voice-search.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"barcode-scanner",
+					"hcl-commerce",
+					"image-search",
+					"voice-search",
+					"barcode-search"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3281,6 +3506,15 @@
 			},
 			"hcl-commerce": {
 				"name": "hcl-commerce"
+			},
+			"image-search": {
+				"name": "image-search"
+			},
+			"voice-search": {
+				"name": "voice-search"
+			},
+			"barcode-search": {
+				"name": "barcode-search"
 			}
 		}
 	},
@@ -3488,6 +3722,28 @@
 					"security-automation",
 					"security-scanner"
 				]
+			},
+			"appscan-sast-action": {
+				"name": "appscan-sast-action",
+				"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"action",
+					"appscan",
+					"github",
+					"github-actions",
+					"security",
+					"security-automation",
+					"security-scanner",
+					"security-tools",
+					"sast",
+					"scanning"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3517,6 +3773,9 @@
 			},
 			"security-scanner": {
 				"name": "security-scanner"
+			},
+			"security-tools": {
+				"name": "security-tools"
 			}
 		}
 	},
@@ -3543,6 +3802,28 @@
 					"security",
 					"security-automation",
 					"security-scanner"
+				]
+			},
+			"appscan-sast-action": {
+				"name": "appscan-sast-action",
+				"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"action",
+					"appscan",
+					"github",
+					"github-actions",
+					"security",
+					"security-automation",
+					"security-scanner",
+					"security-tools",
+					"sast",
+					"scanning"
 				]
 			}
 		},
@@ -3573,6 +3854,9 @@
 			},
 			"security-scanner": {
 				"name": "security-scanner"
+			},
+			"security-tools": {
+				"name": "security-tools"
 			}
 		}
 	},
@@ -3670,6 +3954,28 @@
 					"github-actions",
 					"hcl-onetest"
 				]
+			},
+			"appscan-sast-action": {
+				"name": "appscan-sast-action",
+				"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"action",
+					"appscan",
+					"github",
+					"github-actions",
+					"security",
+					"security-automation",
+					"security-scanner",
+					"security-tools",
+					"sast",
+					"scanning"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3702,6 +4008,9 @@
 			},
 			"hcl-onetest": {
 				"name": "hcl-onetest"
+			},
+			"security-tools": {
+				"name": "security-tools"
 			}
 		}
 	},
@@ -3729,6 +4038,28 @@
 					"security-automation",
 					"security-scanner"
 				]
+			},
+			"appscan-sast-action": {
+				"name": "appscan-sast-action",
+				"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"action",
+					"appscan",
+					"github",
+					"github-actions",
+					"security",
+					"security-automation",
+					"security-scanner",
+					"security-tools",
+					"sast",
+					"scanning"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3758,6 +4089,9 @@
 			},
 			"security-scanner": {
 				"name": "security-scanner"
+			},
+			"security-tools": {
+				"name": "security-tools"
 			}
 		}
 	},
@@ -3785,6 +4119,28 @@
 					"security-automation",
 					"security-scanner"
 				]
+			},
+			"appscan-sast-action": {
+				"name": "appscan-sast-action",
+				"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"action",
+					"appscan",
+					"github",
+					"github-actions",
+					"security",
+					"security-automation",
+					"security-scanner",
+					"security-tools",
+					"sast",
+					"scanning"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3814,6 +4170,9 @@
 			},
 			"security-scanner": {
 				"name": "security-scanner"
+			},
+			"security-tools": {
+				"name": "security-tools"
 			}
 		}
 	},
@@ -3841,6 +4200,28 @@
 					"security-automation",
 					"security-scanner"
 				]
+			},
+			"appscan-sast-action": {
+				"name": "appscan-sast-action",
+				"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"action",
+					"appscan",
+					"github",
+					"github-actions",
+					"security",
+					"security-automation",
+					"security-scanner",
+					"security-tools",
+					"sast",
+					"scanning"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3870,6 +4251,9 @@
 			},
 			"security-scanner": {
 				"name": "security-scanner"
+			},
+			"security-tools": {
+				"name": "security-tools"
 			}
 		}
 	},
@@ -3896,6 +4280,28 @@
 					"security",
 					"security-automation",
 					"security-scanner"
+				]
+			},
+			"appscan-sast-action": {
+				"name": "appscan-sast-action",
+				"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"action",
+					"appscan",
+					"github",
+					"github-actions",
+					"security",
+					"security-automation",
+					"security-scanner",
+					"security-tools",
+					"sast",
+					"scanning"
 				]
 			}
 		},
@@ -3926,6 +4332,9 @@
 			},
 			"security-automation": {
 				"name": "security-automation"
+			},
+			"security-tools": {
+				"name": "security-tools"
 			}
 		}
 	},
@@ -4584,6 +4993,70 @@
 			}
 		}
 	},
+	"ai-data-advisor": {
+		"name": "ai-data-advisor",
+		"repositories": {
+			"HCL-AI-Data-Advisor-For-HCL-Workload-Automation": {
+				"name": "HCL-AI-Data-Advisor-For-HCL-Workload-Automation",
+				"description": "Readme and docker-compose files for HCL AI Data Advisor (AIDA) for HCL Workload Automation",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-AI-Data-Advisor-For-HCL-Workload-Automation",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"hcl-workload-automation",
+					"docker-compose",
+					"ai-data-advisor",
+					"readme"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-workload-automation": {
+				"name": "hcl-workload-automation"
+			},
+			"docker-compose": {
+				"name": "docker-compose"
+			},
+			"readme": {
+				"name": "readme"
+			}
+		}
+	},
+	"readme": {
+		"name": "readme",
+		"repositories": {
+			"HCL-AI-Data-Advisor-For-HCL-Workload-Automation": {
+				"name": "HCL-AI-Data-Advisor-For-HCL-Workload-Automation",
+				"description": "Readme and docker-compose files for HCL AI Data Advisor (AIDA) for HCL Workload Automation",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-AI-Data-Advisor-For-HCL-Workload-Automation",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"hcl-workload-automation",
+					"docker-compose",
+					"ai-data-advisor",
+					"readme"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-workload-automation": {
+				"name": "hcl-workload-automation"
+			},
+			"docker-compose": {
+				"name": "docker-compose"
+			},
+			"ai-data-advisor": {
+				"name": "ai-data-advisor"
+			}
+		}
+	},
 	"debug": {
 		"name": "debug",
 		"repositories": {
@@ -4833,6 +5306,354 @@
 			},
 			"hcl-workload-automation": {
 				"name": "hcl-workload-automation"
+			}
+		}
+	},
+	"bazaarvoice": {
+		"name": "bazaarvoice",
+		"repositories": {
+			"commerce-bazaarvoice": {
+				"name": "commerce-bazaarvoice",
+				"description": "This asset provides an integration between HCL Commerce and Bazaarvoice platform, to implement feature of displaying Product Review and Rating, Question and Answers using  BV.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-bazaarvoice",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"bazaarvoice",
+					"hcl-commerce",
+					"integration",
+					"rating-reviews"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"integration": {
+				"name": "integration"
+			},
+			"rating-reviews": {
+				"name": "rating-reviews"
+			}
+		}
+	},
+	"integration": {
+		"name": "integration",
+		"repositories": {
+			"commerce-bazaarvoice": {
+				"name": "commerce-bazaarvoice",
+				"description": "This asset provides an integration between HCL Commerce and Bazaarvoice platform, to implement feature of displaying Product Review and Rating, Question and Answers using  BV.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-bazaarvoice",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"bazaarvoice",
+					"hcl-commerce",
+					"integration",
+					"rating-reviews"
+				]
+			}
+		},
+		"availableTopics": {
+			"bazaarvoice": {
+				"name": "bazaarvoice"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"rating-reviews": {
+				"name": "rating-reviews"
+			}
+		}
+	},
+	"rating-reviews": {
+		"name": "rating-reviews",
+		"repositories": {
+			"commerce-bazaarvoice": {
+				"name": "commerce-bazaarvoice",
+				"description": "This asset provides an integration between HCL Commerce and Bazaarvoice platform, to implement feature of displaying Product Review and Rating, Question and Answers using  BV.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-bazaarvoice",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"bazaarvoice",
+					"hcl-commerce",
+					"integration",
+					"rating-reviews"
+				]
+			}
+		},
+		"availableTopics": {
+			"bazaarvoice": {
+				"name": "bazaarvoice"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"integration": {
+				"name": "integration"
+			}
+		}
+	},
+	"zineone-tagging": {
+		"name": "zineone-tagging",
+		"repositories": {
+			"commerce-zineone-integration-POC": {
+				"name": "commerce-zineone-integration-POC",
+				"description": "POC-Asset for Integrating ZineOne-Tagging with hcl-commerce",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-zineone-integration-POC",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"zineone-tagging",
+					"analytics",
+					"recommendations",
+					"zineone"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"analytics": {
+				"name": "analytics"
+			},
+			"recommendations": {
+				"name": "recommendations"
+			},
+			"zineone": {
+				"name": "zineone"
+			}
+		}
+	},
+	"analytics": {
+		"name": "analytics",
+		"repositories": {
+			"commerce-zineone-integration-POC": {
+				"name": "commerce-zineone-integration-POC",
+				"description": "POC-Asset for Integrating ZineOne-Tagging with hcl-commerce",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-zineone-integration-POC",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"zineone-tagging",
+					"analytics",
+					"recommendations",
+					"zineone"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"zineone-tagging": {
+				"name": "zineone-tagging"
+			},
+			"recommendations": {
+				"name": "recommendations"
+			},
+			"zineone": {
+				"name": "zineone"
+			}
+		}
+	},
+	"recommendations": {
+		"name": "recommendations",
+		"repositories": {
+			"commerce-zineone-integration-POC": {
+				"name": "commerce-zineone-integration-POC",
+				"description": "POC-Asset for Integrating ZineOne-Tagging with hcl-commerce",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-zineone-integration-POC",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"zineone-tagging",
+					"analytics",
+					"recommendations",
+					"zineone"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"zineone-tagging": {
+				"name": "zineone-tagging"
+			},
+			"analytics": {
+				"name": "analytics"
+			},
+			"zineone": {
+				"name": "zineone"
+			}
+		}
+	},
+	"zineone": {
+		"name": "zineone",
+		"repositories": {
+			"commerce-zineone-integration-POC": {
+				"name": "commerce-zineone-integration-POC",
+				"description": "POC-Asset for Integrating ZineOne-Tagging with hcl-commerce",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-zineone-integration-POC",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce",
+					"zineone-tagging",
+					"analytics",
+					"recommendations",
+					"zineone"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"zineone-tagging": {
+				"name": "zineone-tagging"
+			},
+			"analytics": {
+				"name": "analytics"
+			},
+			"recommendations": {
+				"name": "recommendations"
+			}
+		}
+	},
+	"image-search": {
+		"name": "image-search",
+		"repositories": {
+			"commerce-search": {
+				"name": "commerce-search",
+				"description": "This assets provides catalog-search hcl-commerce reference storefronts, by image-search, barcode-search and voice-search.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"barcode-scanner",
+					"hcl-commerce",
+					"image-search",
+					"voice-search",
+					"barcode-search"
+				]
+			}
+		},
+		"availableTopics": {
+			"barcode-scanner": {
+				"name": "barcode-scanner"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"voice-search": {
+				"name": "voice-search"
+			},
+			"barcode-search": {
+				"name": "barcode-search"
+			}
+		}
+	},
+	"voice-search": {
+		"name": "voice-search",
+		"repositories": {
+			"commerce-search": {
+				"name": "commerce-search",
+				"description": "This assets provides catalog-search hcl-commerce reference storefronts, by image-search, barcode-search and voice-search.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"barcode-scanner",
+					"hcl-commerce",
+					"image-search",
+					"voice-search",
+					"barcode-search"
+				]
+			}
+		},
+		"availableTopics": {
+			"barcode-scanner": {
+				"name": "barcode-scanner"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"image-search": {
+				"name": "image-search"
+			},
+			"barcode-search": {
+				"name": "barcode-search"
+			}
+		}
+	},
+	"barcode-search": {
+		"name": "barcode-search",
+		"repositories": {
+			"commerce-search": {
+				"name": "commerce-search",
+				"description": "This assets provides catalog-search hcl-commerce reference storefronts, by image-search, barcode-search and voice-search.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"barcode-scanner",
+					"hcl-commerce",
+					"image-search",
+					"voice-search",
+					"barcode-search"
+				]
+			}
+		},
+		"availableTopics": {
+			"barcode-scanner": {
+				"name": "barcode-scanner"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"image-search": {
+				"name": "image-search"
+			},
+			"voice-search": {
+				"name": "voice-search"
 			}
 		}
 	},
@@ -5337,6 +6158,244 @@
 			},
 			"reactjs": {
 				"name": "reactjs"
+			}
+		}
+	},
+	"security-tools": {
+		"name": "security-tools",
+		"repositories": {
+			"appscan-sast-action": {
+				"name": "appscan-sast-action",
+				"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"action",
+					"appscan",
+					"github",
+					"github-actions",
+					"security",
+					"security-automation",
+					"security-scanner",
+					"security-tools",
+					"sast",
+					"scanning"
+				]
+			}
+		},
+		"availableTopics": {
+			"action": {
+				"name": "action"
+			},
+			"appscan": {
+				"name": "appscan"
+			},
+			"github": {
+				"name": "github"
+			},
+			"github-actions": {
+				"name": "github-actions"
+			},
+			"security": {
+				"name": "security"
+			},
+			"security-automation": {
+				"name": "security-automation"
+			},
+			"security-scanner": {
+				"name": "security-scanner"
+			},
+			"sast": {
+				"name": "sast"
+			},
+			"scanning": {
+				"name": "scanning"
+			}
+		}
+	},
+	"inventory": {
+		"name": "inventory",
+		"repositories": {
+			"commerce-inventoryManagementTool": {
+				"name": "commerce-inventoryManagementTool",
+				"description": "This asset provides capability to manage inventory via CMC tool of HCL Commerce.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-inventoryManagementTool",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"inventory",
+					"inventory-management",
+					"management-center"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"inventory-management": {
+				"name": "inventory-management"
+			},
+			"management-center": {
+				"name": "management-center"
+			}
+		}
+	},
+	"inventory-management": {
+		"name": "inventory-management",
+		"repositories": {
+			"commerce-inventoryManagementTool": {
+				"name": "commerce-inventoryManagementTool",
+				"description": "This asset provides capability to manage inventory via CMC tool of HCL Commerce.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-inventoryManagementTool",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"inventory",
+					"inventory-management",
+					"management-center"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"inventory": {
+				"name": "inventory"
+			},
+			"management-center": {
+				"name": "management-center"
+			}
+		}
+	},
+	"management-center": {
+		"name": "management-center",
+		"repositories": {
+			"commerce-inventoryManagementTool": {
+				"name": "commerce-inventoryManagementTool",
+				"description": "This asset provides capability to manage inventory via CMC tool of HCL Commerce.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-inventoryManagementTool",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"inventory",
+					"inventory-management",
+					"management-center"
+				]
+			},
+			"commerce-storeThemeTool": {
+				"name": "commerce-storeThemeTool",
+				"description": "This asset provides capability to manage store-theme via CMC tool of HCL Commerce.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-storeThemeTool",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"store-theme",
+					"management-center",
+					"store-theme-management"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"inventory": {
+				"name": "inventory"
+			},
+			"inventory-management": {
+				"name": "inventory-management"
+			},
+			"store-theme": {
+				"name": "store-theme"
+			},
+			"store-theme-management": {
+				"name": "store-theme-management"
+			}
+		}
+	},
+	"store-theme": {
+		"name": "store-theme",
+		"repositories": {
+			"commerce-storeThemeTool": {
+				"name": "commerce-storeThemeTool",
+				"description": "This asset provides capability to manage store-theme via CMC tool of HCL Commerce.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-storeThemeTool",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"store-theme",
+					"management-center",
+					"store-theme-management"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"management-center": {
+				"name": "management-center"
+			},
+			"store-theme-management": {
+				"name": "store-theme-management"
+			}
+		}
+	},
+	"store-theme-management": {
+		"name": "store-theme-management",
+		"repositories": {
+			"commerce-storeThemeTool": {
+				"name": "commerce-storeThemeTool",
+				"description": "This asset provides capability to manage store-theme via CMC tool of HCL Commerce.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-storeThemeTool",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"store-theme",
+					"management-center",
+					"store-theme-management"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"store-theme": {
+				"name": "store-theme"
+			},
+			"management-center": {
+				"name": "management-center"
 			}
 		}
 	}

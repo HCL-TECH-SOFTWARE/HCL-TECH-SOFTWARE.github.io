@@ -1356,8 +1356,8 @@
 		"private": false,
 		"fork": false,
 		"license": "",
-		"language": "HTML",
-		"languageColor": "#e34c26",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
 		"topics": [
 			"rtist"
 		]
@@ -1433,7 +1433,10 @@
 		"language": "CSS",
 		"languageColor": "#563d7c",
 		"topics": [
-			"hcl-workload-automation"
+			"hcl-workload-automation",
+			"docker-compose",
+			"ai-data-advisor",
+			"readme"
 		]
 	},
 	{
@@ -1552,6 +1555,56 @@
 		]
 	},
 	{
+		"name": "commerce-bazaarvoice",
+		"description": "This asset provides an integration between HCL Commerce and Bazaarvoice platform, to implement feature of displaying Product Review and Rating, Question and Answers using  BV.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-bazaarvoice",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"bazaarvoice",
+			"hcl-commerce",
+			"integration",
+			"rating-reviews"
+		]
+	},
+	{
+		"name": "commerce-zineone-integration-POC",
+		"description": "POC-Asset for Integrating ZineOne-Tagging with hcl-commerce",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-zineone-integration-POC",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"hcl-commerce",
+			"zineone-tagging",
+			"analytics",
+			"recommendations",
+			"zineone"
+		]
+	},
+	{
+		"name": "commerce-search",
+		"description": "This assets provides catalog-search hcl-commerce reference storefronts, by image-search, barcode-search and voice-search.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-search",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "CSS",
+		"languageColor": "#563d7c",
+		"topics": [
+			"barcode-scanner",
+			"hcl-commerce",
+			"image-search",
+			"voice-search",
+			"barcode-search"
+		]
+	},
+	{
 		"name": "Volt-MX-Documentation-Archive",
 		"description": "Archived documentation for HCL Volt MX (https://www.hcltechsw.com/volt-mx). The site is accessible at http://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/Volt-MX-Documentation-Archive",
@@ -1585,6 +1638,60 @@
 			"optimizations",
 			"reactjs",
 			"optimal-page-loads"
+		]
+	},
+	{
+		"name": "appscan-sast-action",
+		"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"action",
+			"appscan",
+			"github",
+			"github-actions",
+			"security",
+			"security-automation",
+			"security-scanner",
+			"security-tools",
+			"sast",
+			"scanning"
+		]
+	},
+	{
+		"name": "commerce-inventoryManagementTool",
+		"description": "This asset provides capability to manage inventory via CMC tool of HCL Commerce.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-inventoryManagementTool",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"hcl-commerce",
+			"inventory",
+			"inventory-management",
+			"management-center"
+		]
+	},
+	{
+		"name": "commerce-storeThemeTool",
+		"description": "This asset provides capability to manage store-theme via CMC tool of HCL Commerce.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-storeThemeTool",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"hcl-commerce",
+			"store-theme",
+			"management-center",
+			"store-theme-management"
 		]
 	},
 	{
