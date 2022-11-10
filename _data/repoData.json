@@ -1704,5 +1704,20 @@
 		"language": "JavaScript",
 		"languageColor": "#f1e05a",
 		"topics": []
+	},
+	{
+		"name": "connections-mongo5",
+		"description": "Mongo5 Docker Image for HCL Connections",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-mongo5",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Shell",
+		"languageColor": "#89e051",
+		"topics": [
+			"connections",
+			"hcl",
+			"mongodb"
+		]
 	}
 ]

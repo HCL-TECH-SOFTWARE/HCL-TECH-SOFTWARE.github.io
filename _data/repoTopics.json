@@ -2306,6 +2306,21 @@
 					"connections",
 					"documentation"
 				]
+			},
+			"connections-mongo5": {
+				"name": "connections-mongo5",
+				"description": "Mongo5 Docker Image for HCL Connections",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-mongo5",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Shell",
+				"languageColor": "#89e051",
+				"topics": [
+					"connections",
+					"hcl",
+					"mongodb"
+				]
 			}
 		},
 		"availableTopics": {
@@ -2317,6 +2332,12 @@
 			},
 			"documentation": {
 				"name": "documentation"
+			},
+			"hcl": {
+				"name": "hcl"
+			},
+			"mongodb": {
+				"name": "mongodb"
 			}
 		}
 	},
@@ -3564,6 +3585,21 @@
 					"script-portlet",
 					"hcl-dx"
 				]
+			},
+			"connections-mongo5": {
+				"name": "connections-mongo5",
+				"description": "Mongo5 Docker Image for HCL Connections",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-mongo5",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Shell",
+				"languageColor": "#89e051",
+				"topics": [
+					"connections",
+					"hcl",
+					"mongodb"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3575,6 +3611,12 @@
 			},
 			"hcl-dx": {
 				"name": "hcl-dx"
+			},
+			"connections": {
+				"name": "connections"
+			},
+			"mongodb": {
+				"name": "mongodb"
 			}
 		}
 	},
@@ -6396,6 +6438,34 @@
 			},
 			"management-center": {
 				"name": "management-center"
+			}
+		}
+	},
+	"mongodb": {
+		"name": "mongodb",
+		"repositories": {
+			"connections-mongo5": {
+				"name": "connections-mongo5",
+				"description": "Mongo5 Docker Image for HCL Connections",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-mongo5",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Shell",
+				"languageColor": "#89e051",
+				"topics": [
+					"connections",
+					"hcl",
+					"mongodb"
+				]
+			}
+		},
+		"availableTopics": {
+			"connections": {
+				"name": "connections"
+			},
+			"hcl": {
+				"name": "hcl"
 			}
 		}
 	}
