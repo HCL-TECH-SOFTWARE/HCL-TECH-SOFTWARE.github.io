@@ -245,6 +245,20 @@
 					"chrome-extensions"
 				]
 			},
+			"appscan-standard-pyscan": {
+				"name": "appscan-standard-pyscan",
+				"description": "PyScan is an extension that lets you control AppScan through Python.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-standard-pyscan",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Python",
+				"languageColor": "#3572A5",
+				"topics": [
+					"appscan",
+					"appscan-standard"
+				]
+			},
 			"appscan-sast-action": {
 				"name": "appscan-sast-action",
 				"description": "Integrate static security testing with HCL AppScan on Cloud using GitHub Actions",
@@ -313,6 +327,9 @@
 			},
 			"chrome-extensions": {
 				"name": "chrome-extensions"
+			},
+			"appscan-standard": {
+				"name": "appscan-standard"
 			},
 			"security-tools": {
 				"name": "security-tools"
@@ -971,6 +988,22 @@
 				"languageColor": "#fff",
 				"topics": [
 					"domino"
+				]
+			},
+			"Domino-rest-api": {
+				"name": "Domino-rest-api",
+				"description": "Documentation for HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-rest-api",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"documentation",
+					"java",
+					"domino",
+					"rest-api"
 				]
 			},
 			"Notesiniplaybook": {
@@ -2456,6 +2489,22 @@
 					"domino",
 					"rest-api",
 					"documentation"
+				]
+			},
+			"Domino-rest-api": {
+				"name": "Domino-rest-api",
+				"description": "Documentation for HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-rest-api",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"documentation",
+					"java",
+					"domino",
+					"rest-api"
 				]
 			},
 			"Volt-MX-Documentation-Archive": {
@@ -4568,6 +4617,22 @@
 					"rest-api",
 					"documentation"
 				]
+			},
+			"Domino-rest-api": {
+				"name": "Domino-rest-api",
+				"description": "Documentation for HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-rest-api",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"documentation",
+					"java",
+					"domino",
+					"rest-api"
+				]
 			}
 		},
 		"availableTopics": {
@@ -4599,6 +4664,22 @@
 					"domino",
 					"rest-api",
 					"documentation"
+				]
+			},
+			"Domino-rest-api": {
+				"name": "Domino-rest-api",
+				"description": "Documentation for HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-rest-api",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"documentation",
+					"java",
+					"domino",
+					"rest-api"
 				]
 			}
 		},
@@ -4840,6 +4921,30 @@
 			},
 			"hcl-commerce": {
 				"name": "hcl-commerce"
+			}
+		}
+	},
+	"appscan-standard": {
+		"name": "appscan-standard",
+		"repositories": {
+			"appscan-standard-pyscan": {
+				"name": "appscan-standard-pyscan",
+				"description": "PyScan is an extension that lets you control AppScan through Python.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-standard-pyscan",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Python",
+				"languageColor": "#3572A5",
+				"topics": [
+					"appscan",
+					"appscan-standard"
+				]
+			}
+		},
+		"availableTopics": {
+			"appscan": {
+				"name": "appscan"
 			}
 		}
 	},
