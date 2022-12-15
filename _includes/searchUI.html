@@ -11,13 +11,13 @@
 </div>
 <div class="row">
   <div class="btn-group filter-btn-group">
-    {% if includeForkTopicLabel == true %}
-      <a class="btn btn-filter" data-filter=".fork">forks</a>
-    {% endif %}
     {% for topics in filterTopics %}
     {% assign topic = topics[1] %}
       <a class="btn btn-filter" data-filter=".{{topic.name}}">{{topic.name}}</a>
     {% endfor %}
+    {% if includeForkTopicLabel == true %}
+      <a class="btn btn-filter" data-filter=".fork">forks</a>
+    {% endif %}
   </div>
 </div>
 <div class="row">

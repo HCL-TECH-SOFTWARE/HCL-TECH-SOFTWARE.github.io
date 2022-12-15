@@ -26,7 +26,7 @@
   </section>
 
   <div class="container">
-    {% assign filterTopics = site.data.repoTopics %}
+    {% assign filterTopics = site.data.repoTopics | sort %}
     {% assign includeForkTopicLabel = true %}
     {%- include searchUI.html -%}
 
