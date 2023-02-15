@@ -1022,6 +1022,19 @@
 					"notes",
 					"troubleshooting"
 				]
+			},
+			"domino-license-analysis-utility-DLAU": {
+				"name": "domino-license-analysis-utility-DLAU",
+				"description": "Utility to assist HCL Domino Administrators in determining your Authorized User Count",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU",
+				"private": false,
+				"fork": false,
+				"license": "Other",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino"
+				]
 			}
 		},
 		"availableTopics": {
@@ -2353,6 +2366,19 @@
 					"connections",
 					"hcl",
 					"mongodb"
+				]
+			},
+			"connections-ui-docs": {
+				"name": "connections-ui-docs",
+				"description": "Details of the Connections UI components and styles for customizing them",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-ui-docs",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"connections"
 				]
 			}
 		},
@@ -5439,6 +5465,36 @@
 					"hcl-workload-automation",
 					"workload-automation"
 				]
+			},
+			"HCL-Workload-Automation-Observability-for-Splunk": {
+				"name": "HCL-Workload-Automation-Observability-for-Splunk",
+				"description": "HCL Workload Automation Observability for Splunk",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Splunk",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"observability",
+					"workload-automation",
+					"splunk"
+				]
+			},
+			"HCL-Workload-Automation-Observability-for-Dynatrace": {
+				"name": "HCL-Workload-Automation-Observability-for-Dynatrace",
+				"description": "HCL Workload Automation Observability for Dynatrace",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Dynatrace",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Smarty",
+				"languageColor": "#fff",
+				"topics": [
+					"observability",
+					"workload-automation",
+					"dynatrace"
+				]
 			}
 		},
 		"availableTopics": {
@@ -5453,6 +5509,15 @@
 			},
 			"hcl-workload-automation": {
 				"name": "hcl-workload-automation"
+			},
+			"observability": {
+				"name": "observability"
+			},
+			"splunk": {
+				"name": "splunk"
+			},
+			"dynatrace": {
+				"name": "dynatrace"
 			}
 		}
 	},
@@ -6571,6 +6636,156 @@
 			},
 			"hcl": {
 				"name": "hcl"
+			}
+		}
+	},
+	"observability": {
+		"name": "observability",
+		"repositories": {
+			"HCL-Workload-Automation-Observability-for-Splunk": {
+				"name": "HCL-Workload-Automation-Observability-for-Splunk",
+				"description": "HCL Workload Automation Observability for Splunk",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Splunk",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"observability",
+					"workload-automation",
+					"splunk"
+				]
+			},
+			"HCL-Workload-Automation-Observability-for-Dynatrace": {
+				"name": "HCL-Workload-Automation-Observability-for-Dynatrace",
+				"description": "HCL Workload Automation Observability for Dynatrace",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Dynatrace",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Smarty",
+				"languageColor": "#fff",
+				"topics": [
+					"observability",
+					"workload-automation",
+					"dynatrace"
+				]
+			}
+		},
+		"availableTopics": {
+			"workload-automation": {
+				"name": "workload-automation"
+			},
+			"splunk": {
+				"name": "splunk"
+			},
+			"dynatrace": {
+				"name": "dynatrace"
+			}
+		}
+	},
+	"splunk": {
+		"name": "splunk",
+		"repositories": {
+			"HCL-Workload-Automation-Observability-for-Splunk": {
+				"name": "HCL-Workload-Automation-Observability-for-Splunk",
+				"description": "HCL Workload Automation Observability for Splunk",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Splunk",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"observability",
+					"workload-automation",
+					"splunk"
+				]
+			}
+		},
+		"availableTopics": {
+			"observability": {
+				"name": "observability"
+			},
+			"workload-automation": {
+				"name": "workload-automation"
+			}
+		}
+	},
+	"dynatrace": {
+		"name": "dynatrace",
+		"repositories": {
+			"HCL-Workload-Automation-Observability-for-Dynatrace": {
+				"name": "HCL-Workload-Automation-Observability-for-Dynatrace",
+				"description": "HCL Workload Automation Observability for Dynatrace",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Dynatrace",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Smarty",
+				"languageColor": "#fff",
+				"topics": [
+					"observability",
+					"workload-automation",
+					"dynatrace"
+				]
+			}
+		},
+		"availableTopics": {
+			"observability": {
+				"name": "observability"
+			},
+			"workload-automation": {
+				"name": "workload-automation"
+			}
+		}
+	},
+	"volt-mx-go": {
+		"name": "volt-mx-go",
+		"repositories": {
+			"bali-unit": {
+				"name": "bali-unit",
+				"description": "VoltScript Framework for Unit Testing",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/bali-unit",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Dockerfile",
+				"languageColor": "#fff",
+				"topics": [
+					"volt-mx-go",
+					"voltscript"
+				]
+			}
+		},
+		"availableTopics": {
+			"voltscript": {
+				"name": "voltscript"
+			}
+		}
+	},
+	"voltscript": {
+		"name": "voltscript",
+		"repositories": {
+			"bali-unit": {
+				"name": "bali-unit",
+				"description": "VoltScript Framework for Unit Testing",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/bali-unit",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Dockerfile",
+				"languageColor": "#fff",
+				"topics": [
+					"volt-mx-go",
+					"voltscript"
+				]
+			}
+		},
+		"availableTopics": {
+			"volt-mx-go": {
+				"name": "volt-mx-go"
 			}
 		}
 	}

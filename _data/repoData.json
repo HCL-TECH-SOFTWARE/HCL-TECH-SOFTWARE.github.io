@@ -1749,5 +1749,108 @@
 			"hcl",
 			"mongodb"
 		]
+	},
+	{
+		"name": "appscan-api-gateway",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-api-gateway",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": []
+	},
+	{
+		"name": "HCL-Workload-Automation-Observability-for-Splunk",
+		"description": "HCL Workload Automation Observability for Splunk",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Splunk",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"observability",
+			"workload-automation",
+			"splunk"
+		]
+	},
+	{
+		"name": "HCL-Workload-Automation-Observability-for-Dynatrace",
+		"description": "HCL Workload Automation Observability for Dynatrace",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Dynatrace",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Smarty",
+		"languageColor": "#fff",
+		"topics": [
+			"observability",
+			"workload-automation",
+			"dynatrace"
+		]
+	},
+	{
+		"name": "ical4j",
+		"description": "A Java library for parsing and building iCalendar data models",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/ical4j",
+		"private": false,
+		"fork": true,
+		"license": "BSD 3-Clause \"New\" or \"Revised\" License",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": []
+	},
+	{
+		"name": "dx-portlet-development-utilities",
+		"description": "This repository contains Portlet Development Utilities to create pages via the DX Java API as well as a custom maven archetype to create a new JSR286 portlet.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-portlet-development-utilities",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": []
+	},
+	{
+		"name": "domino-license-analysis-utility-DLAU",
+		"description": "Utility to assist HCL Domino Administrators in determining your Authorized User Count",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU",
+		"private": false,
+		"fork": false,
+		"license": "Other",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"domino"
+		]
+	},
+	{
+		"name": "connections-ui-docs",
+		"description": "Details of the Connections UI components and styles for customizing them",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-ui-docs",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"connections"
+		]
+	},
+	{
+		"name": "bali-unit",
+		"description": "VoltScript Framework for Unit Testing",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/bali-unit",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Dockerfile",
+		"languageColor": "#fff",
+		"topics": [
+			"volt-mx-go",
+			"voltscript"
+		]
 	}
 ]
