@@ -990,20 +990,20 @@
 					"domino"
 				]
 			},
-			"Domino-rest-api": {
-				"name": "Domino-rest-api",
-				"description": "Documentation for HCL Domino REST API",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-rest-api",
+			"domino-c-api-docs": {
+				"name": "domino-c-api-docs",
+				"description": "The Domino C-API is a set of subroutines and data structures that allows you to write programs that access Domino databases.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-c-api-docs",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "HTML",
-				"languageColor": "#e34c26",
+				"language": "Not Identified",
+				"languageColor": "#fff",
 				"topics": [
-					"documentation",
-					"java",
+					"capi",
 					"domino",
-					"rest-api"
+					"notes",
+					"nsf"
 				]
 			},
 			"Notesiniplaybook": {
@@ -1034,6 +1034,22 @@
 				"languageColor": "#fff",
 				"topics": [
 					"domino"
+				]
+			},
+			"Domino-rest-api": {
+				"name": "Domino-rest-api",
+				"description": "Documentation for HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-rest-api",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"java",
+					"documentation",
+					"domino",
+					"rest-api"
 				]
 			}
 		},
@@ -1068,14 +1084,20 @@
 			"backup": {
 				"name": "backup"
 			},
+			"capi": {
+				"name": "capi"
+			},
+			"notes": {
+				"name": "notes"
+			},
+			"nsf": {
+				"name": "nsf"
+			},
 			"debug": {
 				"name": "debug"
 			},
 			"ini": {
 				"name": "ini"
-			},
-			"notes": {
-				"name": "notes"
 			},
 			"troubleshooting": {
 				"name": "troubleshooting"
@@ -2517,22 +2539,6 @@
 					"documentation"
 				]
 			},
-			"Domino-rest-api": {
-				"name": "Domino-rest-api",
-				"description": "Documentation for HCL Domino REST API",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-rest-api",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "HTML",
-				"languageColor": "#e34c26",
-				"topics": [
-					"documentation",
-					"java",
-					"domino",
-					"rest-api"
-				]
-			},
 			"Volt-MX-Documentation-Archive": {
 				"name": "Volt-MX-Documentation-Archive",
 				"description": "Archived documentation for HCL Volt MX (https://www.hcltechsw.com/volt-mx). The site is accessible at http://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/",
@@ -2545,6 +2551,22 @@
 				"topics": [
 					"documentation",
 					"volt-mx"
+				]
+			},
+			"Domino-rest-api": {
+				"name": "Domino-rest-api",
+				"description": "Documentation for HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-rest-api",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"java",
+					"documentation",
+					"domino",
+					"rest-api"
 				]
 			}
 		},
@@ -4654,8 +4676,8 @@
 				"language": "HTML",
 				"languageColor": "#e34c26",
 				"topics": [
-					"documentation",
 					"java",
+					"documentation",
 					"domino",
 					"rest-api"
 				]
@@ -4702,8 +4724,8 @@
 				"language": "HTML",
 				"languageColor": "#e34c26",
 				"topics": [
-					"documentation",
 					"java",
+					"documentation",
 					"domino",
 					"rest-api"
 				]
@@ -4798,6 +4820,128 @@
 		"availableTopics": {
 			"domino": {
 				"name": "domino"
+			}
+		}
+	},
+	"capi": {
+		"name": "capi",
+		"repositories": {
+			"domino-c-api-docs": {
+				"name": "domino-c-api-docs",
+				"description": "The Domino C-API is a set of subroutines and data structures that allows you to write programs that access Domino databases.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-c-api-docs",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"capi",
+					"domino",
+					"notes",
+					"nsf"
+				]
+			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			},
+			"notes": {
+				"name": "notes"
+			},
+			"nsf": {
+				"name": "nsf"
+			}
+		}
+	},
+	"notes": {
+		"name": "notes",
+		"repositories": {
+			"domino-c-api-docs": {
+				"name": "domino-c-api-docs",
+				"description": "The Domino C-API is a set of subroutines and data structures that allows you to write programs that access Domino databases.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-c-api-docs",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"capi",
+					"domino",
+					"notes",
+					"nsf"
+				]
+			},
+			"Notesiniplaybook": {
+				"name": "Notesiniplaybook",
+				"description": "An app which helps administrators and end users (who use HCL Notes) to enable and disable INI parameters on the user’s Notes client for troubleshooting purpose",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Notesiniplaybook",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"debug",
+					"ini",
+					"notes",
+					"troubleshooting"
+				]
+			}
+		},
+		"availableTopics": {
+			"capi": {
+				"name": "capi"
+			},
+			"domino": {
+				"name": "domino"
+			},
+			"nsf": {
+				"name": "nsf"
+			},
+			"debug": {
+				"name": "debug"
+			},
+			"ini": {
+				"name": "ini"
+			},
+			"troubleshooting": {
+				"name": "troubleshooting"
+			}
+		}
+	},
+	"nsf": {
+		"name": "nsf",
+		"repositories": {
+			"domino-c-api-docs": {
+				"name": "domino-c-api-docs",
+				"description": "The Domino C-API is a set of subroutines and data structures that allows you to write programs that access Domino databases.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-c-api-docs",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"capi",
+					"domino",
+					"notes",
+					"nsf"
+				]
+			}
+		},
+		"availableTopics": {
+			"capi": {
+				"name": "capi"
+			},
+			"domino": {
+				"name": "domino"
+			},
+			"notes": {
+				"name": "notes"
 			}
 		}
 	},
@@ -5296,42 +5440,6 @@
 			},
 			"notes": {
 				"name": "notes"
-			},
-			"troubleshooting": {
-				"name": "troubleshooting"
-			}
-		}
-	},
-	"notes": {
-		"name": "notes",
-		"repositories": {
-			"Notesiniplaybook": {
-				"name": "Notesiniplaybook",
-				"description": "An app which helps administrators and end users (who use HCL Notes) to enable and disable INI parameters on the user’s Notes client for troubleshooting purpose",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/Notesiniplaybook",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Not Identified",
-				"languageColor": "#fff",
-				"topics": [
-					"domino",
-					"debug",
-					"ini",
-					"notes",
-					"troubleshooting"
-				]
-			}
-		},
-		"availableTopics": {
-			"domino": {
-				"name": "domino"
-			},
-			"debug": {
-				"name": "debug"
-			},
-			"ini": {
-				"name": "ini"
 			},
 			"troubleshooting": {
 				"name": "troubleshooting"

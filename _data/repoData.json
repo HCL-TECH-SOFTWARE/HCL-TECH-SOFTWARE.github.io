@@ -1073,6 +1073,22 @@
 		]
 	},
 	{
+		"name": "domino-c-api-docs",
+		"description": "The Domino C-API is a set of subroutines and data structures that allows you to write programs that access Domino databases.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-c-api-docs",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"capi",
+			"domino",
+			"notes",
+			"nsf"
+		]
+	},
+	{
 		"name": "Commerce-Kafka-StageProp",
 		"description": "The KafkaProp PoC was developed to prove out that we could leverage Kafka/Zookeeper to handle messaging of data from an AUTH environment to multiple LIVE environments concurrently/simultaneously.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Kafka-StageProp",
@@ -1387,22 +1403,6 @@
 		"languageColor": "#e34c26",
 		"topics": [
 			"hcl-dx"
-		]
-	},
-	{
-		"name": "Domino-rest-api",
-		"description": "Documentation for HCL Domino REST API",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-rest-api",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "HTML",
-		"languageColor": "#e34c26",
-		"topics": [
-			"documentation",
-			"java",
-			"domino",
-			"rest-api"
 		]
 	},
 	{
@@ -1851,6 +1851,22 @@
 		"topics": [
 			"volt-mx-go",
 			"voltscript"
+		]
+	},
+	{
+		"name": "Domino-rest-api",
+		"description": "Documentation for HCL Domino REST API",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-rest-api",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"java",
+			"documentation",
+			"domino",
+			"rest-api"
 		]
 	}
 ]
