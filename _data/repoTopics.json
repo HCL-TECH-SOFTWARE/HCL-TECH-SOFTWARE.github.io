@@ -1259,8 +1259,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Not Identified",
-				"languageColor": "#fff",
+				"language": "Python",
+				"languageColor": "#3572A5",
 				"topics": [
 					"hcl-commerce",
 					"grafana",
@@ -2928,8 +2928,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Not Identified",
-				"languageColor": "#fff",
+				"language": "Python",
+				"languageColor": "#3572A5",
 				"topics": [
 					"hcl-commerce",
 					"grafana",
@@ -3094,6 +3094,27 @@
 					"management-center",
 					"store-theme-management"
 				]
+			},
+			"commerce-content-search": {
+				"name": "commerce-content-search",
+				"description": "This asset provides capability to index different contents (unstructured, site or web) and then display content search-results along with product search-results.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-content-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"content",
+					"content-search",
+					"hcl-commerce",
+					"site-content",
+					"unstructured-content",
+					"web-content-crawl",
+					"management-center",
+					"elastic-search",
+					"search-index"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3219,6 +3240,27 @@
 			},
 			"store-theme-management": {
 				"name": "store-theme-management"
+			},
+			"content": {
+				"name": "content"
+			},
+			"content-search": {
+				"name": "content-search"
+			},
+			"site-content": {
+				"name": "site-content"
+			},
+			"unstructured-content": {
+				"name": "unstructured-content"
+			},
+			"web-content-crawl": {
+				"name": "web-content-crawl"
+			},
+			"elastic-search": {
+				"name": "elastic-search"
+			},
+			"search-index": {
+				"name": "search-index"
 			}
 		}
 	},
@@ -4955,8 +4997,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Not Identified",
-				"languageColor": "#fff",
+				"language": "Python",
+				"languageColor": "#3572A5",
 				"topics": [
 					"hcl-commerce",
 					"grafana",
@@ -6635,6 +6677,27 @@
 					"management-center",
 					"store-theme-management"
 				]
+			},
+			"commerce-content-search": {
+				"name": "commerce-content-search",
+				"description": "This asset provides capability to index different contents (unstructured, site or web) and then display content search-results along with product search-results.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-content-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"content",
+					"content-search",
+					"hcl-commerce",
+					"site-content",
+					"unstructured-content",
+					"web-content-crawl",
+					"management-center",
+					"elastic-search",
+					"search-index"
+				]
 			}
 		},
 		"availableTopics": {
@@ -6652,6 +6715,27 @@
 			},
 			"store-theme-management": {
 				"name": "store-theme-management"
+			},
+			"content": {
+				"name": "content"
+			},
+			"content-search": {
+				"name": "content-search"
+			},
+			"site-content": {
+				"name": "site-content"
+			},
+			"unstructured-content": {
+				"name": "unstructured-content"
+			},
+			"web-content-crawl": {
+				"name": "web-content-crawl"
+			},
+			"elastic-search": {
+				"name": "elastic-search"
+			},
+			"search-index": {
+				"name": "search-index"
 			}
 		}
 	},
@@ -6744,6 +6828,370 @@
 			},
 			"hcl": {
 				"name": "hcl"
+			}
+		}
+	},
+	"content": {
+		"name": "content",
+		"repositories": {
+			"commerce-content-search": {
+				"name": "commerce-content-search",
+				"description": "This asset provides capability to index different contents (unstructured, site or web) and then display content search-results along with product search-results.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-content-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"content",
+					"content-search",
+					"hcl-commerce",
+					"site-content",
+					"unstructured-content",
+					"web-content-crawl",
+					"management-center",
+					"elastic-search",
+					"search-index"
+				]
+			}
+		},
+		"availableTopics": {
+			"content-search": {
+				"name": "content-search"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"site-content": {
+				"name": "site-content"
+			},
+			"unstructured-content": {
+				"name": "unstructured-content"
+			},
+			"web-content-crawl": {
+				"name": "web-content-crawl"
+			},
+			"management-center": {
+				"name": "management-center"
+			},
+			"elastic-search": {
+				"name": "elastic-search"
+			},
+			"search-index": {
+				"name": "search-index"
+			}
+		}
+	},
+	"content-search": {
+		"name": "content-search",
+		"repositories": {
+			"commerce-content-search": {
+				"name": "commerce-content-search",
+				"description": "This asset provides capability to index different contents (unstructured, site or web) and then display content search-results along with product search-results.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-content-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"content",
+					"content-search",
+					"hcl-commerce",
+					"site-content",
+					"unstructured-content",
+					"web-content-crawl",
+					"management-center",
+					"elastic-search",
+					"search-index"
+				]
+			}
+		},
+		"availableTopics": {
+			"content": {
+				"name": "content"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"site-content": {
+				"name": "site-content"
+			},
+			"unstructured-content": {
+				"name": "unstructured-content"
+			},
+			"web-content-crawl": {
+				"name": "web-content-crawl"
+			},
+			"management-center": {
+				"name": "management-center"
+			},
+			"elastic-search": {
+				"name": "elastic-search"
+			},
+			"search-index": {
+				"name": "search-index"
+			}
+		}
+	},
+	"site-content": {
+		"name": "site-content",
+		"repositories": {
+			"commerce-content-search": {
+				"name": "commerce-content-search",
+				"description": "This asset provides capability to index different contents (unstructured, site or web) and then display content search-results along with product search-results.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-content-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"content",
+					"content-search",
+					"hcl-commerce",
+					"site-content",
+					"unstructured-content",
+					"web-content-crawl",
+					"management-center",
+					"elastic-search",
+					"search-index"
+				]
+			}
+		},
+		"availableTopics": {
+			"content": {
+				"name": "content"
+			},
+			"content-search": {
+				"name": "content-search"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"unstructured-content": {
+				"name": "unstructured-content"
+			},
+			"web-content-crawl": {
+				"name": "web-content-crawl"
+			},
+			"management-center": {
+				"name": "management-center"
+			},
+			"elastic-search": {
+				"name": "elastic-search"
+			},
+			"search-index": {
+				"name": "search-index"
+			}
+		}
+	},
+	"unstructured-content": {
+		"name": "unstructured-content",
+		"repositories": {
+			"commerce-content-search": {
+				"name": "commerce-content-search",
+				"description": "This asset provides capability to index different contents (unstructured, site or web) and then display content search-results along with product search-results.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-content-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"content",
+					"content-search",
+					"hcl-commerce",
+					"site-content",
+					"unstructured-content",
+					"web-content-crawl",
+					"management-center",
+					"elastic-search",
+					"search-index"
+				]
+			}
+		},
+		"availableTopics": {
+			"content": {
+				"name": "content"
+			},
+			"content-search": {
+				"name": "content-search"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"site-content": {
+				"name": "site-content"
+			},
+			"web-content-crawl": {
+				"name": "web-content-crawl"
+			},
+			"management-center": {
+				"name": "management-center"
+			},
+			"elastic-search": {
+				"name": "elastic-search"
+			},
+			"search-index": {
+				"name": "search-index"
+			}
+		}
+	},
+	"web-content-crawl": {
+		"name": "web-content-crawl",
+		"repositories": {
+			"commerce-content-search": {
+				"name": "commerce-content-search",
+				"description": "This asset provides capability to index different contents (unstructured, site or web) and then display content search-results along with product search-results.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-content-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"content",
+					"content-search",
+					"hcl-commerce",
+					"site-content",
+					"unstructured-content",
+					"web-content-crawl",
+					"management-center",
+					"elastic-search",
+					"search-index"
+				]
+			}
+		},
+		"availableTopics": {
+			"content": {
+				"name": "content"
+			},
+			"content-search": {
+				"name": "content-search"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"site-content": {
+				"name": "site-content"
+			},
+			"unstructured-content": {
+				"name": "unstructured-content"
+			},
+			"management-center": {
+				"name": "management-center"
+			},
+			"elastic-search": {
+				"name": "elastic-search"
+			},
+			"search-index": {
+				"name": "search-index"
+			}
+		}
+	},
+	"elastic-search": {
+		"name": "elastic-search",
+		"repositories": {
+			"commerce-content-search": {
+				"name": "commerce-content-search",
+				"description": "This asset provides capability to index different contents (unstructured, site or web) and then display content search-results along with product search-results.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-content-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"content",
+					"content-search",
+					"hcl-commerce",
+					"site-content",
+					"unstructured-content",
+					"web-content-crawl",
+					"management-center",
+					"elastic-search",
+					"search-index"
+				]
+			}
+		},
+		"availableTopics": {
+			"content": {
+				"name": "content"
+			},
+			"content-search": {
+				"name": "content-search"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"site-content": {
+				"name": "site-content"
+			},
+			"unstructured-content": {
+				"name": "unstructured-content"
+			},
+			"web-content-crawl": {
+				"name": "web-content-crawl"
+			},
+			"management-center": {
+				"name": "management-center"
+			},
+			"search-index": {
+				"name": "search-index"
+			}
+		}
+	},
+	"search-index": {
+		"name": "search-index",
+		"repositories": {
+			"commerce-content-search": {
+				"name": "commerce-content-search",
+				"description": "This asset provides capability to index different contents (unstructured, site or web) and then display content search-results along with product search-results.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-content-search",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"content",
+					"content-search",
+					"hcl-commerce",
+					"site-content",
+					"unstructured-content",
+					"web-content-crawl",
+					"management-center",
+					"elastic-search",
+					"search-index"
+				]
+			}
+		},
+		"availableTopics": {
+			"content": {
+				"name": "content"
+			},
+			"content-search": {
+				"name": "content-search"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"site-content": {
+				"name": "site-content"
+			},
+			"unstructured-content": {
+				"name": "unstructured-content"
+			},
+			"web-content-crawl": {
+				"name": "web-content-crawl"
+			},
+			"management-center": {
+				"name": "management-center"
+			},
+			"elastic-search": {
+				"name": "elastic-search"
 			}
 		}
 	},

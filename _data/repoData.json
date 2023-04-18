@@ -1188,8 +1188,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Not Identified",
-		"languageColor": "#fff",
+		"language": "Python",
+		"languageColor": "#3572A5",
 		"topics": [
 			"hcl-commerce",
 			"grafana",
@@ -1762,6 +1762,27 @@
 		"topics": []
 	},
 	{
+		"name": "commerce-content-search",
+		"description": "This asset provides capability to index different contents (unstructured, site or web) and then display content search-results along with product search-results.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-content-search",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": [
+			"content",
+			"content-search",
+			"hcl-commerce",
+			"site-content",
+			"unstructured-content",
+			"web-content-crawl",
+			"management-center",
+			"elastic-search",
+			"search-index"
+		]
+	},
+	{
 		"name": "HCL-Workload-Automation-Observability-for-Splunk",
 		"description": "HCL Workload Automation Observability for Splunk",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Splunk",
@@ -1852,6 +1873,17 @@
 			"volt-mx-go",
 			"voltscript"
 		]
+	},
+	{
+		"name": "HCL-Workload-Automation-Observability-for-Datadog",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Datadog",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
 	},
 	{
 		"name": "Domino-rest-api",

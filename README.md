@@ -1,6 +1,7 @@
 # hcl-tech-software.github.io
 
 This is a GitHub Pages site with landing pages for this organisation and HCL products, as defined in tags. The repo contains:
+
 - a GitHub Data Retriever Node.js app to generate JSON files with content from a GitHub organisation
 - index.html and product pages that:
   - displays the public repos in that organisation
@@ -16,7 +17,7 @@ This does a GraphQL query of GitHub and parses the content. The files are output
 
 ### GitHub GraphQL Queries
 
-You can test GraphQL GitHub queries in the [GraphQL explorer](https://docs.github.com/en/free-pro-team@latest/graphql/overview/explorer) and there is also [full documentation ](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects).
+You can test GraphQL GitHub queries in the [GraphQL explorer](https://docs.github.com/en/free-pro-team@latest/graphql/overview/explorer) and there is also [full documentation](https://docs.github.com/en/free-pro-team@latest/graphql/reference/objects).
 
 The "search" query does not appear to return repositories that are forks. So instead the "organization" query is used instead.
 
@@ -41,6 +42,7 @@ With a note of your personal GitHub token and the organisation you want to retri
 replacing `XXXXX` and `YYYYY` with your actual github token and organisation.
 
 This will run the code in index.js, passing in the environment variable. The code will use this via `process.env.GITHUB_TOKEN` and `process.env.ORG`. If the query is still correct, it will generate three files in "_data" directory:
+
 - **repoData.json** contains one entry per repo, with repo details and topics.
 - **repoDataPublic.json** contains one entry per PUBLIC repo, with repo details and topics.
 - **repoTopics.json** is the same data, sliced by topic instead of repo. It contains one entry per topic, with entries for each repo that has that topic.
@@ -54,6 +56,7 @@ This will run the code in index.js, passing in the environment variable. The cod
 ## GitHub Pages Site
 
 The GitHub Pages site can be previewed as for any normal GitHub Pages site. The "index.html" page uses the `default.html` layout. There are links to specific product pages, also at the top level, which use the `product.html` layout. The main differences between the two are:
+
 - links to product pages vs link back to home
 - cards are built from `_data/repoDataPublic.json` vs a specific topic in `_data/repoTopics.json`.
 
@@ -62,6 +65,7 @@ The GitHub Pages site can be previewed as for any normal GitHub Pages site. The 
 #### _includes/searchUI.html
 
 The UI for searching and filtering is in `searchUI.html`. This comprises of:
+
 - a search inputbox
 - a button group of topics
 
@@ -79,7 +83,7 @@ A `debounce()` function is used to delay searching in the `keyup` event.
 
 ### Cards
 
-The cards are placed in a `div` with a class `grid`. This is the specific area the search code acts upon. 
+The cards are placed in a `div` with a class `grid`. This is the specific area the search code acts upon.
 
 If the repo is a fork, a Liquid variable `fork` is assigned with a value of " fork". This is then added to the CSS class of the card. The variable is scoped to the whole forall, not an individual loop, so it's important we reset the `fork` variable if the repo is not a fork.
 
