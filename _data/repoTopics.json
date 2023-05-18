@@ -280,6 +280,26 @@
 					"sast",
 					"scanning"
 				]
+			},
+			"appscan-dast-action": {
+				"name": "appscan-dast-action",
+				"description": "A GitHub Action for running DAST scans in AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-dast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "PowerShell",
+				"languageColor": "#fff",
+				"topics": [
+					"application-security",
+					"appscan",
+					"dast",
+					"dynamic-analysis",
+					"hcl",
+					"security",
+					"security-automation",
+					"security-tools"
+				]
 			}
 		},
 		"availableTopics": {
@@ -333,6 +353,18 @@
 			},
 			"security-tools": {
 				"name": "security-tools"
+			},
+			"application-security": {
+				"name": "application-security"
+			},
+			"dast": {
+				"name": "dast"
+			},
+			"dynamic-analysis": {
+				"name": "dynamic-analysis"
+			},
+			"hcl": {
+				"name": "hcl"
 			}
 		}
 	},
@@ -476,6 +508,26 @@
 					"sast",
 					"scanning"
 				]
+			},
+			"appscan-dast-action": {
+				"name": "appscan-dast-action",
+				"description": "A GitHub Action for running DAST scans in AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-dast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "PowerShell",
+				"languageColor": "#fff",
+				"topics": [
+					"application-security",
+					"appscan",
+					"dast",
+					"dynamic-analysis",
+					"hcl",
+					"security",
+					"security-automation",
+					"security-tools"
+				]
 			}
 		},
 		"availableTopics": {
@@ -511,6 +563,18 @@
 			},
 			"security-tools": {
 				"name": "security-tools"
+			},
+			"application-security": {
+				"name": "application-security"
+			},
+			"dast": {
+				"name": "dast"
+			},
+			"dynamic-analysis": {
+				"name": "dynamic-analysis"
+			},
+			"hcl": {
+				"name": "hcl"
 			}
 		}
 	},
@@ -734,8 +798,8 @@
 				"private": false,
 				"fork": false,
 				"license": "",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
+				"language": "HTML",
+				"languageColor": "#e34c26",
 				"topics": [
 					"rtist"
 				]
@@ -1661,8 +1725,8 @@
 				"private": false,
 				"fork": false,
 				"license": "",
-				"language": "Shell",
-				"languageColor": "#89e051",
+				"language": "Dockerfile",
+				"languageColor": "#fff",
 				"topics": [
 					"hcl-workload-automation",
 					"docker-compose"
@@ -1905,8 +1969,8 @@
 				"private": false,
 				"fork": false,
 				"license": "",
-				"language": "Shell",
-				"languageColor": "#89e051",
+				"language": "Dockerfile",
+				"languageColor": "#fff",
 				"topics": [
 					"hcl-workload-automation",
 					"docker-compose"
@@ -3739,6 +3803,26 @@
 					"hcl",
 					"mongodb"
 				]
+			},
+			"appscan-dast-action": {
+				"name": "appscan-dast-action",
+				"description": "A GitHub Action for running DAST scans in AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-dast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "PowerShell",
+				"languageColor": "#fff",
+				"topics": [
+					"application-security",
+					"appscan",
+					"dast",
+					"dynamic-analysis",
+					"hcl",
+					"security",
+					"security-automation",
+					"security-tools"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3756,6 +3840,27 @@
 			},
 			"mongodb": {
 				"name": "mongodb"
+			},
+			"application-security": {
+				"name": "application-security"
+			},
+			"appscan": {
+				"name": "appscan"
+			},
+			"dast": {
+				"name": "dast"
+			},
+			"dynamic-analysis": {
+				"name": "dynamic-analysis"
+			},
+			"security": {
+				"name": "security"
+			},
+			"security-automation": {
+				"name": "security-automation"
+			},
+			"security-tools": {
+				"name": "security-tools"
 			}
 		}
 	},
@@ -4403,6 +4508,26 @@
 					"sast",
 					"scanning"
 				]
+			},
+			"appscan-dast-action": {
+				"name": "appscan-dast-action",
+				"description": "A GitHub Action for running DAST scans in AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-dast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "PowerShell",
+				"languageColor": "#fff",
+				"topics": [
+					"application-security",
+					"appscan",
+					"dast",
+					"dynamic-analysis",
+					"hcl",
+					"security",
+					"security-automation",
+					"security-tools"
+				]
 			}
 		},
 		"availableTopics": {
@@ -4435,6 +4560,18 @@
 			},
 			"security-tools": {
 				"name": "security-tools"
+			},
+			"application-security": {
+				"name": "application-security"
+			},
+			"dast": {
+				"name": "dast"
+			},
+			"dynamic-analysis": {
+				"name": "dynamic-analysis"
+			},
+			"hcl": {
+				"name": "hcl"
 			}
 		}
 	},
@@ -6547,6 +6684,26 @@
 					"sast",
 					"scanning"
 				]
+			},
+			"appscan-dast-action": {
+				"name": "appscan-dast-action",
+				"description": "A GitHub Action for running DAST scans in AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-dast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "PowerShell",
+				"languageColor": "#fff",
+				"topics": [
+					"application-security",
+					"appscan",
+					"dast",
+					"dynamic-analysis",
+					"hcl",
+					"security",
+					"security-automation",
+					"security-tools"
+				]
 			}
 		},
 		"availableTopics": {
@@ -6576,6 +6733,18 @@
 			},
 			"scanning": {
 				"name": "scanning"
+			},
+			"application-security": {
+				"name": "application-security"
+			},
+			"dast": {
+				"name": "dast"
+			},
+			"dynamic-analysis": {
+				"name": "dynamic-analysis"
+			},
+			"hcl": {
+				"name": "hcl"
 			}
 		}
 	},
@@ -7300,10 +7469,10 @@
 	"volt-mx-go": {
 		"name": "volt-mx-go",
 		"repositories": {
-			"bali-unit": {
-				"name": "bali-unit",
-				"description": "VoltScript Framework for Unit Testing",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/bali-unit",
+			"voltscript-testing": {
+				"name": "voltscript-testing",
+				"description": "VoltScript Framework for Unit and Integration Testing",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-testing",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -7324,10 +7493,10 @@
 	"voltscript": {
 		"name": "voltscript",
 		"repositories": {
-			"bali-unit": {
-				"name": "bali-unit",
-				"description": "VoltScript Framework for Unit Testing",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/bali-unit",
+			"voltscript-testing": {
+				"name": "voltscript-testing",
+				"description": "VoltScript Framework for Unit and Integration Testing",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-testing",
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
@@ -7342,6 +7511,150 @@
 		"availableTopics": {
 			"volt-mx-go": {
 				"name": "volt-mx-go"
+			}
+		}
+	},
+	"application-security": {
+		"name": "application-security",
+		"repositories": {
+			"appscan-dast-action": {
+				"name": "appscan-dast-action",
+				"description": "A GitHub Action for running DAST scans in AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-dast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "PowerShell",
+				"languageColor": "#fff",
+				"topics": [
+					"application-security",
+					"appscan",
+					"dast",
+					"dynamic-analysis",
+					"hcl",
+					"security",
+					"security-automation",
+					"security-tools"
+				]
+			}
+		},
+		"availableTopics": {
+			"appscan": {
+				"name": "appscan"
+			},
+			"dast": {
+				"name": "dast"
+			},
+			"dynamic-analysis": {
+				"name": "dynamic-analysis"
+			},
+			"hcl": {
+				"name": "hcl"
+			},
+			"security": {
+				"name": "security"
+			},
+			"security-automation": {
+				"name": "security-automation"
+			},
+			"security-tools": {
+				"name": "security-tools"
+			}
+		}
+	},
+	"dast": {
+		"name": "dast",
+		"repositories": {
+			"appscan-dast-action": {
+				"name": "appscan-dast-action",
+				"description": "A GitHub Action for running DAST scans in AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-dast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "PowerShell",
+				"languageColor": "#fff",
+				"topics": [
+					"application-security",
+					"appscan",
+					"dast",
+					"dynamic-analysis",
+					"hcl",
+					"security",
+					"security-automation",
+					"security-tools"
+				]
+			}
+		},
+		"availableTopics": {
+			"application-security": {
+				"name": "application-security"
+			},
+			"appscan": {
+				"name": "appscan"
+			},
+			"dynamic-analysis": {
+				"name": "dynamic-analysis"
+			},
+			"hcl": {
+				"name": "hcl"
+			},
+			"security": {
+				"name": "security"
+			},
+			"security-automation": {
+				"name": "security-automation"
+			},
+			"security-tools": {
+				"name": "security-tools"
+			}
+		}
+	},
+	"dynamic-analysis": {
+		"name": "dynamic-analysis",
+		"repositories": {
+			"appscan-dast-action": {
+				"name": "appscan-dast-action",
+				"description": "A GitHub Action for running DAST scans in AppScan on Cloud",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-dast-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "PowerShell",
+				"languageColor": "#fff",
+				"topics": [
+					"application-security",
+					"appscan",
+					"dast",
+					"dynamic-analysis",
+					"hcl",
+					"security",
+					"security-automation",
+					"security-tools"
+				]
+			}
+		},
+		"availableTopics": {
+			"application-security": {
+				"name": "application-security"
+			},
+			"appscan": {
+				"name": "appscan"
+			},
+			"dast": {
+				"name": "dast"
+			},
+			"hcl": {
+				"name": "hcl"
+			},
+			"security": {
+				"name": "security"
+			},
+			"security-automation": {
+				"name": "security-automation"
+			},
+			"security-tools": {
+				"name": "security-tools"
 			}
 		}
 	}

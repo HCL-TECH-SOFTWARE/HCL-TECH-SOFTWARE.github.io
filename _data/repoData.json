@@ -403,8 +403,8 @@
 		"private": false,
 		"fork": false,
 		"license": "",
-		"language": "Shell",
-		"languageColor": "#89e051",
+		"language": "Dockerfile",
+		"languageColor": "#fff",
 		"topics": [
 			"hcl-workload-automation",
 			"docker-compose"
@@ -1372,8 +1372,8 @@
 		"private": false,
 		"fork": false,
 		"license": "",
-		"language": "JavaScript",
-		"languageColor": "#f1e05a",
+		"language": "HTML",
+		"languageColor": "#e34c26",
 		"topics": [
 			"rtist"
 		]
@@ -1495,6 +1495,28 @@
 		"license": "MIT License",
 		"language": "Python",
 		"languageColor": "#3572A5",
+		"topics": []
+	},
+	{
+		"name": "Emerald-One-Test-Studio-Tests",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Emerald-One-Test-Studio-Tests",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": []
+	},
+	{
+		"name": "Emerald-Other-Tests",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Emerald-Other-Tests",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
 		"topics": []
 	},
 	{
@@ -1824,6 +1846,17 @@
 		"topics": []
 	},
 	{
+		"name": "appscan-gitlab-integration",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-gitlab-integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Dockerfile",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
 		"name": "dx-portlet-development-utilities",
 		"description": "This repository contains Portlet Development Utilities to create pages via the DX Java API as well as a custom maven archetype to create a new JSR286 portlet.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-portlet-development-utilities",
@@ -1861,9 +1894,9 @@
 		]
 	},
 	{
-		"name": "bali-unit",
-		"description": "VoltScript Framework for Unit Testing",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/bali-unit",
+		"name": "voltscript-testing",
+		"description": "VoltScript Framework for Unit and Integration Testing",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-testing",
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
@@ -1900,5 +1933,58 @@
 			"domino",
 			"rest-api"
 		]
+	},
+	{
+		"name": "appscan-dast-action",
+		"description": "A GitHub Action for running DAST scans in AppScan on Cloud",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-dast-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "PowerShell",
+		"languageColor": "#fff",
+		"topics": [
+			"application-security",
+			"appscan",
+			"dast",
+			"dynamic-analysis",
+			"hcl",
+			"security",
+			"security-automation",
+			"security-tools"
+		]
+	},
+	{
+		"name": "appscan-onprem-gitlab",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-onprem-gitlab",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "PowerShell",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "emissary",
+		"description": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/emissary",
+		"private": false,
+		"fork": true,
+		"license": "",
+		"language": "Python",
+		"languageColor": "#3572A5",
+		"topics": []
+	},
+	{
+		"name": "OneTest-emissary",
+		"description": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/OneTest-emissary",
+		"private": false,
+		"fork": true,
+		"license": "Apache License 2.0",
+		"language": "Python",
+		"languageColor": "#3572A5",
+		"topics": []
 	}
 ]
