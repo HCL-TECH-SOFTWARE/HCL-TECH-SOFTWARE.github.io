@@ -1093,7 +1093,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU",
 				"private": false,
 				"fork": false,
-				"license": "Other",
+				"license": "Apache License 2.0",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -3179,6 +3179,43 @@
 					"elastic-search",
 					"search-index"
 				]
+			},
+			"commerce-instagram-integration": {
+				"name": "commerce-instagram-integration",
+				"description": "This asset provides ability for business-users to publish products from HCL Commerce catalog to Instagram handles",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-instagram-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"instagram",
+					"instagram-api",
+					"integration",
+					"product-publish"
+				]
+			},
+			"commerce-kafka-integration": {
+				"name": "commerce-kafka-integration",
+				"description": "This asset provides ability to send/consume messages from/to HCL-Commerce via Kafka-Messaging Framework",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-kafka-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"kafka",
+					"kafka-connect",
+					"kafka-consumer",
+					"kafka-producer",
+					"hclc-kafka-integration"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3325,6 +3362,30 @@
 			},
 			"search-index": {
 				"name": "search-index"
+			},
+			"instagram": {
+				"name": "instagram"
+			},
+			"instagram-api": {
+				"name": "instagram-api"
+			},
+			"product-publish": {
+				"name": "product-publish"
+			},
+			"kafka": {
+				"name": "kafka"
+			},
+			"kafka-connect": {
+				"name": "kafka-connect"
+			},
+			"kafka-consumer": {
+				"name": "kafka-consumer"
+			},
+			"kafka-producer": {
+				"name": "kafka-producer"
+			},
+			"hclc-kafka-integration": {
+				"name": "hclc-kafka-integration"
 			}
 		}
 	},
@@ -4745,6 +4806,43 @@
 					"commercecrypto",
 					"hcl-commerce"
 				]
+			},
+			"commerce-instagram-integration": {
+				"name": "commerce-instagram-integration",
+				"description": "This asset provides ability for business-users to publish products from HCL Commerce catalog to Instagram handles",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-instagram-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"instagram",
+					"instagram-api",
+					"integration",
+					"product-publish"
+				]
+			},
+			"commerce-kafka-integration": {
+				"name": "commerce-kafka-integration",
+				"description": "This asset provides ability to send/consume messages from/to HCL-Commerce via Kafka-Messaging Framework",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-kafka-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"kafka",
+					"kafka-connect",
+					"kafka-consumer",
+					"kafka-producer",
+					"hclc-kafka-integration"
+				]
 			}
 		},
 		"availableTopics": {
@@ -4771,6 +4869,33 @@
 			},
 			"commercecrypto": {
 				"name": "commercecrypto"
+			},
+			"instagram": {
+				"name": "instagram"
+			},
+			"instagram-api": {
+				"name": "instagram-api"
+			},
+			"integration": {
+				"name": "integration"
+			},
+			"product-publish": {
+				"name": "product-publish"
+			},
+			"kafka": {
+				"name": "kafka"
+			},
+			"kafka-connect": {
+				"name": "kafka-connect"
+			},
+			"kafka-consumer": {
+				"name": "kafka-consumer"
+			},
+			"kafka-producer": {
+				"name": "kafka-producer"
+			},
+			"hclc-kafka-integration": {
+				"name": "hclc-kafka-integration"
 			}
 		}
 	},
@@ -5858,6 +5983,24 @@
 					"integration",
 					"rating-reviews"
 				]
+			},
+			"commerce-instagram-integration": {
+				"name": "commerce-instagram-integration",
+				"description": "This asset provides ability for business-users to publish products from HCL Commerce catalog to Instagram handles",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-instagram-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"instagram",
+					"instagram-api",
+					"integration",
+					"product-publish"
+				]
 			}
 		},
 		"availableTopics": {
@@ -5869,6 +6012,18 @@
 			},
 			"rating-reviews": {
 				"name": "rating-reviews"
+			},
+			"commerce": {
+				"name": "commerce"
+			},
+			"instagram": {
+				"name": "instagram"
+			},
+			"instagram-api": {
+				"name": "instagram-api"
+			},
+			"product-publish": {
+				"name": "product-publish"
 			}
 		}
 	},
@@ -7655,6 +7810,346 @@
 			},
 			"security-tools": {
 				"name": "security-tools"
+			}
+		}
+	},
+	"instagram": {
+		"name": "instagram",
+		"repositories": {
+			"commerce-instagram-integration": {
+				"name": "commerce-instagram-integration",
+				"description": "This asset provides ability for business-users to publish products from HCL Commerce catalog to Instagram handles",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-instagram-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"instagram",
+					"instagram-api",
+					"integration",
+					"product-publish"
+				]
+			}
+		},
+		"availableTopics": {
+			"commerce": {
+				"name": "commerce"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"instagram-api": {
+				"name": "instagram-api"
+			},
+			"integration": {
+				"name": "integration"
+			},
+			"product-publish": {
+				"name": "product-publish"
+			}
+		}
+	},
+	"instagram-api": {
+		"name": "instagram-api",
+		"repositories": {
+			"commerce-instagram-integration": {
+				"name": "commerce-instagram-integration",
+				"description": "This asset provides ability for business-users to publish products from HCL Commerce catalog to Instagram handles",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-instagram-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"instagram",
+					"instagram-api",
+					"integration",
+					"product-publish"
+				]
+			}
+		},
+		"availableTopics": {
+			"commerce": {
+				"name": "commerce"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"instagram": {
+				"name": "instagram"
+			},
+			"integration": {
+				"name": "integration"
+			},
+			"product-publish": {
+				"name": "product-publish"
+			}
+		}
+	},
+	"product-publish": {
+		"name": "product-publish",
+		"repositories": {
+			"commerce-instagram-integration": {
+				"name": "commerce-instagram-integration",
+				"description": "This asset provides ability for business-users to publish products from HCL Commerce catalog to Instagram handles",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-instagram-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"instagram",
+					"instagram-api",
+					"integration",
+					"product-publish"
+				]
+			}
+		},
+		"availableTopics": {
+			"commerce": {
+				"name": "commerce"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"instagram": {
+				"name": "instagram"
+			},
+			"instagram-api": {
+				"name": "instagram-api"
+			},
+			"integration": {
+				"name": "integration"
+			}
+		}
+	},
+	"kafka": {
+		"name": "kafka",
+		"repositories": {
+			"commerce-kafka-integration": {
+				"name": "commerce-kafka-integration",
+				"description": "This asset provides ability to send/consume messages from/to HCL-Commerce via Kafka-Messaging Framework",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-kafka-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"kafka",
+					"kafka-connect",
+					"kafka-consumer",
+					"kafka-producer",
+					"hclc-kafka-integration"
+				]
+			}
+		},
+		"availableTopics": {
+			"commerce": {
+				"name": "commerce"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"kafka-connect": {
+				"name": "kafka-connect"
+			},
+			"kafka-consumer": {
+				"name": "kafka-consumer"
+			},
+			"kafka-producer": {
+				"name": "kafka-producer"
+			},
+			"hclc-kafka-integration": {
+				"name": "hclc-kafka-integration"
+			}
+		}
+	},
+	"kafka-connect": {
+		"name": "kafka-connect",
+		"repositories": {
+			"commerce-kafka-integration": {
+				"name": "commerce-kafka-integration",
+				"description": "This asset provides ability to send/consume messages from/to HCL-Commerce via Kafka-Messaging Framework",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-kafka-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"kafka",
+					"kafka-connect",
+					"kafka-consumer",
+					"kafka-producer",
+					"hclc-kafka-integration"
+				]
+			}
+		},
+		"availableTopics": {
+			"commerce": {
+				"name": "commerce"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"kafka": {
+				"name": "kafka"
+			},
+			"kafka-consumer": {
+				"name": "kafka-consumer"
+			},
+			"kafka-producer": {
+				"name": "kafka-producer"
+			},
+			"hclc-kafka-integration": {
+				"name": "hclc-kafka-integration"
+			}
+		}
+	},
+	"kafka-consumer": {
+		"name": "kafka-consumer",
+		"repositories": {
+			"commerce-kafka-integration": {
+				"name": "commerce-kafka-integration",
+				"description": "This asset provides ability to send/consume messages from/to HCL-Commerce via Kafka-Messaging Framework",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-kafka-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"kafka",
+					"kafka-connect",
+					"kafka-consumer",
+					"kafka-producer",
+					"hclc-kafka-integration"
+				]
+			}
+		},
+		"availableTopics": {
+			"commerce": {
+				"name": "commerce"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"kafka": {
+				"name": "kafka"
+			},
+			"kafka-connect": {
+				"name": "kafka-connect"
+			},
+			"kafka-producer": {
+				"name": "kafka-producer"
+			},
+			"hclc-kafka-integration": {
+				"name": "hclc-kafka-integration"
+			}
+		}
+	},
+	"kafka-producer": {
+		"name": "kafka-producer",
+		"repositories": {
+			"commerce-kafka-integration": {
+				"name": "commerce-kafka-integration",
+				"description": "This asset provides ability to send/consume messages from/to HCL-Commerce via Kafka-Messaging Framework",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-kafka-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"kafka",
+					"kafka-connect",
+					"kafka-consumer",
+					"kafka-producer",
+					"hclc-kafka-integration"
+				]
+			}
+		},
+		"availableTopics": {
+			"commerce": {
+				"name": "commerce"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"kafka": {
+				"name": "kafka"
+			},
+			"kafka-connect": {
+				"name": "kafka-connect"
+			},
+			"kafka-consumer": {
+				"name": "kafka-consumer"
+			},
+			"hclc-kafka-integration": {
+				"name": "hclc-kafka-integration"
+			}
+		}
+	},
+	"hclc-kafka-integration": {
+		"name": "hclc-kafka-integration",
+		"repositories": {
+			"commerce-kafka-integration": {
+				"name": "commerce-kafka-integration",
+				"description": "This asset provides ability to send/consume messages from/to HCL-Commerce via Kafka-Messaging Framework",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-kafka-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"commerce",
+					"hcl-commerce",
+					"kafka",
+					"kafka-connect",
+					"kafka-consumer",
+					"kafka-producer",
+					"hclc-kafka-integration"
+				]
+			}
+		},
+		"availableTopics": {
+			"commerce": {
+				"name": "commerce"
+			},
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"kafka": {
+				"name": "kafka"
+			},
+			"kafka-connect": {
+				"name": "kafka-connect"
+			},
+			"kafka-consumer": {
+				"name": "kafka-consumer"
+			},
+			"kafka-producer": {
+				"name": "kafka-producer"
 			}
 		}
 	}

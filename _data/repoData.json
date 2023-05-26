@@ -1873,7 +1873,7 @@
 		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-license-analysis-utility-DLAU",
 		"private": false,
 		"fork": false,
-		"license": "Other",
+		"license": "Apache License 2.0",
 		"language": "Not Identified",
 		"languageColor": "#fff",
 		"topics": [
@@ -1966,6 +1966,43 @@
 		"topics": []
 	},
 	{
+		"name": "commerce-instagram-integration",
+		"description": "This asset provides ability for business-users to publish products from HCL Commerce catalog to Instagram handles",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-instagram-integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": [
+			"commerce",
+			"hcl-commerce",
+			"instagram",
+			"instagram-api",
+			"integration",
+			"product-publish"
+		]
+	},
+	{
+		"name": "commerce-kafka-integration",
+		"description": "This asset provides ability to send/consume messages from/to HCL-Commerce via Kafka-Messaging Framework",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-kafka-integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": [
+			"commerce",
+			"hcl-commerce",
+			"kafka",
+			"kafka-connect",
+			"kafka-consumer",
+			"kafka-producer",
+			"hclc-kafka-integration"
+		]
+	},
+	{
 		"name": "emissary",
 		"description": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/emissary",
@@ -1977,9 +2014,9 @@
 		"topics": []
 	},
 	{
-		"name": "OneTest-emissary",
+		"name": "hcl-emissary",
 		"description": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/OneTest-emissary",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-emissary",
 		"private": false,
 		"fork": true,
 		"license": "Apache License 2.0",
