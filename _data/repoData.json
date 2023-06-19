@@ -1470,6 +1470,19 @@
 		]
 	},
 	{
+		"name": "domino-linux",
+		"description": "Overview of Linux distributions that Domino is running on",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-linux",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"domino"
+		]
+	},
+	{
 		"name": "Notesiniplaybook",
 		"description": "An app which helps administrators and end users (who use HCL Notes) to enable and disable INI parameters on the user’s Notes client for troubleshooting purpose",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/Notesiniplaybook",
@@ -1512,6 +1525,17 @@
 		"name": "Emerald-Other-Tests",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/Emerald-Other-Tests",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "Emerald-System-Model",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Emerald-System-Model",
 		"private": false,
 		"fork": false,
 		"license": "",
@@ -2023,5 +2047,24 @@
 		"language": "Python",
 		"languageColor": "#3572A5",
 		"topics": []
+	},
+	{
+		"name": "commerce-razorpay-integration",
+		"description": "This Asset provides the integration from HCL Commerce to Razorpay Payment Gateway.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-razorpay-integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"hcl-commerce",
+			"payment-gateway",
+			"payment-integration",
+			"razorpay",
+			"razorpay-api",
+			"razorpay-payment",
+			"react-storefront"
+		]
 	}
 ]

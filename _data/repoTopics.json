@@ -1070,6 +1070,19 @@
 					"nsf"
 				]
 			},
+			"domino-linux": {
+				"name": "domino-linux",
+				"description": "Overview of Linux distributions that Domino is running on",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-linux",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino"
+				]
+			},
 			"Notesiniplaybook": {
 				"name": "Notesiniplaybook",
 				"description": "An app which helps administrators and end users (who use HCL Notes) to enable and disable INI parameters on the user’s Notes client for troubleshooting purpose",
@@ -3216,6 +3229,25 @@
 					"kafka-producer",
 					"hclc-kafka-integration"
 				]
+			},
+			"commerce-razorpay-integration": {
+				"name": "commerce-razorpay-integration",
+				"description": "This Asset provides the integration from HCL Commerce to Razorpay Payment Gateway.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-razorpay-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"hcl-commerce",
+					"payment-gateway",
+					"payment-integration",
+					"razorpay",
+					"razorpay-api",
+					"razorpay-payment",
+					"react-storefront"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3386,6 +3418,21 @@
 			},
 			"hclc-kafka-integration": {
 				"name": "hclc-kafka-integration"
+			},
+			"payment-gateway": {
+				"name": "payment-gateway"
+			},
+			"payment-integration": {
+				"name": "payment-integration"
+			},
+			"razorpay": {
+				"name": "razorpay"
+			},
+			"razorpay-api": {
+				"name": "razorpay-api"
+			},
+			"razorpay-payment": {
+				"name": "razorpay-payment"
 			}
 		}
 	},
@@ -3820,6 +3867,25 @@
 					"react-storefront",
 					"hcl-commerce"
 				]
+			},
+			"commerce-razorpay-integration": {
+				"name": "commerce-razorpay-integration",
+				"description": "This Asset provides the integration from HCL Commerce to Razorpay Payment Gateway.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-razorpay-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"hcl-commerce",
+					"payment-gateway",
+					"payment-integration",
+					"razorpay",
+					"razorpay-api",
+					"razorpay-payment",
+					"react-storefront"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3828,6 +3894,21 @@
 			},
 			"hcl-commerce": {
 				"name": "hcl-commerce"
+			},
+			"payment-gateway": {
+				"name": "payment-gateway"
+			},
+			"payment-integration": {
+				"name": "payment-integration"
+			},
+			"razorpay": {
+				"name": "razorpay"
+			},
+			"razorpay-api": {
+				"name": "razorpay-api"
+			},
+			"razorpay-payment": {
+				"name": "razorpay-payment"
 			}
 		}
 	},
@@ -8150,6 +8231,226 @@
 			},
 			"kafka-producer": {
 				"name": "kafka-producer"
+			}
+		}
+	},
+	"payment-gateway": {
+		"name": "payment-gateway",
+		"repositories": {
+			"commerce-razorpay-integration": {
+				"name": "commerce-razorpay-integration",
+				"description": "This Asset provides the integration from HCL Commerce to Razorpay Payment Gateway.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-razorpay-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"hcl-commerce",
+					"payment-gateway",
+					"payment-integration",
+					"razorpay",
+					"razorpay-api",
+					"razorpay-payment",
+					"react-storefront"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"payment-integration": {
+				"name": "payment-integration"
+			},
+			"razorpay": {
+				"name": "razorpay"
+			},
+			"razorpay-api": {
+				"name": "razorpay-api"
+			},
+			"razorpay-payment": {
+				"name": "razorpay-payment"
+			},
+			"react-storefront": {
+				"name": "react-storefront"
+			}
+		}
+	},
+	"payment-integration": {
+		"name": "payment-integration",
+		"repositories": {
+			"commerce-razorpay-integration": {
+				"name": "commerce-razorpay-integration",
+				"description": "This Asset provides the integration from HCL Commerce to Razorpay Payment Gateway.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-razorpay-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"hcl-commerce",
+					"payment-gateway",
+					"payment-integration",
+					"razorpay",
+					"razorpay-api",
+					"razorpay-payment",
+					"react-storefront"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"payment-gateway": {
+				"name": "payment-gateway"
+			},
+			"razorpay": {
+				"name": "razorpay"
+			},
+			"razorpay-api": {
+				"name": "razorpay-api"
+			},
+			"razorpay-payment": {
+				"name": "razorpay-payment"
+			},
+			"react-storefront": {
+				"name": "react-storefront"
+			}
+		}
+	},
+	"razorpay": {
+		"name": "razorpay",
+		"repositories": {
+			"commerce-razorpay-integration": {
+				"name": "commerce-razorpay-integration",
+				"description": "This Asset provides the integration from HCL Commerce to Razorpay Payment Gateway.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-razorpay-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"hcl-commerce",
+					"payment-gateway",
+					"payment-integration",
+					"razorpay",
+					"razorpay-api",
+					"razorpay-payment",
+					"react-storefront"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"payment-gateway": {
+				"name": "payment-gateway"
+			},
+			"payment-integration": {
+				"name": "payment-integration"
+			},
+			"razorpay-api": {
+				"name": "razorpay-api"
+			},
+			"razorpay-payment": {
+				"name": "razorpay-payment"
+			},
+			"react-storefront": {
+				"name": "react-storefront"
+			}
+		}
+	},
+	"razorpay-api": {
+		"name": "razorpay-api",
+		"repositories": {
+			"commerce-razorpay-integration": {
+				"name": "commerce-razorpay-integration",
+				"description": "This Asset provides the integration from HCL Commerce to Razorpay Payment Gateway.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-razorpay-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"hcl-commerce",
+					"payment-gateway",
+					"payment-integration",
+					"razorpay",
+					"razorpay-api",
+					"razorpay-payment",
+					"react-storefront"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"payment-gateway": {
+				"name": "payment-gateway"
+			},
+			"payment-integration": {
+				"name": "payment-integration"
+			},
+			"razorpay": {
+				"name": "razorpay"
+			},
+			"razorpay-payment": {
+				"name": "razorpay-payment"
+			},
+			"react-storefront": {
+				"name": "react-storefront"
+			}
+		}
+	},
+	"razorpay-payment": {
+		"name": "razorpay-payment",
+		"repositories": {
+			"commerce-razorpay-integration": {
+				"name": "commerce-razorpay-integration",
+				"description": "This Asset provides the integration from HCL Commerce to Razorpay Payment Gateway.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-razorpay-integration",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"hcl-commerce",
+					"payment-gateway",
+					"payment-integration",
+					"razorpay",
+					"razorpay-api",
+					"razorpay-payment",
+					"react-storefront"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"payment-gateway": {
+				"name": "payment-gateway"
+			},
+			"payment-integration": {
+				"name": "payment-integration"
+			},
+			"razorpay": {
+				"name": "razorpay"
+			},
+			"razorpay-api": {
+				"name": "razorpay-api"
+			},
+			"react-storefront": {
+				"name": "react-storefront"
 			}
 		}
 	}
