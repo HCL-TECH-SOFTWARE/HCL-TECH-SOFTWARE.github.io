@@ -167,6 +167,11 @@ a.btn:hover {
   content: " ";
 }
 
+@font-face {
+  font-family: 'HCLTech-Roobert';
+  src: url('/assets/HCLTechRoobert-Regular.woff2') format('woff2');
+}
+
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "HCLTech-Roobert","Helvetica Neue",Helvetica,Arial,sans-serif;
 }

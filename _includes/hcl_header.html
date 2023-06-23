@@ -48,34 +48,29 @@
                 background: #000000;
             }
 
+            .dark-master .header-primary {
+                display: flex;
+                background-color: #fff;
+                align-items: center;
+                position: relative;
+            }
+
             .logo-brand {
                 float: left;
                 padding-right: 35px;
                 margin-right: 35px;
                 position: relative;
                 overflow: hidden;
-                height: 48px;
-            }
-
-            .logo-brand:before {
-                content: '';
-                width: 1px;
-                height: 18px;
-                background: #4b4b4b;
-                position: absolute;
-                top: 15px;
-                right: 0;
+                border-right: solid 1px #D9DBE9;
             }
 
             .logo-brand a img {
                 max-width: 150px;
-                margin-top: -5px;
             }
 
             .logo-hcl-tech,
             .logo-hcl-tech:hover,
             .logo-hcl-tech:focus {
-                text-transform: uppercase;
                 font-size: 12px;
                 line-height: 31px;
                 font-weight: 700;
@@ -101,7 +96,7 @@
             .collapse-link.collapsed,
             .menu-link:hover,
             .menu-link:focus {
-                color: #fff;
+                color: #000000;
             }
 
             .collapse-link,
@@ -110,7 +105,7 @@
             }
 
             .menu-link {
-                color: #fff;
+                color: #000000;
                 padding: 0 14px;
                 line-height: 48px;
                 display: block;
@@ -135,7 +130,7 @@
 
             .menu-link.collapsed .arrow-nav {
                 top: -2px;
-                border: solid #fff;
+                border: solid #000000;
                 border-width: 0 1px 1px 0;
             }
 
@@ -246,16 +241,15 @@
                             </a>
                         </div>
                         <div class="col col-xs-6 text-right">
-                            <a href="https://www.hcltech.com/" target="_blank" class="logo-hcl-tech">HCL
-                                TECHNOLOGIES</a>
+                            <a href="https://www.hcltech.com/" target="_blank" class="logo-hcl-tech">HCLTech</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container header-container">
+            <div class="container header-container header-primary">
                 <div class="logo-brand">
                     <a href="https://www.hcltechsw.com/">
-                        <img src="https://www.hcltechsw.com//hclf/img/hcl-m.png" alt="HCL Logo" border="" title=""
+                        <img src="/images/HCLSoftware_Logo_Black.png" alt="HCL Logo" border="" title=""
                             class="img-responsive" />
                     </a>
                 </div>
