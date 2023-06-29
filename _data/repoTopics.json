@@ -3248,6 +3248,26 @@
 					"razorpay-payment",
 					"react-storefront"
 				]
+			},
+			"commerce-whatsapp-share": {
+				"name": "commerce-whatsapp-share",
+				"description": "This asset provides the ability to share product, cart and order-confirmation from HCL-Commerce storefront pages to Whatapp. Asset enables social-sharing with friend/family and thereby increase chances for more revenue for retailer.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-whatsapp-share",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"integration",
+					"order-confirmation",
+					"product-details",
+					"shooping-cart",
+					"social-share",
+					"social-sharing",
+					"whatsapp"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3433,6 +3453,24 @@
 			},
 			"razorpay-payment": {
 				"name": "razorpay-payment"
+			},
+			"order-confirmation": {
+				"name": "order-confirmation"
+			},
+			"product-details": {
+				"name": "product-details"
+			},
+			"shooping-cart": {
+				"name": "shooping-cart"
+			},
+			"social-share": {
+				"name": "social-share"
+			},
+			"social-sharing": {
+				"name": "social-sharing"
+			},
+			"whatsapp": {
+				"name": "whatsapp"
 			}
 		}
 	},
@@ -6082,6 +6120,26 @@
 					"integration",
 					"product-publish"
 				]
+			},
+			"commerce-whatsapp-share": {
+				"name": "commerce-whatsapp-share",
+				"description": "This asset provides the ability to share product, cart and order-confirmation from HCL-Commerce storefront pages to Whatapp. Asset enables social-sharing with friend/family and thereby increase chances for more revenue for retailer.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-whatsapp-share",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"integration",
+					"order-confirmation",
+					"product-details",
+					"shooping-cart",
+					"social-share",
+					"social-sharing",
+					"whatsapp"
+				]
 			}
 		},
 		"availableTopics": {
@@ -6105,6 +6163,24 @@
 			},
 			"product-publish": {
 				"name": "product-publish"
+			},
+			"order-confirmation": {
+				"name": "order-confirmation"
+			},
+			"product-details": {
+				"name": "product-details"
+			},
+			"shooping-cart": {
+				"name": "shooping-cart"
+			},
+			"social-share": {
+				"name": "social-share"
+			},
+			"social-sharing": {
+				"name": "social-sharing"
+			},
+			"whatsapp": {
+				"name": "whatsapp"
 			}
 		}
 	},
@@ -8451,6 +8527,294 @@
 			},
 			"react-storefront": {
 				"name": "react-storefront"
+			}
+		}
+	},
+	"order-confirmation": {
+		"name": "order-confirmation",
+		"repositories": {
+			"commerce-whatsapp-share": {
+				"name": "commerce-whatsapp-share",
+				"description": "This asset provides the ability to share product, cart and order-confirmation from HCL-Commerce storefront pages to Whatapp. Asset enables social-sharing with friend/family and thereby increase chances for more revenue for retailer.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-whatsapp-share",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"integration",
+					"order-confirmation",
+					"product-details",
+					"shooping-cart",
+					"social-share",
+					"social-sharing",
+					"whatsapp"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"integration": {
+				"name": "integration"
+			},
+			"product-details": {
+				"name": "product-details"
+			},
+			"shooping-cart": {
+				"name": "shooping-cart"
+			},
+			"social-share": {
+				"name": "social-share"
+			},
+			"social-sharing": {
+				"name": "social-sharing"
+			},
+			"whatsapp": {
+				"name": "whatsapp"
+			}
+		}
+	},
+	"product-details": {
+		"name": "product-details",
+		"repositories": {
+			"commerce-whatsapp-share": {
+				"name": "commerce-whatsapp-share",
+				"description": "This asset provides the ability to share product, cart and order-confirmation from HCL-Commerce storefront pages to Whatapp. Asset enables social-sharing with friend/family and thereby increase chances for more revenue for retailer.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-whatsapp-share",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"integration",
+					"order-confirmation",
+					"product-details",
+					"shooping-cart",
+					"social-share",
+					"social-sharing",
+					"whatsapp"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"integration": {
+				"name": "integration"
+			},
+			"order-confirmation": {
+				"name": "order-confirmation"
+			},
+			"shooping-cart": {
+				"name": "shooping-cart"
+			},
+			"social-share": {
+				"name": "social-share"
+			},
+			"social-sharing": {
+				"name": "social-sharing"
+			},
+			"whatsapp": {
+				"name": "whatsapp"
+			}
+		}
+	},
+	"shooping-cart": {
+		"name": "shooping-cart",
+		"repositories": {
+			"commerce-whatsapp-share": {
+				"name": "commerce-whatsapp-share",
+				"description": "This asset provides the ability to share product, cart and order-confirmation from HCL-Commerce storefront pages to Whatapp. Asset enables social-sharing with friend/family and thereby increase chances for more revenue for retailer.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-whatsapp-share",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"integration",
+					"order-confirmation",
+					"product-details",
+					"shooping-cart",
+					"social-share",
+					"social-sharing",
+					"whatsapp"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"integration": {
+				"name": "integration"
+			},
+			"order-confirmation": {
+				"name": "order-confirmation"
+			},
+			"product-details": {
+				"name": "product-details"
+			},
+			"social-share": {
+				"name": "social-share"
+			},
+			"social-sharing": {
+				"name": "social-sharing"
+			},
+			"whatsapp": {
+				"name": "whatsapp"
+			}
+		}
+	},
+	"social-share": {
+		"name": "social-share",
+		"repositories": {
+			"commerce-whatsapp-share": {
+				"name": "commerce-whatsapp-share",
+				"description": "This asset provides the ability to share product, cart and order-confirmation from HCL-Commerce storefront pages to Whatapp. Asset enables social-sharing with friend/family and thereby increase chances for more revenue for retailer.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-whatsapp-share",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"integration",
+					"order-confirmation",
+					"product-details",
+					"shooping-cart",
+					"social-share",
+					"social-sharing",
+					"whatsapp"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"integration": {
+				"name": "integration"
+			},
+			"order-confirmation": {
+				"name": "order-confirmation"
+			},
+			"product-details": {
+				"name": "product-details"
+			},
+			"shooping-cart": {
+				"name": "shooping-cart"
+			},
+			"social-sharing": {
+				"name": "social-sharing"
+			},
+			"whatsapp": {
+				"name": "whatsapp"
+			}
+		}
+	},
+	"social-sharing": {
+		"name": "social-sharing",
+		"repositories": {
+			"commerce-whatsapp-share": {
+				"name": "commerce-whatsapp-share",
+				"description": "This asset provides the ability to share product, cart and order-confirmation from HCL-Commerce storefront pages to Whatapp. Asset enables social-sharing with friend/family and thereby increase chances for more revenue for retailer.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-whatsapp-share",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"integration",
+					"order-confirmation",
+					"product-details",
+					"shooping-cart",
+					"social-share",
+					"social-sharing",
+					"whatsapp"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"integration": {
+				"name": "integration"
+			},
+			"order-confirmation": {
+				"name": "order-confirmation"
+			},
+			"product-details": {
+				"name": "product-details"
+			},
+			"shooping-cart": {
+				"name": "shooping-cart"
+			},
+			"social-share": {
+				"name": "social-share"
+			},
+			"whatsapp": {
+				"name": "whatsapp"
+			}
+		}
+	},
+	"whatsapp": {
+		"name": "whatsapp",
+		"repositories": {
+			"commerce-whatsapp-share": {
+				"name": "commerce-whatsapp-share",
+				"description": "This asset provides the ability to share product, cart and order-confirmation from HCL-Commerce storefront pages to Whatapp. Asset enables social-sharing with friend/family and thereby increase chances for more revenue for retailer.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-whatsapp-share",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"hcl-commerce",
+					"integration",
+					"order-confirmation",
+					"product-details",
+					"shooping-cart",
+					"social-share",
+					"social-sharing",
+					"whatsapp"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl-commerce": {
+				"name": "hcl-commerce"
+			},
+			"integration": {
+				"name": "integration"
+			},
+			"order-confirmation": {
+				"name": "order-confirmation"
+			},
+			"product-details": {
+				"name": "product-details"
+			},
+			"shooping-cart": {
+				"name": "shooping-cart"
+			},
+			"social-share": {
+				"name": "social-share"
+			},
+			"social-sharing": {
+				"name": "social-sharing"
 			}
 		}
 	}

@@ -2066,5 +2066,25 @@
 			"razorpay-payment",
 			"react-storefront"
 		]
+	},
+	{
+		"name": "commerce-whatsapp-share",
+		"description": "This asset provides the ability to share product, cart and order-confirmation from HCL-Commerce storefront pages to Whatapp. Asset enables social-sharing with friend/family and thereby increase chances for more revenue for retailer.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-whatsapp-share",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"hcl-commerce",
+			"integration",
+			"order-confirmation",
+			"product-details",
+			"shooping-cart",
+			"social-share",
+			"social-sharing",
+			"whatsapp"
+		]
 	}
 ]
