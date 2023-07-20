@@ -300,6 +300,20 @@
 					"security-automation",
 					"security-tools"
 				]
+			},
+			"Automation-Import-Scan-Issues-ASOC-ASE": {
+				"name": "Automation-Import-Scan-Issues-ASOC-ASE",
+				"description": "Get each scan result from ASOC and import to ASE.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Automation-Import-Scan-Issues-ASOC-ASE",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Python",
+				"languageColor": "#3572A5",
+				"topics": [
+					"appscan",
+					"appscan-enterprise"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1128,6 +1142,19 @@
 					"domino",
 					"rest-api"
 				]
+			},
+			"domino-on-aws": {
+				"name": "domino-on-aws",
+				"description": "How to run HCL Domino on Amazon Web Services (AWS)",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-on-aws",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1444,6 +1471,20 @@
 					"appscan-enterprise",
 					"hcl-appscan",
 					"cloud"
+				]
+			},
+			"Automation-Import-Scan-Issues-ASOC-ASE": {
+				"name": "Automation-Import-Scan-Issues-ASOC-ASE",
+				"description": "Get each scan result from ASOC and import to ASE.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/Automation-Import-Scan-Issues-ASOC-ASE",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Python",
+				"languageColor": "#3572A5",
+				"topics": [
+					"appscan",
+					"appscan-enterprise"
 				]
 			}
 		},
