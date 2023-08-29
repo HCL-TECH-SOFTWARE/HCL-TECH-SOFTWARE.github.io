@@ -281,6 +281,19 @@
 					"scanning"
 				]
 			},
+			"appscan-standard-import-urls": {
+				"name": "appscan-standard-import-urls",
+				"description": "An extension which enables to import into AppScan a text file containing a list of URLs.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-standard-import-urls",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "C#",
+				"languageColor": "#178600",
+				"topics": [
+					"appscan"
+				]
+			},
 			"appscan-dast-action": {
 				"name": "appscan-dast-action",
 				"description": "A GitHub Action for running DAST scans in AppScan on Cloud",
@@ -299,6 +312,19 @@
 					"security",
 					"security-automation",
 					"security-tools"
+				]
+			},
+			"appscan-standard-burp-importer": {
+				"name": "appscan-standard-burp-importer",
+				"description": "An extension which allows the user to import a Burp file containing a list of requests into AppScan",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-standard-burp-importer",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "C#",
+				"languageColor": "#178600",
+				"topics": [
+					"appscan"
 				]
 			},
 			"Automation-Import-Scan-Issues-ASOC-ASE": {
@@ -1084,6 +1110,20 @@
 					"nsf"
 				]
 			},
+			"domino-c-api-samples": {
+				"name": "domino-c-api-samples",
+				"description": "Domino C API Samples",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-c-api-samples",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Makefile",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"capi"
+				]
+			},
 			"domino-linux": {
 				"name": "domino-linux",
 				"description": "Overview of Linux distributions that Domino is running on",
@@ -1141,6 +1181,20 @@
 					"documentation",
 					"domino",
 					"rest-api"
+				]
+			},
+			"domino-charts": {
+				"name": "domino-charts",
+				"description": "A Helm chart for HCL Domino server. Unofficial.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-charts",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Smarty",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"helm-charts"
 				]
 			},
 			"domino-on-aws": {
@@ -1205,6 +1259,9 @@
 			},
 			"troubleshooting": {
 				"name": "troubleshooting"
+			},
+			"helm-charts": {
+				"name": "helm-charts"
 			}
 		}
 	},
@@ -2686,6 +2743,20 @@
 					"domino",
 					"rest-api"
 				]
+			},
+			"voltmxgo-documentation": {
+				"name": "voltmxgo-documentation",
+				"description": "Documentation for HCL Volt MX Go",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/voltmxgo-documentation",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"documentation",
+					"voltmxgo"
+				]
 			}
 		},
 		"availableTopics": {
@@ -2703,6 +2774,9 @@
 			},
 			"rest-api": {
 				"name": "rest-api"
+			},
+			"voltmxgo": {
+				"name": "voltmxgo"
 			}
 		}
 	},
@@ -4044,6 +4118,22 @@
 					"security-automation",
 					"security-tools"
 				]
+			},
+			"hcl-universal-orchestrator-chart": {
+				"name": "hcl-universal-orchestrator-chart",
+				"description": "HCL Universal Orchestrator (UnO) helm charts",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-universal-orchestrator-chart",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Mustache",
+				"languageColor": "#fff",
+				"topics": [
+					"charts",
+					"hcl",
+					"universal-orchestrator",
+					"uno"
+				]
 			}
 		},
 		"availableTopics": {
@@ -4082,6 +4172,15 @@
 			},
 			"security-tools": {
 				"name": "security-tools"
+			},
+			"charts": {
+				"name": "charts"
+			},
+			"universal-orchestrator": {
+				"name": "universal-orchestrator"
+			},
+			"uno": {
+				"name": "uno"
 			}
 		}
 	},
@@ -5304,6 +5403,20 @@
 					"domino",
 					"notes",
 					"nsf"
+				]
+			},
+			"domino-c-api-samples": {
+				"name": "domino-c-api-samples",
+				"description": "Domino C API Samples",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-c-api-samples",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Makefile",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"capi"
 				]
 			}
 		},
@@ -7867,6 +7980,30 @@
 			}
 		}
 	},
+	"voltmxgo": {
+		"name": "voltmxgo",
+		"repositories": {
+			"voltmxgo-documentation": {
+				"name": "voltmxgo-documentation",
+				"description": "Documentation for HCL Volt MX Go",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/voltmxgo-documentation",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"documentation",
+					"voltmxgo"
+				]
+			}
+		},
+		"availableTopics": {
+			"documentation": {
+				"name": "documentation"
+			}
+		}
+	},
 	"application-security": {
 		"name": "application-security",
 		"repositories": {
@@ -8571,6 +8708,30 @@
 			}
 		}
 	},
+	"helm-charts": {
+		"name": "helm-charts",
+		"repositories": {
+			"domino-charts": {
+				"name": "domino-charts",
+				"description": "A Helm chart for HCL Domino server. Unofficial.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-charts",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Smarty",
+				"languageColor": "#fff",
+				"topics": [
+					"domino",
+					"helm-charts"
+				]
+			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			}
+		}
+	},
 	"order-confirmation": {
 		"name": "order-confirmation",
 		"repositories": {
@@ -8856,6 +9017,102 @@
 			},
 			"social-sharing": {
 				"name": "social-sharing"
+			}
+		}
+	},
+	"charts": {
+		"name": "charts",
+		"repositories": {
+			"hcl-universal-orchestrator-chart": {
+				"name": "hcl-universal-orchestrator-chart",
+				"description": "HCL Universal Orchestrator (UnO) helm charts",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-universal-orchestrator-chart",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Mustache",
+				"languageColor": "#fff",
+				"topics": [
+					"charts",
+					"hcl",
+					"universal-orchestrator",
+					"uno"
+				]
+			}
+		},
+		"availableTopics": {
+			"hcl": {
+				"name": "hcl"
+			},
+			"universal-orchestrator": {
+				"name": "universal-orchestrator"
+			},
+			"uno": {
+				"name": "uno"
+			}
+		}
+	},
+	"universal-orchestrator": {
+		"name": "universal-orchestrator",
+		"repositories": {
+			"hcl-universal-orchestrator-chart": {
+				"name": "hcl-universal-orchestrator-chart",
+				"description": "HCL Universal Orchestrator (UnO) helm charts",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-universal-orchestrator-chart",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Mustache",
+				"languageColor": "#fff",
+				"topics": [
+					"charts",
+					"hcl",
+					"universal-orchestrator",
+					"uno"
+				]
+			}
+		},
+		"availableTopics": {
+			"charts": {
+				"name": "charts"
+			},
+			"hcl": {
+				"name": "hcl"
+			},
+			"uno": {
+				"name": "uno"
+			}
+		}
+	},
+	"uno": {
+		"name": "uno",
+		"repositories": {
+			"hcl-universal-orchestrator-chart": {
+				"name": "hcl-universal-orchestrator-chart",
+				"description": "HCL Universal Orchestrator (UnO) helm charts",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-universal-orchestrator-chart",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Mustache",
+				"languageColor": "#fff",
+				"topics": [
+					"charts",
+					"hcl",
+					"universal-orchestrator",
+					"uno"
+				]
+			}
+		},
+		"availableTopics": {
+			"charts": {
+				"name": "charts"
+			},
+			"hcl": {
+				"name": "hcl"
+			},
+			"universal-orchestrator": {
+				"name": "universal-orchestrator"
 			}
 		}
 	}

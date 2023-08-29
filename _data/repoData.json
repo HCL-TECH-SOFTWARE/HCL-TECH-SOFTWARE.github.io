@@ -1089,6 +1089,20 @@
 		]
 	},
 	{
+		"name": "domino-c-api-samples",
+		"description": "Domino C API Samples",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-c-api-samples",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Makefile",
+		"languageColor": "#fff",
+		"topics": [
+			"domino",
+			"capi"
+		]
+	},
+	{
 		"name": "Commerce-Kafka-StageProp",
 		"description": "The KafkaProp PoC was developed to prove out that we could leverage Kafka/Zookeeper to handle messaging of data from an AUTH environment to multiple LIVE environments concurrently/simultaneously.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Kafka-StageProp",
@@ -1932,6 +1946,19 @@
 		]
 	},
 	{
+		"name": "appscan-standard-import-urls",
+		"description": "An extension which enables to import into AppScan a text file containing a list of URLs.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-standard-import-urls",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "C#",
+		"languageColor": "#178600",
+		"topics": [
+			"appscan"
+		]
+	},
+	{
 		"name": "HCL-Workload-Automation-Observability-for-Datadog",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Datadog",
@@ -1956,6 +1983,20 @@
 			"documentation",
 			"domino",
 			"rest-api"
+		]
+	},
+	{
+		"name": "voltmxgo-documentation",
+		"description": "Documentation for HCL Volt MX Go",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/voltmxgo-documentation",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"documentation",
+			"voltmxgo"
 		]
 	},
 	{
@@ -2068,6 +2109,20 @@
 		]
 	},
 	{
+		"name": "domino-charts",
+		"description": "A Helm chart for HCL Domino server. Unofficial.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-charts",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Smarty",
+		"languageColor": "#fff",
+		"topics": [
+			"domino",
+			"helm-charts"
+		]
+	},
+	{
 		"name": "domino-on-aws",
 		"description": "How to run HCL Domino on Amazon Web Services (AWS)",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-on-aws",
@@ -2078,6 +2133,19 @@
 		"languageColor": "#fff",
 		"topics": [
 			"domino"
+		]
+	},
+	{
+		"name": "appscan-standard-burp-importer",
+		"description": "An extension which allows the user to import a Burp file containing a list of requests into AppScan",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-standard-burp-importer",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "C#",
+		"languageColor": "#178600",
+		"topics": [
+			"appscan"
 		]
 	},
 	{
@@ -2135,5 +2203,43 @@
 			"appscan",
 			"appscan-enterprise"
 		]
+	},
+	{
+		"name": "hcl-commerce-search",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-search",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "hcl-universal-orchestrator-chart",
+		"description": "HCL Universal Orchestrator (UnO) helm charts",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-universal-orchestrator-chart",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Mustache",
+		"languageColor": "#fff",
+		"topics": [
+			"charts",
+			"hcl",
+			"universal-orchestrator",
+			"uno"
+		]
+	},
+	{
+		"name": "HCLSoftware-Documentation-Home",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/HCLSoftware-Documentation-Home",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
 	}
 ]
