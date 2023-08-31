@@ -801,8 +801,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Other",
-		"language": "Java",
-		"languageColor": "#b07219",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
 		"topics": [
 			"volt-mx",
 			"sample"
@@ -1181,6 +1181,20 @@
 		"language": "Not Identified",
 		"languageColor": "#fff",
 		"topics": []
+	},
+	{
+		"name": "domino-jnx",
+		"description": "Modern Domino Java API based on JNA access to Domino's C API",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-jnx",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": [
+			"domino",
+			"java"
+		]
 	},
 	{
 		"name": "hcl-commerce-helmchart",
@@ -1794,6 +1808,20 @@
 		"language": "JavaScript",
 		"languageColor": "#f1e05a",
 		"topics": []
+	},
+	{
+		"name": "connections-documentation",
+		"description": "HCL Connections 8 for on-premises product documentation",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-documentation",
+		"private": false,
+		"fork": false,
+		"license": "Other",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"connections",
+			"documentation"
+		]
 	},
 	{
 		"name": "connections-mongo5",

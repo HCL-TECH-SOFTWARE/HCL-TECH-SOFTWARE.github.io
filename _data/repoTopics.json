@@ -1124,6 +1124,20 @@
 					"capi"
 				]
 			},
+			"domino-jnx": {
+				"name": "domino-jnx",
+				"description": "Modern Domino Java API based on JNA access to Domino's C API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-jnx",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"domino",
+					"java"
+				]
+			},
 			"domino-linux": {
 				"name": "domino-linux",
 				"description": "Overview of Linux distributions that Domino is running on",
@@ -2300,8 +2314,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Other",
-				"language": "Java",
-				"languageColor": "#b07219",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
 				"topics": [
 					"volt-mx",
 					"sample"
@@ -2455,8 +2469,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Other",
-				"language": "Java",
-				"languageColor": "#b07219",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
 				"topics": [
 					"volt-mx",
 					"sample"
@@ -2540,6 +2554,20 @@
 				"name": "connections-doc",
 				"description": "Official documentation for HCL Connections On-premises and HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-doc",
+				"private": false,
+				"fork": false,
+				"license": "Other",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"connections",
+					"documentation"
+				]
+			},
+			"connections-documentation": {
+				"name": "connections-documentation",
+				"description": "HCL Connections 8 for on-premises product documentation",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-documentation",
 				"private": false,
 				"fork": false,
 				"license": "Other",
@@ -2726,6 +2754,20 @@
 				"topics": [
 					"documentation",
 					"volt-mx"
+				]
+			},
+			"connections-documentation": {
+				"name": "connections-documentation",
+				"description": "HCL Connections 8 for on-premises product documentation",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-documentation",
+				"private": false,
+				"fork": false,
+				"license": "Other",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"connections",
+					"documentation"
 				]
 			},
 			"Domino-rest-api": {
@@ -5227,6 +5269,20 @@
 					"domino",
 					"rest-api",
 					"documentation"
+				]
+			},
+			"domino-jnx": {
+				"name": "domino-jnx",
+				"description": "Modern Domino Java API based on JNA access to Domino's C API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-jnx",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"domino",
+					"java"
 				]
 			},
 			"Domino-rest-api": {
