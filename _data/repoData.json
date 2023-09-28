@@ -1816,8 +1816,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Other",
-		"language": "HTML",
-		"languageColor": "#e34c26",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
 		"topics": [
 			"connections",
 			"documentation"
@@ -1966,7 +1966,7 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Dockerfile",
+		"language": "Not Identified",
 		"languageColor": "#fff",
 		"topics": [
 			"volt-mx-go",
@@ -1988,14 +1988,18 @@
 	},
 	{
 		"name": "HCL-Workload-Automation-Observability-for-Datadog",
-		"description": "",
+		"description": "HCL Workload Automation Observability for Datadog",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Workload-Automation-Observability-for-Datadog",
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
 		"language": "Not Identified",
 		"languageColor": "#fff",
-		"topics": []
+		"topics": [
+			"datadog",
+			"observability",
+			"workload-automation"
+		]
 	},
 	{
 		"name": "Domino-rest-api",
@@ -2151,6 +2155,21 @@
 		]
 	},
 	{
+		"name": "hcl-mkdocs-build-image",
+		"description": "COntainers we use to build HCL documentation",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-mkdocs-build-image",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Shell",
+		"languageColor": "#89e051",
+		"topics": [
+			"documentation",
+			"mkdocs",
+			"mkdocs-material"
+		]
+	},
+	{
 		"name": "domino-on-aws",
 		"description": "How to run HCL Domino on Amazon Web Services (AWS)",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-on-aws",
@@ -2233,6 +2252,54 @@
 		]
 	},
 	{
+		"name": "Documentation-for-UnO-Observability-for-Datadog",
+		"description": "Documentation for UnO Observability for Datadog ",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Documentation-for-UnO-Observability-for-Datadog",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"datadog",
+			"observability",
+			"universal-orchestrator",
+			"uno"
+		]
+	},
+	{
+		"name": "Documentation-for-UnO-Observability-for-Splunk",
+		"description": "Documentation for UnO Observability for Splunk",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Documentation-for-UnO-Observability-for-Splunk",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"observability",
+			"splunk",
+			"uno",
+			"universal-orchestrator"
+		]
+	},
+	{
+		"name": "Documentation-for-UnO-Observability-for-Dynatrace",
+		"description": "Documentation for UnO Observability for Dynatrace",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Documentation-for-UnO-Observability-for-Dynatrace",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"dynatrace",
+			"observability",
+			"universal-orchestrator",
+			"uno"
+		]
+	},
+	{
 		"name": "hcl-commerce-search",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-search",
@@ -2269,5 +2336,72 @@
 		"language": "Not Identified",
 		"languageColor": "#fff",
 		"topics": []
+	},
+	{
+		"name": "domino-dasie-schema",
+		"description": "Specification for the data format used by the Domino Application Source Import/Export (dasie) engine that's new in HCL Notes Designer 14.0.0.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-dasie-schema",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "voltscript-samples",
+		"description": "Samples from VoltScript how-to guide documentation",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-samples",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"volt-mx-go",
+			"voltscript"
+		]
+	},
+	{
+		"name": "voltscript-console-colors",
+		"description": "Constants for manipulating colours on Terminal etc from VoltScript",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-console-colors",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"volt-mx-go",
+			"voltscript"
+		]
+	},
+	{
+		"name": "voltscript-collections",
+		"description": "Modern Collection and Map classes for VoltScript",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-collections",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": [
+			"volt-mx-go",
+			"voltscript"
+		]
+	},
+	{
+		"name": "voltscript-json-converter",
+		"description": "Conversion between VoltScript objects and JSON",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-json-converter",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"volt-mx-go",
+			"voltscript"
+		]
 	}
 ]
