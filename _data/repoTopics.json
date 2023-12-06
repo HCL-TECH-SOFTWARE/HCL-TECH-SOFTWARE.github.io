@@ -3013,6 +3013,20 @@
 					"mkdocs",
 					"mkdocs-material"
 				]
+			},
+			"sametime-doc": {
+				"name": "sametime-doc",
+				"description": "HCL Sametime Product Documentation Help Center",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/sametime-doc",
+				"private": false,
+				"fork": false,
+				"license": "Other",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"documentation",
+					"sametime"
+				]
 			}
 		},
 		"availableTopics": {
@@ -3039,6 +3053,9 @@
 			},
 			"mkdocs-material": {
 				"name": "mkdocs-material"
+			},
+			"sametime": {
+				"name": "sametime"
 			}
 		}
 	},
@@ -5279,11 +5296,28 @@
 					"automation",
 					"sametime"
 				]
+			},
+			"sametime-doc": {
+				"name": "sametime-doc",
+				"description": "HCL Sametime Product Documentation Help Center",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/sametime-doc",
+				"private": false,
+				"fork": false,
+				"license": "Other",
+				"language": "HTML",
+				"languageColor": "#e34c26",
+				"topics": [
+					"documentation",
+					"sametime"
+				]
 			}
 		},
 		"availableTopics": {
 			"automation": {
 				"name": "automation"
+			},
+			"documentation": {
+				"name": "documentation"
 			}
 		}
 	},
