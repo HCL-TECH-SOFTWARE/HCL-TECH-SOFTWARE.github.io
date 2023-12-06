@@ -914,7 +914,7 @@
 	},
 	{
 		"name": "connections-doc",
-		"description": "Official documentation for HCL Connections On-premises and HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
+		"description": "HCL Connections Product Documentation Help Center",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-doc",
 		"private": false,
 		"fork": false,
@@ -1816,8 +1816,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Other",
-		"language": "JavaScript",
-		"languageColor": "#f1e05a",
+		"language": "CSS",
+		"languageColor": "#563d7c",
 		"topics": [
 			"connections",
 			"documentation"
@@ -1892,7 +1892,7 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Smarty",
+		"language": "Not Identified",
 		"languageColor": "#fff",
 		"topics": [
 			"observability",
@@ -1931,7 +1931,14 @@
 		"license": "Apache License 2.0",
 		"language": "Java",
 		"languageColor": "#b07219",
-		"topics": []
+		"topics": [
+			"dx",
+			"hcl-dx",
+			"hcldx",
+			"maven",
+			"maven-archetype",
+			"portlet"
+		]
 	},
 	{
 		"name": "domino-license-analysis-utility-DLAU",
@@ -2327,6 +2334,17 @@
 		]
 	},
 	{
+		"name": "hclds-keycloak",
+		"description": "The HCL Digital Solutions (DS) Keycloak service is based on Keycloak and adds configuration, an HCL branded login UI and more. It serves as a reference for OIDC based authentication across DS products.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/hclds-keycloak",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "FreeMarker",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
 		"name": "HCLSoftware-Documentation-Home",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/HCLSoftware-Documentation-Home",
@@ -2335,6 +2353,17 @@
 		"license": "",
 		"language": "Not Identified",
 		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "appscan-cloud-cli",
+		"description": "Command line interface tool for interacting with HCL AppScan on Cloud.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-cloud-cli",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
 		"topics": []
 	},
 	{
@@ -2403,5 +2432,93 @@
 			"volt-mx-go",
 			"voltscript"
 		]
+	},
+	{
+		"name": "domino-rest-sdk-node",
+		"description": "NodeJS SDK to interact with the HCL Domino REST API",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-sdk-node",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"domino",
+			"rest-api",
+			"volt-mx",
+			"volt-mx-go"
+		]
+	},
+	{
+		"name": "domino-rest-sdk-nodered",
+		"description": "NodeRED nodes to access HCL DomIno REST API",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-sdk-nodered",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"domino",
+			"nodered",
+			"nodered-nodes",
+			"rest-api"
+		]
+	},
+	{
+		"name": "devops-deploy-createcomponentversion-action",
+		"description": "Invoke HCL/IBM DevOps Deploy CLI to create a new component version",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/devops-deploy-createcomponentversion-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": []
+	},
+	{
+		"name": "dx-google-vertex-sample",
+		"description": "This project contains the source code and build for a sample AI integration for DX for WCM with Google Vertex.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-google-vertex-sample",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": [
+			"ai",
+			"artificial-intelligence",
+			"content-management",
+			"dx",
+			"hcl-dx",
+			"hcldx"
+		]
+	},
+	{
+		"name": "domino-rest-adminclient",
+		"description": "Admin client for the HCL Domino REST API",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-adminclient",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"admin",
+			"domino",
+			"react",
+			"rest-api"
+		]
+	},
+	{
+		"name": "sametime-doc",
+		"description": "HCL Sametime Product Documentation Help Center",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/sametime-doc",
+		"private": false,
+		"fork": false,
+		"license": "Other",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": []
 	}
 ]

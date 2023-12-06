@@ -1223,6 +1223,54 @@
 				"topics": [
 					"domino"
 				]
+			},
+			"domino-rest-sdk-node": {
+				"name": "domino-rest-sdk-node",
+				"description": "NodeJS SDK to interact with the HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-sdk-node",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"domino",
+					"rest-api",
+					"volt-mx",
+					"volt-mx-go"
+				]
+			},
+			"domino-rest-sdk-nodered": {
+				"name": "domino-rest-sdk-nodered",
+				"description": "NodeRED nodes to access HCL DomIno REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-sdk-nodered",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"domino",
+					"nodered",
+					"nodered-nodes",
+					"rest-api"
+				]
+			},
+			"domino-rest-adminclient": {
+				"name": "domino-rest-adminclient",
+				"description": "Admin client for the HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-adminclient",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"admin",
+					"domino",
+					"react",
+					"rest-api"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1276,6 +1324,21 @@
 			},
 			"helm-charts": {
 				"name": "helm-charts"
+			},
+			"volt-mx-go": {
+				"name": "volt-mx-go"
+			},
+			"nodered": {
+				"name": "nodered"
+			},
+			"nodered-nodes": {
+				"name": "nodered-nodes"
+			},
+			"admin": {
+				"name": "admin"
+			},
+			"react": {
+				"name": "react"
 			}
 		}
 	},
@@ -1686,6 +1749,42 @@
 				"topics": [
 					"hcl-dx"
 				]
+			},
+			"dx-portlet-development-utilities": {
+				"name": "dx-portlet-development-utilities",
+				"description": "This repository contains Portlet Development Utilities to create pages via the DX Java API as well as a custom maven archetype to create a new JSR286 portlet.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-portlet-development-utilities",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"dx",
+					"hcl-dx",
+					"hcldx",
+					"maven",
+					"maven-archetype",
+					"portlet"
+				]
+			},
+			"dx-google-vertex-sample": {
+				"name": "dx-google-vertex-sample",
+				"description": "This project contains the source code and build for a sample AI integration for DX for WCM with Google Vertex.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-google-vertex-sample",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"ai",
+					"artificial-intelligence",
+					"content-management",
+					"dx",
+					"hcl-dx",
+					"hcldx"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1715,6 +1814,27 @@
 			},
 			"grafana": {
 				"name": "grafana"
+			},
+			"hcldx": {
+				"name": "hcldx"
+			},
+			"maven": {
+				"name": "maven"
+			},
+			"maven-archetype": {
+				"name": "maven-archetype"
+			},
+			"portlet": {
+				"name": "portlet"
+			},
+			"ai": {
+				"name": "ai"
+			},
+			"artificial-intelligence": {
+				"name": "artificial-intelligence"
+			},
+			"content-management": {
+				"name": "content-management"
 			}
 		}
 	},
@@ -1785,6 +1905,42 @@
 					"reactjs",
 					"optimal-page-loads"
 				]
+			},
+			"dx-portlet-development-utilities": {
+				"name": "dx-portlet-development-utilities",
+				"description": "This repository contains Portlet Development Utilities to create pages via the DX Java API as well as a custom maven archetype to create a new JSR286 portlet.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-portlet-development-utilities",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"dx",
+					"hcl-dx",
+					"hcldx",
+					"maven",
+					"maven-archetype",
+					"portlet"
+				]
+			},
+			"dx-google-vertex-sample": {
+				"name": "dx-google-vertex-sample",
+				"description": "This project contains the source code and build for a sample AI integration for DX for WCM with Google Vertex.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-google-vertex-sample",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"ai",
+					"artificial-intelligence",
+					"content-management",
+					"dx",
+					"hcl-dx",
+					"hcldx"
+				]
 			}
 		},
 		"availableTopics": {
@@ -1820,6 +1976,27 @@
 			},
 			"optimal-page-loads": {
 				"name": "optimal-page-loads"
+			},
+			"hcldx": {
+				"name": "hcldx"
+			},
+			"maven": {
+				"name": "maven"
+			},
+			"maven-archetype": {
+				"name": "maven-archetype"
+			},
+			"portlet": {
+				"name": "portlet"
+			},
+			"ai": {
+				"name": "ai"
+			},
+			"artificial-intelligence": {
+				"name": "artificial-intelligence"
+			},
+			"content-management": {
+				"name": "content-management"
 			}
 		}
 	},
@@ -2502,6 +2679,22 @@
 					"documentation",
 					"volt-mx"
 				]
+			},
+			"domino-rest-sdk-node": {
+				"name": "domino-rest-sdk-node",
+				"description": "NodeJS SDK to interact with the HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-sdk-node",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"domino",
+					"rest-api",
+					"volt-mx",
+					"volt-mx-go"
+				]
 			}
 		},
 		"availableTopics": {
@@ -2516,6 +2709,12 @@
 			},
 			"sample": {
 				"name": "sample"
+			},
+			"rest-api": {
+				"name": "rest-api"
+			},
+			"volt-mx-go": {
+				"name": "volt-mx-go"
 			}
 		}
 	},
@@ -2552,7 +2751,7 @@
 			},
 			"connections-doc": {
 				"name": "connections-doc",
-				"description": "Official documentation for HCL Connections On-premises and HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
+				"description": "HCL Connections Product Documentation Help Center",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-doc",
 				"private": false,
 				"fork": false,
@@ -2571,8 +2770,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Other",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
+				"language": "CSS",
+				"languageColor": "#563d7c",
 				"topics": [
 					"connections",
 					"documentation"
@@ -2714,7 +2913,7 @@
 			},
 			"connections-doc": {
 				"name": "connections-doc",
-				"description": "Official documentation for HCL Connections On-premises and HCL Connections Multi-Tenant. The site is accessible at https://opensource.hcltechsw.com/connections-doc/.",
+				"description": "HCL Connections Product Documentation Help Center",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/connections-doc",
 				"private": false,
 				"fork": false,
@@ -2763,8 +2962,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Other",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
+				"language": "CSS",
+				"languageColor": "#563d7c",
 				"topics": [
 					"connections",
 					"documentation"
@@ -4265,6 +4464,22 @@
 					"script-portlet",
 					"hcl-dx"
 				]
+			},
+			"domino-rest-adminclient": {
+				"name": "domino-rest-adminclient",
+				"description": "Admin client for the HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-adminclient",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"admin",
+					"domino",
+					"react",
+					"rest-api"
+				]
 			}
 		},
 		"availableTopics": {
@@ -4276,6 +4491,15 @@
 			},
 			"hcl-dx": {
 				"name": "hcl-dx"
+			},
+			"admin": {
+				"name": "admin"
+			},
+			"domino": {
+				"name": "domino"
+			},
+			"rest-api": {
+				"name": "rest-api"
 			}
 		}
 	},
@@ -5369,6 +5593,54 @@
 					"domino",
 					"rest-api"
 				]
+			},
+			"domino-rest-sdk-node": {
+				"name": "domino-rest-sdk-node",
+				"description": "NodeJS SDK to interact with the HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-sdk-node",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"domino",
+					"rest-api",
+					"volt-mx",
+					"volt-mx-go"
+				]
+			},
+			"domino-rest-sdk-nodered": {
+				"name": "domino-rest-sdk-nodered",
+				"description": "NodeRED nodes to access HCL DomIno REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-sdk-nodered",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"domino",
+					"nodered",
+					"nodered-nodes",
+					"rest-api"
+				]
+			},
+			"domino-rest-adminclient": {
+				"name": "domino-rest-adminclient",
+				"description": "Admin client for the HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-adminclient",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"admin",
+					"domino",
+					"react",
+					"rest-api"
+				]
 			}
 		},
 		"availableTopics": {
@@ -5380,6 +5652,24 @@
 			},
 			"documentation": {
 				"name": "documentation"
+			},
+			"volt-mx": {
+				"name": "volt-mx"
+			},
+			"volt-mx-go": {
+				"name": "volt-mx-go"
+			},
+			"nodered": {
+				"name": "nodered"
+			},
+			"nodered-nodes": {
+				"name": "nodered-nodes"
+			},
+			"admin": {
+				"name": "admin"
+			},
+			"react": {
+				"name": "react"
 			}
 		}
 	},
@@ -6250,7 +6540,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Smarty",
+				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
 					"observability",
@@ -7950,7 +8240,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Smarty",
+				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
 					"observability",
@@ -8103,7 +8393,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Smarty",
+				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
 					"observability",
@@ -8140,6 +8430,193 @@
 			},
 			"uno": {
 				"name": "uno"
+			}
+		}
+	},
+	"hcldx": {
+		"name": "hcldx",
+		"repositories": {
+			"dx-portlet-development-utilities": {
+				"name": "dx-portlet-development-utilities",
+				"description": "This repository contains Portlet Development Utilities to create pages via the DX Java API as well as a custom maven archetype to create a new JSR286 portlet.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-portlet-development-utilities",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"dx",
+					"hcl-dx",
+					"hcldx",
+					"maven",
+					"maven-archetype",
+					"portlet"
+				]
+			},
+			"dx-google-vertex-sample": {
+				"name": "dx-google-vertex-sample",
+				"description": "This project contains the source code and build for a sample AI integration for DX for WCM with Google Vertex.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-google-vertex-sample",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"ai",
+					"artificial-intelligence",
+					"content-management",
+					"dx",
+					"hcl-dx",
+					"hcldx"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
+			},
+			"maven": {
+				"name": "maven"
+			},
+			"maven-archetype": {
+				"name": "maven-archetype"
+			},
+			"portlet": {
+				"name": "portlet"
+			},
+			"ai": {
+				"name": "ai"
+			},
+			"artificial-intelligence": {
+				"name": "artificial-intelligence"
+			},
+			"content-management": {
+				"name": "content-management"
+			}
+		}
+	},
+	"maven": {
+		"name": "maven",
+		"repositories": {
+			"dx-portlet-development-utilities": {
+				"name": "dx-portlet-development-utilities",
+				"description": "This repository contains Portlet Development Utilities to create pages via the DX Java API as well as a custom maven archetype to create a new JSR286 portlet.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-portlet-development-utilities",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"dx",
+					"hcl-dx",
+					"hcldx",
+					"maven",
+					"maven-archetype",
+					"portlet"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
+			},
+			"hcldx": {
+				"name": "hcldx"
+			},
+			"maven-archetype": {
+				"name": "maven-archetype"
+			},
+			"portlet": {
+				"name": "portlet"
+			}
+		}
+	},
+	"maven-archetype": {
+		"name": "maven-archetype",
+		"repositories": {
+			"dx-portlet-development-utilities": {
+				"name": "dx-portlet-development-utilities",
+				"description": "This repository contains Portlet Development Utilities to create pages via the DX Java API as well as a custom maven archetype to create a new JSR286 portlet.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-portlet-development-utilities",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"dx",
+					"hcl-dx",
+					"hcldx",
+					"maven",
+					"maven-archetype",
+					"portlet"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
+			},
+			"hcldx": {
+				"name": "hcldx"
+			},
+			"maven": {
+				"name": "maven"
+			},
+			"portlet": {
+				"name": "portlet"
+			}
+		}
+	},
+	"portlet": {
+		"name": "portlet",
+		"repositories": {
+			"dx-portlet-development-utilities": {
+				"name": "dx-portlet-development-utilities",
+				"description": "This repository contains Portlet Development Utilities to create pages via the DX Java API as well as a custom maven archetype to create a new JSR286 portlet.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-portlet-development-utilities",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"dx",
+					"hcl-dx",
+					"hcldx",
+					"maven",
+					"maven-archetype",
+					"portlet"
+				]
+			}
+		},
+		"availableTopics": {
+			"dx": {
+				"name": "dx"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
+			},
+			"hcldx": {
+				"name": "hcldx"
+			},
+			"maven": {
+				"name": "maven"
+			},
+			"maven-archetype": {
+				"name": "maven-archetype"
 			}
 		}
 	},
@@ -8215,11 +8692,36 @@
 					"volt-mx-go",
 					"voltscript"
 				]
+			},
+			"domino-rest-sdk-node": {
+				"name": "domino-rest-sdk-node",
+				"description": "NodeJS SDK to interact with the HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-sdk-node",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"domino",
+					"rest-api",
+					"volt-mx",
+					"volt-mx-go"
+				]
 			}
 		},
 		"availableTopics": {
 			"voltscript": {
 				"name": "voltscript"
+			},
+			"domino": {
+				"name": "domino"
+			},
+			"rest-api": {
+				"name": "rest-api"
+			},
+			"volt-mx": {
+				"name": "volt-mx"
 			}
 		}
 	},
@@ -9662,6 +10164,222 @@
 			},
 			"uno": {
 				"name": "uno"
+			}
+		}
+	},
+	"nodered": {
+		"name": "nodered",
+		"repositories": {
+			"domino-rest-sdk-nodered": {
+				"name": "domino-rest-sdk-nodered",
+				"description": "NodeRED nodes to access HCL DomIno REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-sdk-nodered",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"domino",
+					"nodered",
+					"nodered-nodes",
+					"rest-api"
+				]
+			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			},
+			"nodered-nodes": {
+				"name": "nodered-nodes"
+			},
+			"rest-api": {
+				"name": "rest-api"
+			}
+		}
+	},
+	"nodered-nodes": {
+		"name": "nodered-nodes",
+		"repositories": {
+			"domino-rest-sdk-nodered": {
+				"name": "domino-rest-sdk-nodered",
+				"description": "NodeRED nodes to access HCL DomIno REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-sdk-nodered",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"domino",
+					"nodered",
+					"nodered-nodes",
+					"rest-api"
+				]
+			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			},
+			"nodered": {
+				"name": "nodered"
+			},
+			"rest-api": {
+				"name": "rest-api"
+			}
+		}
+	},
+	"ai": {
+		"name": "ai",
+		"repositories": {
+			"dx-google-vertex-sample": {
+				"name": "dx-google-vertex-sample",
+				"description": "This project contains the source code and build for a sample AI integration for DX for WCM with Google Vertex.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-google-vertex-sample",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"ai",
+					"artificial-intelligence",
+					"content-management",
+					"dx",
+					"hcl-dx",
+					"hcldx"
+				]
+			}
+		},
+		"availableTopics": {
+			"artificial-intelligence": {
+				"name": "artificial-intelligence"
+			},
+			"content-management": {
+				"name": "content-management"
+			},
+			"dx": {
+				"name": "dx"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
+			},
+			"hcldx": {
+				"name": "hcldx"
+			}
+		}
+	},
+	"artificial-intelligence": {
+		"name": "artificial-intelligence",
+		"repositories": {
+			"dx-google-vertex-sample": {
+				"name": "dx-google-vertex-sample",
+				"description": "This project contains the source code and build for a sample AI integration for DX for WCM with Google Vertex.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-google-vertex-sample",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"ai",
+					"artificial-intelligence",
+					"content-management",
+					"dx",
+					"hcl-dx",
+					"hcldx"
+				]
+			}
+		},
+		"availableTopics": {
+			"ai": {
+				"name": "ai"
+			},
+			"content-management": {
+				"name": "content-management"
+			},
+			"dx": {
+				"name": "dx"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
+			},
+			"hcldx": {
+				"name": "hcldx"
+			}
+		}
+	},
+	"content-management": {
+		"name": "content-management",
+		"repositories": {
+			"dx-google-vertex-sample": {
+				"name": "dx-google-vertex-sample",
+				"description": "This project contains the source code and build for a sample AI integration for DX for WCM with Google Vertex.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-google-vertex-sample",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"ai",
+					"artificial-intelligence",
+					"content-management",
+					"dx",
+					"hcl-dx",
+					"hcldx"
+				]
+			}
+		},
+		"availableTopics": {
+			"ai": {
+				"name": "ai"
+			},
+			"artificial-intelligence": {
+				"name": "artificial-intelligence"
+			},
+			"dx": {
+				"name": "dx"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
+			},
+			"hcldx": {
+				"name": "hcldx"
+			}
+		}
+	},
+	"admin": {
+		"name": "admin",
+		"repositories": {
+			"domino-rest-adminclient": {
+				"name": "domino-rest-adminclient",
+				"description": "Admin client for the HCL Domino REST API",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-adminclient",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"admin",
+					"domino",
+					"react",
+					"rest-api"
+				]
+			}
+		},
+		"availableTopics": {
+			"domino": {
+				"name": "domino"
+			},
+			"react": {
+				"name": "react"
+			},
+			"rest-api": {
+				"name": "rest-api"
 			}
 		}
 	}
