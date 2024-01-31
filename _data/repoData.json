@@ -925,8 +925,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Other",
-		"language": "HTML",
-		"languageColor": "#e34c26",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
 		"topics": [
 			"connections",
 			"documentation"
@@ -2388,6 +2388,108 @@
 		]
 	},
 	{
+		"name": "domino-pwdresetsample",
+		"description": "HCL Domino Sample \"Reset User Password\"",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-pwdresetsample",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "domino-discussion-ntf",
+		"description": "HCL Domino Discussion Template",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-discussion-ntf",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "CSS",
+		"languageColor": "#563d7c",
+		"topics": [
+			"domino"
+		]
+	},
+	{
+		"name": "domino-teamroom-ntf",
+		"description": "HCL Domino Template \"Teamroom\" ",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-teamroom-ntf",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "CSS",
+		"languageColor": "#563d7c",
+		"topics": [
+			"domino"
+		]
+	},
+	{
+		"name": "domino-comparedbs-ntf",
+		"description": "HCL Domino Template : \"Compare DBs\" ",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-comparedbs-ntf",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"domino"
+		]
+	},
+	{
+		"name": "domino-doclibrary.ntf",
+		"description": "HCL Domino Template \"Document Library\" ",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-doclibrary.ntf",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"domino"
+		]
+	},
+	{
+		"name": "domino-msoffice-library-ntf",
+		"description": "HCL Domino Template \"Microsoft Office Library\"",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-msoffice-library-ntf",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"domino"
+		]
+	},
+	{
+		"name": "domino-rss-generator-ntf",
+		"description": "HCL Domino Template : \"Domino RSS Feed Generator\" ",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rss-generator-ntf",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"domino"
+		]
+	},
+	{
+		"name": "domino-notebook-ntf",
+		"description": "HCL Domino Template : \"Notebook\" ",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-notebook-ntf",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"domino"
+		]
+	},
+	{
 		"name": "hclds-keycloak",
 		"description": "The HCL Digital Solutions (DS) Keycloak service is based on Keycloak and adds configuration, an HCL branded login UI and more. It serves as a reference for OIDC based authentication across DS products.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/hclds-keycloak",
@@ -2577,5 +2679,113 @@
 			"documentation",
 			"sametime"
 		]
+	},
+	{
+		"name": "discover-mobile-SDKs",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/discover-mobile-SDKs",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": []
+	},
+	{
+		"name": "primereact",
+		"description": "The Most Complete React UI Component Library",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/primereact",
+		"private": false,
+		"fork": true,
+		"license": "MIT License",
+		"language": "CSS",
+		"languageColor": "#563d7c",
+		"topics": []
+	},
+	{
+		"name": "devops-test-hub-action",
+		"description": "Integrate Server (Hub) hosted tests from HCL DevOps Test in GitHub.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-hub-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"devops",
+			"github-actions",
+			"test-automation"
+		]
+	},
+	{
+		"name": "devops-test-perf-action",
+		"description": "Integrate Performance testing with HCL DevOps Test in GitHub.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-perf-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"devops",
+			"github-actions",
+			"test-automation"
+		]
+	},
+	{
+		"name": "devops-test-ui-action",
+		"description": "Integrate traditional UI testing with HCL DevOps Test in GitHub.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-ui-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"devops",
+			"github-actions",
+			"test-automation"
+		]
+	},
+	{
+		"name": "devops-test-web-action",
+		"description": "Integrate Web UI testing with HCL DevOps Test in GitHub.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-web-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"devops",
+			"github-actions",
+			"test-automation"
+		]
+	},
+	{
+		"name": "devops-test-api-action",
+		"description": "Integrate API testing with HCL DevOps Test in GitHub.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-api-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"devops",
+			"github-actions",
+			"test-automation"
+		]
+	},
+	{
+		"name": "leap-doc",
+		"description": "HCL Leap Help Center",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/leap-doc",
+		"private": false,
+		"fork": false,
+		"license": "Other",
+		"language": "CSS",
+		"languageColor": "#563d7c",
+		"topics": []
 	}
 ]

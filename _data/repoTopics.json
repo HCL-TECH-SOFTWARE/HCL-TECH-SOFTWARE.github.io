@@ -1319,6 +1319,97 @@
 					"domino"
 				]
 			},
+			"domino-discussion-ntf": {
+				"name": "domino-discussion-ntf",
+				"description": "HCL Domino Discussion Template",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-discussion-ntf",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"domino"
+				]
+			},
+			"domino-teamroom-ntf": {
+				"name": "domino-teamroom-ntf",
+				"description": "HCL Domino Template \"Teamroom\" ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-teamroom-ntf",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"domino"
+				]
+			},
+			"domino-comparedbs-ntf": {
+				"name": "domino-comparedbs-ntf",
+				"description": "HCL Domino Template : \"Compare DBs\" ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-comparedbs-ntf",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino"
+				]
+			},
+			"domino-doclibrary.ntf": {
+				"name": "domino-doclibrary.ntf",
+				"description": "HCL Domino Template \"Document Library\" ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-doclibrary.ntf",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino"
+				]
+			},
+			"domino-msoffice-library-ntf": {
+				"name": "domino-msoffice-library-ntf",
+				"description": "HCL Domino Template \"Microsoft Office Library\"",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-msoffice-library-ntf",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino"
+				]
+			},
+			"domino-rss-generator-ntf": {
+				"name": "domino-rss-generator-ntf",
+				"description": "HCL Domino Template : \"Domino RSS Feed Generator\" ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rss-generator-ntf",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino"
+				]
+			},
+			"domino-notebook-ntf": {
+				"name": "domino-notebook-ntf",
+				"description": "HCL Domino Template : \"Notebook\" ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-notebook-ntf",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"domino"
+				]
+			},
 			"domino-rest-sdk-node": {
 				"name": "domino-rest-sdk-node",
 				"description": "NodeJS SDK to interact with the HCL Domino REST API",
@@ -2915,8 +3006,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Other",
-				"language": "HTML",
-				"languageColor": "#e34c26",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
 				"topics": [
 					"connections",
 					"documentation"
@@ -3069,11 +3160,92 @@
 					"model-realtime",
 					"test-automation"
 				]
+			},
+			"devops-test-hub-action": {
+				"name": "devops-test-hub-action",
+				"description": "Integrate Server (Hub) hosted tests from HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-hub-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-perf-action": {
+				"name": "devops-test-perf-action",
+				"description": "Integrate Performance testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-perf-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-ui-action": {
+				"name": "devops-test-ui-action",
+				"description": "Integrate traditional UI testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-ui-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-web-action": {
+				"name": "devops-test-web-action",
+				"description": "Integrate Web UI testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-web-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-api-action": {
+				"name": "devops-test-api-action",
+				"description": "Integrate API testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-api-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
 			}
 		},
 		"availableTopics": {
 			"model-realtime": {
 				"name": "model-realtime"
+			},
+			"devops": {
+				"name": "devops"
+			},
+			"github-actions": {
+				"name": "github-actions"
 			}
 		}
 	},
@@ -3101,8 +3273,8 @@
 				"private": false,
 				"fork": false,
 				"license": "Other",
-				"language": "HTML",
-				"languageColor": "#e34c26",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
 				"topics": [
 					"connections",
 					"documentation"
@@ -5069,6 +5241,81 @@
 					"sast",
 					"scanning"
 				]
+			},
+			"devops-test-hub-action": {
+				"name": "devops-test-hub-action",
+				"description": "Integrate Server (Hub) hosted tests from HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-hub-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-perf-action": {
+				"name": "devops-test-perf-action",
+				"description": "Integrate Performance testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-perf-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-ui-action": {
+				"name": "devops-test-ui-action",
+				"description": "Integrate traditional UI testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-ui-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-web-action": {
+				"name": "devops-test-web-action",
+				"description": "Integrate Web UI testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-web-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-api-action": {
+				"name": "devops-test-api-action",
+				"description": "Integrate API testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-api-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
 			}
 		},
 		"availableTopics": {
@@ -5104,6 +5351,12 @@
 			},
 			"security-tools": {
 				"name": "security-tools"
+			},
+			"devops": {
+				"name": "devops"
+			},
+			"test-automation": {
+				"name": "test-automation"
 			}
 		}
 	},
@@ -10597,6 +10850,94 @@
 			},
 			"rest-api": {
 				"name": "rest-api"
+			}
+		}
+	},
+	"devops": {
+		"name": "devops",
+		"repositories": {
+			"devops-test-hub-action": {
+				"name": "devops-test-hub-action",
+				"description": "Integrate Server (Hub) hosted tests from HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-hub-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-perf-action": {
+				"name": "devops-test-perf-action",
+				"description": "Integrate Performance testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-perf-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-ui-action": {
+				"name": "devops-test-ui-action",
+				"description": "Integrate traditional UI testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-ui-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-web-action": {
+				"name": "devops-test-web-action",
+				"description": "Integrate Web UI testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-web-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			},
+			"devops-test-api-action": {
+				"name": "devops-test-api-action",
+				"description": "Integrate API testing with HCL DevOps Test in GitHub.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-api-action",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"devops",
+					"github-actions",
+					"test-automation"
+				]
+			}
+		},
+		"availableTopics": {
+			"github-actions": {
+				"name": "github-actions"
+			},
+			"test-automation": {
+				"name": "test-automation"
 			}
 		}
 	}
