@@ -2831,5 +2831,51 @@
 			"grpc-client",
 			"grpc-server"
 		]
+	},
+	{
+		"name": "enchanted-react-components",
+		"description": "Enchanted React Components is a collection of ui components that are being used in HCL Software products.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/enchanted-react-components",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"component-library",
+			"material-ui",
+			"react",
+			"typescript"
+		]
+	},
+	{
+		"name": "enchanted-icons",
+		"description": "Enchanted Icons is a collection of icons that are used in HCL Software products.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/enchanted-icons",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"carbon-design-system",
+			"icon-pack",
+			"material-ui",
+			"typescript"
+		]
+	},
+	{
+		"name": "voltscript-voltmx-middleware",
+		"description": "Libraries for integrating with Volt Foundry from VoltScript",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-voltmx-middleware",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"volt-mx-go",
+			"voltscript"
+		]
 	}
 ]

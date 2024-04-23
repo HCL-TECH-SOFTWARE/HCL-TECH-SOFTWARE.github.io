@@ -4911,6 +4911,22 @@
 					"react",
 					"rest-api"
 				]
+			},
+			"enchanted-react-components": {
+				"name": "enchanted-react-components",
+				"description": "Enchanted React Components is a collection of ui components that are being used in HCL Software products.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/enchanted-react-components",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"component-library",
+					"material-ui",
+					"react",
+					"typescript"
+				]
 			}
 		},
 		"availableTopics": {
@@ -4931,6 +4947,15 @@
 			},
 			"rest-api": {
 				"name": "rest-api"
+			},
+			"component-library": {
+				"name": "component-library"
+			},
+			"material-ui": {
+				"name": "material-ui"
+			},
+			"typescript": {
+				"name": "typescript"
 			}
 		}
 	},
@@ -9261,6 +9286,20 @@
 					"volt-mx-go",
 					"voltscript"
 				]
+			},
+			"voltscript-voltmx-middleware": {
+				"name": "voltscript-voltmx-middleware",
+				"description": "Libraries for integrating with Volt Foundry from VoltScript",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-voltmx-middleware",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"volt-mx-go",
+					"voltscript"
+				]
 			}
 		},
 		"availableTopics": {
@@ -9346,6 +9385,20 @@
 				"license": "",
 				"language": "Shell",
 				"languageColor": "#89e051",
+				"topics": [
+					"volt-mx-go",
+					"voltscript"
+				]
+			},
+			"voltscript-voltmx-middleware": {
+				"name": "voltscript-voltmx-middleware",
+				"description": "Libraries for integrating with Volt Foundry from VoltScript",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-voltmx-middleware",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
 				"topics": [
 					"volt-mx-go",
 					"voltscript"
@@ -11141,6 +11194,210 @@
 			},
 			"grpc-client": {
 				"name": "grpc-client"
+			}
+		}
+	},
+	"component-library": {
+		"name": "component-library",
+		"repositories": {
+			"enchanted-react-components": {
+				"name": "enchanted-react-components",
+				"description": "Enchanted React Components is a collection of ui components that are being used in HCL Software products.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/enchanted-react-components",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"component-library",
+					"material-ui",
+					"react",
+					"typescript"
+				]
+			}
+		},
+		"availableTopics": {
+			"material-ui": {
+				"name": "material-ui"
+			},
+			"react": {
+				"name": "react"
+			},
+			"typescript": {
+				"name": "typescript"
+			}
+		}
+	},
+	"material-ui": {
+		"name": "material-ui",
+		"repositories": {
+			"enchanted-react-components": {
+				"name": "enchanted-react-components",
+				"description": "Enchanted React Components is a collection of ui components that are being used in HCL Software products.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/enchanted-react-components",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"component-library",
+					"material-ui",
+					"react",
+					"typescript"
+				]
+			},
+			"enchanted-icons": {
+				"name": "enchanted-icons",
+				"description": "Enchanted Icons is a collection of icons that are used in HCL Software products.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/enchanted-icons",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"carbon-design-system",
+					"icon-pack",
+					"material-ui",
+					"typescript"
+				]
+			}
+		},
+		"availableTopics": {
+			"component-library": {
+				"name": "component-library"
+			},
+			"react": {
+				"name": "react"
+			},
+			"typescript": {
+				"name": "typescript"
+			},
+			"carbon-design-system": {
+				"name": "carbon-design-system"
+			},
+			"icon-pack": {
+				"name": "icon-pack"
+			}
+		}
+	},
+	"typescript": {
+		"name": "typescript",
+		"repositories": {
+			"enchanted-react-components": {
+				"name": "enchanted-react-components",
+				"description": "Enchanted React Components is a collection of ui components that are being used in HCL Software products.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/enchanted-react-components",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"component-library",
+					"material-ui",
+					"react",
+					"typescript"
+				]
+			},
+			"enchanted-icons": {
+				"name": "enchanted-icons",
+				"description": "Enchanted Icons is a collection of icons that are used in HCL Software products.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/enchanted-icons",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"carbon-design-system",
+					"icon-pack",
+					"material-ui",
+					"typescript"
+				]
+			}
+		},
+		"availableTopics": {
+			"component-library": {
+				"name": "component-library"
+			},
+			"material-ui": {
+				"name": "material-ui"
+			},
+			"react": {
+				"name": "react"
+			},
+			"carbon-design-system": {
+				"name": "carbon-design-system"
+			},
+			"icon-pack": {
+				"name": "icon-pack"
+			}
+		}
+	},
+	"carbon-design-system": {
+		"name": "carbon-design-system",
+		"repositories": {
+			"enchanted-icons": {
+				"name": "enchanted-icons",
+				"description": "Enchanted Icons is a collection of icons that are used in HCL Software products.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/enchanted-icons",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"carbon-design-system",
+					"icon-pack",
+					"material-ui",
+					"typescript"
+				]
+			}
+		},
+		"availableTopics": {
+			"icon-pack": {
+				"name": "icon-pack"
+			},
+			"material-ui": {
+				"name": "material-ui"
+			},
+			"typescript": {
+				"name": "typescript"
+			}
+		}
+	},
+	"icon-pack": {
+		"name": "icon-pack",
+		"repositories": {
+			"enchanted-icons": {
+				"name": "enchanted-icons",
+				"description": "Enchanted Icons is a collection of icons that are used in HCL Software products.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/enchanted-icons",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "TypeScript",
+				"languageColor": "#2b7489",
+				"topics": [
+					"carbon-design-system",
+					"icon-pack",
+					"material-ui",
+					"typescript"
+				]
+			}
+		},
+		"availableTopics": {
+			"carbon-design-system": {
+				"name": "carbon-design-system"
+			},
+			"material-ui": {
+				"name": "material-ui"
+			},
+			"typescript": {
+				"name": "typescript"
 			}
 		}
 	}
