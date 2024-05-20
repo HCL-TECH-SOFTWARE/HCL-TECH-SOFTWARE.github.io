@@ -602,152 +602,6 @@
 		"topics": []
 	},
 	{
-		"name": "commerce-google-analytics-integration",
-		"description": "Add Google Analytics to HCL Commerce React Store, using Google Tag Manager.  This functionality has been included in the product from release 9.1.4.0 and beyond.  This asset applies to 9.1.1.0 - 9.1.3.0 only.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-integration",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"google-analytics",
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "commerce-image-search-asset",
-		"description": "Provides the capability to search the HCL Commerce Catalog using image search on React Stores",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-image-search-asset",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"google-image",
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "commerce-social-login-asset",
-		"description": "Social login enables users to log in to React store by using a social networking account, rather than using credentials dedicated to HCL Commerce which will make the sign up and login process quicker",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-social-login-asset",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"google",
-			"facebook",
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "commerce-push-notification-v2.0-asset",
-		"description": "This asset provides the capability of showing push notification on the React store using Firebase cloud messaging.   This is version .v2",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-push-notification-v2.0-asset",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "HTML",
-		"languageColor": "#e34c26",
-		"topics": [
-			"firebase-cloud-messaging",
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "commerce-google-analytics-dashboard",
-		"description": "This project is created to create the Google analytics dashboard using google Embed API.  This functionality has been included in the product from release 9.1.4.0 and beyond.  This asset applies to 9.1.1.0 - 9.1.3.0 only.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-analytics-dashboard",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "JavaScript",
-		"languageColor": "#f1e05a",
-		"topics": [
-			"google",
-			"hcl-commerce",
-			"google-analytics"
-		]
-	},
-	{
-		"name": "commerce-voice-search-asset",
-		"description": "Provides the capability to search HCL Commerce Catalog using voice search on React Stores",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-voice-search-asset",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"google-voice-api",
-			"google",
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "commerce-google-image-indexing-search-asset",
-		"description": "Provide the capability to index the Google Vision results as part of a searchable context for the catalog images.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-google-image-indexing-search-asset",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"google-vision",
-			"google-image-indexing",
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "commerce-PayPal",
-		"description": "HCL Commerce V9 includes two new storefronts.  “Emerald” and “Aurora” are included in v9.1 to support either a B2B or a B2C model.  The PayPal (BrainTree) payment gateway is implemented using Headless REST API's which can be integrated to the React storefront by following these instructions",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-PayPal",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "JavaScript",
-		"languageColor": "#f1e05a",
-		"topics": [
-			"paypal",
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "commerce-external-event-trigger-asset",
-		"description": "Marketing activities require the customer's personalization ID. If the event occurs on an external system that cannot pass the customer personalization ID, you need to map information that is known by the external system to the customer personalization ID in HCL Commerce.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-external-event-trigger-asset",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Java",
-		"languageColor": "#b07219",
-		"topics": [
-			"external-event-trigger",
-			"hcl-commerce",
-			"marketing-activities"
-		]
-	},
-	{
-		"name": "commerce-react-barcode-scanner-asset",
-		"description": "Provide the capability to search the HCL Commerce Catalog using barcode recognition in HCL Commerce React Stores",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-react-barcode-scanner-asset",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"barcode-scanner",
-			"react-storefront",
-			"hcl-commerce"
-		]
-	},
-	{
 		"name": "lttrs-android",
 		"description": "No-frills, easy to use, easy to maintain Email client for Android based on the JSON Meta Application Protocol  (JMAP).",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/lttrs-android",
@@ -933,47 +787,6 @@
 		]
 	},
 	{
-		"name": "commerce-Push-Notification",
-		"description": "Push Notifications help user to receive notifications on the web application. User will be able to see notifications for latest offers also regarding the order status.  This POC will take the user engagement to the next level.  It will reduce the users application journey.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-Push-Notification",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "HTML",
-		"languageColor": "#e34c26",
-		"topics": [
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "commerce-PunchOut2Go-Integration",
-		"description": "The integration of HCL Commerce with PunchOut2Go where HCL Commerce provides commerce functionality and PunchOut2Go provides two-way integration between an HCL Commerce store and hundreds of e-procurement and ERP platforms.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-PunchOut2Go-Integration",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"hcl-commerce",
-			"commerce",
-			"punchout2go"
-		]
-	},
-	{
-		"name": "commerce-Visual-Merchandising-Widget",
-		"description": "Proof of concept to provide a merchandiser the ability to re-sequence products on a category page using a drag and drop based UI.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-Visual-Merchandising-Widget",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"hcl-commerce"
-		]
-	},
-	{
 		"name": "Verse-H.A.-Example-Configs",
 		"description": "A sample proxy config that can be used with Verse running on Domino.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/Verse-H.A.-Example-Configs",
@@ -1109,75 +922,6 @@
 		]
 	},
 	{
-		"name": "Commerce-Kafka-StageProp",
-		"description": "The KafkaProp PoC was developed to prove out that we could leverage Kafka/Zookeeper to handle messaging of data from an AUTH environment to multiple LIVE environments concurrently/simultaneously.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Kafka-StageProp",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Not Identified",
-		"languageColor": "#fff",
-		"topics": [
-			"hcl-commerce",
-			"google"
-		]
-	},
-	{
-		"name": "Commerce-Google_Cloud_CDN",
-		"description": "Proof Of Concept to enable Google Cloud CDN (Content Delivery Network) for Commerce Application to serve content closer to users, which will accelerate commerce applications",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Google_Cloud_CDN",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Not Identified",
-		"languageColor": "#fff",
-		"topics": [
-			"hcl-commerce",
-			"google"
-		]
-	},
-	{
-		"name": "Commerce-Looker-Dashboard-Integration",
-		"description": "Proof of concept to connect HCL Commerce with Looker to create the different reports and dashboard for data analysis.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Looker-Dashboard-Integration",
-		"private": false,
-		"fork": false,
-		"license": "",
-		"language": "LookML",
-		"languageColor": "#fff",
-		"topics": [
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "Commerce-Google-Analytics-Integration-Aurora",
-		"description": "The Proof of concept to provide the capability tracking the Aurora Application using Google Analytics .",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Google-Analytics-Integration-Aurora",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Java",
-		"languageColor": "#b07219",
-		"topics": [
-			"hcl-commerce",
-			"google"
-		]
-	},
-	{
-		"name": "Commerce-Password-Policy-Enhancement",
-		"description": "Provide a feature to configure the new rules for password policy and same will be applicable for Administrators / Shoppers at the time registration / profile update.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Password-Policy-Enhancement",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Java",
-		"languageColor": "#b07219",
-		"topics": [
-			"hcl-commerce",
-			"google"
-		]
-	},
-	{
 		"name": "volt-mx-native-function-docs",
 		"description": "Native function libraries for Volt MX Documentation",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/volt-mx-native-function-docs",
@@ -1200,34 +944,6 @@
 		"topics": [
 			"domino",
 			"java"
-		]
-	},
-	{
-		"name": "hcl-commerce-helmchart",
-		"description": "HCL Commerce Helm Charts contains helm charts files to deploy HCL Commerce",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-helmchart",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Smarty",
-		"languageColor": "#fff",
-		"topics": [
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "hcl-commerce-performance",
-		"description": "Performance and monitoring assets for HCL Commerce 9.1",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-performance",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Python",
-		"languageColor": "#3572A5",
-		"topics": [
-			"hcl-commerce",
-			"grafana",
-			"hcl-onetest"
 		]
 	},
 	{
@@ -1266,20 +982,6 @@
 		]
 	},
 	{
-		"name": "Commerce-ReactStore-Automation",
-		"description": "Commerce-ReactStore-Automation is an e2e testing framework includes the main flows from the sample store. This framework can be used to design and run their own set of regression test cases according to the instruction given in the readme.md file.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-ReactStore-Automation",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"hcl-commerce",
-			"commerce-reactstore-automation"
-		]
-	},
-	{
 		"name": "monaco-yaml",
 		"description": "YAML plugin for the Monaco Editor",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/monaco-yaml",
@@ -1314,21 +1016,6 @@
 		"language": "Java",
 		"languageColor": "#b07219",
 		"topics": []
-	},
-	{
-		"name": "Commerce-Avalara-Integration",
-		"description": "Avalara Tax has been implemented using Headless REST API's and has been integrated to the React storefront by following the instructions.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Avalara-Integration",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"avalara",
-			"tax",
-			"hcl-commerce"
-		]
 	},
 	{
 		"name": "dx-metrics-grafana-dashboards",
@@ -1437,54 +1124,6 @@
 		"languageColor": "#563d7c",
 		"topics": [
 			"hcl-dx"
-		]
-	},
-	{
-		"name": "Commerce-CyberSource-Payment-Integration",
-		"description": "The HCL Commerce provide assets to integrate the CyberSource Payment. Merchants can integrate CyberSource to their commerce website and empower customers with new payment system. We have followed the CyberSource PCI compliance.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-CyberSource-Payment-Integration",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "JavaScript",
-		"languageColor": "#f1e05a",
-		"topics": [
-			"commerce",
-			"commerce-payments",
-			"cybersource",
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "Commerce-Stripe-Payment-Integration",
-		"description": "The integration of HCL Commerce with Stripe Payment where HCL Commerce provides commerce functionality and Stripe provides a back-end framework to manage the payments.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Stripe-Payment-Integration",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"commerce",
-			"commercepayments",
-			"stripe",
-			"hcl-commerce"
-		]
-	},
-	{
-		"name": "Commerce-Lunu-Payment-Integration",
-		"description": "The asset allows HCL Commerce to integrate with Lunu Payments. Merchants can integrate Lunu to their commerce website. Now users can place an order using Cryptocurrencies.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Commerce-Lunu-Payment-Integration",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"commerce",
-			"lunu",
-			"commercecrypto",
-			"hcl-commerce"
 		]
 	},
 	{
@@ -1665,56 +1304,6 @@
 		]
 	},
 	{
-		"name": "commerce-bazaarvoice",
-		"description": "This asset provides an integration between HCL Commerce and Bazaarvoice platform, to implement feature of displaying Product Review and Rating, Question and Answers using  BV.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-bazaarvoice",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"bazaarvoice",
-			"hcl-commerce",
-			"integration",
-			"rating-reviews"
-		]
-	},
-	{
-		"name": "commerce-zineone-integration-POC",
-		"description": "POC-Asset for Integrating ZineOne-Tagging with hcl-commerce",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-zineone-integration-POC",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Not Identified",
-		"languageColor": "#fff",
-		"topics": [
-			"hcl-commerce",
-			"zineone-tagging",
-			"analytics",
-			"recommendations",
-			"zineone"
-		]
-	},
-	{
-		"name": "commerce-search",
-		"description": "This assets provides catalog-search hcl-commerce reference storefronts, by image-search, barcode-search and voice-search.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-search",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "CSS",
-		"languageColor": "#563d7c",
-		"topics": [
-			"barcode-scanner",
-			"hcl-commerce",
-			"image-search",
-			"voice-search",
-			"barcode-search"
-		]
-	},
-	{
 		"name": "Volt-MX-Documentation-Archive",
 		"description": "Archived documentation for HCL Volt MX (https://www.hcltechsw.com/volt-mx). The site is accessible at http://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/Volt-MX-Documentation-Archive",
@@ -1773,38 +1362,6 @@
 		]
 	},
 	{
-		"name": "commerce-inventoryManagementTool",
-		"description": "This asset provides capability to manage inventory via CMC tool of HCL Commerce.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-inventoryManagementTool",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"hcl-commerce",
-			"inventory",
-			"inventory-management",
-			"management-center"
-		]
-	},
-	{
-		"name": "commerce-storeThemeTool",
-		"description": "This asset provides capability to manage store-theme via CMC tool of HCL Commerce.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-storeThemeTool",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"hcl-commerce",
-			"store-theme",
-			"management-center",
-			"store-theme-management"
-		]
-	},
-	{
 		"name": "appscan-issue-gateway-2",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-issue-gateway-2",
@@ -1831,17 +1388,14 @@
 	},
 	{
 		"name": "connections-documentation",
-		"description": "HCL Connections 8 for on-premises product documentation",
+		"description": "TEST SITE",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-documentation",
 		"private": false,
 		"fork": false,
 		"license": "Other",
-		"language": "JavaScript",
-		"languageColor": "#f1e05a",
-		"topics": [
-			"connections",
-			"documentation"
-		]
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
 	},
 	{
 		"name": "connections-mongo5",
@@ -1868,27 +1422,6 @@
 		"language": "JavaScript",
 		"languageColor": "#f1e05a",
 		"topics": []
-	},
-	{
-		"name": "commerce-content-search",
-		"description": "This asset provides capability to index different contents (unstructured, site or web) and then display content search-results along with product search-results.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-content-search",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Java",
-		"languageColor": "#b07219",
-		"topics": [
-			"content",
-			"content-search",
-			"hcl-commerce",
-			"site-content",
-			"unstructured-content",
-			"web-content-crawl",
-			"management-center",
-			"elastic-search",
-			"search-index"
-		]
 	},
 	{
 		"name": "HCL-Workload-Automation-Observability-for-Splunk",
@@ -2114,43 +1647,6 @@
 		"topics": []
 	},
 	{
-		"name": "commerce-instagram-integration",
-		"description": "This asset provides ability for business-users to publish products from HCL Commerce catalog to Instagram handles",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-instagram-integration",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Java",
-		"languageColor": "#b07219",
-		"topics": [
-			"commerce",
-			"hcl-commerce",
-			"instagram",
-			"instagram-api",
-			"integration",
-			"product-publish"
-		]
-	},
-	{
-		"name": "commerce-kafka-integration",
-		"description": "This asset provides ability to send/consume messages from/to HCL-Commerce via Kafka-Messaging Framework",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-kafka-integration",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "Java",
-		"languageColor": "#b07219",
-		"topics": [
-			"commerce",
-			"hcl-commerce",
-			"kafka",
-			"kafka-connect",
-			"kafka-consumer",
-			"kafka-producer",
-			"hclc-kafka-integration"
-		]
-	},
-	{
 		"name": "emissary",
 		"description": "open source Kubernetes-native API gateway for microservices built on the Envoy Proxy",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/emissary",
@@ -2171,25 +1667,6 @@
 		"language": "Python",
 		"languageColor": "#3572A5",
 		"topics": []
-	},
-	{
-		"name": "commerce-razorpay-integration",
-		"description": "This Asset provides the integration from HCL Commerce to Razorpay Payment Gateway.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-razorpay-integration",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "JavaScript",
-		"languageColor": "#f1e05a",
-		"topics": [
-			"hcl-commerce",
-			"payment-gateway",
-			"payment-integration",
-			"razorpay",
-			"razorpay-api",
-			"razorpay-payment",
-			"react-storefront"
-		]
 	},
 	{
 		"name": "domino-charts",
@@ -2244,26 +1721,6 @@
 		"languageColor": "#178600",
 		"topics": [
 			"appscan"
-		]
-	},
-	{
-		"name": "commerce-whatsapp-share",
-		"description": "This asset provides the ability to share product, cart and order-confirmation from HCL-Commerce storefront pages to Whatapp. Asset enables social-sharing with friend/family and thereby increase chances for more revenue for retailer.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/commerce-whatsapp-share",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"hcl-commerce",
-			"integration",
-			"order-confirmation",
-			"product-details",
-			"shooping-cart",
-			"social-share",
-			"social-sharing",
-			"whatsapp"
 		]
 	},
 	{
@@ -2808,13 +2265,37 @@
 		"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-collections",
 		"private": false,
 		"fork": false,
-		"license": "",
+		"license": "Apache License 2.0",
 		"language": "Shell",
 		"languageColor": "#89e051",
 		"topics": [
 			"volt-mx-go",
 			"voltscript"
 		]
+	},
+	{
+		"name": "Domino-Rust-JVM-Addin",
+		"description": "Example of writing a native HCL Domino addin in Rust that loads a JVM and hands control over to a Java class",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-Rust-JVM-Addin",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Rust",
+		"languageColor": "#dea584",
+		"topics": [
+			"domino"
+		]
+	},
+	{
+		"name": "dx-discover-integration-sample",
+		"description": "This is a working sample demonstratng how to integrate HCL Discover into HCL Digital Experience.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-discover-integration-sample",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
 	},
 	{
 		"name": "lib-grpc-server",
@@ -2873,6 +2354,20 @@
 		"license": "Apache License 2.0",
 		"language": "Not Identified",
 		"languageColor": "#fff",
+		"topics": [
+			"volt-mx-go",
+			"voltscript"
+		]
+	},
+	{
+		"name": "voltscript-interface-designer",
+		"description": "VoltScript Interface Designer, for scaffolding VoltScript Extensions and Script Library Modules",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-interface-designer",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "HTML",
+		"languageColor": "#e34c26",
 		"topics": [
 			"volt-mx-go",
 			"voltscript"
