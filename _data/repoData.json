@@ -115,7 +115,7 @@
 		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-issue-gateway",
 		"private": false,
 		"fork": false,
-		"license": "Apache License 2.0",
+		"license": "Other",
 		"language": "Java",
 		"languageColor": "#b07219",
 		"topics": [
@@ -947,6 +947,34 @@
 		]
 	},
 	{
+		"name": "hcl-commerce-helmchart",
+		"description": "HCL Commerce Helm Charts contains helm charts files to deploy HCL Commerce",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-helmchart",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Smarty",
+		"languageColor": "#fff",
+		"topics": [
+			"hcl-commerce"
+		]
+	},
+	{
+		"name": "hcl-commerce-performance",
+		"description": "Performance and monitoring assets for HCL Commerce 9.1",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-performance",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Python",
+		"languageColor": "#3572A5",
+		"topics": [
+			"hcl-commerce",
+			"grafana",
+			"hcl-onetest"
+		]
+	},
+	{
 		"name": "ereviewboard",
 		"description": "A mylyn-based Eclipse integration for Review Board",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/ereviewboard",
@@ -1120,8 +1148,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "CSS",
-		"languageColor": "#563d7c",
+		"language": "HTML",
+		"languageColor": "#e34c26",
 		"topics": [
 			"hcl-dx"
 		]
@@ -1387,9 +1415,9 @@
 		]
 	},
 	{
-		"name": "connections-documentation",
+		"name": "total-experience-doc",
 		"description": "TEST SITE",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-documentation",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/total-experience-doc",
 		"private": false,
 		"fork": false,
 		"license": "Other",
@@ -1597,8 +1625,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Not Identified",
-		"languageColor": "#fff",
+		"language": "HTML",
+		"languageColor": "#e34c26",
 		"topics": [
 			"documentation",
 			"voltmxgo"
@@ -1611,7 +1639,7 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Not Identified",
+		"language": "Batchfile",
 		"languageColor": "#fff",
 		"topics": []
 	},
@@ -1967,8 +1995,8 @@
 		"private": false,
 		"fork": false,
 		"license": "",
-		"language": "Not Identified",
-		"languageColor": "#fff",
+		"language": "HTML",
+		"languageColor": "#e34c26",
 		"topics": []
 	},
 	{
@@ -2085,8 +2113,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "JavaScript",
-		"languageColor": "#f1e05a",
+		"language": "Shell",
+		"languageColor": "#89e051",
 		"topics": []
 	},
 	{
@@ -2105,6 +2133,23 @@
 			"dx",
 			"hcl-dx",
 			"hcldx"
+		]
+	},
+	{
+		"name": "domino-rest-sdk-go",
+		"description": "GO SDK to access the HCL Domino REST API",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-rest-sdk-go",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Go",
+		"languageColor": "#00ADD8",
+		"topics": [
+			"domino",
+			"go",
+			"golang",
+			"rest",
+			"rest-api"
 		]
 	},
 	{
@@ -2240,7 +2285,7 @@
 		"url": "https://github.com/HCL-TECH-SOFTWARE/dxclient-scripts",
 		"private": false,
 		"fork": false,
-		"license": "Apache License 2.0",
+		"license": "Other",
 		"language": "Shell",
 		"languageColor": "#89e051",
 		"topics": [
@@ -2295,7 +2340,12 @@
 		"license": "Apache License 2.0",
 		"language": "Not Identified",
 		"languageColor": "#fff",
-		"topics": []
+		"topics": [
+			"discover",
+			"dx",
+			"hcl-dx",
+			"sample"
+		]
 	},
 	{
 		"name": "lib-grpc-server",
@@ -2311,6 +2361,24 @@
 			"model-realtime",
 			"grpc-client",
 			"grpc-server"
+		]
+	},
+	{
+		"name": "devops-deploy-RequestApplicationProcess-action",
+		"description": "Invoke HCL/IBM DevOps Deploy CLI to request a Application process",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/devops-deploy-RequestApplicationProcess-action",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"hcl",
+			"ibm",
+			"ucd",
+			"deploymentaction",
+			"devops-deploy",
+			"urbancodedeploy"
 		]
 	},
 	{
@@ -2372,5 +2440,57 @@
 			"volt-mx-go",
 			"voltscript"
 		]
+	},
+	{
+		"name": "open-liberty",
+		"description": "Open Liberty is a highly composable, fast to start, dynamic application server runtime environment ",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/open-liberty",
+		"private": false,
+		"fork": true,
+		"license": "Eclipse Public License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": []
+	},
+	{
+		"name": "dx-personalization-development-sample",
+		"description": "This repository contains a HCL Digital Experience personalization sample that can be used to import into Microsoft Visual Studio Code. A personalization portlet is a portlet that can show up specific information to a user based on rules.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-personalization-development-sample",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": [
+			"dx",
+			"hcl-dx",
+			"personalization",
+			"sample"
+		]
+	},
+	{
+		"name": "voltscript-logging",
+		"description": "Logging and Error Tracking for VoltScript",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-logging",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"volt-mx-go",
+			"voltscript"
+		]
+	},
+	{
+		"name": "tiptap",
+		"description": "The headless rich text editor framework for web artisans.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/tiptap",
+		"private": false,
+		"fork": true,
+		"license": "MIT License",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": []
 	}
 ]
