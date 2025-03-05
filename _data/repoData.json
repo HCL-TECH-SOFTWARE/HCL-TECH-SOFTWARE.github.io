@@ -320,21 +320,6 @@
 		]
 	},
 	{
-		"name": "sample-angular-script-application",
-		"description": "This sample illustrates building an Angular CLI application and deploying it as a script application. It includes all the configuration and build steps needed to get the application running smoothly in HCL Digital Experience.",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/sample-angular-script-application",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "TypeScript",
-		"languageColor": "#2b7489",
-		"topics": [
-			"hcl-dx",
-			"angular",
-			"dx"
-		]
-	},
-	{
 		"name": "asoc_automation_iast",
 		"description": "",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/asoc_automation_iast",
@@ -1837,14 +1822,16 @@
 	},
 	{
 		"name": "hcl-commerce-search",
-		"description": "",
+		"description": "Customization assets for HCL Commerce 9.1 Search",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-search",
 		"private": false,
 		"fork": false,
 		"license": "",
 		"language": "Not Identified",
 		"languageColor": "#fff",
-		"topics": []
+		"topics": [
+			"hcl-commerce"
+		]
 	},
 	{
 		"name": "hcl-universal-orchestrator-chart",
@@ -1853,7 +1840,7 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Mustache",
+		"language": "Smarty",
 		"languageColor": "#fff",
 		"topics": [
 			"charts",
@@ -2088,7 +2075,9 @@
 		"license": "Apache License 2.0",
 		"language": "Not Identified",
 		"languageColor": "#fff",
-		"topics": []
+		"topics": [
+			"hcl-leap"
+		]
 	},
 	{
 		"name": "domino-rest-sdk-nodered",
@@ -2302,7 +2291,9 @@
 		"license": "Other",
 		"language": "CSS",
 		"languageColor": "#563d7c",
-		"topics": []
+		"topics": [
+			"hcl-leap"
+		]
 	},
 	{
 		"name": "voltscript-collections",
@@ -2492,5 +2483,51 @@
 		"language": "TypeScript",
 		"languageColor": "#2b7489",
 		"topics": []
+	},
+	{
+		"name": "dx-compose-doc",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-compose-doc",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": []
+	},
+	{
+		"name": "AppScan-360-Helm-Files",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/AppScan-360-Helm-Files",
+		"private": false,
+		"fork": false,
+		"license": "",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "connections-mongo7",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/connections-mongo7",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Shell",
+		"languageColor": "#89e051",
+		"topics": []
+	},
+	{
+		"name": "dx-compose-docker-compose",
+		"description": "Docker Compose Scripts for HCL DX Compose",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-compose-docker-compose",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Batchfile",
+		"languageColor": "#fff",
+		"topics": [
+			"hcl-dx"
+		]
 	}
 ]

@@ -1981,21 +1981,6 @@
 					"hcl-dx"
 				]
 			},
-			"sample-angular-script-application": {
-				"name": "sample-angular-script-application",
-				"description": "This sample illustrates building an Angular CLI application and deploying it as a script application. It includes all the configuration and build steps needed to get the application running smoothly in HCL Digital Experience.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/sample-angular-script-application",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "TypeScript",
-				"languageColor": "#2b7489",
-				"topics": [
-					"hcl-dx",
-					"angular",
-					"dx"
-				]
-			},
 			"WebDevToolkitForDx": {
 				"name": "WebDevToolkitForDx",
 				"description": "The Web Developer toolkit provides the ability to sync themes, content and script portlets (also known as script applications).",
@@ -2162,15 +2147,22 @@
 					"personalization",
 					"sample"
 				]
+			},
+			"dx-compose-docker-compose": {
+				"name": "dx-compose-docker-compose",
+				"description": "Docker Compose Scripts for HCL DX Compose",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-compose-docker-compose",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Batchfile",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-dx"
+				]
 			}
 		},
 		"availableTopics": {
-			"angular": {
-				"name": "angular"
-			},
-			"dx": {
-				"name": "dx"
-			},
 			"ringapi": {
 				"name": "ringapi"
 			},
@@ -2191,6 +2183,9 @@
 			},
 			"grafana": {
 				"name": "grafana"
+			},
+			"dx": {
+				"name": "dx"
 			},
 			"hcldx": {
 				"name": "hcldx"
@@ -2215,209 +2210,6 @@
 			},
 			"dxclient": {
 				"name": "dxclient"
-			},
-			"discover": {
-				"name": "discover"
-			},
-			"sample": {
-				"name": "sample"
-			},
-			"personalization": {
-				"name": "personalization"
-			}
-		}
-	},
-	"angular": {
-		"name": "angular",
-		"repositories": {
-			"sample-angular-script-application": {
-				"name": "sample-angular-script-application",
-				"description": "This sample illustrates building an Angular CLI application and deploying it as a script application. It includes all the configuration and build steps needed to get the application running smoothly in HCL Digital Experience.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/sample-angular-script-application",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "TypeScript",
-				"languageColor": "#2b7489",
-				"topics": [
-					"hcl-dx",
-					"angular",
-					"dx"
-				]
-			}
-		},
-		"availableTopics": {
-			"hcl-dx": {
-				"name": "hcl-dx"
-			},
-			"dx": {
-				"name": "dx"
-			}
-		}
-	},
-	"dx": {
-		"name": "dx",
-		"repositories": {
-			"sample-angular-script-application": {
-				"name": "sample-angular-script-application",
-				"description": "This sample illustrates building an Angular CLI application and deploying it as a script application. It includes all the configuration and build steps needed to get the application running smoothly in HCL Digital Experience.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/sample-angular-script-application",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "TypeScript",
-				"languageColor": "#2b7489",
-				"topics": [
-					"hcl-dx",
-					"angular",
-					"dx"
-				]
-			},
-			"DX-Modules-and-ScriptApps": {
-				"name": "DX-Modules-and-ScriptApps",
-				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "JavaScript",
-				"languageColor": "#f1e05a",
-				"topics": [
-					"dx",
-					"webpack",
-					"code-splitting",
-					"gradle",
-					"dx-modules",
-					"dx-scriptapps",
-					"javascript",
-					"optimizations",
-					"reactjs",
-					"optimal-page-loads"
-				]
-			},
-			"dx-portlet-development-utilities": {
-				"name": "dx-portlet-development-utilities",
-				"description": "This repository contains Portlet Development Utilities to create pages via the DX Java API as well as a custom maven archetype to create a new JSR286 portlet.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-portlet-development-utilities",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Java",
-				"languageColor": "#b07219",
-				"topics": [
-					"dx",
-					"hcl-dx",
-					"hcldx",
-					"maven",
-					"maven-archetype",
-					"portlet"
-				]
-			},
-			"dx-google-vertex-sample": {
-				"name": "dx-google-vertex-sample",
-				"description": "This project contains the source code and build for a sample AI integration for DX for WCM with Google Vertex.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-google-vertex-sample",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Java",
-				"languageColor": "#b07219",
-				"topics": [
-					"ai",
-					"artificial-intelligence",
-					"content-management",
-					"dx",
-					"hcl-dx",
-					"hcldx"
-				]
-			},
-			"dx-discover-integration-sample": {
-				"name": "dx-discover-integration-sample",
-				"description": "This is a working sample demonstratng how to integrate HCL Discover into HCL Digital Experience.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-discover-integration-sample",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Not Identified",
-				"languageColor": "#fff",
-				"topics": [
-					"discover",
-					"dx",
-					"hcl-dx",
-					"sample"
-				]
-			},
-			"dx-personalization-development-sample": {
-				"name": "dx-personalization-development-sample",
-				"description": "This repository contains a HCL Digital Experience personalization sample that can be used to import into Microsoft Visual Studio Code. A personalization portlet is a portlet that can show up specific information to a user based on rules.",
-				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-personalization-development-sample",
-				"private": false,
-				"fork": false,
-				"license": "Apache License 2.0",
-				"language": "Java",
-				"languageColor": "#b07219",
-				"topics": [
-					"dx",
-					"hcl-dx",
-					"personalization",
-					"sample"
-				]
-			}
-		},
-		"availableTopics": {
-			"hcl-dx": {
-				"name": "hcl-dx"
-			},
-			"angular": {
-				"name": "angular"
-			},
-			"webpack": {
-				"name": "webpack"
-			},
-			"code-splitting": {
-				"name": "code-splitting"
-			},
-			"gradle": {
-				"name": "gradle"
-			},
-			"dx-modules": {
-				"name": "dx-modules"
-			},
-			"dx-scriptapps": {
-				"name": "dx-scriptapps"
-			},
-			"javascript": {
-				"name": "javascript"
-			},
-			"optimizations": {
-				"name": "optimizations"
-			},
-			"reactjs": {
-				"name": "reactjs"
-			},
-			"optimal-page-loads": {
-				"name": "optimal-page-loads"
-			},
-			"hcldx": {
-				"name": "hcldx"
-			},
-			"maven": {
-				"name": "maven"
-			},
-			"maven-archetype": {
-				"name": "maven-archetype"
-			},
-			"portlet": {
-				"name": "portlet"
-			},
-			"ai": {
-				"name": "ai"
-			},
-			"artificial-intelligence": {
-				"name": "artificial-intelligence"
-			},
-			"content-management": {
-				"name": "content-management"
 			},
 			"discover": {
 				"name": "discover"
@@ -3690,7 +3482,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Mustache",
+				"language": "Smarty",
 				"languageColor": "#fff",
 				"topics": [
 					"charts",
@@ -5217,6 +5009,19 @@
 					"grafana",
 					"hcl-onetest"
 				]
+			},
+			"hcl-commerce-search": {
+				"name": "hcl-commerce-search",
+				"description": "Customization assets for HCL Commerce 9.1 Search",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/hcl-commerce-search",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-commerce"
+				]
 			}
 		},
 		"availableTopics": {
@@ -5655,6 +5460,163 @@
 			},
 			"datadog": {
 				"name": "datadog"
+			}
+		}
+	},
+	"dx": {
+		"name": "dx",
+		"repositories": {
+			"DX-Modules-and-ScriptApps": {
+				"name": "DX-Modules-and-ScriptApps",
+				"description": "How-to guides with sample codes that streamline the build and deployment of basic and optimized JavaScript applications to HCL Digital Experience (HCL DX). ",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/DX-Modules-and-ScriptApps",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "JavaScript",
+				"languageColor": "#f1e05a",
+				"topics": [
+					"dx",
+					"webpack",
+					"code-splitting",
+					"gradle",
+					"dx-modules",
+					"dx-scriptapps",
+					"javascript",
+					"optimizations",
+					"reactjs",
+					"optimal-page-loads"
+				]
+			},
+			"dx-portlet-development-utilities": {
+				"name": "dx-portlet-development-utilities",
+				"description": "This repository contains Portlet Development Utilities to create pages via the DX Java API as well as a custom maven archetype to create a new JSR286 portlet.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-portlet-development-utilities",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"dx",
+					"hcl-dx",
+					"hcldx",
+					"maven",
+					"maven-archetype",
+					"portlet"
+				]
+			},
+			"dx-google-vertex-sample": {
+				"name": "dx-google-vertex-sample",
+				"description": "This project contains the source code and build for a sample AI integration for DX for WCM with Google Vertex.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-google-vertex-sample",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"ai",
+					"artificial-intelligence",
+					"content-management",
+					"dx",
+					"hcl-dx",
+					"hcldx"
+				]
+			},
+			"dx-discover-integration-sample": {
+				"name": "dx-discover-integration-sample",
+				"description": "This is a working sample demonstratng how to integrate HCL Discover into HCL Digital Experience.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-discover-integration-sample",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"discover",
+					"dx",
+					"hcl-dx",
+					"sample"
+				]
+			},
+			"dx-personalization-development-sample": {
+				"name": "dx-personalization-development-sample",
+				"description": "This repository contains a HCL Digital Experience personalization sample that can be used to import into Microsoft Visual Studio Code. A personalization portlet is a portlet that can show up specific information to a user based on rules.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/dx-personalization-development-sample",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Java",
+				"languageColor": "#b07219",
+				"topics": [
+					"dx",
+					"hcl-dx",
+					"personalization",
+					"sample"
+				]
+			}
+		},
+		"availableTopics": {
+			"webpack": {
+				"name": "webpack"
+			},
+			"code-splitting": {
+				"name": "code-splitting"
+			},
+			"gradle": {
+				"name": "gradle"
+			},
+			"dx-modules": {
+				"name": "dx-modules"
+			},
+			"dx-scriptapps": {
+				"name": "dx-scriptapps"
+			},
+			"javascript": {
+				"name": "javascript"
+			},
+			"optimizations": {
+				"name": "optimizations"
+			},
+			"reactjs": {
+				"name": "reactjs"
+			},
+			"optimal-page-loads": {
+				"name": "optimal-page-loads"
+			},
+			"hcl-dx": {
+				"name": "hcl-dx"
+			},
+			"hcldx": {
+				"name": "hcldx"
+			},
+			"maven": {
+				"name": "maven"
+			},
+			"maven-archetype": {
+				"name": "maven-archetype"
+			},
+			"portlet": {
+				"name": "portlet"
+			},
+			"ai": {
+				"name": "ai"
+			},
+			"artificial-intelligence": {
+				"name": "artificial-intelligence"
+			},
+			"content-management": {
+				"name": "content-management"
+			},
+			"discover": {
+				"name": "discover"
+			},
+			"sample": {
+				"name": "sample"
+			},
+			"personalization": {
+				"name": "personalization"
 			}
 		}
 	},
@@ -7332,7 +7294,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Mustache",
+				"language": "Smarty",
 				"languageColor": "#fff",
 				"topics": [
 					"charts",
@@ -7424,7 +7386,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Mustache",
+				"language": "Smarty",
 				"languageColor": "#fff",
 				"topics": [
 					"charts",
@@ -7468,7 +7430,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Mustache",
+				"language": "Smarty",
 				"languageColor": "#fff",
 				"topics": [
 					"charts",
@@ -7489,6 +7451,38 @@
 				"name": "uno"
 			}
 		}
+	},
+	"hcl-leap": {
+		"name": "hcl-leap",
+		"repositories": {
+			"leap-custom-widgets": {
+				"name": "leap-custom-widgets",
+				"description": "Sample custom widgets for HCL Leap",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/leap-custom-widgets",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "Not Identified",
+				"languageColor": "#fff",
+				"topics": [
+					"hcl-leap"
+				]
+			},
+			"leap-doc": {
+				"name": "leap-doc",
+				"description": "HCL Leap Help Center",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/leap-doc",
+				"private": false,
+				"fork": false,
+				"license": "Other",
+				"language": "CSS",
+				"languageColor": "#563d7c",
+				"topics": [
+					"hcl-leap"
+				]
+			}
+		},
+		"availableTopics": {}
 	},
 	"nodered": {
 		"name": "nodered",
