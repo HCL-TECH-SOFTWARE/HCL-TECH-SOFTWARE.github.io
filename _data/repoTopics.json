@@ -291,7 +291,8 @@
 				"language": "C#",
 				"languageColor": "#178600",
 				"topics": [
-					"appscan"
+					"appscan",
+					"appscan-standard"
 				]
 			},
 			"appscan-dast-action": {
@@ -324,7 +325,8 @@
 				"language": "C#",
 				"languageColor": "#178600",
 				"topics": [
-					"appscan"
+					"appscan",
+					"appscan-standard"
 				]
 			},
 			"Automation-Import-Scan-Issues-ASOC-ASE": {
@@ -5114,6 +5116,34 @@
 				"license": "Apache License 2.0",
 				"language": "Python",
 				"languageColor": "#3572A5",
+				"topics": [
+					"appscan",
+					"appscan-standard"
+				]
+			},
+			"appscan-standard-import-urls": {
+				"name": "appscan-standard-import-urls",
+				"description": "An extension which enables to import into AppScan a text file containing a list of URLs.",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-standard-import-urls",
+				"private": false,
+				"fork": false,
+				"license": "Apache License 2.0",
+				"language": "C#",
+				"languageColor": "#178600",
+				"topics": [
+					"appscan",
+					"appscan-standard"
+				]
+			},
+			"appscan-standard-burp-importer": {
+				"name": "appscan-standard-burp-importer",
+				"description": "An extension which allows the user to import a Burp file containing a list of requests into AppScan",
+				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-standard-burp-importer",
+				"private": false,
+				"fork": false,
+				"license": "",
+				"language": "C#",
+				"languageColor": "#178600",
 				"topics": [
 					"appscan",
 					"appscan-standard"
