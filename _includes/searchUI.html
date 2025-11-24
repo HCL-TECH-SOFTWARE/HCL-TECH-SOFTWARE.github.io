@@ -3,13 +3,15 @@
 </div>
 <div class="row">
   <div class="col col-xs-6 topicFilterTitle text-left">
-    Filter by topic
+    <a href="#" id="topicFilterToggle" style="text-decoration: none; color: inherit;">
+      <span id="topicFilterTwistie">▼</span> Filter by topic
+    </a>
   </div>
   <div class="col col-xs-6 text-right">
     <a class="topicFilterReset btn-clear">Reset search and filters</a>
   </div>
 </div>
-<div class="row">
+<div class="row" id="topicFilterRow">
   <div class="btn-group filter-btn-group">
     {% for topics in filterTopics %}
     {% assign topic = topics[1] %}
@@ -20,10 +22,30 @@
     {% endif %}
   </div>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const toggle = document.getElementById('topicFilterToggle');
+  const twistie = document.getElementById('topicFilterTwistie');
+  const filterRow = document.getElementById('topicFilterRow');
+  
+  if (toggle && twistie && filterRow) {
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      if (filterRow.style.display === 'none') {
+        filterRow.style.display = '';
+        twistie.classList.remove('collapsed');
+      } else {
+        filterRow.style.display = 'none';
+        twistie.classList.add('collapsed');
+      }
+    });
+  }
+});
+</script>
 <div class="row">
   <div class="col col-xs-s text-left repoCounter"></div>
   <div class="col col-xs-s text-right repoSelector">
-    <select class="repoSorter">
+    Sort by: <select class="repoSorter">
       <option value="">Recently Updated</option>
       <option value="name">Name</option>
       <option value="topic">Topic</option>

@@ -73,7 +73,7 @@ body {
   color: #14142B;
   height: 36px;
   border-radius: 2px;
-  margin: 24px 0;
+  margin: 24px 0 12px 0;
   background: #F2F2F2;
   padding-left: 5px;
   border: #ADADAD 1px solid;
@@ -82,23 +82,31 @@ body {
 
 .topicFilterTitle {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   color: #14142B;
   padding-left: 0;
 }
 
 .topicFilterReset {
   font-weight: 500;
-  font-size: 14px;
-  color: #12191F;
-  opacity: 10%;
+  font-size: 16px;
+  color: #14142B;
   padding-right: 0;
 }
 
+#topicFilterTwistie {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+#topicFilterTwistie.collapsed {
+  transform: rotate(-90deg);
+}
+
 .repoCounter {
-  font-size: 16pt;
+  font-size: 16px;
   color: #14142B;
   padding-left: 0;
+  margin-top: 12px;
   margin-bottom: 24px;
 }
 
@@ -128,7 +136,6 @@ body {
 }
 
 .filter-btn-group {
-  margin-bottom: 24px;
   display: inline-block
 }
 

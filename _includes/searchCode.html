@@ -34,7 +34,6 @@
         })
         buttonFilter = (arr.length > 0) ? arr.join("") : "*";
         $container.isotope();
-        $(".topicFilterReset").css("opacity", "50%");
         var elems = $container.isotope('getFilteredItemElements').length;
         $(".repoCounter").text(elems + " Repositories found");
     });
@@ -49,7 +48,6 @@
         }
         qsRegex = new RegExp($quicksearch.val(), 'gi');
         $container.isotope();
-        $(".topicFilterReset").css("opacity", "50%");
         searchVal = $quicksearch.val();
         var elems = $container.isotope('getFilteredItemElements').length;
         $(".repoCounter").text(elems + " Repositories found");
@@ -64,7 +62,6 @@
         qsRegex = new RegExp($("#quicksearch").val(), 'gi');
         buttonFilter = "*";
         $container.isotope();
-        $(".topicFilterReset").css("opacity", "10%");
         var elems = $container.isotope('getFilteredItemElements').length;
         $(".repoCounter").text(elems + " Repositories found");
     });
