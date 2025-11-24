@@ -28,7 +28,7 @@ body {
 .repo-name {
   font-weight: 500;
   font-size: 16px;
-  color: #01539B;
+  color: #1963D7;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -47,7 +47,7 @@ body {
 
 .repo-desc {
   font-size: 14px;
-  color: #5C5C5C;
+  color: #14142B;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
@@ -56,7 +56,7 @@ body {
 
 .repo-topic {
   font-size: 12px;
-  color: #01539B;
+  color: #1963D7;
 }
 
 .row-lic {
@@ -64,13 +64,13 @@ body {
   left: 0;
   bottom: calc(var(--lh));
   font-size: 12px;
-  color: #5C5C5C;
+  color: #14142B;
 }
 
 #quicksearch {
   font-style: italic;
   font-size: 14px;
-  color: #5C5C5C;
+  color: #14142B;
   height: 36px;
   border-radius: 2px;
   margin: 24px 0;
@@ -83,7 +83,7 @@ body {
 .topicFilterTitle {
   font-weight: 500;
   font-size: 14px;
-  color: #5C5C5C;
+  color: #14142B;
   padding-left: 0;
 }
 
@@ -97,14 +97,14 @@ body {
 
 .repoCounter {
   font-size: 16pt;
-  color: #000000;
+  color: #14142B;
   padding-left: 0;
   margin-bottom: 24px;
 }
 
 .repoSorter {
   border: 0;
-  color: #5C5C5C;
+  color: #14142B;
   -webkit-appearance:none;
   -moz-appearance: none;
   appearance: none;
@@ -122,7 +122,7 @@ body {
 .btn-filter {
   font-size: 13px;
   margin-right: 8px;
-  color: #5C5C5C;
+  color: #14142B !important;
   border: #ADADAD 1px solid;
   border-radius: 25px;
 }

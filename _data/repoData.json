@@ -333,9 +333,9 @@
 		]
 	},
 	{
-		"name": "HOT-AzureDevops",
+		"name": "devops-test-azure-tasks",
 		"description": "Azure DevOps extension for HCL OneTest Studio",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/HOT-AzureDevops",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-azure-tasks",
 		"private": false,
 		"fork": false,
 		"license": "Other",
@@ -436,8 +436,8 @@
 		"private": false,
 		"fork": true,
 		"license": "Other",
-		"language": "C",
-		"languageColor": "#555555",
+		"language": "C++",
+		"languageColor": "#f34b7d",
 		"topics": []
 	},
 	{
@@ -827,12 +827,7 @@
 		"license": "Apache License 2.0",
 		"language": "Batchfile",
 		"languageColor": "#fff",
-		"topics": [
-			"java",
-			"domino",
-			"rest-api",
-			"documentation"
-		]
+		"topics": []
 	},
 	{
 		"name": "domino-cert-manager",
@@ -1133,8 +1128,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "HTML",
-		"languageColor": "#e34c26",
+		"language": "Python",
+		"languageColor": "#3572A5",
 		"topics": [
 			"hcl-dx"
 		]
@@ -1314,20 +1309,6 @@
 		"topics": [
 			"github-actions",
 			"hcl-onetest"
-		]
-	},
-	{
-		"name": "Volt-MX-Documentation-Archive",
-		"description": "Archived documentation for HCL Volt MX (https://www.hcltechsw.com/volt-mx). The site is accessible at http://opensource.hcltechsw.com/Volt-MX-Documentation-Archive/",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/Volt-MX-Documentation-Archive",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "HTML",
-		"languageColor": "#e34c26",
-		"topics": [
-			"documentation",
-			"volt-mx"
 		]
 	},
 	{
@@ -1552,8 +1533,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Not Identified",
-		"languageColor": "#fff",
+		"language": "CSS",
+		"languageColor": "#563d7c",
 		"topics": [
 			"volt-mx-go",
 			"voltscript"
@@ -1611,8 +1592,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "HTML",
-		"languageColor": "#e34c26",
+		"language": "CSS",
+		"languageColor": "#563d7c",
 		"topics": [
 			"documentation",
 			"voltmxgo"
@@ -1625,8 +1606,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Batchfile",
-		"languageColor": "#fff",
+		"language": "C++",
+		"languageColor": "#f34b7d",
 		"topics": []
 	},
 	{
@@ -2045,8 +2026,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Not Identified",
-		"languageColor": "#fff",
+		"language": "CSS",
+		"languageColor": "#563d7c",
 		"topics": [
 			"volt-mx-go",
 			"voltscript"
@@ -2166,23 +2147,12 @@
 		"private": false,
 		"fork": false,
 		"license": "Other",
-		"language": "HTML",
-		"languageColor": "#e34c26",
+		"language": "CSS",
+		"languageColor": "#563d7c",
 		"topics": [
 			"documentation",
 			"sametime"
 		]
-	},
-	{
-		"name": "discover-mobile-SDKs",
-		"description": "",
-		"url": "https://github.com/HCL-TECH-SOFTWARE/discover-mobile-SDKs",
-		"private": false,
-		"fork": false,
-		"license": "Apache License 2.0",
-		"language": "JavaScript",
-		"languageColor": "#f1e05a",
-		"topics": []
 	},
 	{
 		"name": "primereact",
@@ -2277,8 +2247,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Other",
-		"language": "Shell",
-		"languageColor": "#89e051",
+		"language": "Batchfile",
+		"languageColor": "#fff",
 		"topics": [
 			"dxclient",
 			"hcl-dx"
@@ -2291,8 +2261,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Other",
-		"language": "CSS",
-		"languageColor": "#563d7c",
+		"language": "HTML",
+		"languageColor": "#e34c26",
 		"topics": [
 			"hcl-leap"
 		]
@@ -2304,8 +2274,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Shell",
-		"languageColor": "#89e051",
+		"language": "CSS",
+		"languageColor": "#563d7c",
 		"topics": [
 			"volt-mx-go",
 			"voltscript"
@@ -2413,8 +2383,8 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Not Identified",
-		"languageColor": "#fff",
+		"language": "CSS",
+		"languageColor": "#563d7c",
 		"topics": [
 			"volt-mx-go",
 			"voltscript"
@@ -2446,6 +2416,32 @@
 		"topics": []
 	},
 	{
+		"name": "Domino-Automation",
+		"description": "Ansible Scripts for HCL Domino",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Domino-Automation",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Jinja",
+		"languageColor": "#a52a22",
+		"topics": [
+			"domino"
+		]
+	},
+	{
+		"name": "HCL-Leap-Samples-and-Assets",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/HCL-Leap-Samples-and-Assets",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": [
+			"hcl-leap"
+		]
+	},
+	{
 		"name": "dx-personalization-development-sample",
 		"description": "This repository contains a HCL Digital Experience personalization sample that can be used to import into Microsoft Visual Studio Code. A personalization portlet is a portlet that can show up specific information to a user based on rules.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-personalization-development-sample",
@@ -2463,14 +2459,16 @@
 	},
 	{
 		"name": "domino_application_reporting_tool_DART",
-		"description": "",
+		"description": "Domino Application Reporting Tool",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/domino_application_reporting_tool_DART",
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
 		"language": "Not Identified",
 		"languageColor": "#fff",
-		"topics": []
+		"topics": [
+			"domino"
+		]
 	},
 	{
 		"name": "voltscript-logging",
@@ -2479,11 +2477,27 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Not Identified",
-		"languageColor": "#fff",
+		"language": "CSS",
+		"languageColor": "#563d7c",
 		"topics": [
 			"volt-mx-go",
 			"voltscript"
+		]
+	},
+	{
+		"name": "highlightjs-voltscript",
+		"description": "VoltScript (and LotusScript) language grammar for Highlight.js",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/highlightjs-voltscript",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"highlightjs",
+			"lotusscript",
+			"voltscript",
+			"volt-mx-go"
 		]
 	},
 	{
@@ -2541,6 +2555,224 @@
 		"languageColor": "#fff",
 		"topics": [
 			"hcl-dx"
+		]
+	},
+	{
+		"name": "appscan-native-jira-integration",
+		"description": "Details for setting up and deploying the HCL AppScan integration for Jira Cloud Plugin",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-native-jira-integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"appscan",
+			"jira-plugin"
+		]
+	},
+	{
+		"name": "cec-sample-pages",
+		"description": "Code for a sample landing page made with Connections Engagemen Center",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/cec-sample-pages",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "CSS",
+		"languageColor": "#563d7c",
+		"topics": [
+			"cec",
+			"connections"
+		]
+	},
+	{
+		"name": "highlight.js",
+		"description": "JavaScript syntax highlighter with language auto-detection and zero dependencies.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/highlight.js",
+		"private": false,
+		"fork": true,
+		"license": "BSD 3-Clause \"New\" or \"Revised\" License",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": []
+	},
+	{
+		"name": "appscan-dast-custom-scripts",
+		"description": "Custom scripts samples to use in AppScan",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-dast-custom-scripts",
+		"private": false,
+		"fork": false,
+		"license": "Other",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"appscan",
+			"appscan-standard",
+			"asoc"
+		]
+	},
+	{
+		"name": "code-realtime-art-tutorial",
+		"description": "A VS Code extension for learning Code RealTime and the Art language",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/code-realtime-art-tutorial",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"art",
+			"code-realtime",
+			"realtime",
+			"cpp",
+			"statemachine",
+			"tutorial"
+		]
+	},
+	{
+		"name": "code-realtime-art-exercises",
+		"description": "Exercises for the Art Tutorial",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/code-realtime-art-exercises",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": [
+			"art",
+			"code-realtime",
+			"exercises",
+			"statemachine",
+			"tutorial"
+		]
+	},
+	{
+		"name": "dx-blueprint-storybook",
+		"description": "HCL DX Blueprint is a design system implemented in the HCL DX platform. It is designed to jumpstart the creation of new sites with scalability and ease of maintenance in mind.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-blueprint-storybook",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Makefile",
+		"languageColor": "#fff",
+		"topics": [
+			"component-library",
+			"design-system",
+			"digital-experience",
+			"react"
+		]
+	},
+	{
+		"name": "DominoIQ-Insights",
+		"description": "DominoIQ Insights application to enable custom Domino applications with DominoIQ functionality",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/DominoIQ-Insights",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "appscan-slack-integration",
+		"description": "This application integrates HCL AppScan on Cloud (ASoC) or HCL AppScan 360° with your Slack workspace. It brings real-time security insights and on-demand application summaries directly into your team's chat, helping you integrate security into your development process",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-slack-integration",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": [
+			"slack",
+			"appscan",
+			"integration",
+			"slack-bot"
+		]
+	},
+	{
+		"name": "dx-portlet-preferences-script-application-sample",
+		"description": "This sample shows the use of Preference JavaScript API within a Script Application.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-portlet-preferences-script-application-sample",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": [
+			"dx",
+			"hcl-dx",
+			"javascript",
+			"sample",
+			"script-application"
+		]
+	},
+	{
+		"name": "devops-test-cloud-docs",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/devops-test-cloud-docs",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "HTML",
+		"languageColor": "#e34c26",
+		"topics": []
+	},
+	{
+		"name": "voltscript-docs",
+		"description": "Main documentation for VoltScript",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/voltscript-docs",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "CSS",
+		"languageColor": "#563d7c",
+		"topics": [
+			"volt-mx-go",
+			"voltscript"
+		]
+	},
+	{
+		"name": "dx-create-script-app",
+		"description": "HCL DX Script App is a modular toolkit designed to generate modern React applications using ready-made templates that integrates seamlessly with the HCL DX platform.",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/dx-create-script-app",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"dxclient",
+			"sample-app",
+			"vite",
+			"typescript",
+			"react"
+		]
+	},
+	{
+		"name": "enchanted-web-components",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/enchanted-web-components",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": []
+	},
+	{
+		"name": "art-trace",
+		"description": "Utilities for parsing and analysing art-trace files captured from applications developed with the Code RealTime and Model RealTime tools",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/art-trace",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "TypeScript",
+		"languageColor": "#2b7489",
+		"topics": [
+			"art",
+			"code-realtime",
+			"model-realtime",
+			"trace"
 		]
 	}
 ]
