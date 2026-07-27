@@ -374,7 +374,7 @@
 		"private": false,
 		"fork": false,
 		"license": "",
-		"language": "Smarty",
+		"language": "Go Template",
 		"languageColor": "#fff",
 		"topics": [
 			"hcl-workload-automation",
@@ -705,7 +705,7 @@
 		"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
 		"private": false,
 		"fork": false,
-		"license": "Apache License 2.0",
+		"license": "Other",
 		"language": "Not Identified",
 		"languageColor": "#fff",
 		"topics": [
@@ -831,7 +831,7 @@
 	},
 	{
 		"name": "domino-cert-manager",
-		"description": "Official HCL Domino V12 Certificate Manager DNS TXT API repository ",
+		"description": "Official HCL Domino Certificate Manager DNS TXT API repository ",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager",
 		"private": false,
 		"fork": false,
@@ -933,7 +933,7 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Smarty",
+		"language": "Go Template",
 		"languageColor": "#fff",
 		"topics": [
 			"hcl-commerce"
@@ -978,7 +978,7 @@
 	},
 	{
 		"name": "bitbucket-asoc-sast",
-		"description": "This is a linux docker image that uses python to download the SAClientUtil from  HCL AppScan on Cloud and run static analysis against a build application in Bitbucket pipelines.",
+		"description": "This is a linux docker image that uses python to download the SAClientUtil from HCL AppScan on Cloud or HCL AppScan 360° and run static analysis against a build application in Bitbucket pipelines.",
 		"url": "https://github.com/HCL-TECH-SOFTWARE/bitbucket-asoc-sast",
 		"private": false,
 		"fork": false,
@@ -1823,7 +1823,7 @@
 		"private": false,
 		"fork": false,
 		"license": "Apache License 2.0",
-		"language": "Smarty",
+		"language": "Go Template",
 		"languageColor": "#fff",
 		"topics": [
 			"charts",
@@ -2153,6 +2153,17 @@
 			"documentation",
 			"sametime"
 		]
+	},
+	{
+		"name": "discover-mobile-SDKs",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/discover-mobile-SDKs",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Objective-C",
+		"languageColor": "#438eff",
+		"topics": []
 	},
 	{
 		"name": "primereact",
@@ -2529,7 +2540,7 @@
 		"private": false,
 		"fork": false,
 		"license": "",
-		"language": "Not Identified",
+		"language": "Go Template",
 		"languageColor": "#fff",
 		"topics": []
 	},
@@ -2774,5 +2785,49 @@
 			"model-realtime",
 			"trace"
 		]
+	},
+	{
+		"name": "winrm4j",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/winrm4j",
+		"private": false,
+		"fork": true,
+		"license": "Apache License 2.0",
+		"language": "Java",
+		"languageColor": "#b07219",
+		"topics": []
+	},
+	{
+		"name": "Setup_Assistant",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Setup_Assistant",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "Shell",
+		"languageColor": "#89e051",
+		"topics": []
+	},
+	{
+		"name": "Agentic-AI-Resources",
+		"description": "",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/Agentic-AI-Resources",
+		"private": false,
+		"fork": false,
+		"license": "Other",
+		"language": "Not Identified",
+		"languageColor": "#fff",
+		"topics": []
+	},
+	{
+		"name": "OpsStudio",
+		"description": "BigFix Ops Studio",
+		"url": "https://github.com/HCL-TECH-SOFTWARE/OpsStudio",
+		"private": false,
+		"fork": false,
+		"license": "Apache License 2.0",
+		"language": "JavaScript",
+		"languageColor": "#f1e05a",
+		"topics": []
 	}
 ]

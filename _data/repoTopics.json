@@ -202,7 +202,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
 				"private": false,
 				"fork": false,
-				"license": "Apache License 2.0",
+				"license": "Other",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -220,7 +220,7 @@
 			},
 			"bitbucket-asoc-sast": {
 				"name": "bitbucket-asoc-sast",
-				"description": "This is a linux docker image that uses python to download the SAClientUtil from  HCL AppScan on Cloud and run static analysis against a build application in Bitbucket pipelines.",
+				"description": "This is a linux docker image that uses python to download the SAClientUtil from HCL AppScan on Cloud or HCL AppScan 360° and run static analysis against a build application in Bitbucket pipelines.",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/bitbucket-asoc-sast",
 				"private": false,
 				"fork": false,
@@ -573,7 +573,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
 				"private": false,
 				"fork": false,
-				"license": "Apache License 2.0",
+				"license": "Other",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -1233,7 +1233,7 @@
 			},
 			"domino-cert-manager": {
 				"name": "domino-cert-manager",
-				"description": "Official HCL Domino V12 Certificate Manager DNS TXT API repository ",
+				"description": "Official HCL Domino Certificate Manager DNS TXT API repository ",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager",
 				"private": false,
 				"fork": false,
@@ -2349,7 +2349,7 @@
 				"private": false,
 				"fork": false,
 				"license": "",
-				"language": "Smarty",
+				"language": "Go Template",
 				"languageColor": "#fff",
 				"topics": [
 					"hcl-workload-automation",
@@ -2466,7 +2466,7 @@
 				"private": false,
 				"fork": false,
 				"license": "",
-				"language": "Smarty",
+				"language": "Go Template",
 				"languageColor": "#fff",
 				"topics": [
 					"hcl-workload-automation",
@@ -2502,7 +2502,7 @@
 				"private": false,
 				"fork": false,
 				"license": "",
-				"language": "Smarty",
+				"language": "Go Template",
 				"languageColor": "#fff",
 				"topics": [
 					"hcl-workload-automation",
@@ -2538,7 +2538,7 @@
 				"private": false,
 				"fork": false,
 				"license": "",
-				"language": "Smarty",
+				"language": "Go Template",
 				"languageColor": "#fff",
 				"topics": [
 					"hcl-workload-automation",
@@ -2574,7 +2574,7 @@
 				"private": false,
 				"fork": false,
 				"license": "",
-				"language": "Smarty",
+				"language": "Go Template",
 				"languageColor": "#fff",
 				"topics": [
 					"hcl-workload-automation",
@@ -3595,7 +3595,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Smarty",
+				"language": "Go Template",
 				"languageColor": "#fff",
 				"topics": [
 					"charts",
@@ -3857,7 +3857,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
 				"private": false,
 				"fork": false,
-				"license": "Apache License 2.0",
+				"license": "Other",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -3913,7 +3913,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
 				"private": false,
 				"fork": false,
-				"license": "Apache License 2.0",
+				"license": "Other",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -3994,7 +3994,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
 				"private": false,
 				"fork": false,
-				"license": "Apache License 2.0",
+				"license": "Other",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -4075,7 +4075,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
 				"private": false,
 				"fork": false,
-				"license": "Apache License 2.0",
+				"license": "Other",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -4310,7 +4310,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
 				"private": false,
 				"fork": false,
-				"license": "Apache License 2.0",
+				"license": "Other",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -4391,7 +4391,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
 				"private": false,
 				"fork": false,
-				"license": "Apache License 2.0",
+				"license": "Other",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -4472,7 +4472,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
 				"private": false,
 				"fork": false,
-				"license": "Apache License 2.0",
+				"license": "Other",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -4585,7 +4585,7 @@
 				"url": "https://github.com/HCL-TECH-SOFTWARE/appscan-codesweep-action",
 				"private": false,
 				"fork": false,
-				"license": "Apache License 2.0",
+				"license": "Other",
 				"language": "Not Identified",
 				"languageColor": "#fff",
 				"topics": [
@@ -4727,7 +4727,7 @@
 		"repositories": {
 			"domino-cert-manager": {
 				"name": "domino-cert-manager",
-				"description": "Official HCL Domino V12 Certificate Manager DNS TXT API repository ",
+				"description": "Official HCL Domino Certificate Manager DNS TXT API repository ",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager",
 				"private": false,
 				"fork": false,
@@ -4755,7 +4755,7 @@
 		"repositories": {
 			"domino-cert-manager": {
 				"name": "domino-cert-manager",
-				"description": "Official HCL Domino V12 Certificate Manager DNS TXT API repository ",
+				"description": "Official HCL Domino Certificate Manager DNS TXT API repository ",
 				"url": "https://github.com/HCL-TECH-SOFTWARE/domino-cert-manager",
 				"private": false,
 				"fork": false,
@@ -4994,7 +4994,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Smarty",
+				"language": "Go Template",
 				"languageColor": "#fff",
 				"topics": [
 					"hcl-commerce"
@@ -7659,7 +7659,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Smarty",
+				"language": "Go Template",
 				"languageColor": "#fff",
 				"topics": [
 					"charts",
@@ -7751,7 +7751,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Smarty",
+				"language": "Go Template",
 				"languageColor": "#fff",
 				"topics": [
 					"charts",
@@ -7795,7 +7795,7 @@
 				"private": false,
 				"fork": false,
 				"license": "Apache License 2.0",
-				"language": "Smarty",
+				"language": "Go Template",
 				"languageColor": "#fff",
 				"topics": [
 					"charts",
