@@ -1,0 +1,30 @@
+# META
+v1.0|DesignRationaleTracker|notify
+
+# DESIGN_RATIONALE
+DR1|P1|Open|Keep the catalogue simple to host and maintain without runtime or package dependencies.|@None
+DR2|P1|Open|Publish a reproducible catalogue whose content does not vary with GitHub API availability or rate limits.|@DR1
+DR3|P1|Open|Treat upstream repository metadata and automation credentials as untrusted or privileged inputs.|@DR1
+
+# CONSTRAINTS
+C1|Hard|Host on GitHub Pages at github.com.|@DR1
+C2|Hard|Use only HTML, CSS, vanilla JavaScript, platform Web Components, and repository-controlled assets in the published site.|@DR1
+C3|Hard|Do not fetch repository information in visitors' browsers.|@DR2
+C4|Hard|Reproduce all current functionality and published routes.|@DR1
+C5|Hard|Support CSS Baseline 2025 browsers.|@DR1
+C6|Hard|Load product views from repositories.json and filter in place without redirecting users.|@DR2
+C7|Hard|Do not add third-party libraries. Request approval before any feature that cannot be implemented with platform APIs.|@DR1
+
+# VERIFICATION
+V1|Success|All current routes load and retain their visible content and interactions.|Route inventory and browser checks.|@C4
+V2|Success|The browser loads no third-party scripts, stylesheets, fonts, images, or repository API data.|Network inspection and source check.|@C2
+V3|Success|Each product page filters the same local repository data without navigation.|Automated component checks and browser checks.|@C6
+V4|Guardrail|Metadata renders only as text and repository links accept only approved GitHub HTTPS URLs.|Unit tests and source review.|@DR3
+V5|Guardrail|Only a protected trusted workflow can refresh data or publish Pages content with write permissions.|Workflow review.|@DR3
+V6|Failure|The migration fails if a required feature needs a third-party library without approval.|Implementation review.|@C7
+
+# RULES
+Rule1|Use committed static catalogue data refreshed by a trusted GitHub workflow, not runtime GitHub API requests.
+Rule2|Keep filtering and search on the current page. Product routes select their product topic locally.
+
+# ARCHIVE
