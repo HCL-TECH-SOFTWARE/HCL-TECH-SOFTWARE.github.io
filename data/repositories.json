@@ -1349,7 +1349,7 @@
     "url": "https://github.com/HCL-TECH-SOFTWARE/appscan-sast-action",
     "private": false,
     "fork": false,
-    "license": "Other",
+    "license": "Apache License 2.0",
     "language": "JavaScript",
     "languageColor": "#f1e05a",
     "topics": [
@@ -1416,17 +1416,6 @@
       "hcl",
       "mongodb"
     ]
-  },
-  {
-    "name": "appscan-api-gateway",
-    "description": "",
-    "url": "https://github.com/HCL-TECH-SOFTWARE/appscan-api-gateway",
-    "private": false,
-    "fork": false,
-    "license": "Apache License 2.0",
-    "language": "JavaScript",
-    "languageColor": "#f1e05a",
-    "topics": []
   },
   {
     "name": "HCL-Workload-Automation-Observability-for-Splunk",
