@@ -2845,5 +2845,16 @@
       "typescript",
       "webawesome"
     ]
+  },
+  {
+    "name": "HCL-BigFix-Relevance-Dataset",
+    "description": "BigFix Relevance Dataset",
+    "url": "https://github.com/HCL-TECH-SOFTWARE/HCL-BigFix-Relevance-Dataset",
+    "private": false,
+    "fork": false,
+    "license": "Apache License 2.0",
+    "language": "Not Identified",
+    "languageColor": "#fff",
+    "topics": []
   }
 ]
